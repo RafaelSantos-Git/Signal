@@ -15,7 +15,8 @@
      });
      orb.setState('idle' | 'listening' | 'thinking' | 'speaking');
      orb.setLevel(x);                           // a live input level (0..1) for 'listening'
-     orb.show(); orb.show(0.35); orb.hide();    // appear (to full or a dimmed level) and leave through the springs
+     orb.show(); orb.show(0.35); orb.hide();    // appear (to full or a dimmed level) and leave, eased over temperament.appear / .leave s
+     orb.setTrack(BAKED_TRACK);                 // swap in a baked track that arrived late, without a rebuild
      orb.renderAt(seconds);                     // offline: step deterministically to a time, then draw
      orb.destroy();
 
@@ -117,9 +118,9 @@ void main(){
   /* ---------- the motion engine: envelopes, springs, integrated phases ---------- */
   function engine(T) {
     // Defaults are neutral placeholders; a product supplies its own temperament (motion.md section 15).
-    const tp = Object.assign({ fastest_rhythm: 1.0, slowest_rhythm: 8, attack: 0.08, release: 0.4, damping: 0.85, settle: 1.2 }, T || {});
+    const tp = Object.assign({ fastest_rhythm: 1.0, slowest_rhythm: 8, attack: 0.08, release: 0.4, damping: 0.85, settle: 1.2, appear: 1.0, leave: 0.6 }, T || {});
     const S = {
-      t: 0, level: 0, presence: 0, energy: 0, spark: 0, sparkSeed: 0, lastOnset: -9, opacity: 0, opacityTarget: 0, state: 0, reduced: 0,
+      t: 0, level: 0, presence: 0, energy: 0, spark: 0, sparkSeed: 0, lastOnset: -9, opacity: 0, opacityTarget: 0, fadeFrom: 0, fadeTo: 0, fadeK: 1, state: 0, reduced: 0,
       amp: { x: 0.25, v: 0 }, light: { x: 0.25, v: 0 }, phase: 0, phase2: 0, cycles: [0, 1.7, 3.1], breath: 0, onsets: [],
     };
     const presIn = Math.min(0.5, Math.max(0.15, tp.settle * 0.2)), presOut = Math.max(0.3, tp.settle * 0.8);
@@ -145,7 +146,15 @@ void main(){
       spring(S.light, 0.25 + 0.6 * S.level + 0.15 * S.presence, kLight, 1.0, dt);
       if (onset && S.level > 0.35 && S.t - S.lastOnset > refractory) { S.spark = 1; S.sparkSeed += 1; S.lastOnset = S.t; S.onsets.unshift(S.t); S.onsets.length = Math.min(S.onsets.length, 8); }
       S.spark *= Math.exp(-dt / 0.35);
-      S.opacity += (S.opacityTarget - S.opacity) * ease(S.opacityTarget > S.opacity ? 0.23 : 0.15);
+      // appear and leave on a timed ease-in-out (smootherstep), so the object neither pops in nor snaps out:
+      // an exponential fade starts at full speed and reads as a jump (motion.md section 15, mechanics 9)
+      if (S.opacityTarget !== S.fadeTo) { S.fadeFrom = S.opacity; S.fadeTo = S.opacityTarget; S.fadeK = 0; }
+      if (S.fadeK < 1) {
+        const span = Math.abs(S.fadeTo - S.fadeFrom), dur = Math.max(0.25, (S.fadeTo > S.fadeFrom ? tp.appear : tp.leave) * Math.sqrt(span));
+        S.fadeK = Math.min(1, S.fadeK + dt / dur);
+        const k = S.fadeK;
+        S.opacity = S.fadeFrom + (S.fadeTo - S.fadeFrom) * k * k * k * (k * (6 * k - 15) + 10);
+      }
     }
     // a living baseline per state when there is no signal (motion.md section 15, mechanics 8)
     function synthetic(state, t) {
@@ -162,7 +171,7 @@ void main(){
     const S = E.S;
     let gl, prog, loc = {}, raf = 0, running = false, visible = true, onScreen = true, liveLevel = 0, dpr = Math.min(o.dpr, o.maxDpr, window.devicePixelRatio || 1);
     let slowFrames = 0, lastNow = 0, analyser = null, prevHigh = 0, lastActive = 0;
-    const track = decodeTrack(o.track);
+    let track = decodeTrack(o.track);
     const rampRows = o.ramps && o.ramps.length ? o.ramps : [['#000000', '#ffffff']];
     const mq = window.matchMedia ? window.matchMedia('(prefers-reduced-motion: reduce)') : null;
     S.reduced = mq && mq.matches ? 1 : 0;
@@ -276,12 +285,15 @@ void main(){
       supported: true, state: S, temperament: E.tp,
       setState(name) { S.state = STATES[name] != null ? STATES[name] : 0; start(); },
       setLevel(x) { liveLevel = Math.min(1, Math.max(0, x)); },
+      // a baked track that arrives after the object was created: swap it in without rebuilding (no reset, no flash)
+      setTrack(t) { track = decodeTrack(t); },
       show(level = 1) { S.opacityTarget = Math.min(1, Math.max(0, level)); start(); },
       hide() { S.opacityTarget = 0; S.state = 0; start(); },
       // offline: step to time t at 240 Hz from the current time, reading the baked track at t (no audio element needed)
       renderAt(t, opts2 = {}) {
         const tr = opts2.track ? decodeTrack(opts2.track) : track;
         S.opacityTarget = opts2.opacity != null ? opts2.opacity : 1;
+        if (opts2.opacity != null) { S.opacity = S.fadeFrom = S.fadeTo = opts2.opacity; S.fadeK = 1; }
         if (opts2.state) S.state = STATES[opts2.state];
         else if (tr) S.state = 3;
         while (S.t < t - 1e-6) {

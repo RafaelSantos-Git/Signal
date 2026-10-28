@@ -67,10 +67,16 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--blue); outline-
 .player[data-mode="idle"] .stage { display: none; }
 .player[data-mode="stage"] .p-idle { display: none; }
 .stage { position: relative; height: 420px; border-radius: 30px; overflow: hidden; isolation: isolate;
-  background: #F2F3F7 url("../../assets/stage-still.webp") center top / 100% auto no-repeat;
+  /* the shader's own ground in CSS, under the canvas until its first frame is drawn (no flash of a bare stage) */
+  background: radial-gradient(circle 440px at calc(50% - 283px) -52px, rgba(255,251,245,.6), rgba(255,251,245,0)),
+    linear-gradient(to top, rgba(240,241,245,.42), #F0F1F5) left bottom / 100% 34% no-repeat,
+    linear-gradient(to right, #9EC4FF 4%, #C7B3FF 30%, #FFB3DE 50%, #FFC99E 86%) left bottom / 100% 34% no-repeat,
+    linear-gradient(to bottom, #F8F8FA, #EDEFF3);
   box-shadow: inset 0 1px 0 rgba(255,255,255,.9), inset 0 0 0 1px rgba(255,255,255,.6), 0 22px 44px -22px rgba(40,40,80,.3); }
-.stage canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
-.stage.gl { background-image: none; }  /* the still is only the fallback; the live orb draws its own ground */
+/* the canvas keeps its full height while the stage opens over it, so the orb is never drawn squashed */
+.stage canvas { position: absolute; left: 0; top: 0; width: 100%; height: 420px; display: block; opacity: 0; transition: opacity .5s ease; }
+.stage.live canvas { opacity: 1; }
+.stage.nogl { background: #F2F3F7 url("../../assets/stage-still.webp") center top / auto 100% no-repeat; }  /* no WebGL: the still */
 .ctrl { position: absolute; left: 10px; right: 10px; bottom: 10px; padding: 12px 14px; border-radius: 22px; z-index: 2;
   background: linear-gradient(180deg, rgba(255,255,255,.74), rgba(255,255,255,.52)); -webkit-backdrop-filter: blur(20px) saturate(170%); backdrop-filter: blur(20px) saturate(170%);
   box-shadow: inset 0 1px 0 rgba(255,255,255,.95), inset 0 0 0 1px rgba(255,255,255,.55), 0 10px 24px -14px rgba(40,40,80,.3); }
@@ -259,14 +265,14 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--blue); outline-
   <h4>Swiss software survey: over 88% build with AI, 11.8% with orchestrated agents</h4>
   <div class="src"><span class="links"><a href="https://www.netzwoche.ch/news/2026-10-27/schweizer-software-entsteht-mit-ki-hilfe-aber-nur-selten-im-agenten-orchester" target="_blank" rel="noopener noreferrer">Netzwoche<span aria-hidden="true"> ↗</span></a></span><span class="d">27 Oct</span></div>
 </div></div><div class="sec"><h2>This week</h2><span></span></div><div class="card cal"><div class="r"><b>Wed 28 Oct</b><a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm" target="_blank" rel="noopener noreferrer">US Federal Reserve rate decision (FOMC, 27 to 28 October)</a></div><div class="r"><b>Thu 29 Oct</b><a href="https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html" target="_blank" rel="noopener noreferrer">ECB monetary policy decision and press conference</a></div></div><div class="card say"><div class="l">Say it today</div><p>UBS has taken $13.2bn of costs out of the Credit Suisse merger and switched off about 90% of the legacy applications in scope. The pace of its buybacks now rests on how much capital Parliament asks it to hold.</p></div>
-  <p class="foot">Signal reads free public sources and links every story to where it was published; every link was opened on 28 Oct. Prepared at 15:47 Zurich time. The voice is synthetic.</p>
+  <p class="foot">Signal reads free public sources and links every story to where it was published; every link was opened on 28 Oct. Prepared at 16:49 Zurich time. The voice is synthetic.</p>
 </main>
 <div class="mini paused" aria-hidden="true">
   <span class="orb" aria-hidden="true"></span>
   <span class="t"><b>Signal</b><span class="js-time">0:00 / 9:37</span></span>
   <button class="pp js-play" aria-label="Play or pause"><svg class="ic-play" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 2.8c0-.8.9-1.3 1.6-.9l11 6.9c.6.4.6 1.4 0 1.8l-11 6.9c-.7.4-1.6-.1-1.6-.9z"/></svg><svg class="ic-pause" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 3h3.5v14H5zM11.5 3H15v14h-3.5z"/></svg></button>
 </div>
-<script type="application/json" id="signal-data">{"title": "Signal · Wednesday 28 October", "album": "Daily briefing", "duration": 577.41, "chapters": [{"start": 0.0, "title": "Opening", "eyebrow": "Signal", "sub": "", "story": null}, {"start": 28.14, "title": "UBS third-quarter results", "eyebrow": "Lead story 1 of 3", "sub": "Financial services · Switzerland", "story": "ubs-q3"}, {"start": 106.63, "title": "Temenos raises its outlook", "eyebrow": "Lead story 2 of 3", "sub": "Technology in finance · Switzerland", "story": "temenos-q3"}, {"start": 169.37, "title": "Microsoft's voluntary departures", "eyebrow": "Lead story 3 of 3", "sub": "AI and technology · Global", "story": "msft-departures"}, {"start": 230.03, "title": "Deutsche Bank's source-of-wealth agent", "eyebrow": "Technology in financial services", "sub": "Europe", "story": "db-sow-ai"}, {"start": 275.21, "title": "LGT's contact logs", "eyebrow": "Technology in financial services", "sub": "Europe", "story": "lgt-ai"}, {"start": 314.42, "title": "HSBC third-quarter results", "eyebrow": "Financial services industry", "sub": "United Kingdom", "story": "hsbc-q3"}, {"start": 353.33, "title": "Revolut Ventures", "eyebrow": "Financial services industry", "sub": "Europe", "story": "revolut-ventures"}, {"start": 381.23, "title": "Round-the-clock DAX trading", "eyebrow": "Financial services industry", "sub": "Europe", "story": "dax-360x"}, {"start": 416.64, "title": "SAP's Joule agents", "eyebrow": "AI and technology", "sub": "Global", "story": "sap-joule-work"}, {"start": 451.01, "title": "Salesforce agent controls", "eyebrow": "AI and technology", "sub": "Global", "story": "salesforce-agent-fabric"}, {"start": 480.25, "title": "Claude in drug development", "eyebrow": "AI and technology", "sub": "Global", "story": "anthropic-drug-dev"}, {"start": 520.06, "title": "1Password for agents", "eyebrow": "AI and technology", "sub": "Global", "story": "1password-agents"}, {"start": 552.49, "title": "Close", "eyebrow": "Signal", "sub": "", "story": null}], "temperament": {"name": "calm", "fastest_rhythm": 1.6, "slowest_rhythm": 11.7, "attack": 0.09, "release": 0.55, "damping": 0.92, "settle": 2.0}, "trackUrl": "../../audio/signal-2026-10-28.track.json", "artwork": "../../assets/artwork.jpg"}</script>
+<script type="application/json" id="signal-data">{"title": "Signal · Wednesday 28 October", "album": "Daily briefing", "duration": 577.41, "chapters": [{"start": 0.0, "title": "Opening", "eyebrow": "Signal", "sub": "", "story": null}, {"start": 28.14, "title": "UBS third-quarter results", "eyebrow": "Lead story 1 of 3", "sub": "Financial services · Switzerland", "story": "ubs-q3"}, {"start": 106.63, "title": "Temenos raises its outlook", "eyebrow": "Lead story 2 of 3", "sub": "Technology in finance · Switzerland", "story": "temenos-q3"}, {"start": 169.37, "title": "Microsoft's voluntary departures", "eyebrow": "Lead story 3 of 3", "sub": "AI and technology · Global", "story": "msft-departures"}, {"start": 230.03, "title": "Deutsche Bank's source-of-wealth agent", "eyebrow": "Technology in financial services", "sub": "Europe", "story": "db-sow-ai"}, {"start": 275.21, "title": "LGT's contact logs", "eyebrow": "Technology in financial services", "sub": "Europe", "story": "lgt-ai"}, {"start": 314.42, "title": "HSBC third-quarter results", "eyebrow": "Financial services industry", "sub": "United Kingdom", "story": "hsbc-q3"}, {"start": 353.33, "title": "Revolut Ventures", "eyebrow": "Financial services industry", "sub": "Europe", "story": "revolut-ventures"}, {"start": 381.23, "title": "Round-the-clock DAX trading", "eyebrow": "Financial services industry", "sub": "Europe", "story": "dax-360x"}, {"start": 416.64, "title": "SAP's Joule agents", "eyebrow": "AI and technology", "sub": "Global", "story": "sap-joule-work"}, {"start": 451.01, "title": "Salesforce agent controls", "eyebrow": "AI and technology", "sub": "Global", "story": "salesforce-agent-fabric"}, {"start": 480.25, "title": "Claude in drug development", "eyebrow": "AI and technology", "sub": "Global", "story": "anthropic-drug-dev"}, {"start": 520.06, "title": "1Password for agents", "eyebrow": "AI and technology", "sub": "Global", "story": "1password-agents"}, {"start": 552.49, "title": "Close", "eyebrow": "Signal", "sub": "", "story": null}], "temperament": {"name": "calm", "fastest_rhythm": 1.6, "slowest_rhythm": 11.7, "attack": 0.09, "release": 0.55, "damping": 0.92, "settle": 2.0, "appear": 1.5, "leave": 0.8}, "trackUrl": "../../audio/signal-2026-10-28.track.json", "artwork": "../../assets/artwork.jpg"}</script>
 <script type="x-shader/x-fragment" id="orb-frag">/* Signal's orb: a sphere of thick water holding a small lake of light.
    Drawn with Atelier's presence.js, which prepends its header (uRes, uTime, uNoise, the motion uniforms, hash12, noise3).
    The calm temperament lives in the page: fastest_rhythm 1.6, slowest_rhythm 11.7, attack 0.09, release 0.55, damping 0.92, settle 2.0. */
@@ -547,7 +553,7 @@ void main(){
   const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
   const audio = $('#audio'), player = $('.player'), stage = $('.stage'), mini = $('.mini');
   const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
-  let started = false, orb = null, stageVisible = true, raf = 0, lastCh = -1;
+  let started = false, orb = null, stageVisible = true, raf = 0, lastCh = -1, openedAt = -1e9, showTimer = 0;
   const mmss = s => { s = Math.max(0, Math.floor(s || 0)); return Math.floor(s / 60) + ':' + String(s % 60).padStart(2, '0'); };
   const dur = () => (isFinite(audio.duration) && audio.duration) || D.duration;
   const chapterAt = t => { let i = 0; D.chapters.forEach((c, k) => { if (t >= c.start - 0.05) i = k; }); return i; };
@@ -581,14 +587,19 @@ void main(){
     try {
       orb = Presence.create(canvas, {
         fragment: document.getElementById('orb-frag').textContent,
-        temperament: D.temperament, audio, track: D.track || null, manage: false, dpr: 1.5, maxDpr: 2,
-        uniforms: (gl, at) => {
+        temperament: D.temperament, audio, track: D.track || null, manage: false, analyser: false, dpr: 1.5, maxDpr: 2,
+        uniforms: (gl, at, S) => {
           const h = canvas.clientHeight || 420, half = h / 2, r = Math.min(96, h * 0.23), cy = Math.min(130, h * 0.31);
-          gl.uniform1f(at('uR'), r / half); gl.uniform1f(at('uClear'), 0); gl.uniform1f(at('uEl'), 0.045); gl.uniform2f(at('uOff'), 0, (half - cy) / half);
+          // appearing, the orb also grows from 94% and rises 8 px into place, eased with its fade
+          const g = Math.min(1, (S ? S.opacity : 1) / 0.5), e = g * g * (3 - 2 * g), grow = 0.94 + 0.06 * e, rise = 8 * (1 - e);
+          gl.uniform1f(at('uR'), r * grow / half); gl.uniform1f(at('uClear'), 0); gl.uniform1f(at('uEl'), 0.045); gl.uniform2f(at('uOff'), 0, (half - cy - rise) / half);
         },
       });
-      if (!orb.supported) { canvas.remove(); orb = null; } else stage.classList.add('gl');
-    } catch (err) { console.warn('orb', err); canvas.remove(); orb = null; stage.classList.remove('gl'); }
+      if (!orb.supported) { canvas.remove(); orb = null; stage.classList.add('nogl'); return; }
+      // draw one frame of the bare ground, then let the canvas fade in over the CSS ground
+      orb.show(0);
+      requestAnimationFrame(() => requestAnimationFrame(() => stage.classList.add('live')));
+    } catch (err) { console.warn('orb', err); canvas.remove(); orb = null; stage.classList.add('nogl'); }
   }
   function enterStage() {
     if (started) return;
@@ -596,9 +607,11 @@ void main(){
     const from = player.getBoundingClientRect().height;
     player.dataset.mode = 'stage';
     ensureOrb();
-    if (!reduce && stage.animate) stage.animate([{ height: from + 'px', opacity: .7 }, { height: '420px', opacity: 1 }], { duration: 620, easing: 'cubic-bezier(.2,.8,.2,1)' });
+    openedAt = performance.now();
+    // the stage opens like a curtain over the canvas; the orb waits until it is mostly open
+    if (!reduce && stage.animate) stage.animate([{ height: from + 'px', opacity: .6 }, { height: '420px', opacity: 1 }], { duration: 820, easing: 'cubic-bezier(.22,.61,.36,1)' });
   }
-  function load(t) { if (D.track === undefined && D.trackUrl) { D.track = null; fetch(D.trackUrl).then(r => r.ok ? r.json() : null).then(j => { D.track = j; if (orb) { orb.destroy(); orb = null; ensureOrb(); } }).catch(() => {}); } }
+  function load(t) { if (D.track === undefined && D.trackUrl) { D.track = null; fetch(D.trackUrl).then(r => r.ok ? r.json() : null).then(j => { D.track = j; if (orb && j) orb.setTrack(j); }).catch(() => {}); } }
   function play(at) {
     enterStage();
     if (typeof at === 'number') audio.currentTime = at;
@@ -621,18 +634,24 @@ void main(){
         idle.animate([{ height: from + 'px', opacity: .6 }, { height: to + 'px', opacity: 1 }], { duration: 560, easing: 'cubic-bezier(.2,.8,.2,1)' })
           .finished.then(() => { idle.style.overflow = ''; }, () => { idle.style.overflow = ''; });
       }
-    }, reduce ? 0 : 750);
+    }, reduce ? 0 : 950);
   }
 
   audio.addEventListener('play', () => {
     if (player.classList.contains('done')) { player.classList.remove('done'); lastCh = -1; paint(); }
     player.classList.remove('paused'); mini.classList.remove('paused');
-    if (orb) { orb.setState('speaking'); orb.show(1); }
+    if (orb) {
+      orb.setState('speaking');
+      const wait = reduce ? 0 : Math.max(0, openedAt + 480 - performance.now());
+      clearTimeout(showTimer);
+      showTimer = setTimeout(() => { if (orb && !audio.paused) orb.show(1); }, wait);
+    }
     if (!raf) raf = requestAnimationFrame(loop);
     syncMini();
   });
   audio.addEventListener('pause', () => {
     player.classList.add('paused'); mini.classList.add('paused');
+    clearTimeout(showTimer);
     if (orb) { orb.setState('idle'); orb.show(0.4); }
     paint();
   });
