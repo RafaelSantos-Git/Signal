@@ -70,6 +70,7 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--blue); outline-
   background: #F2F3F7 url("assets/stage-still.webp") center top / 100% auto no-repeat;
   box-shadow: inset 0 1px 0 rgba(255,255,255,.9), inset 0 0 0 1px rgba(255,255,255,.6), 0 22px 44px -22px rgba(40,40,80,.3); }
 .stage canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+.stage.gl { background-image: none; }  /* the still is only the fallback; the live orb draws its own ground */
 .ctrl { position: absolute; left: 10px; right: 10px; bottom: 10px; padding: 12px 14px; border-radius: 22px; z-index: 2;
   background: linear-gradient(180deg, rgba(255,255,255,.74), rgba(255,255,255,.52)); -webkit-backdrop-filter: blur(20px) saturate(170%); backdrop-filter: blur(20px) saturate(170%);
   box-shadow: inset 0 1px 0 rgba(255,255,255,.95), inset 0 0 0 1px rgba(255,255,255,.55), 0 10px 24px -14px rgba(40,40,80,.3); }
@@ -258,7 +259,7 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--blue); outline-
   <h4>Swiss software survey: over 88% build with AI, 11.8% with orchestrated agents</h4>
   <div class="src"><span class="links"><a href="https://www.netzwoche.ch/news/2026-10-27/schweizer-software-entsteht-mit-ki-hilfe-aber-nur-selten-im-agenten-orchester" target="_blank" rel="noopener noreferrer">Netzwoche<span aria-hidden="true"> ↗</span></a></span><span class="d">27 Oct</span></div>
 </div></div><div class="sec"><h2>This week</h2><span></span></div><div class="card cal"><div class="r"><b>Wed 28 Oct</b><a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm" target="_blank" rel="noopener noreferrer">US Federal Reserve rate decision (FOMC, 27 to 28 October)</a></div><div class="r"><b>Thu 29 Oct</b><a href="https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html" target="_blank" rel="noopener noreferrer">ECB monetary policy decision and press conference</a></div></div><div class="card say"><div class="l">Say it today</div><p>UBS has taken $13.2bn of costs out of the Credit Suisse merger and switched off about 90% of the legacy applications in scope. The pace of its buybacks now rests on how much capital Parliament asks it to hold.</p></div>
-  <p class="foot">Signal reads free public sources and links every story to where it was published; every link was opened on 28 Oct. Prepared at 15:44 Zurich time. The voice is synthetic.</p>
+  <p class="foot">Signal reads free public sources and links every story to where it was published; every link was opened on 28 Oct. Prepared at 15:47 Zurich time. The voice is synthetic.</p>
 </main>
 <div class="mini paused" aria-hidden="true">
   <span class="orb" aria-hidden="true"></span>
@@ -530,8 +531,12 @@ void main(){
     }
   }
   // grain, the same as the page
-  col += (hash12(gl_FragCoord.xy) - 0.5) * 0.032;   // still grain, like the page
-  alpha *= uOpacity;
+  float grain = (hash12(gl_FragCoord.xy) - 0.5) * 0.032;   // still grain, like the page
+  col += grain;
+  // appearing and leaving: on an opaque stage (uClear 0) the orb dissolves into its own ground and the canvas
+  // stays opaque, so nothing behind it shows through; on a clear stage the whole drawing fades
+  col = mix(col, mix(bg + grain, col, uOpacity), 1.0 - uClear);
+  alpha = mix(alpha * uOpacity, 1.0, 1.0 - uClear);
   gl_FragColor = vec4(clamp(col, 0.0, 1.0) * alpha, alpha);
 }
 </script>
@@ -582,8 +587,8 @@ void main(){
           gl.uniform1f(at('uR'), r / half); gl.uniform1f(at('uClear'), 0); gl.uniform1f(at('uEl'), 0.045); gl.uniform2f(at('uOff'), 0, (half - cy) / half);
         },
       });
-      if (!orb.supported) { canvas.remove(); orb = null; }
-    } catch (err) { console.warn('orb', err); canvas.remove(); orb = null; }
+      if (!orb.supported) { canvas.remove(); orb = null; } else stage.classList.add('gl');
+    } catch (err) { console.warn('orb', err); canvas.remove(); orb = null; stage.classList.remove('gl'); }
   }
   function enterStage() {
     if (started) return;
@@ -601,7 +606,26 @@ void main(){
   }
   function toggle() { if (audio.paused) play(); else audio.pause(); }
 
+  // the end of the briefing: the orb dissolves into the stage, then the stage folds back into the play card
+  function finish() {
+    if (orb) orb.hide();
+    setTimeout(() => {
+      if (!audio.paused) return;   // played again in the meantime
+      const idle = $('.p-idle'), from = stage.getBoundingClientRect().height;
+      started = false; player.dataset.mode = 'idle'; player.classList.add('done'); syncMini();
+      audio.currentTime = 0; lastCh = -1; paint();
+      $('.p-idle .nx').textContent = 'Finished · play to hear it again';
+      if (!reduce && idle.animate) {
+        const to = idle.getBoundingClientRect().height;
+        idle.style.overflow = 'hidden';
+        idle.animate([{ height: from + 'px', opacity: .6 }, { height: to + 'px', opacity: 1 }], { duration: 560, easing: 'cubic-bezier(.2,.8,.2,1)' })
+          .finished.then(() => { idle.style.overflow = ''; }, () => { idle.style.overflow = ''; });
+      }
+    }, reduce ? 0 : 750);
+  }
+
   audio.addEventListener('play', () => {
+    if (player.classList.contains('done')) { player.classList.remove('done'); lastCh = -1; paint(); }
     player.classList.remove('paused'); mini.classList.remove('paused');
     if (orb) { orb.setState('speaking'); orb.show(1); }
     if (!raf) raf = requestAnimationFrame(loop);
@@ -612,7 +636,7 @@ void main(){
     if (orb) { orb.setState('idle'); orb.show(0.4); }
     paint();
   });
-  audio.addEventListener('ended', () => { audio.currentTime = 0; paint(); });
+  audio.addEventListener('ended', finish);
   audio.addEventListener('loadedmetadata', paint);
   audio.addEventListener('seeked', paint);
 
