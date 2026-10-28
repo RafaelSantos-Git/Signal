@@ -1,0 +1,648 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta name="referrer" content="no-referrer">
+<meta name="theme-color" content="#F7F7F9">
+<meta name="apple-mobile-web-app-title" content="Signal">
+<title>Signal · Wednesday 28 October</title>
+<link rel="apple-touch-icon" href="assets/artwork.jpg">
+<link rel="preload" href="assets/fonts/host-grotesk-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+@font-face { font-family: "Host Grotesk"; font-style: normal; font-display: swap; font-weight: 300 800; src: url("assets/fonts/host-grotesk-latin-wght-normal.woff2") format("woff2"); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: "Host Grotesk"; font-style: normal; font-display: swap; font-weight: 300 800; src: url("assets/fonts/host-grotesk-latin-ext-wght-normal.woff2") format("woff2"); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+:root { --ink: #14161A; --ink-2: #4A5060; --ink-3: #636A7C; --track: rgba(20,22,26,.12); --blue: #5B8DEF; color-scheme: light; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { -webkit-text-size-adjust: 100%; background: #F2F3F7; }
+body { min-height: 100vh; color: var(--ink); font: 15px/1.5 "Host Grotesk", -apple-system, "Helvetica Neue", Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+a { color: inherit; }
+button { font: inherit; color: inherit; background: none; border: 0; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+button:focus-visible, a:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; border-radius: 8px; }
+.ground { position: fixed; inset: 0; z-index: -1; background:
+  radial-gradient(110% 55% at -5% -5%, rgba(255,247,234,1) 0%, rgba(255,247,234,0) 62%),
+  radial-gradient(85% 34% at 8% 104%, rgba(158,196,255,.95) 0%, rgba(158,196,255,0) 72%),
+  radial-gradient(70% 30% at 40% 108%, rgba(200,178,255,.95) 0%, rgba(200,178,255,0) 72%),
+  radial-gradient(70% 30% at 66% 106%, rgba(255,178,222,.9) 0%, rgba(255,178,222,0) 72%),
+  radial-gradient(70% 32% at 98% 102%, rgba(255,202,158,.95) 0%, rgba(255,202,158,0) 72%),
+  linear-gradient(180deg, #F7F7F9 0%, #F2F3F7 55%, #EFEDF5 100%); }
+.ground::after { content: ""; position: absolute; inset: 0; background: url("assets/grain.png") 0 0 / 128px 128px; mix-blend-mode: overlay; opacity: .42; }
+.wrap { max-width: 520px; margin: 0 auto; padding: calc(env(safe-area-inset-top) + 18px) 18px calc(env(safe-area-inset-bottom) + 120px); display: flex; flex-direction: column; gap: 14px; }
+.mast { padding: 6px 6px 4px; }
+.brand { display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 15px; letter-spacing: -0.005em; }
+.brand i { width: 10px; height: 10px; border-radius: 50%; background: radial-gradient(circle at 35% 30%, #fff, #9EC4FF 45%, #C8B2FF 75%, #FFB2DE); box-shadow: inset 0 0 0 .5px rgba(20,22,26,.2); }
+.day { margin-top: 22px; font-weight: 600; font-size: clamp(40px, 12.5vw, 54px); line-height: .95; letter-spacing: -0.045em; }
+.meta { margin-top: 12px; font-size: 13.5px; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.status { padding: 12px 16px; border-radius: 18px; background: rgba(255,222,170,.55); box-shadow: inset 0 0 0 1px rgba(170,120,40,.18); font-size: 13.5px; }
+.card { position: relative; isolation: isolate; border-radius: 28px; overflow: hidden;
+  background: linear-gradient(180deg, rgba(255,255,255,.66), rgba(255,255,255,.42));
+  -webkit-backdrop-filter: blur(24px) saturate(160%); backdrop-filter: blur(24px) saturate(160%);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.95), inset 0 -1px 0 rgba(40,40,70,.05), 0 1px 2px rgba(30,30,60,.05), 0 18px 40px -20px rgba(40,40,80,.22); }
+.card::before { content: ""; position: absolute; inset: 0; border-radius: inherit; padding: 1px; pointer-events: none; z-index: 1;
+  background: linear-gradient(155deg, #fff 0%, rgba(255,255,255,.3) 32%, rgba(255,255,255,.06) 62%, rgba(255,255,255,.6) 100%);
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor; mask-composite: exclude; }
+.card > * { position: relative; z-index: 2; }
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) { .card { background: rgba(255,255,255,.9); } }
+
+/* the player at rest: a plain play button */
+.p-idle { padding: 14px 16px 14px 14px; display: grid; grid-template-columns: 52px 1fr auto; gap: 2px 14px; align-items: center; }
+.playbtn { width: 52px; height: 52px; grid-row: span 2; border-radius: 50%; display: grid; place-items: center; background: var(--ink); transition: transform .15s;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.18), 0 1px 2px rgba(20,22,26,.18), 0 10px 22px -10px rgba(20,22,26,.45); }
+.playbtn:active { transform: scale(.94); }
+.playbtn svg { width: 17px; height: 17px; fill: #fff; margin-left: 3px; }
+.p-title { font-weight: 600; font-size: 16px; letter-spacing: -0.01em; align-self: end; }
+.p-sub { font-size: 13px; color: var(--ink-2); align-self: start; }
+.speed { grid-row: span 2; font-size: 12.5px; font-weight: 600; color: var(--ink-2); padding: 7px 10px; min-width: 44px; min-height: 32px; border-radius: 999px; background: rgba(255,255,255,.6); box-shadow: inset 0 0 0 1px rgba(20,22,26,.07); font-variant-numeric: tabular-nums; }
+.chaps { grid-column: 1 / -1; display: flex; gap: 3px; margin-top: 12px; height: 16px; align-items: center; }
+.chaps button { height: 16px; flex: var(--w, 1); display: flex; align-items: center; padding: 0; min-width: 4px; }
+.chaps button i { display: block; width: 100%; height: 4px; border-radius: 2px; background: var(--track); position: relative; overflow: hidden; }
+.chaps button i b { position: absolute; inset: 0 auto 0 0; width: 0; background: var(--ink); border-radius: 2px; }
+.now { grid-column: 1 / -1; display: flex; justify-content: space-between; gap: 12px; margin-top: 6px; font-size: 12.5px; color: var(--ink-3); font-variant-numeric: tabular-nums; min-width: 0; }
+.now .js-time { flex: none; white-space: nowrap; }
+.now b { color: var(--ink); font-weight: 600; }
+.now .nx { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+/* the stage while he speaks: the orb alone, the controls in a glass panel */
+.player[data-mode="idle"] .stage { display: none; }
+.player[data-mode="stage"] .p-idle { display: none; }
+.stage { position: relative; height: 420px; border-radius: 30px; overflow: hidden; isolation: isolate;
+  background: #F2F3F7 url("assets/stage-still.webp") center top / 100% auto no-repeat;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.9), inset 0 0 0 1px rgba(255,255,255,.6), 0 22px 44px -22px rgba(40,40,80,.3); }
+.stage canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+.ctrl { position: absolute; left: 10px; right: 10px; bottom: 10px; padding: 12px 14px; border-radius: 22px; z-index: 2;
+  background: linear-gradient(180deg, rgba(255,255,255,.74), rgba(255,255,255,.52)); -webkit-backdrop-filter: blur(20px) saturate(170%); backdrop-filter: blur(20px) saturate(170%);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.95), inset 0 0 0 1px rgba(255,255,255,.55), 0 10px 24px -14px rgba(40,40,80,.3); }
+.now-k { display: flex; align-items: center; gap: 7px; font-size: 12px; font-weight: 600; color: var(--ink-2); margin-bottom: 6px; }
+.now-k i { width: 6px; height: 6px; border-radius: 50%; background: var(--blue); box-shadow: 0 0 0 3px rgba(91,141,239,.18); }
+.player.paused .now-k i { background: var(--ink-3); box-shadow: none; }
+.now-t { font-size: 15px; font-weight: 600; letter-spacing: -0.01em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.now-s { font-size: 12.5px; color: var(--ink-2); margin-top: 1px; min-height: 1.5em; }
+.row2 { display: flex; justify-content: space-between; align-items: center; margin-top: 6px; font-size: 12px; color: var(--ink-3); font-variant-numeric: tabular-nums; }
+.btns { display: flex; align-items: center; gap: 6px; color: var(--ink); font-weight: 600; font-size: 13px; }
+.btns button { min-width: 40px; min-height: 40px; border-radius: 999px; }
+.pp { width: 40px; height: 40px; border-radius: 50%; display: grid; place-items: center; background: var(--ink) !important; }
+.pp svg { width: 13px; height: 13px; fill: #fff; }
+.ic-play { margin-left: 2px; }
+.player:not(.paused) .ic-play, .player.paused .ic-pause { display: none; }
+.mini .ic-play { display: none; } .mini.paused .ic-play { display: block; } .mini.paused .ic-pause { display: none; }
+
+.sec { display: flex; justify-content: space-between; align-items: baseline; padding: 10px 6px 0; }
+.sec h2 { font-size: 13px; font-weight: 600; }
+.sec span { font-size: 12.5px; color: var(--ink-3); }
+.story { padding: 18px 18px 16px; display: flex; flex-direction: column; gap: 8px; scroll-margin-top: 16px; }
+.kicker { display: flex; gap: 8px; align-items: center; font-size: 12.5px; color: var(--ink-2); font-weight: 500; flex-wrap: wrap; }
+.kicker .n { font-variant-numeric: tabular-nums; color: var(--ink); font-weight: 600; }
+.dot { width: 3px; height: 3px; border-radius: 50%; background: currentColor; opacity: .5; display: inline-block; }
+.listen { margin-left: auto; display: inline-flex; align-items: center; gap: 5px; font-weight: 600; color: var(--ink); font-size: 12.5px; padding: 6px 10px; min-height: 32px; border-radius: 999px; background: rgba(255,255,255,.55); box-shadow: inset 0 0 0 1px rgba(20,22,26,.07); font-variant-numeric: tabular-nums; }
+.listen svg { width: 11px; height: 11px; fill: currentColor; }
+.listen.sm { margin-left: 8px; padding: 3px 8px; min-height: 28px; font-size: 12px; }
+.story h3 { font-size: 22px; line-height: 1.16; font-weight: 600; letter-spacing: -0.022em; text-wrap: balance; }
+.story p { font-size: 15px; line-height: 1.5; color: var(--ink-2); }
+.story p.bg, .story p.next { font-size: 14px; }
+.story p b, .item p b { color: var(--ink); font-weight: 600; }
+.src { display: flex; align-items: center; gap: 10px; padding-top: 4px; font-size: 12.5px; color: var(--ink-3); flex-wrap: wrap; }
+.src .links { flex: 1; min-width: 0; }
+.src a { color: var(--ink); font-weight: 600; text-decoration: none; }
+.src a:hover { text-decoration: underline; }
+.src .upd { font-size: 11.5px; font-weight: 600; color: #7a5a12; background: rgba(255,214,140,.5); padding: 2px 7px; border-radius: 999px; }
+.list { padding: 4px 16px; }
+.item { display: grid; gap: 3px; padding: 14px 2px; border-top: 1px solid rgba(20,22,26,.07); scroll-margin-top: 16px; }
+.item:first-child { border-top: 0; }
+.ik { font-size: 12px; color: var(--ink-3); display: flex; align-items: center; }
+.item h4 { font-size: 16px; line-height: 1.25; font-weight: 600; letter-spacing: -0.012em; }
+.item p { font-size: 14px; line-height: 1.45; color: var(--ink-2); }
+.item p.why { color: var(--ink-3); font-size: 13.5px; }
+.item.hl h4 { font-size: 15.5px; }
+.skills { margin-top: 4px; font-size: 13px; padding: 8px 10px; border-radius: 12px; background: rgba(200,178,255,.22); box-shadow: inset 0 0 0 1px rgba(140,110,220,.12); }
+.skills b { font-weight: 600; }
+.cal { padding: 6px 16px; }
+.cal .r { display: grid; grid-template-columns: 70px 1fr; gap: 10px; padding: 11px 2px; border-top: 1px solid rgba(20,22,26,.07); font-size: 14px; }
+.cal .r:first-child { border-top: 0; }
+.cal .r b { font-weight: 600; font-variant-numeric: tabular-nums; }
+.cal a { text-decoration: none; }
+.say { padding: 20px 20px 18px; }
+.say .l { font-size: 12.5px; font-weight: 600; color: var(--ink-2); }
+.say p { margin-top: 8px; font-size: 19px; line-height: 1.35; letter-spacing: -0.012em; font-weight: 500; text-wrap: pretty; }
+.arch { padding: 4px 16px; }
+.arch a { display: grid; gap: 2px; padding: 13px 2px; border-top: 1px solid rgba(20,22,26,.07); text-decoration: none; }
+.arch a:first-child { border-top: 0; }
+.arch .t { font-size: 14.5px; font-weight: 600; }
+.arch .m { font-size: 12.5px; color: var(--ink-3); }
+.arch .o { font-size: 13.5px; color: var(--ink-2); }
+.foot { padding: 8px 8px 0; font-size: 12px; color: var(--ink-3); line-height: 1.5; }
+
+.mini { position: fixed; left: 50%; bottom: calc(env(safe-area-inset-bottom) + 18px); width: min(484px, calc(100% - 28px)); transform: translate(-50%, 140%); transition: transform .45s cubic-bezier(.2,.8,.2,1); z-index: 10;
+  display: flex; align-items: center; gap: 12px; padding: 8px 8px 8px 8px; border-radius: 999px;
+  background: rgba(252,252,255,.7); -webkit-backdrop-filter: blur(22px) saturate(170%); backdrop-filter: blur(22px) saturate(170%);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.95), inset 0 0 0 1px rgba(255,255,255,.55), 0 14px 30px -14px rgba(40,40,80,.35); }
+.mini.on { transform: translate(-50%, 0); }
+.mini .orb { width: 40px; height: 40px; flex: none; border-radius: 50%; position: relative; overflow: hidden;
+  background: radial-gradient(circle at 34% 30%, rgba(255,255,255,.95), rgba(255,255,255,0) 32%), radial-gradient(70% 45% at 30% 58%, rgba(77,232,255,calc(.55 + var(--lv, 0) * .45)), rgba(77,232,255,0) 70%), radial-gradient(60% 45% at 74% 62%, rgba(255,200,120,calc(.5 + var(--lv, 0) * .45)), rgba(255,200,120,0) 70%), #EEF1F6;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.9), inset 0 -3px 6px rgba(80,100,140,.12), 0 4px 10px -4px rgba(40,60,100,.35); }
+.mini .t { flex: 1; min-width: 0; text-align: left; }
+.mini .t b { display: block; font-size: 14px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.mini .t span { font-size: 12px; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.mini .pp { width: 40px; height: 40px; flex: none; }
+.vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+@media (prefers-reduced-motion: reduce) { .mini { transition: none; } }
+@media (forced-colors: active) { .card, .ctrl, .mini, .stage { border: 1px solid CanvasText; } }
+</style>
+</head>
+<body>
+<div class="ground" aria-hidden="true"></div>
+<main class="wrap">
+  <header class="mast">
+    <div class="brand"><i aria-hidden="true"></i>Signal</div>
+    <h1 class="day">Wednesday<br>28 October</h1>
+    <p class="meta">Daily briefing · 15 stories · 9 min 37 s</p>
+  </header>
+  
+  <section class="player paused" data-mode="idle" aria-label="Listen to the briefing">
+    <div class="card p-idle">
+      <button class="playbtn js-play" aria-label="Play the briefing"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 2.8c0-.8.9-1.3 1.6-.9l11 6.9c.6.4.6 1.4 0 1.8l-11 6.9c-.7.4-1.6-.1-1.6-.9z"/></svg></button>
+      <div class="p-title">Good morning, sir</div>
+      <button class="speed js-speed" aria-label="Playback speed">1×</button>
+      <div class="p-sub">Three stories lead this morning</div>
+      <div class="chaps" aria-label="Chapters"><button style="--w:0.487" aria-label="Opening, 0:00"><i><b></b></i></button><button style="--w:1.359" aria-label="UBS third-quarter results, 0:28"><i><b></b></i></button><button style="--w:1.087" aria-label="Temenos raises its outlook, 1:47"><i><b></b></i></button><button style="--w:1.051" aria-label="Microsoft&#x27;s voluntary departures, 2:49"><i><b></b></i></button><button style="--w:0.782" aria-label="Deutsche Bank&#x27;s source-of-wealth agent, 3:50"><i><b></b></i></button><button style="--w:0.679" aria-label="LGT&#x27;s contact logs, 4:35"><i><b></b></i></button><button style="--w:0.674" aria-label="HSBC third-quarter results, 5:14"><i><b></b></i></button><button style="--w:0.483" aria-label="Revolut Ventures, 5:53"><i><b></b></i></button><button style="--w:0.613" aria-label="Round-the-clock DAX trading, 6:21"><i><b></b></i></button><button style="--w:0.595" aria-label="SAP&#x27;s Joule agents, 6:57"><i><b></b></i></button><button style="--w:0.506" aria-label="Salesforce agent controls, 7:31"><i><b></b></i></button><button style="--w:0.689" aria-label="Claude in drug development, 8:00"><i><b></b></i></button><button style="--w:0.562" aria-label="1Password for agents, 8:40"><i><b></b></i></button><button style="--w:0.432" aria-label="Close, 9:12"><i><b></b></i></button></div>
+      <div class="now"><span class="nx"><b>Opening</b> · next: UBS third-quarter results</span><span class="js-time">0:00 / 9:37</span></div>
+    </div>
+    <div class="stage">
+      <canvas aria-hidden="true"></canvas>
+      <div class="ctrl">
+        <div class="now-k"><i aria-hidden="true"></i><span>Signal</span></div>
+        <div class="now-t" aria-live="polite">Opening</div>
+        <div class="now-s"></div>
+        <div class="chaps" aria-label="Chapters"><button style="--w:0.487" aria-label="Opening, 0:00"><i><b></b></i></button><button style="--w:1.359" aria-label="UBS third-quarter results, 0:28"><i><b></b></i></button><button style="--w:1.087" aria-label="Temenos raises its outlook, 1:47"><i><b></b></i></button><button style="--w:1.051" aria-label="Microsoft&#x27;s voluntary departures, 2:49"><i><b></b></i></button><button style="--w:0.782" aria-label="Deutsche Bank&#x27;s source-of-wealth agent, 3:50"><i><b></b></i></button><button style="--w:0.679" aria-label="LGT&#x27;s contact logs, 4:35"><i><b></b></i></button><button style="--w:0.674" aria-label="HSBC third-quarter results, 5:14"><i><b></b></i></button><button style="--w:0.483" aria-label="Revolut Ventures, 5:53"><i><b></b></i></button><button style="--w:0.613" aria-label="Round-the-clock DAX trading, 6:21"><i><b></b></i></button><button style="--w:0.595" aria-label="SAP&#x27;s Joule agents, 6:57"><i><b></b></i></button><button style="--w:0.506" aria-label="Salesforce agent controls, 7:31"><i><b></b></i></button><button style="--w:0.689" aria-label="Claude in drug development, 8:00"><i><b></b></i></button><button style="--w:0.562" aria-label="1Password for agents, 8:40"><i><b></b></i></button><button style="--w:0.432" aria-label="Close, 9:12"><i><b></b></i></button></div>
+        <div class="row2"><span class="js-time">0:00 / 9:37</span><span class="btns"><button class="js-back" aria-label="Back 15 seconds">−15</button><button class="pp js-play" aria-label="Play or pause"><svg class="ic-play" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 2.8c0-.8.9-1.3 1.6-.9l11 6.9c.6.4.6 1.4 0 1.8l-11 6.9c-.7.4-1.6-.1-1.6-.9z"/></svg><svg class="ic-pause" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 3h3.5v14H5zM11.5 3H15v14h-3.5z"/></svg></button><button class="js-fwd" aria-label="Forward 15 seconds">+15</button><button class="js-speed" aria-label="Playback speed">1×</button></span></div>
+      </div>
+    </div>
+    <audio id="audio" preload="metadata" src="audio/signal-2026-10-28.mp3"></audio>
+  </section>
+  <div class="sec"><h2>Lead stories</h2><span>3</span></div><article class="card story" id="s-ubs-q3">
+  <div class="kicker"><span class="n">01</span><i class="dot"></i><span>Financial services</span><i class="dot"></i><span>Switzerland</span><button class="listen" data-seek="28.14" aria-label="Listen from this story"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 3.6c0-.7.8-1.2 1.4-.8l8.6 5.6c.6.4.6 1.3 0 1.7l-8.6 5.6c-.6.4-1.4 0-1.4-.8z"/></svg>0:28</button></div>
+  <h3>UBS lifts pre-tax profit 27% and raises its cost-saving goal to $13.7bn</h3>
+  <p>UBS reported third-quarter net profit of $2.69bn, up 8%, and pre-tax profit of $3.59bn, up 27%. Wealth management drew $55.1bn of net new assets. Savings from the Credit Suisse integration reached $13.2bn, and UBS now expects about $13.7bn by the end of 2026, above its earlier ambition of about $13.5bn.</p><p class="bg">Parliament is debating how much capital UBS must hold against its foreign subsidiaries; the proposal sits with a committee and is expected in the National Council in December, according to Reuters.</p><p class="why"><b>Why it matters.</b> UBS has bought back $1.8bn of its $3bn programme and links the rest to that debate, so Parliament&#x27;s decision now sets the pace of its shareholder returns. About 90% of the legacy Credit Suisse applications in scope are fully decommissioned, the bank said.</p><p class="next"><b>Watch next.</b> The National Council&#x27;s debate on the capital rules, expected in December.</p>
+  <div class="src"><span class="links"><a href="https://www.stocktitan.net/news/UBS/ubs-reports-3q26-net-profit-of-usd-2-7bn-and-14-8-ro-cet1-continued-edv6lolqm0fz.html" target="_blank" rel="noopener noreferrer">UBS release (StockTitan)<span aria-hidden="true"> ↗</span></a> · <a href="https://www.globalbankingandfinance.com/ubs-meets-expectations-2-7-billion-q3-profit/" target="_blank" rel="noopener noreferrer">Reuters (Global Banking &amp; Finance Review)<span aria-hidden="true"> ↗</span></a></span><span class="d">28 Oct</span></div>
+</article><article class="card story" id="s-temenos-q3">
+  <div class="kicker"><span class="n">02</span><i class="dot"></i><span>Technology in finance</span><i class="dot"></i><span>Switzerland</span><button class="listen" data-seek="106.63" aria-label="Listen from this story"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 3.6c0-.7.8-1.2 1.4-.8l8.6 5.6c.6.4.6 1.3 0 1.7l-8.6 5.6c-.6.4-1.4 0-1.4-.8z"/></svg>1:47</button></div>
+  <h3>Temenos raises its 2026 profit guidance after a strong third quarter</h3>
+  <p>The Geneva banking software maker reported third-quarter revenue of $292.8m, up 13%, and non-IFRS EBIT of $109.3m, up 29%. Annual recurring revenue rose 12% in constant currency to $903.6m. Temenos now expects 2026 EBIT growth of about 12% and earnings per share growth of about 10%, up from about 9% and 7%.</p><p class="bg">Subscription and SaaS revenue rose 23% to $121.8m; one large deal in Africa slipped into the first days of the fourth quarter.</p><p class="why"><b>Why it matters.</b> Temenos&#x27;s results are a read on how much banks are spending to renew core banking, and its shift to subscriptions shapes what many Swiss and European banks pay for the platforms they run on.</p><p class="next"><b>Watch next.</b> Whether the delayed African deal lifts fourth-quarter subscription revenue.</p>
+  <div class="src"><span class="links"><a href="https://www.securities.io/temenos-lifts-fy-26-ebit-and-eps-guidance-as-q3-arr-rises-12/" target="_blank" rel="noopener noreferrer">Securities.io<span aria-hidden="true"> ↗</span></a></span><span class="d">27 Oct</span></div>
+</article><article class="card story" id="s-msft-departures">
+  <div class="kicker"><span class="n">03</span><i class="dot"></i><span>AI and technology</span><i class="dot"></i><span>Global</span><button class="listen" data-seek="169.37" aria-label="Listen from this story"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 3.6c0-.7.8-1.2 1.4-.8l8.6 5.6c.6.4.6 1.3 0 1.7l-8.6 5.6c-.6.4-1.4 0-1.4-.8z"/></svg>2:49</button></div>
+  <h3>Microsoft offers voluntary departure to about 60,000 staff as AI spending grows</h3>
+  <p>About 60,000 employees, roughly a quarter of Microsoft&#x27;s workforce, can leave with a severance payment, according to an internal memo reported by Business Insider and covered by ICTjournal. Windows, Xbox, Copilot and finance teams are included; some data centre, sales, security and quantum roles are not, Bloomberg reported.</p><p class="bg">Earlier this year Microsoft offered a similar programme to about 9,000 employees, and nearly a third accepted.</p><p class="why"><b>Why it matters.</b> Bloomberg links the programme to AI infrastructure spending that is squeezing budgets and hiring elsewhere in the company, a trade-off that technology budgets at banks face as well.</p>
+  <div class="src"><span class="links"><a href="https://www.ictjournal.ch/news/2026-10-27/microsoft-reorganise-ses-effectifs-sur-fond-dia-avec-60000-salaries-eligibles-au" target="_blank" rel="noopener noreferrer">ICTjournal<span aria-hidden="true"> ↗</span></a></span><span class="d">27 Oct</span></div>
+</article><div class="sec"><h2>Technology in financial services</h2><span>2 stories</span></div><div class="card list"><div class="item" id="s-db-sow-ai">
+  <div class="ik">Europe <button class="listen sm" data-seek="230.03" aria-label="Listen from this story">▶ 3:50</button></div>
+  <h4>Deutsche Bank uses agentic AI to draft source-of-wealth assessments</h4>
+  <p>Inside its KYC platform, the private bank&#x27;s tool extracts and reconciles client information and drafts a memo that staff check and approve. It is live for some income-related checks in Singapore and Hong Kong and is being extended to Europe, Yiping Li, global chief operating officer of the private bank, told WealthBriefing.</p>
+  <p class="why">Source-of-wealth files are a slow, manual step in private banking onboarding; a live deployment with human sign-off gives Swiss banks weighing the same use a reference point.</p>
+  <div class="src"><span class="links"><a href="https://www.wealthbriefing.com/html/article.php/deutsche-bank-uses-ai-for-source-of-wealth-reviews" target="_blank" rel="noopener noreferrer">WealthBriefing<span aria-hidden="true"> ↗</span></a></span><span class="d">27 Oct</span></div>
+</div><div class="item" id="s-lgt-ai">
+  <div class="ik">Europe <button class="listen sm" data-seek="275.21" aria-label="Listen from this story">▶ 4:35</button></div>
+  <h4>LGT moves AI from pilots to client processes, starting with contact logs</h4>
+  <p>An internally deployed tool now turns client conversations into draft contact logs that staff review and submit, said Simon Gomez, head of data and innovation at LGT Private Banking. The hardest part was getting colleagues to try it; demonstrations and peer feedback helped.</p>
+  <p class="why">A private bank describing what adoption took, beyond a working pilot, is a practical benchmark for Swiss peers planning adviser tools.</p>
+  <div class="src"><span class="links"><a href="https://www.wealthbriefing.com/html/article.php/lgt-finds-ai-adoption-depends-on-changing-everyday-work-" target="_blank" rel="noopener noreferrer">WealthBriefing<span aria-hidden="true"> ↗</span></a></span><span class="d">27 Oct</span></div>
+</div></div><div class="sec"><h2>Financial services industry</h2><span>3 stories</span></div><div class="card list"><div class="item" id="s-hsbc-q3">
+  <div class="ik">United Kingdom <button class="listen sm" data-seek="314.42" aria-label="Listen from this story">▶ 5:14</button></div>
+  <h4>HSBC&#x27;s third-quarter pre-tax profit rises 32% to $9.6bn</h4>
+  <p>Revenue rose 5% to $18.6bn, driven by banking net interest income, and HSBC plans a share buyback of up to $1bn. Much of the profit rise reflects $1.4bn of legal provisions a year earlier that did not recur, the bank said.</p>
+  <p class="why">HSBC kept its target of a return on tangible equity of 17% or better through 2028; in Asian wealth management it is a direct competitor of the Swiss banks.</p>
+  <div class="src"><span class="links"><a href="https://www.sec.gov/Archives/edgar/data/0001089113/000108911326000030/livedocq32026earningsrelea.htm" target="_blank" rel="noopener noreferrer">HSBC (SEC filing)<span aria-hidden="true"> ↗</span></a></span><span class="d">27 Oct</span></div>
+</div><div class="item" id="s-revolut-ventures">
+  <div class="ik">Europe <button class="listen sm" data-seek="353.33" aria-label="Listen from this story">▶ 5:53</button></div>
+  <h4>Revolut will let retail clients invest in private tech companies from 2027</h4>
+  <p>Revolut Ventures, run with Carne Group as a European long-term investment fund (ELTIF), will offer positions in unlisted companies through the app, according to Fintech News Switzerland, citing Bloomberg. BNY will be custodian.</p>
+  <p class="why">Private markets are reaching retail through apps, ground that Swiss private banks have kept for wealthy clients.</p>
+  <div class="src"><span class="links"><a href="https://fintechnews.ch/virtual-banking/revolut-ventures-private-tech-retail-investors/86699/" target="_blank" rel="noopener noreferrer">Fintech News Switzerland<span aria-hidden="true"> ↗</span></a></span><span class="d">28 Oct</span></div>
+</div><div class="item" id="s-dax-360x">
+  <div class="ik">Europe <button class="listen sm" data-seek="381.23" aria-label="Listen from this story">▶ 6:21</button></div>
+  <h4>Deutsche Börse opens DAX 40 shares to round-the-clock trading on 360X</h4>
+  <p>Outside Xetra hours, DAX 40 stocks now trade overnight and at weekends on the 360X venue through requests for quotes, settling into existing Clearstream accounts, according to Fintech News Switzerland.</p>
+  <p class="why">Trading in large European stocks around the clock pushes banks&#x27; execution, risk and operations teams to cover hours they have not staffed.</p>
+  <div class="src"><span class="links"><a href="https://fintechnews.ch/fintechgermany/deutsche-borse-360x-dax-40-24-7/86673/" target="_blank" rel="noopener noreferrer">Fintech News Switzerland<span aria-hidden="true"> ↗</span></a></span><span class="d">28 Oct</span></div>
+</div></div><div class="sec"><h2>AI and technology</h2><span>4 stories</span></div><div class="card list"><div class="item" id="s-sap-joule-work">
+  <div class="ik">Global <button class="listen sm" data-seek="416.64" aria-label="Listen from this story">▶ 6:57</button></div>
+  <h4>SAP lets its Joule agents run processes across SAP and other systems</h4>
+  <p>At TechEd in Berlin, SAP made Joule Work generally available: users state a goal and agents coordinate the applications and data needed, including third-party systems, with role-based permissions, audit logs and human checkpoints. An Enterprise AI Gateway follows in the first quarter of 2027.</p>
+  <p class="why">Many banks run finance and HR on SAP; agents acting across systems with audit trails move governance questions from pilots to production.</p>
+  <div class="src"><span class="links"><a href="https://www.inside-it.ch/sap-macht-ki-agenten-fit-fuer-geschaeftsprozesse-%25E2%2580%2593-und-das-weltall-20261027" target="_blank" rel="noopener noreferrer">Inside IT<span aria-hidden="true"> ↗</span></a></span><span class="d">27 Oct</span></div>
+</div><div class="item" id="s-salesforce-agent-fabric">
+  <div class="ik">Global <button class="listen sm" data-seek="451.01" aria-label="Listen from this story">▶ 7:31</button></div>
+  <h4>Salesforce adds a kill switch and hard spending limits for AI agents</h4>
+  <p>Agent Fabric gains evaluations that test agents before and during production and can trigger a kill switch, plus a FinOps dashboard with spending limits that block requests before budgets are exceeded. The kill switch and cost controls are available now; the evaluations enter beta in November.</p>
+  <p class="why">Ways to stop a failing agent and cap its cost are what bank risk teams ask for before agents touch client processes.</p>
+  <div class="src"><span class="links"><a href="https://www.salesforce.com/news/stories/agent-fabric-catch-failures-control-ai-costs/" target="_blank" rel="noopener noreferrer">Salesforce<span aria-hidden="true"> ↗</span></a></span><span class="d">27 Oct</span></div>
+</div><div class="item" id="s-anthropic-drug-dev">
+  <div class="ik">Global <button class="listen sm" data-seek="480.25" aria-label="Listen from this story">▶ 8:00</button></div>
+  <h4>Anthropic reports early results from six drug development partnerships using Claude</h4>
+  <p>At Enveda, Claude reviewed 1,061 pages of manufacturing documents, found all 11 issues human reviewers had found plus seven more, and cut review time by 89%, Anthropic said. Partners include Bristol Myers Squibb and Generate Biomedicines; the work is early and mostly preclinical.</p>
+  <p class="why">The document review result is the part that carries over: banks&#x27; compliance teams run similar checks on long regulated documents.</p>
+  <div class="src"><span class="links"><a href="https://www.anthropic.com/research/early-progress-drug-development" target="_blank" rel="noopener noreferrer">Anthropic<span aria-hidden="true"> ↗</span></a></span><span class="d">27 Oct</span></div>
+</div><div class="item" id="s-1password-agents">
+  <div class="ik">Global <button class="listen sm" data-seek="520.06" aria-label="Listen from this story">▶ 8:40</button></div>
+  <h4>1Password lets AI agents sign in to services without seeing passwords</h4>
+  <p>With 1Password for Agents, an agent asks to log in, the user approves on their device, and 1Password fills in the credentials directly. It works with agents from Meta, Anthropic and OpenAI, according to Netzwoche.</p>
+  <p class="why">How agents authenticate is among the first questions a bank&#x27;s security team asks; approval for each login is one practical answer.</p>
+  <div class="src"><span class="links"><a href="https://www.netzwoche.ch/news/2026-10-27/1password-ermoeglicht-log-ins-fuer-ki-agenten-ohne-zugriff-auf-passwoerter" target="_blank" rel="noopener noreferrer">Netzwoche<span aria-hidden="true"> ↗</span></a></span><span class="d">27 Oct</span></div>
+</div></div><div class="sec"><h2>Rules and supervisors</h2><span>headlines</span></div><div class="card list"><div class="item hl" id="s-ripple-occ">
+  <h4>US regulator gives Ripple final approval for a national trust bank</h4>
+  <div class="src"><span class="links"><a href="https://fintechnews.ch/blockchain_bitcoin/ripple-national-trust-bank-occ-approval-rlusd/86692/" target="_blank" rel="noopener noreferrer">Fintech News Switzerland<span aria-hidden="true"> ↗</span></a></span><span class="d">28 Oct</span></div>
+</div></div><div class="sec"><h2>Ecosystem</h2><span>headlines</span></div><div class="card list"><div class="item hl" id="s-elca-beyond-civic">
+  <h4>Elca takes a majority stake in Lucerne data-sharing specialist Beyond Civic</h4>
+  <div class="src"><span class="links"><a href="https://www.ictjournal.ch/news/2026-10-27/le-groupe-vaudois-elca-acquiert-la-majorite-de-la-societe-lucernoise-beyond-civic" target="_blank" rel="noopener noreferrer">ICTjournal<span aria-hidden="true"> ↗</span></a></span><span class="d">27 Oct</span></div>
+</div><div class="item hl" id="s-ssis-2026">
+  <h4>Swiss software survey: over 88% build with AI, 11.8% with orchestrated agents</h4>
+  <div class="src"><span class="links"><a href="https://www.netzwoche.ch/news/2026-10-27/schweizer-software-entsteht-mit-ki-hilfe-aber-nur-selten-im-agenten-orchester" target="_blank" rel="noopener noreferrer">Netzwoche<span aria-hidden="true"> ↗</span></a></span><span class="d">27 Oct</span></div>
+</div></div><div class="sec"><h2>This week</h2><span></span></div><div class="card cal"><div class="r"><b>Wed 28 Oct</b><a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm" target="_blank" rel="noopener noreferrer">US Federal Reserve rate decision (FOMC, 27 to 28 October)</a></div><div class="r"><b>Thu 29 Oct</b><a href="https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html" target="_blank" rel="noopener noreferrer">ECB monetary policy decision and press conference</a></div></div><div class="card say"><div class="l">Say it today</div><p>UBS has taken $13.2bn of costs out of the Credit Suisse merger and switched off about 90% of the legacy applications in scope. The pace of its buybacks now rests on how much capital Parliament asks it to hold.</p></div>
+  <p class="foot">Signal reads free public sources and links every story to where it was published; every link was opened on 28 Oct. Prepared at 15:03 Zurich time. The voice is synthetic.</p>
+</main>
+<div class="mini paused" aria-hidden="true">
+  <span class="orb" aria-hidden="true"></span>
+  <span class="t"><b>Signal</b><span class="js-time">0:00 / 9:37</span></span>
+  <button class="pp js-play" aria-label="Play or pause"><svg class="ic-play" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 2.8c0-.8.9-1.3 1.6-.9l11 6.9c.6.4.6 1.4 0 1.8l-11 6.9c-.7.4-1.6-.1-1.6-.9z"/></svg><svg class="ic-pause" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 3h3.5v14H5zM11.5 3H15v14h-3.5z"/></svg></button>
+</div>
+<script type="application/json" id="signal-data">{"title": "Signal · Wednesday 28 October", "album": "Daily briefing", "duration": 577.41, "chapters": [{"start": 0.0, "title": "Opening", "eyebrow": "Signal", "sub": "", "story": null}, {"start": 28.14, "title": "UBS third-quarter results", "eyebrow": "Lead story 1 of 3", "sub": "Financial services · Switzerland", "story": "ubs-q3"}, {"start": 106.63, "title": "Temenos raises its outlook", "eyebrow": "Lead story 2 of 3", "sub": "Technology in finance · Switzerland", "story": "temenos-q3"}, {"start": 169.37, "title": "Microsoft's voluntary departures", "eyebrow": "Lead story 3 of 3", "sub": "AI and technology · Global", "story": "msft-departures"}, {"start": 230.03, "title": "Deutsche Bank's source-of-wealth agent", "eyebrow": "Technology in financial services", "sub": "Europe", "story": "db-sow-ai"}, {"start": 275.21, "title": "LGT's contact logs", "eyebrow": "Technology in financial services", "sub": "Europe", "story": "lgt-ai"}, {"start": 314.42, "title": "HSBC third-quarter results", "eyebrow": "Financial services industry", "sub": "United Kingdom", "story": "hsbc-q3"}, {"start": 353.33, "title": "Revolut Ventures", "eyebrow": "Financial services industry", "sub": "Europe", "story": "revolut-ventures"}, {"start": 381.23, "title": "Round-the-clock DAX trading", "eyebrow": "Financial services industry", "sub": "Europe", "story": "dax-360x"}, {"start": 416.64, "title": "SAP's Joule agents", "eyebrow": "AI and technology", "sub": "Global", "story": "sap-joule-work"}, {"start": 451.01, "title": "Salesforce agent controls", "eyebrow": "AI and technology", "sub": "Global", "story": "salesforce-agent-fabric"}, {"start": 480.25, "title": "Claude in drug development", "eyebrow": "AI and technology", "sub": "Global", "story": "anthropic-drug-dev"}, {"start": 520.06, "title": "1Password for agents", "eyebrow": "AI and technology", "sub": "Global", "story": "1password-agents"}, {"start": 552.49, "title": "Close", "eyebrow": "Signal", "sub": "", "story": null}], "temperament": {"name": "calm", "fastest_rhythm": 1.6, "slowest_rhythm": 11.7, "attack": 0.09, "release": 0.55, "damping": 0.92, "settle": 2.0}, "trackUrl": "audio/signal-2026-10-28.track.json", "artwork": "assets/artwork.jpg"}</script>
+<script type="x-shader/x-fragment" id="orb-frag">/* Signal's orb: a sphere of thick water holding a small lake of light.
+   Drawn with Atelier's presence.js, which prepends its header (uRes, uTime, uNoise, the motion uniforms, hash12, noise3).
+   The calm temperament lives in the page: fastest_rhythm 1.6, slowest_rhythm 11.7, attack 0.09, release 0.55, damping 0.92, settle 2.0. */
+uniform float uR, uClear, uEl;
+uniform vec2 uOff;
+// motion values for this orb, derived from the engine at the start of main()
+vec4 uSwell;   // phase1, amp1, phase2, amp2
+vec4 uShape;   // wobble amp, breath, ripple amp, ripple phase
+vec3 uWob;     // lobe phases
+vec4 uRock;    // tilt, swell direction, light level, energy
+
+#define PI 3.14159265
+
+
+/* ---------- the page ground: pale, daylight from the top left, a low pastel band ---------- */
+vec3 ground(vec2 uv){
+  vec3 c = mix(vec3(0.930,0.936,0.952), vec3(0.972,0.972,0.980), smoothstep(-1.0, 1.0, uv.y));
+  c = mix(c, vec3(1.0,0.986,0.962), 0.60*exp(-1.3*length(uv - vec2(-1.35, 1.25))));
+  float x = clamp(uv.x*0.42 + 0.5, 0.0, 1.0);
+  vec3 band = vec3(0.62,0.77,1.0);
+  band = mix(band, vec3(0.78,0.70,1.0), smoothstep(0.15, 0.40, x));
+  band = mix(band, vec3(1.0,0.70,0.87), smoothstep(0.40, 0.60, x));
+  band = mix(band, vec3(1.0,0.79,0.62), smoothstep(0.62, 0.90, x));
+  float g = exp(-2.6*max(uv.y + 0.62, 0.0)) * smoothstep(-1.7, -0.5, uv.y);
+  c = mix(c, band, 0.62*clamp(g, 0.0, 1.0));
+  return c;
+}
+
+/* ---------- studio lights ---------- */
+// a rounded-rectangle soft box, top left, brighter at its top edge
+float softbox(vec3 d){
+  vec3 L = normalize(vec3(-0.55, 0.62, 0.58));
+  vec3 a = normalize(cross(L, vec3(0.0, 1.0, 0.0))), b = cross(a, L);
+  float w = dot(d, L); if (w < 0.0) return 0.0;
+  float u = dot(d, a) / 0.47, v = dot(d, b) / 0.26;
+  float sh = pow(abs(u), 3.0) + pow(abs(v), 3.0);
+  return smoothstep(1.0, 0.20, sh) * (0.60 + 0.40*smoothstep(-1.0, 1.0, v));
+}
+// a tall thin strip on the right
+float strip(vec3 d){
+  vec3 L = normalize(vec3(0.92, 0.12, 0.38));
+  vec3 a = normalize(cross(L, vec3(0.0, 1.0, 0.0))), b = cross(a, L);
+  float w = dot(d, L); if (w < 0.0) return 0.0;
+  float u = dot(d, a) / 0.045, v = dot(d, b) / 0.42;
+  return smoothstep(1.0, 0.3, pow(abs(u), 2.0) + pow(abs(v), 6.0));
+}
+
+/* ---------- the studio seen in the water: one large round soft box top left, a strip on the right ---------- */
+vec3 env(vec3 d){
+  float up = d.y;
+  vec3 c = mix(vec3(0.66,0.70,0.77), vec3(0.89,0.905,0.93), smoothstep(-0.55, 0.05, up));
+  c = mix(c, vec3(0.972,0.975,0.983), smoothstep(0.05, 0.75, up));
+  vec3 band = mix(vec3(0.66,0.78,1.0), vec3(1.0,0.78,0.70), smoothstep(-0.6, 0.6, d.x));
+  c = mix(c, band, 0.34*exp(-pow((up + 0.20)/0.15, 2.0)));
+  c += softbox(d) * vec3(0.30,0.295,0.29) + strip(d) * vec3(0.20,0.21,0.23);
+  return c;
+}
+/* ---------- the outer water: a sphere with slow, low lobes ---------- */
+float wob(vec3 n){
+  return uShape.x * ( 0.62*sin(2.1*dot(n, vec3(0.80,0.45,0.40)) + uWob.x)
+                    + 0.48*sin(2.9*dot(n, vec3(-0.30,0.86,0.41)) + uWob.y)
+                    + 0.52*sin(2.5*dot(n, vec3(0.22,-0.50,0.84)) + uWob.z) ) + uShape.y;
+}
+float sdf(vec3 p){ float l = length(p); return l - (1.0 + wob(p / max(l, 1e-4))); }
+vec3 nrm(vec3 p){
+  const vec2 k = vec2(1.0, -1.0); float e = 0.002;
+  return normalize(k.xyy*sdf(p + k.xyy*e) + k.yyx*sdf(p + k.yyx*e) + k.yxy*sdf(p + k.yxy*e) + k.xxx*sdf(p + k.xxx*e));
+}
+
+/* ---------- the inner lake: its surface ---------- */
+float hgt(vec2 q){
+  vec2 d1 = vec2(cos(uRock.y), sin(uRock.y));
+  vec2 d2 = vec2(cos(uRock.y + 2.1), sin(uRock.y + 2.1));
+  float h = 0.07 + uRock.x * q.x;
+  h += uSwell.y * sin(2.05*dot(q, d1) - uSwell.x);
+  h += uSwell.w * sin(3.40*dot(q, d2) - uSwell.z + 1.3);
+  h += uShape.z * sin(8.5*q.x + 2.5*q.y - uShape.w);
+  return h;
+}
+
+// the light pattern on a lake floor: a slow caustic network
+float caustic(vec2 p, float t){
+  vec2 i = p; float c = 1.0; float inten = 0.005;
+  for (int n = 0; n < 4; n++) {
+    float tt = t * (1.0 - (3.5 / float(n + 1)));
+    i = p + vec2(cos(tt - i.x) + sin(tt + i.y), sin(tt - i.y) + cos(tt + i.x));
+    c += 1.0 / length(vec2(p.x / (sin(i.x + tt) / inten), p.y / (cos(i.y + tt) / inten)));
+  }
+  c /= 4.0; c = 1.17 - pow(c, 1.4);
+  return clamp(pow(abs(c), 8.0), 0.0, 1.0);
+}
+// sphere-ray helpers
+vec2 isect(vec3 ro, vec3 rd, float r){ float b = dot(ro, rd); float c = dot(ro, ro) - r*r; float h = b*b - c; if (h < 0.0) return vec2(-1.0); h = sqrt(h); return vec2(-b - h, -b + h); }
+
+void main(){
+  // the engine's springs and phases, shaped for this orb
+  float k = clamp((uAmp - 0.25) / 0.75, 0.0, 1.2), e = uEnergy;
+  uSwell = vec4(uPhase, 0.050 + 0.140*k, uPhase2, 0.012 + 0.030*k);
+  uShape = vec4(0.016 + 0.020*k, 0.006*uBreath, 0.010*uLevel, uTime*6.2832/1.25);
+  uWob = uCycles;
+  uRock = vec4(0.045*sin(uTime*6.2832/9.5) + 0.075*e*sin(uTime*6.2832/5.3 + 0.8),
+               0.32*sin(uTime*6.2832/41.0) + 0.16*sin(uTime*6.2832/23.0 + 1.0),
+               0.86 + 0.70*(uLight - 0.25), e);
+  vec2 uv = (gl_FragCoord.xy - 0.5*uRes) / (0.5*uRes.y) - uOff;
+  float px = 2.0 / uRes.y;
+  // camera: almost level with the inner lake, so its surface reads as a ribbon
+  float D = 4.2;
+  vec3 ro = vec3(0.0, D*sin(uEl), D*cos(uEl));
+  vec3 fw = normalize(-ro), rt = vec3(1.0, 0.0, 0.0), up = cross(rt, fw);
+  float fl = uR * sqrt(D*D - 1.0);
+  vec3 rd = normalize(uv.x*rt + uv.y*up + fl*fw);
+
+  vec3 bg = ground(uv);
+  float light = uRock.z, energy = uRock.w;
+
+  // the ground under the orb: a soft cool shadow and the light the water focuses
+  vec2 cu = uv - vec2(0.0, -uR*1.03);
+  float shd = length(cu * vec2(1.0, 4.0));
+  vec3 col = bg * (1.0 - 0.13*smoothstep(uR*1.15, 0.0, shd));
+  vec2 cc = uv - vec2(uR*0.20, -uR*1.04);
+  float cau = exp(-pow(length(cc * vec2(1.6, 6.0)) / (uR*0.42), 2.0));
+  float cauCore = exp(-pow(length(cc * vec2(2.2, 8.0)) / (uR*0.30), 2.0));
+  vec3 cauCol = mix(vec3(0.40,0.88,1.0), vec3(1.0,0.78,0.52), smoothstep(-uR*0.25, uR*0.45, uv.x));
+  col = mix(col, cauCol, cau * 0.22 * light);
+  col += vec3(1.0,0.98,0.95) * cauCore * 0.06;
+  float alpha = max(1.0 - uClear, max(0.13*smoothstep(uR*1.15, 0.0, shd), cau*0.22*light));
+
+  vec2 bs = isect(ro, rd, 1.08);
+  if (bs.x > 0.0) {
+    float t = bs.x; bool hit = false; vec3 p = ro;
+    for (int i = 0; i < 14; i++) { p = ro + rd*t; float d = sdf(p); if (abs(d) < 0.0005) { hit = true; break; } t += d; if (t > bs.y) break; }
+    if (abs(sdf(p)) < 0.004) hit = true;
+    if (hit) {
+      vec3 N = nrm(p);
+      // a breeze on the surface while the voice speaks: the finest ripples, in the normals only
+      N = normalize(N + uShape.z*0.6*vec3(sin(14.0*p.y + uShape.w*1.1), sin(13.0*p.x - uShape.w), 0.0));
+      float ndv = clamp(dot(N, -rd), 0.0, 1.0);
+      float F = 0.02 + 0.98*pow(1.0 - ndv, 5.0);
+
+      /* ---- the ground seen through the water: a real lens, flipped and spread by colour ---- */
+      vec3 inside;
+      {
+        vec3 rb = refract(rd, N, 1.0/1.333);
+        vec2 ex = isect(p, rb, 0.995); vec3 q = p + rb*max(ex.y, 0.0);
+        vec3 Nq = -normalize(q);
+        vec3 tc;
+        for (int c = 0; c < 3; c++) {
+          float eta = c == 0 ? 1.315 : (c == 1 ? 1.333 : 1.356);
+          vec3 o = refract(rb, Nq, eta);
+          if (dot(o, o) < 0.01) o = reflect(rb, Nq);
+          // where the ray lands on the backdrop plane, and where that is on screen
+          float tp = (-2.4 - q.z) / min(o.z, -0.05);
+          vec3 P = q + o*tp; vec3 v = P - ro;
+          vec2 g = vec2(dot(v, rt), dot(v, up)) * fl / dot(v, fw);
+          vec3 s = (o.z > -0.05) ? env(o) : ground(g);
+          tc[c] = c == 0 ? s.r : (c == 1 ? s.g : s.b);
+        }
+        inside = tc * vec3(0.955, 0.985, 1.0);   // a whisper of lake tint
+        // light dancing on the floor of the drop, only in the lower half, very faint
+        float cw = smoothstep(0.05, -0.75, q.y) * smoothstep(1.0, 0.55, length(q.xz));
+        float cs = caustic(q.xz*3.2 + vec2(7.0, 3.0), uTime*0.22 + 11.0);
+        inside = mix(inside, vec3(0.93, 0.99, 1.0), cs * cw * 0.30);
+        // the deep side of the water reads a little darker, which is what gives it body on a pale page
+        inside *= 1.0 - 0.10*smoothstep(-0.2, 0.9, -dot(N, normalize(vec3(-0.45, 0.70, 0.55))));
+      }
+
+      /* ---- the lake of light inside: luminous coloured fog, composited front to back ---- */
+      vec3 rv = refract(rd, N, 1.0/1.10);              // the light inside is seen through a gentler lens
+      vec2 ev = isect(p, rv, 0.985);
+      float tEnd = max(ev.y, 0.0);
+      const int NS = 28;
+      float dt = tEnd / float(NS);
+      float jit = hash12(gl_FragCoord.xy*0.917 + 3.1);   // still dither, no fizz
+      vec3 C = vec3(0.0); float T = 1.0;
+      float hL = hgt(vec2(-0.52, 0.0)), hR = hgt(vec2(0.52, 0.0)), hM = hgt(vec2(0.0));
+      // light gathers on the side that rises
+      float kL = 0.55 + 4.0*max(hL - hM + 0.04, 0.0) + 0.30*energy;
+      float kR = 0.50 + 4.0*max(hR - hM + 0.04, 0.0) + 0.30*energy;
+      vec3 cyan = vec3(0.30,0.94,1.00), amber = vec3(1.0,0.79,0.46), mint = vec3(0.66,0.97,0.90), lilac = vec3(0.84,0.78,1.0);
+      float grow = 1.0 + 0.25*energy;
+      vec3 q = p + rv*dt*jit;
+      for (int i = 0; i < NS; i++) {
+        float h = hgt(q.xz);
+        float f = q.y - h;
+        float r = length(q);
+        float wall = smoothstep(0.995, 0.80, r);
+        // two lobes of light that hug the surface from below
+        vec3 dl = (q - vec3(-0.48, hL - 0.13, 0.0)) / vec3(0.52*grow, 0.27*grow, 0.62);
+        vec3 dr = (q - vec3( 0.52, hR - 0.15, 0.0)) / vec3(0.47*grow, 0.25*grow, 0.62);
+        vec3 dm = (q - vec3( 0.02, hM - 0.12, 0.0)) / vec3(0.34*grow, 0.22*grow, 0.55);
+        float wl = exp(-dot(dl, dl)), wr = exp(-dot(dr, dr)), wm = exp(-dot(dm, dm))*0.42*(0.5*kL + 0.5*kR);
+        float sheet = exp(-abs(f)/0.05) * 0.35;                         // a thin glowing skin along the surface
+        float under = f < 0.0 ? 1.0 : exp(-f/0.035);
+        // silky fibres that run along the surface
+        vec3 fq = vec3(q.x*1.5 - uTime*0.03, f*13.0 + 0.8*noise3(vec3(q.xz*1.8, uTime*0.04)), q.z*1.5 + uTime*0.015);
+        float fib = noise3(fq)*0.65 + noise3(fq*2.17 + 5.3)*0.35;
+        fib = 0.55 + 0.9*smoothstep(0.3, 0.8, fib);
+        float dl2 = (wl*kL + wr*kR + wm) * under + sheet*(0.6 + 0.5*energy);
+        float sigma = dl2 * fib * wall * light * 3.2;
+        vec3 midc = mix(mint, lilac, 0.5 + 0.5*sin(uTime*0.09 + q.x*2.0));
+        vec3 fc = cyan*wl*kL + amber*wr*kR + midc*(wm + sheet*0.8);
+        fc /= max(wl*kL + wr*kR + wm + sheet*0.8, 1e-3);
+        // the densest cores glow a touch brighter than the frost around them
+        fc *= 1.0 + 0.10*smoothstep(0.8, 1.6, dl2*light);
+        float a = 1.0 - exp(-sigma*dt);
+        C += T * a * fc; T *= 1.0 - a;
+        q += rv*dt;
+      }
+      /* the surface seen edge-on: a fine ribbon, built from depth slices so it stays crisp and can split into strands */
+      float ink = 0.0, glint = 0.0;
+      float Rpx = uR / px;                                             // pixels per unit
+      vec2 e2 = isect(p, rv, 0.985);
+      for (int i = 0; i < 18; i++) {
+        float tt = (float(i) + 0.5)/18.0 * e2.y;
+        vec3 s = p + rv*tt;
+        float chord = sqrt(max(1.0 - s.y*s.y, 1e-3));
+        float fade = smoothstep(0.97, 0.66, length(s.xz)/chord);
+        float fpx = (s.y - hgt(s.xz)) * Rpx * 1.08;
+        float wpx = 1.0 + 0.7*(0.5 + 0.5*sin(s.x*3.1 + uSwell.x*0.7 + uTime*0.21));
+        float depthW = mix(1.0, 0.30, float(i)/17.0);                 // the back of the ribbon is fainter
+        float a = exp(-pow(fpx/wpx, 2.0)) * fade * depthW;
+        ink = 1.0 - (1.0 - ink)*(1.0 - a*(i == 0 ? 0.60 : 0.15));
+        glint = max(glint, exp(-pow((fpx - 1.9)/0.9, 2.0)) * fade * depthW);
+      }
+      vec3 inkCol = mix(vec3(0.15,0.33,0.40), vec3(0.42,0.31,0.18), smoothstep(-0.25, 0.65, uv.x/uR));
+      // sparkles: tiny lights that leave the surface on the brightest syllables
+      vec3 spark = vec3(0.0);
+      for (int i = 0; i < 8; i++) {
+        // one sparkle per recent onset: its place and life come from the onset's number
+        float sd = uSparkSeed - float(i);
+        float life = 1.3 + 0.8*hash12(vec2(sd, 9.1));
+        vec4 sk = vec4(-0.55 + 1.1*hash12(vec2(sd, 1.7)), -0.25 + 0.5*hash12(vec2(sd, 4.1)), uOnsetAge[i] / life, 0.55 + 0.45*hash12(vec2(sd, 2.3)));
+        if (sk.z > 1.0) continue;
+        vec3 sp = vec3(sk.x + 0.05*sk.z*sin(float(i)*2.7), hgt(sk.xy) + 0.03 + 0.20*sk.z*(0.7 + 0.3*fract(float(i)*0.618)), sk.y);
+        vec3 v = sp - ro; vec2 sc = vec2(dot(v, rt), dot(v, up)) * fl / dot(v, fw) * 1.08;
+        float d = length(uv - sc) / px;
+        float a = sin(PI*sk.z) * sk.w;
+        spark += a * (vec3(1.0,0.99,0.96)*exp(-d*d/2.0) + vec3(0.80,0.96,1.0)*0.16*exp(-d/4.0));
+      }
+      vec3 lit = inside * T + C;
+      lit = mix(lit, inkCol, min(ink, 0.85) * 0.80);
+      lit = mix(lit, vec3(1.0), glint * 0.30 * (0.6 + 0.4*light));
+      lit += spark * smoothstep(0.995, 0.86, length(uv/uR));
+
+      /* ---- the water's skin ---- */
+      vec3 R = reflect(rd, N);
+      vec3 refl = env(R);
+      vec3 water = mix(lit, refl, F);
+      // the soft box shows on the face as a milky window that bends with the water
+      water = mix(water, vec3(1.0, 0.996, 0.992), softbox(R) * 0.46);
+      water = mix(water, vec3(1.0), strip(R) * 0.40);
+      // the edge: refraction darkens the lower right rim, daylight whitens the upper left, a faint spectrum
+      float side = dot(normalize(p.xy + 1e-4), normalize(vec2(-0.6, 0.8)));
+      water *= 1.0 - 0.20*smoothstep(0.30, 0.0, ndv) * (0.65 - 0.35*side);
+      water = mix(water, vec3(0.995, 0.997, 1.0), 0.42*(0.55 + 0.45*side)*exp(-pow(ndv/0.13, 2.0)));
+      float ir = pow(1.0 - ndv, 4.0);
+      vec3 film = 0.5 + 0.5*cos(2.0*PI*(vec3(0.0, 0.33, 0.67) + ndv*2.4 + 0.1*sin(uTime*0.12 + atan(p.y, p.x))));
+      water += (film - 0.5) * ir * 0.07;
+      float cov = smoothstep(0.0, 0.035, ndv);
+      col = mix(col, water, cov);
+      alpha = max(alpha, cov);
+    }
+  }
+  // grain, the same as the page
+  col += (hash12(gl_FragCoord.xy) - 0.5) * 0.032;   // still grain, like the page
+  alpha *= uOpacity;
+  gl_FragColor = vec4(clamp(col, 0.0, 1.0) * alpha, alpha);
+}
+</script>
+<script src="assets/presence.js"></script>
+<script>
+(() => {
+  const D = JSON.parse(document.getElementById('signal-data').textContent);
+  const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
+  const audio = $('#audio'), player = $('.player'), stage = $('.stage'), mini = $('.mini');
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let started = false, orb = null, stageVisible = true, raf = 0, lastCh = -1;
+  const mmss = s => { s = Math.max(0, Math.floor(s || 0)); return Math.floor(s / 60) + ':' + String(s % 60).padStart(2, '0'); };
+  const dur = () => (isFinite(audio.duration) && audio.duration) || D.duration;
+  const chapterAt = t => { let i = 0; D.chapters.forEach((c, k) => { if (t >= c.start - 0.05) i = k; }); return i; };
+
+  function paint() {
+    const t = audio.currentTime, i = chapterAt(t), c = D.chapters[i] || {};
+    $$('.chaps').forEach(bar => [...bar.children].forEach((b, k) => {
+      const ch = D.chapters[k], end = k + 1 < D.chapters.length ? D.chapters[k + 1].start : dur();
+      const f = t >= end ? 1 : t <= ch.start ? 0 : (t - ch.start) / Math.max(0.1, end - ch.start);
+      b.firstChild.firstChild.style.width = (f * 100).toFixed(2) + '%';
+    }));
+    const time = mmss(t) + ' / ' + mmss(dur());
+    $$('.js-time').forEach(n => { if (n.textContent !== time) n.textContent = time; });
+    if (orb && orb.state) mini.style.setProperty('--lv', (orb.state.level || 0).toFixed(3));
+    if (i === lastCh) return;
+    lastCh = i;
+    $('.now-k span').textContent = c.eyebrow || 'Signal';
+    $('.now-t').textContent = c.title || '';
+    $('.now-s').textContent = c.sub || '';
+    $('.mini .t b').textContent = c.title || 'Signal';
+    const nx = D.chapters[i + 1];
+    $('.p-idle .nx').innerHTML = '<b></b>' + (nx ? ' · next: ' : '');
+    $('.p-idle .nx b').textContent = c.title || 'Opening';
+    if (nx) $('.p-idle .nx').append(nx.title);
+  }
+  function loop() { paint(); raf = audio.paused ? 0 : requestAnimationFrame(loop); }
+
+  function ensureOrb() {
+    if (orb || !window.Presence) return;
+    const canvas = stage.querySelector('canvas');
+    try {
+      orb = Presence.create(canvas, {
+        fragment: document.getElementById('orb-frag').textContent,
+        temperament: D.temperament, audio, track: D.track || null, manage: false, dpr: 1.5, maxDpr: 2,
+        uniforms: (gl, at) => {
+          const h = canvas.clientHeight || 420, half = h / 2, r = Math.min(96, h * 0.23), cy = Math.min(130, h * 0.31);
+          gl.uniform1f(at('uR'), r / half); gl.uniform1f(at('uClear'), 0); gl.uniform1f(at('uEl'), 0.045); gl.uniform2f(at('uOff'), 0, (half - cy) / half);
+        },
+      });
+      if (!orb.supported) { canvas.remove(); orb = null; }
+    } catch (err) { console.warn('orb', err); canvas.remove(); orb = null; }
+  }
+  function enterStage() {
+    if (started) return;
+    started = true;
+    const from = player.getBoundingClientRect().height;
+    player.dataset.mode = 'stage';
+    ensureOrb();
+    if (!reduce && stage.animate) stage.animate([{ height: from + 'px', opacity: .7 }, { height: '420px', opacity: 1 }], { duration: 620, easing: 'cubic-bezier(.2,.8,.2,1)' });
+  }
+  function load(t) { if (D.track === undefined && D.trackUrl) { D.track = null; fetch(D.trackUrl).then(r => r.ok ? r.json() : null).then(j => { D.track = j; if (orb) { orb.destroy(); orb = null; ensureOrb(); } }).catch(() => {}); } }
+  function play(at) {
+    enterStage();
+    if (typeof at === 'number') audio.currentTime = at;
+    audio.play().catch(() => {});
+  }
+  function toggle() { if (audio.paused) play(); else audio.pause(); }
+
+  audio.addEventListener('play', () => {
+    player.classList.remove('paused'); mini.classList.remove('paused');
+    if (orb) { orb.setState('speaking'); orb.show(1); }
+    if (!raf) raf = requestAnimationFrame(loop);
+    syncMini();
+  });
+  audio.addEventListener('pause', () => {
+    player.classList.add('paused'); mini.classList.add('paused');
+    if (orb) { orb.setState('idle'); orb.show(0.4); }
+    paint();
+  });
+  audio.addEventListener('ended', () => { audio.currentTime = 0; paint(); });
+  audio.addEventListener('loadedmetadata', paint);
+  audio.addEventListener('seeked', paint);
+
+  $$('.js-play').forEach(b => b.addEventListener('click', toggle));
+  $$('.js-back').forEach(b => b.addEventListener('click', () => { audio.currentTime = Math.max(0, audio.currentTime - 15); paint(); }));
+  $$('.js-fwd').forEach(b => b.addEventListener('click', () => { audio.currentTime = Math.min(dur() - 0.5, audio.currentTime + 15); paint(); }));
+  const rates = [1, 1.25, 1.5];
+  $$('.js-speed').forEach(b => b.addEventListener('click', () => {
+    const r = rates[(rates.indexOf(audio.playbackRate) + 1) % rates.length] || 1;
+    audio.playbackRate = r; $$('.js-speed').forEach(x => { x.textContent = (r === 1 ? '1' : String(r)) + '×'; });
+  }));
+  $$('.chaps').forEach(bar => [...bar.children].forEach((b, k) => b.addEventListener('click', () => play(D.chapters[k].start))));
+  $$('[data-seek]').forEach(b => b.addEventListener('click', () => { play(+b.dataset.seek); player.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' }); }));
+  mini.addEventListener('click', ev => { if (ev.target.closest('.pp')) return; player.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' }); });
+
+  function syncMini() { mini.classList.toggle('on', started && !stageVisible); mini.setAttribute('aria-hidden', String(!(started && !stageVisible))); }
+  if ('IntersectionObserver' in window) new IntersectionObserver(es => { stageVisible = es[0].isIntersecting; syncMini(); }, { threshold: 0.15 }).observe(player);
+
+  if ('mediaSession' in navigator) {
+    navigator.mediaSession.metadata = new MediaMetadata({ title: D.title, artist: 'Signal', album: D.album, artwork: [{ src: D.artwork, sizes: '512x512', type: 'image/jpeg' }] });
+    const h = (a, f) => { try { navigator.mediaSession.setActionHandler(a, f); } catch (_) {} };
+    h('play', () => play()); h('pause', () => audio.pause());
+    h('seekbackward', () => { audio.currentTime = Math.max(0, audio.currentTime - 15); });
+    h('seekforward', () => { audio.currentTime = Math.min(dur() - 0.5, audio.currentTime + 15); });
+    h('previoustrack', () => { const i = chapterAt(audio.currentTime); play(D.chapters[Math.max(0, audio.currentTime - D.chapters[i].start > 3 ? i : i - 1)].start); });
+    h('nexttrack', () => { const i = chapterAt(audio.currentTime); if (D.chapters[i + 1]) play(D.chapters[i + 1].start); });
+  }
+  load();
+  paint();
+})();
+</script>
+</body>
+</html>

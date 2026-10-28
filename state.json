@@ -1,0 +1,193 @@
+{
+  "log": {
+    "last_delivery": {
+      "daily": "2026-10-28T15:03+01:00"
+    },
+    "stories": [
+      {
+        "date": "2026-10-28",
+        "mode": "daily",
+        "key": "ubs|results|3q26",
+        "headline": "UBS lifts pre-tax profit 27% and raises its cost-saving goal to $13.7bn",
+        "urls": [
+          "https://www.stocktitan.net/news/UBS/ubs-reports-3q26-net-profit-of-usd-2-7bn-and-14-8-ro-cet1-continued-edv6lolqm0fz.html",
+          "https://www.globalbankingandfinance.com/ubs-meets-expectations-2-7-billion-q3-profit/"
+        ],
+        "summary": "UBS reported third-quarter net profit of $2.69bn, up 8%, and pre-tax profit of $3.59bn, up 27%. Wealth management drew $55.1bn of net new assets. Savings from the Credit Suisse integration reached $13.2bn, and UBS now expects about $13.7bn "
+      },
+      {
+        "date": "2026-10-28",
+        "mode": "daily",
+        "key": "temenos|results|3q26",
+        "headline": "Temenos raises its 2026 profit guidance after a strong third quarter",
+        "urls": [
+          "https://www.securities.io/temenos-lifts-fy-26-ebit-and-eps-guidance-as-q3-arr-rises-12/"
+        ],
+        "summary": "The Geneva banking software maker reported third-quarter revenue of $292.8m, up 13%, and non-IFRS EBIT of $109.3m, up 29%. Annual recurring revenue rose 12% in constant currency to $903.6m. Temenos now expects 2026 EBIT growth of about 12% "
+      },
+      {
+        "date": "2026-10-28",
+        "mode": "daily",
+        "key": "microsoft|workforce|voluntary-departures",
+        "headline": "Microsoft offers voluntary departure to about 60,000 staff as AI spending grows",
+        "urls": [
+          "https://www.ictjournal.ch/news/2026-10-27/microsoft-reorganise-ses-effectifs-sur-fond-dia-avec-60000-salaries-eligibles-au"
+        ],
+        "summary": "About 60,000 employees, roughly a quarter of Microsoft's workforce, can leave with a severance payment, according to an internal memo reported by Business Insider and covered by ICTjournal. Windows, Xbox, Copilot and finance teams are inclu"
+      },
+      {
+        "date": "2026-10-28",
+        "mode": "daily",
+        "key": "deutsche-bank|deploy|source-of-wealth-ai",
+        "headline": "Deutsche Bank uses agentic AI to draft source-of-wealth assessments",
+        "urls": [
+          "https://www.wealthbriefing.com/html/article.php/deutsche-bank-uses-ai-for-source-of-wealth-reviews"
+        ],
+        "summary": "Inside its KYC platform, the private bank's tool extracts and reconciles client information and drafts a memo that staff check and approve. It is live for some income-related checks in Singapore and Hong Kong and is being extended to Europe"
+      },
+      {
+        "date": "2026-10-28",
+        "mode": "daily",
+        "key": "lgt|adoption|contact-logs-ai",
+        "headline": "LGT moves AI from pilots to client processes, starting with contact logs",
+        "urls": [
+          "https://www.wealthbriefing.com/html/article.php/lgt-finds-ai-adoption-depends-on-changing-everyday-work-"
+        ],
+        "summary": "An internally deployed tool now turns client conversations into draft contact logs that staff review and submit, said Simon Gomez, head of data and innovation at LGT Private Banking. The hardest part was getting colleagues to try it; demons"
+      },
+      {
+        "date": "2026-10-28",
+        "mode": "daily",
+        "key": "hsbc|results|3q26",
+        "headline": "HSBC's third-quarter pre-tax profit rises 32% to $9.6bn",
+        "urls": [
+          "https://www.sec.gov/Archives/edgar/data/0001089113/000108911326000030/livedocq32026earningsrelea.htm"
+        ],
+        "summary": "Revenue rose 5% to $18.6bn, driven by banking net interest income, and HSBC plans a share buyback of up to $1bn. Much of the profit rise reflects $1.4bn of legal provisions a year earlier that did not recur, the bank said."
+      },
+      {
+        "date": "2026-10-28",
+        "mode": "daily",
+        "key": "revolut|launch|ventures-eltif",
+        "headline": "Revolut will let retail clients invest in private tech companies from 2027",
+        "urls": [
+          "https://fintechnews.ch/virtual-banking/revolut-ventures-private-tech-retail-investors/86699/"
+        ],
+        "summary": "Revolut Ventures, run with Carne Group as a European long-term investment fund (ELTIF), will offer positions in unlisted companies through the app, according to Fintech News Switzerland, citing Bloomberg. BNY will be custodian."
+      },
+      {
+        "date": "2026-10-28",
+        "mode": "daily",
+        "key": "deutsche-borse|launch|dax-24-7",
+        "headline": "Deutsche Börse opens DAX 40 shares to round-the-clock trading on 360X",
+        "urls": [
+          "https://fintechnews.ch/fintechgermany/deutsche-borse-360x-dax-40-24-7/86673/"
+        ],
+        "summary": "Outside Xetra hours, DAX 40 stocks now trade overnight and at weekends on the 360X venue through requests for quotes, settling into existing Clearstream accounts, according to Fintech News Switzerland."
+      },
+      {
+        "date": "2026-10-28",
+        "mode": "daily",
+        "key": "sap|launch|joule-work-agents",
+        "headline": "SAP lets its Joule agents run processes across SAP and other systems",
+        "urls": [
+          "https://www.inside-it.ch/sap-macht-ki-agenten-fit-fuer-geschaeftsprozesse-%25E2%2580%2593-und-das-weltall-20261027"
+        ],
+        "summary": "At TechEd in Berlin, SAP made Joule Work generally available: users state a goal and agents coordinate the applications and data needed, including third-party systems, with role-based permissions, audit logs and human checkpoints. An Enterp"
+      },
+      {
+        "date": "2026-10-28",
+        "mode": "daily",
+        "key": "salesforce|launch|agent-fabric-controls",
+        "headline": "Salesforce adds a kill switch and hard spending limits for AI agents",
+        "urls": [
+          "https://www.salesforce.com/news/stories/agent-fabric-catch-failures-control-ai-costs/"
+        ],
+        "summary": "Agent Fabric gains evaluations that test agents before and during production and can trigger a kill switch, plus a FinOps dashboard with spending limits that block requests before budgets are exceeded. The kill switch and cost controls are "
+      },
+      {
+        "date": "2026-10-28",
+        "mode": "daily",
+        "key": "anthropic|results|drug-development-partnerships",
+        "headline": "Anthropic reports early results from six drug development partnerships using Claude",
+        "urls": [
+          "https://www.anthropic.com/research/early-progress-drug-development"
+        ],
+        "summary": "At Enveda, Claude reviewed 1,061 pages of manufacturing documents, found all 11 issues human reviewers had found plus seven more, and cut review time by 89%, Anthropic said. Partners include Bristol Myers Squibb and Generate Biomedicines; t"
+      },
+      {
+        "date": "2026-10-28",
+        "mode": "daily",
+        "key": "1password|launch|agent-logins",
+        "headline": "1Password lets AI agents sign in to services without seeing passwords",
+        "urls": [
+          "https://www.netzwoche.ch/news/2026-10-27/1password-ermoeglicht-log-ins-fuer-ki-agenten-ohne-zugriff-auf-passwoerter"
+        ],
+        "summary": "With 1Password for Agents, an agent asks to log in, the user approves on their device, and 1Password fills in the credentials directly. It works with agents from Meta, Anthropic and OpenAI, according to Netzwoche."
+      },
+      {
+        "date": "2026-10-28",
+        "mode": "daily",
+        "key": "occ|approve|ripple-trust-bank",
+        "headline": "US regulator gives Ripple final approval for a national trust bank",
+        "urls": [
+          "https://fintechnews.ch/blockchain_bitcoin/ripple-national-trust-bank-occ-approval-rlusd/86692/"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-10-28",
+        "mode": "daily",
+        "key": "elca|acquire|beyond-civic",
+        "headline": "Elca takes a majority stake in Lucerne data-sharing specialist Beyond Civic",
+        "urls": [
+          "https://www.ictjournal.ch/news/2026-10-27/le-groupe-vaudois-elca-acquiert-la-majorite-de-la-societe-lucernoise-beyond-civic"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-10-28",
+        "mode": "daily",
+        "key": "swico|survey|software-industry-2026",
+        "headline": "Swiss software survey: over 88% build with AI, 11.8% with orchestrated agents",
+        "urls": [
+          "https://www.netzwoche.ch/news/2026-10-27/schweizer-software-entsteht-mit-ki-hilfe-aber-nur-selten-im-agenten-orchester"
+        ],
+        "summary": ""
+      }
+    ]
+  },
+  "calendar": {
+    "events": [
+      {
+        "date": "2026-10-28",
+        "event": "US Federal Reserve rate decision (FOMC, 27 to 28 October)",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+        "added": "2026-10-28",
+        "checked": "2026-10-28"
+      },
+      {
+        "date": "2026-10-29",
+        "event": "ECB monetary policy decision and press conference",
+        "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
+        "added": "2026-10-28",
+        "checked": "2026-10-28"
+      }
+    ]
+  },
+  "archive": [
+    {
+      "date": "2026-10-28",
+      "mode": "daily",
+      "overview": "UBS beats its cost-saving goal and ties buybacks to the capital debate, Temenos raises its guidance, and Microsoft offers 60,000 staff voluntary departure.",
+      "headlines": [
+        "UBS lifts pre-tax profit 27% and raises its cost-saving goal to $13.7bn",
+        "Temenos raises its 2026 profit guidance after a strong third quarter",
+        "Microsoft offers voluntary departure to about 60,000 staff as AI spending grows"
+      ],
+      "audio_url": "audio/signal-2026-10-28.mp3",
+      "duration": 577.41,
+      "slug": "2026-10-28"
+    }
+  ]
+}
