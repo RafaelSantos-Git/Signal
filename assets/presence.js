@@ -170,7 +170,7 @@ void main(){
     const E = engine(o.temperament);
     const S = E.S;
     let gl, prog, loc = {}, raf = 0, running = false, visible = true, onScreen = true, liveLevel = 0, dpr = Math.min(o.dpr, o.maxDpr, window.devicePixelRatio || 1);
-    let slowFrames = 0, lastNow = 0, analyser = null, prevHigh = 0, lastActive = 0;
+    let slowFrames = 0, lastNow = 0, startedAt = 0, analyser = null, prevHigh = 0, lastActive = 0;
     let track = decodeTrack(o.track);
     const rampRows = o.ramps && o.ramps.length ? o.ramps : [['#000000', '#ffffff']];
     const mq = window.matchMedia ? window.matchMedia('(prefers-reduced-motion: reduce)') : null;
@@ -205,10 +205,14 @@ void main(){
       resize();
       return true;
     }
+    // resizing a canvas wipes it: skip resizes that change nothing (iPhone Safari fires 'resize' while its toolbar
+    // hides on scroll) and redraw in the same frame, so a blank canvas is never shown (a one-frame flash)
     function resize() {
       const w = canvas.clientWidth || canvas.width, h = canvas.clientHeight || canvas.height;
-      canvas.width = Math.round(w * dpr); canvas.height = Math.round(h * dpr);
-      if (gl) gl.viewport(0, 0, canvas.width, canvas.height);
+      const W = Math.round(w * dpr), H = Math.round(h * dpr);
+      if (W === canvas.width && H === canvas.height) return;
+      canvas.width = W; canvas.height = H;
+      if (gl) { gl.viewport(0, 0, W, H); if (S.t > 0 || S.opacity > 0) draw(); }
     }
     function draw() {
       if (!gl) return;
@@ -258,14 +262,15 @@ void main(){
       for (let k = 0; k < sub; k++) { const sg = signal(S.t); E.step(dt / sub, sg.level, sg.onset && k === 0); }
       draw();
       // adapt: a second of slow frames drops the pixel ratio to 1
-      if (dt > 0.02) { slowFrames += dt; if (slowFrames > 1 && dpr > 1) { dpr = 1; resize(); } } else slowFrames = Math.max(0, slowFrames - dt);
+      // adapt only once warmed up: the first 2 s after a start are slow anywhere (shader compile, the stage opening)
+      if (now - startedAt > 2000) { if (dt > 0.02) { slowFrames += dt; if (slowFrames > 1 && dpr > 1) { dpr = 1; resize(); } } else slowFrames = Math.max(0, slowFrames - dt); }
       // settled: hidden, or resting with no signal and the springs still; stop until something changes
       if (S.state !== 0 || S.level > 0.01) lastActive = S.t;
       const still = Math.abs(S.opacity - S.opacityTarget) < 0.002 && Math.abs(S.amp.v) < 1e-3 && S.t - lastActive > E.tp.settle * 2;
       if ((S.opacityTarget === 0 && S.opacity < 0.002) || (S.state === 0 && still)) { running = false; return; }
       if (visible && onScreen) raf = requestAnimationFrame(frame); else running = false;
     }
-    function start() { if (!running && gl && visible && onScreen) { running = true; lastNow = 0; raf = requestAnimationFrame(frame); } }
+    function start() { if (!running && gl && visible && onScreen) { running = true; lastNow = 0; startedAt = performance.now(); raf = requestAnimationFrame(frame); } }
 
     if (!init()) return { supported: false, setState() {}, setLevel() {}, show() {}, hide() {}, renderAt() {}, destroy() {} };
     canvas.addEventListener('webglcontextlost', e => { e.preventDefault(); running = false; });
