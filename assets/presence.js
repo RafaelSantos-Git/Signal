@@ -26,7 +26,8 @@
      uEnergy (0..1 overall drive), uLevel (fast envelope), uPresence (slow envelope), uLight (spring)
      uAmp (spring, 0.25 at rest to 1 at full voice), uPhase, uPhase2 (integrated phases, radians)
      uCycles (vec3 of slow integrated phases with unrelated periods), uBreath (-1..1 idle breathing)
-     uSpark (impulse on onsets, decays), uSparkSeed (counts onsets), uOnsetAge[8] (seconds since the last eight onsets, newest first, 99 when none)
+     uSpark (impulse on onsets, decays), uSparkSeed (counts onsets), uOnsetAge[8] (seconds since the last eight onsets, newest first, 99 when none;
+     slot i moves along with every new onset, so give each sparkle its identity from uSparkSeed - i, never from i)
      uState (0 idle, 1 listening, 2 thinking, 3 speaking)
      uOpacity (appear and leave), uReduced (1 under reduced motion)
    Helpers in the header: hash12, noise2 (texture value noise), noise3, fbm2, screen, ramp(x, row). */
@@ -228,11 +229,13 @@ void main(){
     }
 
     // the signal at time t: the baked track, a live analyser, a live input level, or the state's own baseline
+    let lastAt = -1;
     function signal(t) {
       const a = o.audio;
       if (S.state === 3 && a && !a.paused && !a.ended) {
         const at = a.currentTime + o.lookAhead;
-        if (track) return { level: sample(track.lvl, track.rate, at), onset: onsetBetween(track.onset, track.rate, at - 0.02, at) };
+        // onsets since the last read, so a slow frame (33 ms on a busy phone) misses none; after a seek, only the last 20 ms
+        if (track) { const from = at > lastAt && at - lastAt < 0.3 ? lastAt : at - 0.02, on = at !== lastAt && onsetBetween(track.onset, track.rate, from, at); lastAt = at; return { level: sample(track.lvl, track.rate, at), onset: on }; }
         if (analyser) return analyser.read();
       }
       if (S.state === 1) return { level: liveLevel, onset: false };

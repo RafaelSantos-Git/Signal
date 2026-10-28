@@ -265,7 +265,7 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--blue); outline-
   <h4>Swiss software survey: over 88% build with AI, 11.8% with orchestrated agents</h4>
   <div class="src"><span class="links"><a href="https://www.netzwoche.ch/news/2026-10-27/schweizer-software-entsteht-mit-ki-hilfe-aber-nur-selten-im-agenten-orchester" target="_blank" rel="noopener noreferrer">Netzwoche<span aria-hidden="true"> ↗</span></a></span><span class="d">27 Oct</span></div>
 </div></div><div class="sec"><h2>This week</h2><span></span></div><div class="card cal"><div class="r"><b>Wed 28 Oct</b><a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm" target="_blank" rel="noopener noreferrer">US Federal Reserve rate decision (FOMC, 27 to 28 October)</a></div><div class="r"><b>Thu 29 Oct</b><a href="https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html" target="_blank" rel="noopener noreferrer">ECB monetary policy decision and press conference</a></div></div><div class="card say"><div class="l">Say it today</div><p>UBS has taken $13.2bn of costs out of the Credit Suisse merger and switched off about 90% of the legacy applications in scope. The pace of its buybacks now rests on how much capital Parliament asks it to hold.</p></div>
-  <p class="foot">Signal reads free public sources and links every story to where it was published; every link was opened on 28 Oct. Prepared at 17:11 Zurich time. The voice is synthetic.</p>
+  <p class="foot">Signal reads free public sources and links every story to where it was published; every link was opened on 28 Oct. Prepared at 18:08 Zurich time. The voice is synthetic.</p>
 </main>
 <div class="mini paused" aria-hidden="true">
   <span class="orb" aria-hidden="true"></span>
@@ -506,7 +506,8 @@ void main(){
         float life = 1.3 + 0.8*hash12(vec2(sd, 9.1));
         vec4 sk = vec4(-0.55 + 1.1*hash12(vec2(sd, 1.7)), -0.25 + 0.5*hash12(vec2(sd, 4.1)), uOnsetAge[i] / life, 0.55 + 0.45*hash12(vec2(sd, 2.3)));
         if (sk.z > 1.0) continue;
-        vec3 sp = vec3(sk.x + 0.05*sk.z*sin(float(i)*2.7), hgt(sk.xy) + 0.03 + 0.20*sk.z*(0.7 + 0.3*fract(float(i)*0.618)), sk.y);
+        // slot i shifts by one on every new onset, so nothing about a sparkle's path may use i: it would jump mid-flight
+        vec3 sp = vec3(sk.x + 0.05*sk.z*sin(sd*2.7), hgt(sk.xy) + 0.03 + 0.20*sk.z*(0.7 + 0.3*fract(sd*0.618)), sk.y);
         vec3 v = sp - ro; vec2 sc = vec2(dot(v, rt), dot(v, up)) * fl / dot(v, fw) * 1.08;
         float d = length(uv - sc) / px;
         float a = sin(PI*sk.z) * sk.w;
