@@ -1,7 +1,7 @@
 {
   "log": {
     "last_delivery": {
-      "daily": "2026-10-28T18:08+01:00"
+      "daily": "2026-10-29T06:29+01:00"
     },
     "stories": [
       {
@@ -154,28 +154,124 @@
           "https://www.netzwoche.ch/news/2026-10-27/schweizer-software-entsteht-mit-ki-hilfe-aber-nur-selten-im-agenten-orchester"
         ],
         "summary": ""
+      },
+      {
+        "date": "2026-10-29",
+        "mode": "daily",
+        "key": "canadian-banks|block|personal-ai-agents",
+        "headline": "Canada's big banks block personal AI agents from online banking",
+        "urls": [
+          "https://bnnbloomberg.ca/business/artificial-intelligence/2026/10/28/some-canadian-banks-blocking-personal-ai-agents-amid-security-concerns"
+        ],
+        "summary": "RBC, BMO, TD and CIBC say they do not let third-party personal AI agents access online banking or act for clients, according to The Canadian Press. Scotiabank will limit such agents while it monitors concerns; National Bank has blocked noth"
+      },
+      {
+        "date": "2026-10-29",
+        "mode": "daily",
+        "key": "google|launch|gemini-4-carbon",
+        "headline": "Google launches Gemini 4 Carbon, first for cyber defenders",
+        "urls": [
+          "https://siliconangle.com/2026/10/28/google-debuts-flagship-gemini-4-carbon-model-with-cybersecurity-upgrades"
+        ],
+        "summary": "Google's new frontier model reaches organisations in its Fairwind Program later this week, so they can use it to fix security flaws before a broad release, according to SiliconANGLE. Google says internal tests show it is more than twice as "
+      },
+      {
+        "date": "2026-10-29",
+        "mode": "daily",
+        "key": "ubs|statement|capital-rules-council-of-states",
+        "headline": "Ermotti calls the Council of States' capital decision for UBS very concerning",
+        "urls": [
+          "https://www.finews.com/news/english-news/74201-ubs-ermotti-regulierung-eigenkapital"
+        ],
+        "summary": "On the results call on 28 October, UBS chief executive Sergio Ermotti said the latest proposal would tighten capital requirements already among the world's strictest and disregards most consultation responses, according to finews.com. He sa"
+      },
+      {
+        "date": "2026-10-29",
+        "mode": "daily",
+        "key": "bny-ripple|expand|tokenised-trade-finance",
+        "headline": "BNY adds XRP and RLUSD custody and explores tokenised trade receivables with Ripple",
+        "urls": [
+          "https://fintechnews.ch/blockchain_bitcoin/ripple-bny-tokenised-trade-finance/86710/"
+        ],
+        "summary": "BNY's Digital Asset Custody platform now supports XRP and Ripple's RLUSD stablecoin for eligible institutional clients, according to Fintech News Switzerland. With working capital platform C2FO, the two will explore supply chain finance usi"
+      },
+      {
+        "date": "2026-10-29",
+        "mode": "daily",
+        "key": "wealthsimple|funding|gic-round-2026",
+        "headline": "Wealthsimple raises up to CA$425 million at a CA$13.8 billion valuation",
+        "urls": [
+          "https://fintechnews.ch/canada/wealthsimple-funding-round-gic-valuation/86708/"
+        ],
+        "summary": "GIC leads the round, which includes a CA$300 million primary offering, according to Fintech News Switzerland. Assets under administration reached CA$169.2 billion at 30 September, and new chequing accounts outpaced new investment accounts f"
+      },
+      {
+        "date": "2026-10-29",
+        "mode": "daily",
+        "key": "deutsche-bank|results|3q26",
+        "headline": "Deutsche Bank posts a record third-quarter profit of 1.9 billion euros",
+        "urls": [
+          "https://www.db.com/news/detail/20261028-deutsche-bank-reports-on-the-third-quarter-results-of-2026?language_id=1"
+        ],
+        "summary": "Pre-tax profit rose 8 percent to 2.6 billion euros on revenue of 8.3 billion euros, the bank said. Assets under management reached 2.0 trillion euros with record third-quarter net inflows of 47 billion euros, and the cost/income ratio fell "
+      },
+      {
+        "date": "2026-10-29",
+        "mode": "daily",
+        "key": "bnp-paribas|results|3q26",
+        "headline": "BNP Paribas lifts quarterly profit 13.5 percent and plans a buyback",
+        "urls": [
+          "https://invest.bnpparibas/en/document/3q26-pr"
+        ],
+        "summary": "Net income attributable to the group reached 3,456 million euros on revenue of 13,757 million euros, up 9.5 percent, BNP Paribas said. The cost/income ratio fell 2.3 points to 58.3 percent, and the buyback launches in November."
+      },
+      {
+        "date": "2026-10-29",
+        "mode": "daily",
+        "key": "european-banks|results|3q26-roundup",
+        "headline": "European banks beat forecasts, but Brazil weighs on Santander",
+        "urls": [
+          "https://www.933thedrive.com/2026/10/28/european-banks-beat-profit-forecasts-brazil-overshadows-santander/"
+        ],
+        "summary": "Santander's underlying net profit rose 19 percent, but weaker Brazilian earnings and higher provisions sent its shares down 4.2 percent, according to Reuters. Standard Chartered beat estimates and raised its income and profitability targets"
+      },
+      {
+        "date": "2026-10-29",
+        "mode": "daily",
+        "key": "anthropic|expand|ai-for-science",
+        "headline": "Anthropic expands AI for Science to 20 foundations and research institutions",
+        "urls": [
+          "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions"
+        ],
+        "summary": "Partners include the Alfred P. Sloan Foundation, the US National Science Foundation, the Francis Crick Institute, EMBL and the Wellcome Sanger Institute, Anthropic said. The programme, started in May 2025, gives researchers free Claude cred"
       }
     ]
   },
   "calendar": {
     "events": [
       {
-        "date": "2026-10-28",
-        "event": "US Federal Reserve rate decision (FOMC, 27 to 28 October)",
-        "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
-        "added": "2026-10-28",
-        "checked": "2026-10-28"
-      },
-      {
         "date": "2026-10-29",
         "event": "ECB monetary policy decision and press conference",
         "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
         "added": "2026-10-28",
-        "checked": "2026-10-28"
+        "checked": "2026-10-29"
       }
     ]
   },
   "archive": [
+    {
+      "date": "2026-10-29",
+      "mode": "daily",
+      "overview": "Canada's largest banks shut out personal AI agents, Google launches Gemini 4 Carbon for cyber defenders first, and UBS calls the Council of States' capital decision very concerning.",
+      "headlines": [
+        "Canada's big banks block personal AI agents from online banking",
+        "Google launches Gemini 4 Carbon, first for cyber defenders",
+        "Ermotti calls the Council of States' capital decision for UBS very concerning"
+      ],
+      "audio_url": "audio/signal-2026-10-29.mp3",
+      "duration": 462.33,
+      "slug": "2026-10-29"
+    },
     {
       "date": "2026-10-28",
       "mode": "daily",
