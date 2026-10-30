@@ -1,7 +1,7 @@
 {
   "log": {
     "last_delivery": {
-      "daily": "2026-10-29T08:39+01:00"
+      "daily": "2026-10-30T06:37+01:00"
     },
     "stories": [
       {
@@ -366,28 +366,127 @@
           "https://www.finews.ch/news/banken/74204-vav-pascal-gentinetta-geschaeftsfuehrer"
         ],
         "summary": ""
+      },
+      {
+        "date": "2026-10-30",
+        "mode": "daily",
+        "key": "ecb|decision|october-2026",
+        "headline": "ECB holds rates as energy pushes euro area inflation to 3.8 percent",
+        "urls": [
+          "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is261029~5c5ffe99e5.en.html",
+          "https://www.eunews.it/en/2026/10/29/the-ecb-leaves-interest-rates-unchanged-but-high-energy-prices-and-financing-conditions-are-casting-a-shadow-over-the-future/"
+        ],
+        "summary": "The ECB's Governing Council kept its three key interest rates unchanged on 29 October, leaving the deposit facility rate at 2.50 percent, according to Eunews. Headline inflation rose to 3.8 percent in September from 3.2 percent in August, w"
+      },
+      {
+        "date": "2026-10-30",
+        "mode": "daily",
+        "key": "bbva|results|3q26",
+        "headline": "BBVA lifts quarterly profit 19.1 percent and plans to industrialise AI agents",
+        "urls": [
+          "https://www.fool.com/earnings/call-transcripts/2026/10/29/bbva-bbva-q3-2026-earnings-call-transcript/"
+        ],
+        "summary": "BBVA reported third-quarter net attributable profit of about 3 billion euros, up 19.1 percent, and a nine-month return on tangible equity of 22 percent, according to its earnings call transcript. Management said a voice assistant resolves c"
+      },
+      {
+        "date": "2026-10-30",
+        "mode": "daily",
+        "key": "societe-generale|results|3q26",
+        "headline": "Société Générale posts record quarter with net income up 24.1 percent",
+        "urls": [
+          "https://www.manilatimes.net/2026/10/29/tmt-newswire/globenewswire/societe-generale-third-quarter-2026-earnings/2456857"
+        ],
+        "summary": "Société Générale reported third-quarter group net income of 1,888 million euros, up 24.1 percent, on revenues of 7,173 million euros, up 7.8 percent. Operating expenses rose only 0.8 percent, taking the cost-to-income ratio to 57.1 percent "
+      },
+      {
+        "date": "2026-10-30",
+        "mode": "daily",
+        "key": "goldman-sachs|interview|family-offices-ai",
+        "headline": "Goldman Sachs expects AI to make family offices more sophisticated",
+        "urls": [
+          "https://www.finews.com/news/english-news/74235-goldman-sachs-darren-allaway-family-offices-ai-private-equity-switzerland"
+        ],
+        "summary": "Darren Allaway, EMEA head of Goldman Sachs Apex, told finews that AI will fuel another wave of sophistication among family offices. He said their allocation to alternatives has not fallen and may have risen slightly, and that AI and the ene"
+      },
+      {
+        "date": "2026-10-30",
+        "mode": "daily",
+        "key": "lgt-capital-partners|appoint|ceo",
+        "headline": "LGT Capital Partners names Sascha Gruber chief executive from January 2027",
+        "urls": [
+          "https://www.finews.com/news/english-news/74227-lgt-capital-partners-new-ceo-sascha-gruber"
+        ],
+        "summary": "Sascha Gruber, at the firm since 2002, will succeed founder Roberto Paganoni as chief executive on 1 January 2027, subject to regulatory approval, according to finews. Paganoni moves to the group holding board. The Pfäffikon firm manages mo"
+      },
+      {
+        "date": "2026-10-30",
+        "mode": "daily",
+        "key": "aswm|members|targa-gsk",
+        "headline": "Swiss wealth managers' alliance grows to 42 members and CHF 155 billion",
+        "urls": [
+          "https://www.finews.com/news/english-news/74229-aswm-alliance-swiss-wealth-managers-new-members-targa-5-advisors-gsk-partners-geneva-nicole-curti-eli-mizrahi"
+        ],
+        "summary": "The Alliance of Swiss Wealth Managers admitted Targa 5 Advisors and GSK & Partners from 1 November, taking it to 42 members managing more than CHF 155 billion with over 1,710 staff, according to finews. In 2022 it represented CHF 103 billio"
+      },
+      {
+        "date": "2026-10-30",
+        "mode": "daily",
+        "key": "deloitte|survey|cfo-barometer-autumn-2026",
+        "headline": "Swiss CFOs are at their most optimistic in a long time",
+        "urls": [
+          "https://www.finews.com/news/english-news/74228-deloitte-cfo-sentiment-barometer-autumn-2026"
+        ],
+        "summary": "In Deloitte's autumn CFO survey, 61 percent of Swiss finance chiefs expect the economy to improve over the next 12 months and 8 percent expect it to worsen, according to finews. AI budgets average 0.9 percent of total spending."
+      },
+      {
+        "date": "2026-10-30",
+        "mode": "daily",
+        "key": "bewerbino|launch|job-platform",
+        "headline": "Bewerbino: an alpaca-branded job platform for the financial centre's job cuts",
+        "urls": [
+          "https://www.finews.com/news/english-news/74239-bewerbino-arthur-ergen-an-alpaca-against-job-anxiety-on-the-financial-center-job-cuts-artificial-intelligence-platform-machine-job-search-dream-job"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-10-30",
+        "mode": "daily",
+        "key": "eeii|mou|haute-capital-partners",
+        "headline": "EEII examines buying stakes from Haute Capital Partners",
+        "urls": [
+          "https://www.finews.com/news/english-news/74223-eeii-haute-capital-transaction-mou-acquisition"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-10-30",
+        "mode": "daily",
+        "key": "swisscanto|interview|nicolodi-esg",
+        "headline": "Swisscanto's René Nicolodi: a lot of hot air in the ESG market",
+        "urls": [
+          "https://www.finews.com/news/english-news/74158-rene-nicolodi-zkb-assetmanagement-swisscanto-sustainability-esg-sustainability-climate-change-defense-stocks-nuclear-power-sustainability-regulation-omnibus"
+        ],
+        "summary": ""
       }
     ]
   },
   "calendar": {
-    "events": [
-      {
-        "date": "2026-10-29",
-        "event": "ECB monetary policy decision and press conference",
-        "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
-        "added": "2026-10-28",
-        "checked": "2026-10-29"
-      },
-      {
-        "date": "2026-10-29",
-        "event": "ECB monetary policy decision at 14:15 and press conference",
-        "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
-        "added": "2026-10-29",
-        "checked": "2026-10-29"
-      }
-    ]
+    "events": []
   },
   "archive": [
+    {
+      "date": "2026-10-30",
+      "mode": "daily",
+      "overview": "The ECB holds rates as energy pushes inflation to 3.8 percent, BBVA puts AI agents at the centre of a strong quarter, and Société Générale posts a record third quarter.",
+      "headlines": [
+        "ECB holds rates as energy pushes euro area inflation to 3.8 percent",
+        "BBVA lifts quarterly profit 19.1 percent and plans to industrialise AI agents",
+        "Société Générale posts record quarter with net income up 24.1 percent"
+      ],
+      "audio_url": "audio/signal-2026-10-30.mp3",
+      "duration": 345.28,
+      "slug": "2026-10-30"
+    },
     {
       "date": "2026-10-29",
       "mode": "daily",
