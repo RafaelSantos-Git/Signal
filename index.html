@@ -5,168 +5,230 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="robots" content="noindex, nofollow, noarchive">
 <meta name="referrer" content="no-referrer">
-<meta name="theme-color" content="#F7F7F9">
+<meta name="theme-color" content="#1A120E">
+<meta name="color-scheme" content="dark">
 <meta name="apple-mobile-web-app-title" content="Signal">
 <title>Signal · Friday 30 October</title>
 <link rel="apple-touch-icon" href="assets/artwork.jpg">
 <link rel="preload" href="assets/fonts/host-grotesk-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/newsreader-latin-display-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/newsreader-latin-display-italic.woff2" as="font" type="font/woff2" crossorigin>
 <style>
 @font-face { font-family: "Host Grotesk"; font-style: normal; font-display: swap; font-weight: 300 800; src: url("assets/fonts/host-grotesk-latin-wght-normal.woff2") format("woff2"); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
 @font-face { font-family: "Host Grotesk"; font-style: normal; font-display: swap; font-weight: 300 800; src: url("assets/fonts/host-grotesk-latin-ext-wght-normal.woff2") format("woff2"); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
-:root { --ink: #14161A; --ink-2: #4A5060; --ink-3: #636A7C; --track: rgba(20,22,26,.12); --blue: #5B8DEF; color-scheme: light; }
+@font-face { font-family: "Newsreader"; font-style: normal; font-display: swap; font-weight: 400 600; src: url("assets/fonts/newsreader-latin-display-normal.woff2") format("woff2"); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: "Newsreader"; font-style: normal; font-display: swap; font-weight: 400 600; src: url("assets/fonts/newsreader-latin-ext-display-normal.woff2") format("woff2"); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: "Newsreader"; font-style: italic; font-display: swap; font-weight: 400 500; src: url("assets/fonts/newsreader-latin-display-italic.woff2") format("woff2"); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: "Newsreader"; font-style: italic; font-display: swap; font-weight: 400 500; src: url("assets/fonts/newsreader-latin-ext-display-italic.woff2") format("woff2"); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+/* Lamplight: Signal's study at dawn. The palette is Rafael's six colours; sand-50 and camel-200 are the same hues
+   stepped lighter where text needs more contrast than the palette gives (fg 12:1 or more, labels 4.5:1 at the
+   card's brightest point). One light, from the top left. */
+:root {
+  --espresso: #1A120E; --chocolate: #3A2418; --walnut: #6B4A2E; --camel: #A88462; --sand: #D5C4AE; --graphite: #4A4A46;
+  --sand-50: #F6EDE2; --camel-200: #C1A181; --walnut-700: #5A3E27;
+  --fg: var(--sand-50); --fg-2: var(--sand); --fg-3: var(--camel-200); --mark: var(--camel);
+  --line: rgba(213,196,174,.12); --line-2: rgba(213,196,174,.2); --track: rgba(213,196,174,.18);
+  --accent: var(--sand); --on-accent: var(--espresso);
+  /* sand surfaces (the player at rest, the talking point): espresso ink, chocolate and a deeper walnut below it */
+  --paper: linear-gradient(180deg, #E2D4C1 0%, #D5C4AE 42%, #CCBAA2 100%);
+  --ink: var(--espresso); --ink-2: var(--chocolate); --ink-3: var(--walnut-700);
+  --serif: "Newsreader", "Iowan Old Style", Georgia, serif;
+  --sans: "Host Grotesk", -apple-system, "Helvetica Neue", Arial, sans-serif;
+  color-scheme: dark;
+}
 * { box-sizing: border-box; margin: 0; padding: 0; }
-html { -webkit-text-size-adjust: 100%; background: #F2F3F7; }
-body { min-height: 100vh; color: var(--ink); font: 15px/1.5 "Host Grotesk", -apple-system, "Helvetica Neue", Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+html { -webkit-text-size-adjust: 100%; background: var(--espresso); }
+body { min-height: 100vh; color: var(--fg-2); font: 15px/1.55 var(--sans); -webkit-font-smoothing: antialiased; font-kerning: normal; }
 a { color: inherit; }
 button { font: inherit; color: inherit; background: none; border: 0; cursor: pointer; -webkit-tap-highlight-color: transparent; }
-button:focus-visible, a:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; border-radius: 8px; }
+button:focus-visible, a:focus-visible { outline: 2px solid var(--camel-200); outline-offset: 3px; border-radius: 10px; }
 .ground { position: fixed; inset: 0; z-index: -1; background:
-  radial-gradient(110% 55% at -5% -5%, rgba(255,247,234,1) 0%, rgba(255,247,234,0) 62%),
-  radial-gradient(85% 34% at 8% 104%, rgba(158,196,255,.95) 0%, rgba(158,196,255,0) 72%),
-  radial-gradient(70% 30% at 40% 108%, rgba(200,178,255,.95) 0%, rgba(200,178,255,0) 72%),
-  radial-gradient(70% 30% at 66% 106%, rgba(255,178,222,.9) 0%, rgba(255,178,222,0) 72%),
-  radial-gradient(70% 32% at 98% 102%, rgba(255,202,158,.95) 0%, rgba(255,202,158,0) 72%),
-  linear-gradient(180deg, #F7F7F9 0%, #F2F3F7 55%, #EFEDF5 100%); }
-.ground::after { content: ""; position: absolute; inset: 0; background: url("assets/grain.png") 0 0 / 128px 128px; mix-blend-mode: overlay; opacity: .42; }
-.wrap { max-width: 520px; margin: 0 auto; padding: calc(env(safe-area-inset-top) + 18px) 18px calc(env(safe-area-inset-bottom) + 120px); display: flex; flex-direction: column; gap: 14px; }
-.mast { padding: 6px 6px 4px; }
-.brand { display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 15px; letter-spacing: -0.005em; }
-.brand i { width: 10px; height: 10px; border-radius: 50%; background: radial-gradient(circle at 35% 30%, #fff, #9EC4FF 45%, #C8B2FF 75%, #FFB2DE); box-shadow: inset 0 0 0 .5px rgba(20,22,26,.2); }
-.day { margin-top: 22px; font-weight: 600; font-size: clamp(40px, 12.5vw, 54px); line-height: .95; letter-spacing: -0.045em; }
-.meta { margin-top: 12px; font-size: 13.5px; color: var(--ink-2); font-variant-numeric: tabular-nums; }
-.status { padding: 12px 16px; border-radius: 18px; background: rgba(255,222,170,.55); box-shadow: inset 0 0 0 1px rgba(170,120,40,.18); font-size: 13.5px; }
-.card { position: relative; isolation: isolate; border-radius: 28px; overflow: hidden;
-  background: linear-gradient(180deg, rgba(255,255,255,.66), rgba(255,255,255,.42));
-  -webkit-backdrop-filter: blur(24px) saturate(160%); backdrop-filter: blur(24px) saturate(160%);
-  box-shadow: inset 0 1px 0 rgba(255,255,255,.95), inset 0 -1px 0 rgba(40,40,70,.05), 0 1px 2px rgba(30,30,60,.05), 0 18px 40px -20px rgba(40,40,80,.22); }
-.card::before { content: ""; position: absolute; inset: 0; border-radius: inherit; padding: 1px; pointer-events: none; z-index: 1;
-  background: linear-gradient(155deg, #fff 0%, rgba(255,255,255,.3) 32%, rgba(255,255,255,.06) 62%, rgba(255,255,255,.6) 100%);
-  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor; mask-composite: exclude; }
-.card > * { position: relative; z-index: 2; }
-@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) { .card { background: rgba(255,255,255,.9); } }
+  radial-gradient(115% 46% at -8% -6%, rgba(107,74,46,.70) 0%, rgba(107,74,46,0) 70%),
+  radial-gradient(60% 26% at 106% 4%, rgba(168,132,98,.22) 0%, rgba(168,132,98,0) 72%),
+  radial-gradient(110% 38% at 50% -10%, rgba(58,36,24,.9) 0%, rgba(58,36,24,0) 78%),
+  linear-gradient(180deg, #21160F 0%, #1A120E 42%, #150F0B 100%); }
+.ground::after { content: ""; position: absolute; inset: 0; background: url("assets/grain.png") 0 0 / 128px 128px; mix-blend-mode: overlay; opacity: .55; }
+.wrap { max-width: 520px; margin: 0 auto; padding: calc(env(safe-area-inset-top) + 20px) 18px calc(env(safe-area-inset-bottom) + 120px); display: flex; flex-direction: column; gap: 14px; }
 
-/* the player at rest: a plain play button */
-.p-idle { padding: 14px 16px 14px 14px; display: grid; grid-template-columns: 52px 1fr auto; gap: 2px 14px; align-items: center; }
-.playbtn { width: 52px; height: 52px; grid-row: span 2; border-radius: 50%; display: grid; place-items: center; background: var(--ink); transition: transform .15s;
-  box-shadow: inset 0 1px 0 rgba(255,255,255,.18), 0 1px 2px rgba(20,22,26,.18), 0 10px 22px -10px rgba(20,22,26,.45); }
+/* masthead */
+.mast { padding: 6px 4px 4px; }
+.brand { display: flex; align-items: center; gap: 9px; font-weight: 600; font-size: 15px; letter-spacing: .005em; color: var(--fg); }
+.bead { width: 12px; height: 12px; flex: none; border-radius: 50%;
+  background: radial-gradient(circle at 34% 30%, #F6EDE2 0 10%, #D5C4AE 24%, #A88462 50%, #6B4A2E 76%, #3A2418 100%);
+  box-shadow: 0 0 0 .5px rgba(246,237,226,.28), 0 0 14px 1px rgba(168,132,98,.5); }
+.day { margin-top: 30px; font-family: var(--serif); font-weight: 400; font-size: clamp(46px, 14.2vw, 64px); line-height: .98; letter-spacing: -0.024em; color: var(--fg); font-optical-sizing: auto; }
+.day .wd { display: block; font-style: italic; color: var(--mark); letter-spacing: -0.018em; }
+.day .dm { display: block; }
+.meta { margin-top: 14px; font-size: 13.5px; color: var(--fg-3); font-variant-numeric: tabular-nums; }
+.status { display: flex; gap: 11px; align-items: flex-start; padding: 13px 16px 13px 14px; border-radius: 20px; font-size: 13.5px; line-height: 1.5; color: var(--fg);
+  background: linear-gradient(180deg, rgba(107,74,46,.46), rgba(107,74,46,.30)); box-shadow: inset 0 1px 0 rgba(246,237,226,.08), inset 0 0 0 1px rgba(168,132,98,.30); }
+.status::before { content: ""; flex: none; width: 7px; height: 7px; margin-top: 7px; border-radius: 50%; background: var(--camel-200); box-shadow: 0 0 0 3px rgba(193,161,129,.20); }
+
+/* surfaces: leather lit from the top left */
+.card { position: relative; isolation: isolate; border-radius: 28px; overflow: hidden;
+  background: linear-gradient(180deg, #3A2418 0%, #311F15 34%, #291B12 100%);
+  box-shadow: inset 0 1px 0 rgba(246,237,226,.10), inset 0 0 0 1px rgba(213,196,174,.07), 0 1px 2px rgba(0,0,0,.42), 0 26px 50px -28px rgba(0,0,0,.9); }
+.card::before { content: ""; position: absolute; inset: 0; z-index: 0; pointer-events: none; border-radius: inherit;
+  background: radial-gradient(110% 62% at 0% 0%, rgba(168,132,98,.15), rgba(168,132,98,0) 62%); }
+.card::after { content: ""; position: absolute; inset: 0; z-index: 0; pointer-events: none; background: url("assets/grain.png") 0 0 / 128px 128px; mix-blend-mode: overlay; opacity: .45; }
+.card > * { position: relative; z-index: 1; }
+
+/* the player at rest: the brightest object on the page, sand lit from the top left */
+.p-idle { position: relative; isolation: isolate; overflow: hidden; border-radius: 30px; padding: 16px 16px 14px 16px; display: grid; grid-template-columns: 56px 1fr auto; gap: 1px 14px; align-items: center;
+  background: var(--paper); color: var(--ink);
+  box-shadow: inset 0 1px 0 rgba(255,250,242,.75), inset 0 0 0 1px rgba(255,250,242,.22), 0 1px 2px rgba(0,0,0,.45), 0 24px 46px -24px rgba(0,0,0,.95); }
+.p-idle::before { content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none; background: radial-gradient(90% 80% at 0% 0%, rgba(255,250,242,.38), rgba(255,250,242,0) 60%); }
+.playbtn { width: 56px; height: 56px; grid-row: span 2; border-radius: 50%; display: grid; place-items: center; background: var(--espresso); transition: transform .15s;
+  box-shadow: inset 0 1px 0 rgba(246,237,226,.16), 0 1px 2px rgba(26,18,14,.35), 0 12px 22px -10px rgba(26,18,14,.75); }
 .playbtn:active { transform: scale(.94); }
-.playbtn svg { width: 17px; height: 17px; fill: #fff; margin-left: 3px; }
-.p-title { font-weight: 600; font-size: 16px; letter-spacing: -0.01em; align-self: end; }
-.p-sub { font-size: 13px; color: var(--ink-2); align-self: start; }
-.speed { grid-row: span 2; font-size: 12.5px; font-weight: 600; color: var(--ink-2); padding: 7px 10px; min-width: 44px; min-height: 32px; border-radius: 999px; background: rgba(255,255,255,.6); box-shadow: inset 0 0 0 1px rgba(20,22,26,.07); font-variant-numeric: tabular-nums; }
-.chaps { grid-column: 1 / -1; display: flex; gap: 3px; margin-top: 12px; height: 16px; align-items: center; }
-.chaps button { height: 16px; flex: var(--w, 1); display: flex; align-items: center; padding: 0; min-width: 4px; }
+.playbtn svg { width: 18px; height: 18px; fill: var(--sand-50); margin-left: 3px; }
+.p-title { font-family: var(--serif); font-style: italic; font-weight: 400; font-size: 20px; line-height: 1.2; letter-spacing: -0.008em; color: var(--ink); align-self: end; }
+.p-sub { font-size: 13px; color: var(--ink-3); align-self: start; }
+.speed { grid-row: span 2; font-size: 12.5px; font-weight: 600; color: var(--ink); padding: 7px 11px; min-width: 46px; min-height: 34px; border-radius: 999px; background: rgba(26,18,14,.05); box-shadow: inset 0 0 0 1px rgba(26,18,14,.18); font-variant-numeric: tabular-nums; position: relative; }
+.speed::after { content: ""; position: absolute; inset: -5px -2px; }
+.chaps { grid-column: 1 / -1; display: flex; gap: 3px; margin-top: 14px; height: 18px; align-items: center; }
+.chaps button { height: 18px; flex: var(--w, 1); display: flex; align-items: center; padding: 0; min-width: 4px; }
 .chaps button i { display: block; width: 100%; height: 4px; border-radius: 2px; background: var(--track); position: relative; overflow: hidden; }
-.chaps button i b { position: absolute; inset: 0 auto 0 0; width: 0; background: var(--ink); border-radius: 2px; }
+.chaps button i b { position: absolute; inset: 0 auto 0 0; width: 0; background: var(--accent); border-radius: 2px; }
+.p-idle .chaps button i { background: rgba(58,36,24,.20); }
+.p-idle .chaps button i b { background: var(--espresso); }
 .now { grid-column: 1 / -1; display: flex; justify-content: space-between; gap: 12px; margin-top: 6px; font-size: 12.5px; color: var(--ink-3); font-variant-numeric: tabular-nums; min-width: 0; }
 .now .js-time { flex: none; white-space: nowrap; }
 .now b { color: var(--ink); font-weight: 600; }
 .now .nx { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.p-idle :focus-visible { outline-color: var(--espresso); }
+.p-idle::after, .say::after { content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none; background: url("assets/grain.png") 0 0 / 128px 128px; mix-blend-mode: multiply; opacity: .10; }
 
-/* the stage while he speaks: the orb alone, the controls in a glass panel */
+/* the stage while he speaks: the orb in its own room, the controls on smoked glass */
 .player[data-mode="idle"] .stage { display: none; }
 .player[data-mode="stage"] .p-idle { display: none; }
 .stage { position: relative; height: 420px; border-radius: 30px; overflow: hidden; isolation: isolate;
-  /* the shader's own ground in CSS, under the canvas until its first frame is drawn (no flash of a bare stage) */
-  background: radial-gradient(circle 440px at calc(50% - 283px) -52px, rgba(255,251,245,.6), rgba(255,251,245,0)),
-    linear-gradient(to top, rgba(240,241,245,.42), #F0F1F5) left bottom / 100% 34% no-repeat,
-    linear-gradient(to right, #9EC4FF 4%, #C7B3FF 30%, #FFB3DE 50%, #FFC99E 86%) left bottom / 100% 34% no-repeat,
-    linear-gradient(to bottom, #F8F8FA, #EDEFF3);
-  box-shadow: inset 0 1px 0 rgba(255,255,255,.9), inset 0 0 0 1px rgba(255,255,255,.6), 0 22px 44px -22px rgba(40,40,80,.3); }
+  /* the shader's own ground, under the canvas until its first frame is drawn (no flash of a bare stage): rendered by
+     the shader at the widest stage (484 x 420) and centred at full height, which matches any narrower stage exactly */
+  background: #1A120E url("assets/stage-ground.webp") center / auto 100% no-repeat;
+  box-shadow: inset 0 0 0 1px rgba(213,196,174,.08), inset 0 1px 0 rgba(246,237,226,.06), 0 26px 50px -26px rgba(0,0,0,.95); }
+/* the lamp dims as the briefing begins: the sand of the play card fades off the stage while it opens */
+.stage::after { content: ""; position: absolute; inset: 0; z-index: 3; pointer-events: none; background: var(--paper); opacity: 0; }
+.player[data-mode="stage"] .stage::after { animation: dim .9s cubic-bezier(.4,0,.2,1) both; }
+@keyframes dim { from { opacity: 1; } to { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .player[data-mode="stage"] .stage::after { animation: none; } }
 /* the canvas keeps its full height while the stage opens over it, so the orb is never drawn squashed */
 .stage canvas { position: absolute; left: 0; top: 0; width: 100%; height: 420px; display: block; opacity: 0; transition: opacity .5s ease; }
 .stage.live canvas { opacity: 1; }
-.stage.nogl { background: #F2F3F7 url("assets/stage-still.webp") center top / auto 100% no-repeat; }  /* no WebGL: the still */
-.ctrl { position: absolute; left: 10px; right: 10px; bottom: 10px; padding: 12px 14px; border-radius: 22px; z-index: 2;
-  background: linear-gradient(180deg, rgba(255,255,255,.74), rgba(255,255,255,.52)); -webkit-backdrop-filter: blur(20px) saturate(170%); backdrop-filter: blur(20px) saturate(170%);
-  box-shadow: inset 0 1px 0 rgba(255,255,255,.95), inset 0 0 0 1px rgba(255,255,255,.55), 0 10px 24px -14px rgba(40,40,80,.3); }
-.now-k { display: flex; align-items: center; gap: 7px; font-size: 12px; font-weight: 600; color: var(--ink-2); margin-bottom: 6px; }
-.now-k i { width: 6px; height: 6px; border-radius: 50%; background: var(--blue); box-shadow: 0 0 0 3px rgba(91,141,239,.18); }
-.player.paused .now-k i { background: var(--ink-3); box-shadow: none; }
-.now-t { font-size: 15px; font-weight: 600; letter-spacing: -0.01em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.now-s { font-size: 12.5px; color: var(--ink-2); margin-top: 1px; min-height: 1.5em; }
-.row2 { display: flex; justify-content: space-between; align-items: center; margin-top: 6px; font-size: 12px; color: var(--ink-3); font-variant-numeric: tabular-nums; }
-.btns { display: flex; align-items: center; gap: 6px; color: var(--ink); font-weight: 600; font-size: 13px; }
-.btns button { min-width: 40px; min-height: 40px; border-radius: 999px; }
-.pp { width: 40px; height: 40px; border-radius: 50%; display: grid; place-items: center; background: var(--ink) !important; }
-.pp svg { width: 13px; height: 13px; fill: #fff; }
+.stage.nogl { background: #1A120E url("assets/stage-still.webp") center top / auto 100% no-repeat; }  /* no WebGL: the still */
+.ctrl { position: absolute; left: 10px; right: 10px; bottom: 10px; padding: 13px 14px 12px; border-radius: 20px; z-index: 2;
+  background: linear-gradient(180deg, rgba(74,74,70,.46), rgba(40,38,35,.62)); -webkit-backdrop-filter: blur(22px) saturate(130%); backdrop-filter: blur(22px) saturate(130%);
+  box-shadow: inset 0 1px 0 rgba(246,237,226,.13), inset 0 0 0 1px rgba(213,196,174,.09), 0 12px 28px -16px rgba(0,0,0,.85); }
+.now-k { display: flex; align-items: center; gap: 8px; font-size: 12px; font-weight: 600; letter-spacing: .02em; color: var(--fg-3); margin-bottom: 5px; }
+.now-k i { width: 6px; height: 6px; border-radius: 50%; background: var(--camel-200); box-shadow: 0 0 0 3px rgba(193,161,129,.22), 0 0 10px rgba(193,161,129,.6); }
+.player.paused .now-k i { background: rgba(193,161,129,.45); box-shadow: none; }
+.now-t { font-family: var(--serif); font-size: 19px; font-weight: 500; line-height: 1.25; letter-spacing: -0.008em; color: var(--fg); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.now-s { font-size: 12.5px; color: var(--fg-3); margin-top: 1px; min-height: 1.5em; }
+.row2 { display: flex; justify-content: space-between; align-items: center; margin-top: 6px; font-size: 12.5px; color: var(--fg-3); font-variant-numeric: tabular-nums; }
+.btns { display: flex; align-items: center; gap: 4px; color: var(--fg); font-weight: 600; font-size: 13px; }
+.btns button { min-width: 44px; min-height: 44px; border-radius: 999px; }
+.pp { width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center; background: var(--accent) !important; box-shadow: inset 0 1px 0 rgba(255,255,255,.5), 0 6px 14px -6px rgba(0,0,0,.7); }
+.pp svg { width: 14px; height: 14px; fill: var(--on-accent); }
 .ic-play { margin-left: 2px; }
 .player:not(.paused) .ic-play, .player.paused .ic-pause { display: none; }
 .mini .ic-play { display: none; } .mini.paused .ic-play { display: block; } .mini.paused .ic-pause { display: none; }
 
-.sec { display: flex; justify-content: space-between; align-items: baseline; padding: 10px 6px 0; }
-.sec h2 { font-size: 13px; font-weight: 600; }
-.sec span { font-size: 12.5px; color: var(--ink-3); }
-.story { padding: 18px 18px 16px; display: flex; flex-direction: column; gap: 8px; scroll-margin-top: 16px; }
-.kicker { display: flex; gap: 8px; align-items: center; font-size: 12.5px; color: var(--ink-2); font-weight: 500; flex-wrap: wrap; }
-.kicker .n { font-variant-numeric: tabular-nums; color: var(--ink); font-weight: 600; }
-.dot { width: 3px; height: 3px; border-radius: 50%; background: currentColor; opacity: .5; display: inline-block; }
-.listen { margin-left: auto; display: inline-flex; align-items: center; gap: 5px; font-weight: 600; color: var(--ink); font-size: 12.5px; padding: 6px 10px; min-height: 32px; border-radius: 999px; background: rgba(255,255,255,.55); box-shadow: inset 0 0 0 1px rgba(20,22,26,.07); font-variant-numeric: tabular-nums; }
-.listen svg { width: 11px; height: 11px; fill: currentColor; }
-.listen.sm { margin-left: 8px; padding: 3px 8px; min-height: 28px; font-size: 12px; }
-.story h3 { font-size: 22px; line-height: 1.16; font-weight: 600; letter-spacing: -0.022em; text-wrap: balance; }
-.story p { font-size: 15px; line-height: 1.5; color: var(--ink-2); }
+/* sections */
+.sec { display: flex; justify-content: space-between; align-items: baseline; padding: 24px 4px 0; }
+.sec h2 { font-size: 12px; line-height: 16px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--mark); }
+.sec span { font-size: 12.5px; color: var(--fg-3); font-variant-numeric: tabular-nums; }
+.story { padding: 18px 20px 16px; display: flex; flex-direction: column; gap: 9px; scroll-margin-top: 16px; }
+.kicker { display: flex; gap: 10px; align-items: center; min-height: 34px; font-size: 13px; color: var(--fg-3); }
+.kicker .n { font-family: var(--serif); font-style: italic; font-size: 26px; line-height: 1; color: var(--mark); font-variant-numeric: lining-nums; letter-spacing: -0.01em; }
+.kicker .k { min-width: 0; }
+.listen { position: relative; margin-left: auto; flex: none; display: inline-flex; align-items: center; gap: 6px; font-weight: 600; color: var(--fg); font-size: 12.5px; padding: 6px 12px 6px 10px; min-height: 32px; border-radius: 999px;
+  background: rgba(246,237,226,.07); box-shadow: inset 0 0 0 1px var(--line-2); font-variant-numeric: tabular-nums; }
+.listen::after { content: ""; position: absolute; inset: -6px -4px; }  /* a 44 px target around a quieter chip */
+.listen svg { width: 10px; height: 10px; fill: currentColor; }
+.listen.sm { margin-left: 10px; padding: 4px 10px 4px 9px; min-height: 28px; font-size: 12px; }
+.listen.sm::after { inset: -8px -4px; }
+@media (hover: hover) { .listen:hover, .speed:hover { background: rgba(246,237,226,.13); } .src a:hover, .cal a:hover { text-decoration: underline; text-underline-offset: 3px; } }
+.story h3 { font-family: var(--serif); font-size: 25px; line-height: 1.18; font-weight: 500; letter-spacing: -0.014em; color: var(--fg); text-wrap: balance; margin-top: 2px; }
+.story p { font-size: 15px; line-height: 1.56; color: var(--fg-2); text-wrap: pretty; }
 .story p.bg, .story p.next { font-size: 14px; }
-.story p b, .item p b { color: var(--ink); font-weight: 600; }
-.src { display: flex; align-items: center; gap: 10px; padding-top: 4px; font-size: 12.5px; color: var(--ink-3); flex-wrap: wrap; }
+.story p b, .item p b { color: var(--fg); font-weight: 600; }
+.src { display: flex; align-items: center; gap: 10px; margin-top: 4px; padding-top: 12px; border-top: 1px solid var(--line); font-size: 12.5px; color: var(--fg-3); flex-wrap: wrap; }
 .src .links { flex: 1; min-width: 0; }
-.src a { color: var(--ink); font-weight: 600; text-decoration: none; }
-.src a:hover { text-decoration: underline; }
-.src .upd { font-size: 11.5px; font-weight: 600; color: #7a5a12; background: rgba(255,214,140,.5); padding: 2px 7px; border-radius: 999px; }
-.list { padding: 4px 16px; }
-.item { display: grid; gap: 3px; padding: 14px 2px; border-top: 1px solid rgba(20,22,26,.07); scroll-margin-top: 16px; }
-.item:first-child { border-top: 0; }
-.ik { font-size: 12px; color: var(--ink-3); display: flex; align-items: center; }
-.item h4 { font-size: 16px; line-height: 1.25; font-weight: 600; letter-spacing: -0.012em; }
-.item p { font-size: 14px; line-height: 1.45; color: var(--ink-2); }
-.item p.why { color: var(--ink-3); font-size: 13.5px; }
-.item.hl h4 { font-size: 15.5px; }
-.skills { margin-top: 4px; font-size: 13px; padding: 8px 10px; border-radius: 12px; background: rgba(200,178,255,.22); box-shadow: inset 0 0 0 1px rgba(140,110,220,.12); }
-.skills b { font-weight: 600; }
-.cal { padding: 6px 16px; }
-.cal .r { display: grid; grid-template-columns: 70px 1fr; gap: 10px; padding: 11px 2px; border-top: 1px solid rgba(20,22,26,.07); font-size: 14px; }
-.cal .r:first-child { border-top: 0; }
-.cal .r b { font-weight: 600; font-variant-numeric: tabular-nums; }
+.src a { color: var(--fg); font-weight: 600; text-decoration: none; }
+.src .d { font-variant-numeric: tabular-nums; }
+.src .upd { font-size: 12px; font-weight: 600; color: var(--fg); background: rgba(107,74,46,.45); box-shadow: inset 0 0 0 1px rgba(168,132,98,.4); padding: 2px 8px; border-radius: 999px; }
+.item .src { border-top: 0; padding-top: 2px; }
+
+/* lists sit on the page, divided by hairlines, the way a newspaper sets its briefs */
+.list { padding: 0 4px; }
+.item { display: grid; gap: 5px; padding: 18px 0 16px; border-top: 1px solid var(--line); scroll-margin-top: 16px; }
+.item:first-child { border-top: 0; padding-top: 8px; }
+.ik { font-size: 12.5px; color: var(--fg-3); display: flex; align-items: center; min-height: 28px; }
+.item h4 { font-family: var(--serif); font-size: 19px; line-height: 1.28; font-weight: 500; letter-spacing: -0.008em; color: var(--fg); text-wrap: balance; }
+.item p { font-size: 14.5px; line-height: 1.55; color: var(--fg-2); text-wrap: pretty; }
+.item p.why { color: var(--fg-3); font-size: 14px; }
+.item.hl { padding: 15px 0 13px; }
+.item.hl:first-child { padding-top: 8px; }
+.item.hl h4 { font-size: 17px; line-height: 1.3; }
+.skills { margin-top: 6px; font-size: 13.5px; line-height: 1.5; padding: 10px 12px; border-radius: 14px; color: var(--fg-2); background: rgba(107,74,46,.24); box-shadow: inset 0 0 0 1px rgba(168,132,98,.22); }
+.skills b { color: var(--fg); font-weight: 600; }
+.cal { padding: 0 4px; }
+.cal .r { display: grid; grid-template-columns: 78px 1fr; gap: 12px; padding: 13px 0; border-top: 1px solid var(--line); font-size: 14.5px; line-height: 1.45; color: var(--fg-2); }
+.cal .r:first-child { border-top: 0; padding-top: 8px; }
+.cal .r b { font-weight: 600; color: var(--fg); font-variant-numeric: tabular-nums; }
 .cal a { text-decoration: none; }
-.say { padding: 20px 20px 18px; }
-.say .l { font-size: 12.5px; font-weight: 600; color: var(--ink-2); }
-.say p { margin-top: 8px; font-size: 19px; line-height: 1.35; letter-spacing: -0.012em; font-weight: 500; text-wrap: pretty; }
-.arch { padding: 4px 16px; }
-.arch a { display: grid; gap: 2px; padding: 13px 2px; border-top: 1px solid rgba(20,22,26,.07); text-decoration: none; }
-.arch a:first-child { border-top: 0; }
-.arch .t { font-size: 14.5px; font-weight: 600; }
-.arch .m { font-size: 12.5px; color: var(--ink-3); }
-.arch .o { font-size: 13.5px; color: var(--ink-2); }
-.foot { padding: 8px 8px 0; font-size: 12px; color: var(--ink-3); line-height: 1.5; }
+.thread { padding: 20px 20px 18px; }
+.thread .l { font-size: 12px; line-height: 16px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--mark); }
+.thread p { margin-top: 10px; font-family: var(--serif); font-size: 19px; line-height: 1.42; color: var(--fg); text-wrap: pretty; }
+/* the talking point: the one sand surface on the page */
+.say { position: relative; isolation: isolate; overflow: hidden; margin-top: 10px; padding: 22px 22px 22px; border-radius: 28px; color: var(--espresso);
+  background: var(--paper);
+  box-shadow: inset 0 1px 0 rgba(255,250,242,.75), inset 0 0 0 1px rgba(255,250,242,.22), 0 1px 2px rgba(0,0,0,.45), 0 26px 50px -26px rgba(0,0,0,.95); }
+.say::before { content: ""; position: absolute; inset: 0; z-index: -2; pointer-events: none; background: radial-gradient(90% 70% at 0% 0%, rgba(255,250,242,.38), rgba(255,250,242,0) 60%); }
+.say .q { position: absolute; right: 18px; top: 10px; z-index: -1; font-family: var(--serif); font-style: italic; font-weight: 400; font-size: 112px; line-height: .78; color: rgba(107,74,46,.20); }
+.say .l { font-size: 12px; line-height: 16px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-2); }
+.say p { margin-top: 10px; font-family: var(--serif); font-style: italic; font-size: 23px; line-height: 1.32; font-weight: 400; letter-spacing: -0.01em; color: var(--espresso); text-wrap: pretty; }
+.arch { padding: 0 4px; }
+.arch a { display: grid; gap: 3px; padding: 16px 0 15px; border-top: 1px solid var(--line); text-decoration: none; }
+.arch a:first-child { border-top: 0; padding-top: 8px; }
+.arch .t { font-family: var(--serif); font-size: 19px; line-height: 1.25; font-weight: 500; color: var(--fg); }
+.arch .m { font-size: 12.5px; color: var(--fg-3); font-variant-numeric: tabular-nums; }
+.arch .o { font-size: 14px; line-height: 1.5; color: var(--fg-2); margin-top: 2px; }
+@media (hover: hover) { .arch a:hover .t { text-decoration: underline; text-underline-offset: 4px; text-decoration-thickness: 1px; } }
+.foot { margin-top: 18px; padding: 16px 4px 0; border-top: 1px solid var(--line); font-size: 12.5px; color: var(--fg-3); line-height: 1.55; }
 
 .mini { position: fixed; left: 50%; bottom: calc(env(safe-area-inset-bottom) + 18px); width: min(484px, calc(100% - 28px)); transform: translate(-50%, 140%); transition: transform .45s cubic-bezier(.2,.8,.2,1); z-index: 10;
-  display: flex; align-items: center; gap: 12px; padding: 8px 8px 8px 8px; border-radius: 999px;
-  background: rgba(252,252,255,.7); -webkit-backdrop-filter: blur(22px) saturate(170%); backdrop-filter: blur(22px) saturate(170%);
-  box-shadow: inset 0 1px 0 rgba(255,255,255,.95), inset 0 0 0 1px rgba(255,255,255,.55), 0 14px 30px -14px rgba(40,40,80,.35); }
+  display: flex; align-items: center; gap: 12px; padding: 8px; border-radius: 999px;
+  background: linear-gradient(180deg, rgba(74,74,70,.78), rgba(52,51,48,.80)); -webkit-backdrop-filter: blur(22px) saturate(130%); backdrop-filter: blur(22px) saturate(130%);
+  box-shadow: inset 0 1px 0 rgba(246,237,226,.12), inset 0 0 0 1px rgba(213,196,174,.10), 0 16px 34px -14px rgba(0,0,0,.9); }
 .mini.on { transform: translate(-50%, 0); }
 .mini .orb { width: 40px; height: 40px; flex: none; border-radius: 50%; position: relative; overflow: hidden;
-  background: radial-gradient(circle at 34% 30%, rgba(255,255,255,.95), rgba(255,255,255,0) 32%), radial-gradient(70% 45% at 30% 58%, rgba(77,232,255,calc(.55 + var(--lv, 0) * .45)), rgba(77,232,255,0) 70%), radial-gradient(60% 45% at 74% 62%, rgba(255,200,120,calc(.5 + var(--lv, 0) * .45)), rgba(255,200,120,0) 70%), #EEF1F6;
-  box-shadow: inset 0 0 0 1px rgba(255,255,255,.9), inset 0 -3px 6px rgba(80,100,140,.12), 0 4px 10px -4px rgba(40,60,100,.35); }
+  background: radial-gradient(circle at 33% 26%, rgba(255,244,228,.9), rgba(255,244,228,0) 20%),
+    radial-gradient(70% 34% at 36% 56%, rgba(255,222,170,calc(.62 + var(--lv, 0) * .38)), rgba(255,222,170,0) 72%),
+    radial-gradient(56% 32% at 72% 60%, rgba(226,140,76,calc(.50 + var(--lv, 0) * .45)), rgba(226,140,76,0) 72%),
+    radial-gradient(circle at 50% 60%, #2C1D15, #110B08);
+  box-shadow: inset 0 0 0 1px rgba(213,196,174,.24), inset 0 -3px 6px rgba(0,0,0,.45), 0 4px 10px -4px rgba(0,0,0,.6); }
 .mini .t { flex: 1; min-width: 0; text-align: left; }
-.mini .t b { display: block; font-size: 14px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.mini .t span { font-size: 12px; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.mini .t b { display: block; font-family: var(--serif); font-size: 16px; font-weight: 500; color: var(--fg); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.mini .t span { font-size: 12px; color: var(--fg-3); font-variant-numeric: tabular-nums; }
 .mini .pp { width: 40px; height: 40px; flex: none; }
 .vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 @media (prefers-reduced-motion: reduce) { .mini { transition: none; } }
-@media (forced-colors: active) { .card, .ctrl, .mini, .stage { border: 1px solid CanvasText; } }
+@media (forced-colors: active) { .card, .ctrl, .mini, .stage, .say, .status { border: 1px solid CanvasText; } }
+
 </style>
 </head>
 <body>
 <div class="ground" aria-hidden="true"></div>
 <main class="wrap">
   <header class="mast">
-    <div class="brand"><i aria-hidden="true"></i>Signal</div>
-    <h1 class="day">Friday<br>30 October</h1>
+    <div class="brand"><i class="bead" aria-hidden="true"></i>Signal</div>
+    <h1 class="day"><span class="wd">Friday</span> <span class="dm">30 October</span></h1>
     <p class="meta">Daily briefing · 10 stories · 5 min 45 s</p>
   </header>
   <div class="status" role="status">A short edition: only 3 of 49 fixed sources could be read (FINMA, finews.com, finews.ch); the rest failed with a WebFetch permission error (PROVENANCE_REQUIRED, permission request not answered), so most items come from searches.</div>
   <section class="player paused" data-mode="idle" aria-label="Listen to the briefing">
-    <div class="card p-idle">
+    <div class="p-idle">
       <button class="playbtn js-play" aria-label="Play the briefing"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 2.8c0-.8.9-1.3 1.6-.9l11 6.9c.6.4.6 1.4 0 1.8l-11 6.9c-.7.4-1.6-.1-1.6-.9z"/></svg></button>
       <div class="p-title">Good morning, sir</div>
       <button class="speed js-speed" aria-label="Playback speed">1×</button>
@@ -187,45 +249,45 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--blue); outline-
     <audio id="audio" preload="metadata" src="audio/signal-2026-10-30.mp3"></audio>
   </section>
   <div class="sec"><h2>Lead stories</h2><span>3</span></div><article class="card story" id="s-ecb-hold-oct">
-  <div class="kicker"><span class="n">01</span><i class="dot"></i><span>Financial services</span><i class="dot"></i><span>Europe</span><button class="listen" data-seek="30.11" aria-label="Listen from this story"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 3.6c0-.7.8-1.2 1.4-.8l8.6 5.6c.6.4.6 1.3 0 1.7l-8.6 5.6c-.6.4-1.4 0-1.4-.8z"/></svg>0:30</button></div>
+  <div class="kicker"><span class="n">01</span><span class="k">Financial services · Europe</span><button class="listen" data-seek="30.11" aria-label="Listen from this story, 0:30"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 3.6c0-.7.8-1.2 1.4-.8l8.6 5.6c.6.4.6 1.3 0 1.7l-8.6 5.6c-.6.4-1.4 0-1.4-.8z"/></svg><span>0:30</span></button></div>
   <h3>ECB holds rates as energy pushes euro area inflation to 3.8 percent</h3>
   <p>The ECB&#x27;s Governing Council kept its three key interest rates unchanged on 29 October, leaving the deposit facility rate at 2.50 percent, according to Eunews. Headline inflation rose to 3.8 percent in September from 3.2 percent in August, with energy inflation at 18.9 percent.</p><p class="bg">The ECB said underlying inflation has stayed broadly stable and wages show no material response so far, while financing conditions have tightened since its last meeting.</p><p class="why"><b>Why it matters.</b> A hold with a rise openly discussed keeps euro deposit margins firm for European banks, but tighter financing conditions and weaker consumer confidence point to slower credit growth.</p><p class="next"><b>Watch next.</b> The next monetary policy meeting is in December.</p>
   <div class="src"><span class="links"><a href="https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is261029~5c5ffe99e5.en.html" target="_blank" rel="noopener noreferrer">ECB<span aria-hidden="true"> ↗</span></a> · <a href="https://www.eunews.it/en/2026/10/29/the-ecb-leaves-interest-rates-unchanged-but-high-energy-prices-and-financing-conditions-are-casting-a-shadow-over-the-future/" target="_blank" rel="noopener noreferrer">Eunews<span aria-hidden="true"> ↗</span></a></span><span class="d">29 Oct</span></div>
 </article><article class="card story" id="s-bbva-q3-agents">
-  <div class="kicker"><span class="n">02</span><i class="dot"></i><span>Technology in finance</span><i class="dot"></i><span>Europe</span><button class="listen" data-seek="99.21" aria-label="Listen from this story"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 3.6c0-.7.8-1.2 1.4-.8l8.6 5.6c.6.4.6 1.3 0 1.7l-8.6 5.6c-.6.4-1.4 0-1.4-.8z"/></svg>1:39</button></div>
+  <div class="kicker"><span class="n">02</span><span class="k">Technology in finance · Europe</span><button class="listen" data-seek="99.21" aria-label="Listen from this story, 1:39"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 3.6c0-.7.8-1.2 1.4-.8l8.6 5.6c.6.4.6 1.3 0 1.7l-8.6 5.6c-.6.4-1.4 0-1.4-.8z"/></svg><span>1:39</span></button></div>
   <h3>BBVA lifts quarterly profit 19.1 percent and plans to industrialise AI agents</h3>
   <p>BBVA reported third-quarter net attributable profit of about 3 billion euros, up 19.1 percent, and a nine-month return on tangible equity of 22 percent, according to its earnings call transcript. Management said a voice assistant resolves close to 90 percent of interactions in a pilot, and agents cut preparation time for some corporate risk work by up to 30 percent.</p><p class="bg">BBVA has been one of Europe&#x27;s most outspoken banks on generative AI, and its chief executive described a framework to roll agents out across the bank.</p><p class="why"><b>Why it matters.</b> It gives private and retail banks a concrete benchmark for agent results, measured in resolution rates and hours saved rather than pilots counted.</p>
   <div class="src"><span class="links"><a href="https://www.fool.com/earnings/call-transcripts/2026/10/29/bbva-bbva-q3-2026-earnings-call-transcript/" target="_blank" rel="noopener noreferrer">The Motley Fool (call transcript)<span aria-hidden="true"> ↗</span></a></span><span class="d">29 Oct</span></div>
 </article><article class="card story" id="s-socgen-q3">
-  <div class="kicker"><span class="n">03</span><i class="dot"></i><span>Financial services</span><i class="dot"></i><span>Europe</span><button class="listen" data-seek="162.17" aria-label="Listen from this story"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 3.6c0-.7.8-1.2 1.4-.8l8.6 5.6c.6.4.6 1.3 0 1.7l-8.6 5.6c-.6.4-1.4 0-1.4-.8z"/></svg>2:42</button></div>
+  <div class="kicker"><span class="n">03</span><span class="k">Financial services · Europe</span><button class="listen" data-seek="162.17" aria-label="Listen from this story, 2:42"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 3.6c0-.7.8-1.2 1.4-.8l8.6 5.6c.6.4.6 1.3 0 1.7l-8.6 5.6c-.6.4-1.4 0-1.4-.8z"/></svg><span>2:42</span></button></div>
   <h3>Société Générale posts record quarter with net income up 24.1 percent</h3>
   <p>Société Générale reported third-quarter group net income of 1,888 million euros, up 24.1 percent, on revenues of 7,173 million euros, up 7.8 percent. Operating expenses rose only 0.8 percent, taking the cost-to-income ratio to 57.1 percent from 61.0 percent, and return on tangible equity reached 13.0 percent.</p><p class="bg">The bank has been running a cost and simplification programme, and completed an extraordinary 1.5 billion euro buyback on 30 September. Its CET1 ratio stood at 13.4 percent.</p><p class="why"><b>Why it matters.</b> Flat costs with rising revenue is the case European boards will want explained: whether it comes from discipline, technology or both shapes next year&#x27;s budgets.</p>
   <div class="src"><span class="links"><a href="https://www.manilatimes.net/2026/10/29/tmt-newswire/globenewswire/societe-generale-third-quarter-2026-earnings/2456857" target="_blank" rel="noopener noreferrer">Société Générale (GlobeNewswire)<span aria-hidden="true"> ↗</span></a></span><span class="d">29 Oct</span></div>
-</article><div class="sec"><h2>Technology in financial services</h2><span>1 story</span></div><div class="card list"><div class="item" id="s-gs-apex-family-offices">
-  <div class="ik">Switzerland <button class="listen sm" data-seek="314.21" aria-label="Listen from this story">▶ 5:14</button></div>
+</article><div class="sec"><h2>Technology in financial services</h2><span>1 story</span></div><div class="list"><div class="item" id="s-gs-apex-family-offices">
+  <div class="ik"><span>Switzerland</span><button class="listen sm" data-seek="314.21" aria-label="Listen from this story, 5:14"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 3.6c0-.7.8-1.2 1.4-.8l8.6 5.6c.6.4.6 1.3 0 1.7l-8.6 5.6c-.6.4-1.4 0-1.4-.8z"/></svg><span>5:14</span></button></div>
   <h4>Goldman Sachs expects AI to make family offices more sophisticated</h4>
   <p>Darren Allaway, EMEA head of Goldman Sachs Apex, told finews that AI will fuel another wave of sophistication among family offices. He said their allocation to alternatives has not fallen and may have risen slightly, and that AI and the energy behind data centres are a leading investment theme.</p>
   <p class="why">Family offices served from Zurich and Geneva will expect their banks to match this level of tooling and research.</p>
   <div class="src"><span class="links"><a href="https://www.finews.com/news/english-news/74235-goldman-sachs-darren-allaway-family-offices-ai-private-equity-switzerland" target="_blank" rel="noopener noreferrer">finews.com<span aria-hidden="true"> ↗</span></a></span><span class="d">30 Oct</span></div>
-</div></div><div class="sec"><h2>Financial services industry</h2><span>3 stories</span></div><div class="card list"><div class="item" id="s-lgt-cp-ceo">
-  <div class="ik">Switzerland <button class="listen sm" data-seek="222.62" aria-label="Listen from this story">▶ 3:43</button></div>
+</div></div><div class="sec"><h2>Financial services industry</h2><span>3 stories</span></div><div class="list"><div class="item" id="s-lgt-cp-ceo">
+  <div class="ik"><span>Switzerland</span><button class="listen sm" data-seek="222.62" aria-label="Listen from this story, 3:43"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 3.6c0-.7.8-1.2 1.4-.8l8.6 5.6c.6.4.6 1.3 0 1.7l-8.6 5.6c-.6.4-1.4 0-1.4-.8z"/></svg><span>3:43</span></button></div>
   <h4>LGT Capital Partners names Sascha Gruber chief executive from January 2027</h4>
   <p>Sascha Gruber, at the firm since 2002, will succeed founder Roberto Paganoni as chief executive on 1 January 2027, subject to regulatory approval, according to finews. Paganoni moves to the group holding board. The Pfäffikon firm manages more than 120 billion dollars for over 750 institutional clients.</p>
   <p class="why">A first change at the top since 1998 for one of Switzerland&#x27;s largest private markets houses, with strategy said to continue.</p>
   <div class="src"><span class="links"><a href="https://www.finews.com/news/english-news/74227-lgt-capital-partners-new-ceo-sascha-gruber" target="_blank" rel="noopener noreferrer">finews.com<span aria-hidden="true"> ↗</span></a></span><span class="d">29 Oct</span></div>
 </div><div class="item" id="s-aswm-42">
-  <div class="ik">Switzerland <button class="listen sm" data-seek="257.22" aria-label="Listen from this story">▶ 4:17</button></div>
+  <div class="ik"><span>Switzerland</span><button class="listen sm" data-seek="257.22" aria-label="Listen from this story, 4:17"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 3.6c0-.7.8-1.2 1.4-.8l8.6 5.6c.6.4.6 1.3 0 1.7l-8.6 5.6c-.6.4-1.4 0-1.4-.8z"/></svg><span>4:17</span></button></div>
   <h4>Swiss wealth managers&#x27; alliance grows to 42 members and CHF 155 billion</h4>
   <p>The Alliance of Swiss Wealth Managers admitted Targa 5 Advisors and GSK &amp; Partners from 1 November, taking it to 42 members managing more than CHF 155 billion with over 1,710 staff, according to finews. In 2022 it represented CHF 103 billion.</p>
   <p class="why">Independent managers are scaling up collectively, which matters to custodian banks competing for their booking business.</p>
   <div class="src"><span class="links"><a href="https://www.finews.com/news/english-news/74229-aswm-alliance-swiss-wealth-managers-new-members-targa-5-advisors-gsk-partners-geneva-nicole-curti-eli-mizrahi" target="_blank" rel="noopener noreferrer">finews.com<span aria-hidden="true"> ↗</span></a></span><span class="d">29 Oct</span></div>
 </div><div class="item" id="s-deloitte-cfo-autumn">
-  <div class="ik">Switzerland <button class="listen sm" data-seek="291.6" aria-label="Listen from this story">▶ 4:52</button></div>
+  <div class="ik"><span>Switzerland</span><button class="listen sm" data-seek="291.6" aria-label="Listen from this story, 4:52"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 3.6c0-.7.8-1.2 1.4-.8l8.6 5.6c.6.4.6 1.3 0 1.7l-8.6 5.6c-.6.4-1.4 0-1.4-.8z"/></svg><span>4:52</span></button></div>
   <h4>Swiss CFOs are at their most optimistic in a long time</h4>
   <p>In Deloitte&#x27;s autumn CFO survey, 61 percent of Swiss finance chiefs expect the economy to improve over the next 12 months and 8 percent expect it to worsen, according to finews. AI budgets average 0.9 percent of total spending.</p>
   <p class="why">Under one percent of spend on AI suggests most Swiss corporates are still early, a useful baseline for any AI budget discussion.</p>
   <div class="src"><span class="links"><a href="https://www.finews.com/news/english-news/74228-deloitte-cfo-sentiment-barometer-autumn-2026" target="_blank" rel="noopener noreferrer">finews.com<span aria-hidden="true"> ↗</span></a></span><span class="d">29 Oct</span></div>
-</div></div><div class="sec"><h2>Ecosystem</h2><span>headlines</span></div><div class="card list"><div class="item hl" id="s-bewerbino">
+</div></div><div class="sec"><h2>Ecosystem</h2><span>headlines</span></div><div class="list hls"><div class="item hl" id="s-bewerbino">
   <h4>Bewerbino: an alpaca-branded job platform for the financial centre&#x27;s job cuts</h4>
   <div class="src"><span class="links"><a href="https://www.finews.com/news/english-news/74239-bewerbino-arthur-ergen-an-alpaca-against-job-anxiety-on-the-financial-center-job-cuts-artificial-intelligence-platform-machine-job-search-dream-job" target="_blank" rel="noopener noreferrer">finews.com<span aria-hidden="true"> ↗</span></a></span><span class="d">29 Oct</span></div>
 </div><div class="item hl" id="s-eeii-haute">
@@ -234,7 +296,7 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--blue); outline-
 </div><div class="item hl" id="s-nicolodi-esg">
   <h4>Swisscanto&#x27;s René Nicolodi: a lot of hot air in the ESG market</h4>
   <div class="src"><span class="links"><a href="https://www.finews.com/news/english-news/74158-rene-nicolodi-zkb-assetmanagement-swisscanto-sustainability-esg-sustainability-climate-change-defense-stocks-nuclear-power-sustainability-regulation-omnibus" target="_blank" rel="noopener noreferrer">finews.com<span aria-hidden="true"> ↗</span></a></span><span class="d">29 Oct</span></div>
-</div></div><div class="card say"><div class="l">Say it today</div><p>BBVA is now reporting AI agents in resolution rates and hours saved; that is the measure boards will start asking every bank for.</p></div><div class="sec"><h2>Earlier briefings</h2><span>2</span></div><div class="card arch"><a href="d/2026-10-29/"><span class="t">Thursday 29 October</span><span class="m">Daily · 12 min 1 s</span><span class="o">Bern sets out its path to binding AI rules, Swiss banks stay loyal to core systems they rate poorly on AI, and Canada&#x27;s big banks shut out personal AI agents.</span></a><a href="d/2026-10-28/"><span class="t">Wednesday 28 October</span><span class="m">Daily · 9 min 37 s</span><span class="o">UBS beats its cost-saving goal and ties buybacks to the capital debate, Temenos raises its guidance, and Microsoft offers 60,000 staff voluntary departure.</span></a></div>
+</div></div><div class="say"><span class="q" aria-hidden="true">&#8220;</span><div class="l">Say it today</div><p>BBVA is now reporting AI agents in resolution rates and hours saved; that is the measure boards will start asking every bank for.</p></div><div class="sec"><h2>Earlier briefings</h2><span>2</span></div><div class="arch"><a href="d/2026-10-29/"><span class="t">Thursday 29 October</span><span class="m">Daily · 12 min 1 s</span><span class="o">Bern sets out its path to binding AI rules, Swiss banks stay loyal to core systems they rate poorly on AI, and Canada&#x27;s big banks shut out personal AI agents.</span></a><a href="d/2026-10-28/"><span class="t">Wednesday 28 October</span><span class="m">Daily · 9 min 37 s</span><span class="o">UBS beats its cost-saving goal and ties buybacks to the capital debate, Temenos raises its guidance, and Microsoft offers 60,000 staff voluntary departure.</span></a></div>
   <p class="foot">Signal reads free public sources and links every story to where it was published; every link was opened on 30 Oct. Prepared at 06:37 Zurich time. The voice is synthetic.</p>
 </main>
 <div class="mini paused" aria-hidden="true">
@@ -243,9 +305,11 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--blue); outline-
   <button class="pp js-play" aria-label="Play or pause"><svg class="ic-play" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 2.8c0-.8.9-1.3 1.6-.9l11 6.9c.6.4.6 1.4 0 1.8l-11 6.9c-.7.4-1.6-.1-1.6-.9z"/></svg><svg class="ic-pause" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 3h3.5v14H5zM11.5 3H15v14h-3.5z"/></svg></button>
 </div>
 <script type="application/json" id="signal-data">{"title": "Signal · Friday 30 October", "album": "Daily briefing", "duration": 345.28, "chapters": [{"start": 0.0, "title": "Opening", "eyebrow": "Signal", "sub": "", "story": null}, {"start": 30.11, "title": "ECB holds rates", "eyebrow": "Lead story 1 of 3", "sub": "Financial services · Europe", "story": "ecb-hold-oct"}, {"start": 99.21, "title": "BBVA's AI agents", "eyebrow": "Lead story 2 of 3", "sub": "Technology in finance · Europe", "story": "bbva-q3-agents"}, {"start": 162.17, "title": "Société Générale's record quarter", "eyebrow": "Lead story 3 of 3", "sub": "Financial services · Europe", "story": "socgen-q3"}, {"start": 222.62, "title": "LGT Capital Partners' new chief executive", "eyebrow": "Financial services industry", "sub": "Switzerland", "story": "lgt-cp-ceo"}, {"start": 257.22, "title": "Swiss wealth managers' alliance", "eyebrow": "Financial services industry", "sub": "Switzerland", "story": "aswm-42"}, {"start": 291.6, "title": "Deloitte CFO survey", "eyebrow": "Financial services industry", "sub": "Switzerland", "story": "deloitte-cfo-autumn"}, {"start": 314.21, "title": "Goldman Sachs on family offices", "eyebrow": "Technology in financial services", "sub": "Switzerland", "story": "gs-apex-family-offices"}, {"start": 329.32, "title": "Close", "eyebrow": "Signal", "sub": "", "story": null}], "temperament": {"name": "calm", "fastest_rhythm": 1.6, "slowest_rhythm": 11.7, "attack": 0.09, "release": 0.55, "damping": 0.92, "settle": 2.0, "appear": 1.5, "leave": 0.8}, "trackUrl": "audio/signal-2026-10-30.track.json", "artwork": "assets/artwork.jpg"}</script>
-<script type="x-shader/x-fragment" id="orb-frag">/* Signal's orb: a sphere of thick water holding a small lake of light.
+<script type="x-shader/x-fragment" id="orb-frag">/* Signal's orb: a sphere of dark water holding a small pool of lamplight.
+   The room is Signal's study at dawn: an espresso ground, one warm lamp from the top left, embers along the floor.
    Drawn with Atelier's presence.js, which prepends its header (uRes, uTime, uNoise, the motion uniforms, hash12, noise3).
-   The calm temperament lives in the page: fastest_rhythm 1.6, slowest_rhythm 11.7, attack 0.09, release 0.55, damping 0.92, settle 2.0. */
+   The calm temperament lives in the page: fastest_rhythm 1.6, slowest_rhythm 11.7, attack 0.09, release 0.55, damping 0.92, settle 2.0.
+   Colours are the page's palette in sRGB: espresso 1A120E, chocolate 3A2418, walnut 6B4A2E, camel A88462, sand D5C4AE. */
 uniform float uR, uClear, uEl;
 uniform vec2 uOff;
 // motion values for this orb, derived from the engine at the start of main()
@@ -255,33 +319,38 @@ vec3 uWob;     // lobe phases
 vec4 uRock;    // tilt, swell direction, light level, energy
 
 #define PI 3.14159265
+const vec3 ESPRESSO = vec3(0.102, 0.071, 0.055);
+const vec3 CHOCOLATE = vec3(0.227, 0.141, 0.094);
+const vec3 WALNUT = vec3(0.420, 0.290, 0.180);
+const vec3 CAMEL = vec3(0.659, 0.518, 0.384);
+const vec3 SAND = vec3(0.835, 0.769, 0.682);
+const vec3 LAMP = vec3(1.000, 0.910, 0.780);      // the lamp's own light, a warm cream
+const vec3 COPPER = vec3(0.780, 0.510, 0.300);    // walnut and camel at their warmest, for the embers
 
-
-/* ---------- the page ground: pale, daylight from the top left, a low pastel band ---------- */
+/* ---------- the stage ground: espresso, lit by a lamp at the top left, embers low along the floor ---------- */
 vec3 ground(vec2 uv){
-  vec3 c = mix(vec3(0.930,0.936,0.952), vec3(0.972,0.972,0.980), smoothstep(-1.0, 1.0, uv.y));
-  c = mix(c, vec3(1.0,0.986,0.962), 0.60*exp(-1.3*length(uv - vec2(-1.35, 1.25))));
+  vec3 c = mix(vec3(0.050, 0.034, 0.027), vec3(0.106, 0.073, 0.055), smoothstep(-1.0, 1.0, uv.y));
+  c += WALNUT * 0.72 * exp(-1.35*length(uv - vec2(-1.30, 1.30)));
+  c += CAMEL * 0.12 * exp(-2.0*length(uv - vec2(1.25, 1.10)));
   float x = clamp(uv.x*0.42 + 0.5, 0.0, 1.0);
-  vec3 band = vec3(0.62,0.77,1.0);
-  band = mix(band, vec3(0.78,0.70,1.0), smoothstep(0.15, 0.40, x));
-  band = mix(band, vec3(1.0,0.70,0.87), smoothstep(0.40, 0.60, x));
-  band = mix(band, vec3(1.0,0.79,0.62), smoothstep(0.62, 0.90, x));
+  vec3 band = mix(WALNUT, CAMEL, smoothstep(0.10, 0.55, x));
+  band = mix(band, COPPER, smoothstep(0.58, 0.95, x));
   float g = exp(-2.6*max(uv.y + 0.62, 0.0)) * smoothstep(-1.7, -0.5, uv.y);
-  c = mix(c, band, 0.62*clamp(g, 0.0, 1.0));
+  c = mix(c, band, 0.60*clamp(g, 0.0, 1.0));
   return c;
 }
 
 /* ---------- studio lights ---------- */
-// a rounded-rectangle soft box, top left, brighter at its top edge
+// the lamp: a rounded-rectangle soft box, top left, brighter at its top edge
 float softbox(vec3 d){
-  vec3 L = normalize(vec3(-0.55, 0.62, 0.58));
+  vec3 L = normalize(vec3(-0.55, 0.70, 0.52));
   vec3 a = normalize(cross(L, vec3(0.0, 1.0, 0.0))), b = cross(a, L);
   float w = dot(d, L); if (w < 0.0) return 0.0;
   float u = dot(d, a) / 0.47, v = dot(d, b) / 0.26;
   float sh = pow(abs(u), 3.0) + pow(abs(v), 3.0);
-  return smoothstep(1.0, 0.20, sh) * (0.60 + 0.40*smoothstep(-1.0, 1.0, v));
+  return smoothstep(1.0, 0.12, sh) * (0.55 + 0.45*smoothstep(-1.0, 1.0, v));
 }
-// a tall thin strip on the right
+// a tall thin strip on the right, the embers' side
 float strip(vec3 d){
   vec3 L = normalize(vec3(0.92, 0.12, 0.38));
   vec3 a = normalize(cross(L, vec3(0.0, 1.0, 0.0))), b = cross(a, L);
@@ -290,14 +359,14 @@ float strip(vec3 d){
   return smoothstep(1.0, 0.3, pow(abs(u), 2.0) + pow(abs(v), 6.0));
 }
 
-/* ---------- the studio seen in the water: one large round soft box top left, a strip on the right ---------- */
+/* ---------- the room seen in the water: dark wood, the lamp top left, a strip of ember light on the right ---------- */
 vec3 env(vec3 d){
   float up = d.y;
-  vec3 c = mix(vec3(0.66,0.70,0.77), vec3(0.89,0.905,0.93), smoothstep(-0.55, 0.05, up));
-  c = mix(c, vec3(0.972,0.975,0.983), smoothstep(0.05, 0.75, up));
-  vec3 band = mix(vec3(0.66,0.78,1.0), vec3(1.0,0.78,0.70), smoothstep(-0.6, 0.6, d.x));
-  c = mix(c, band, 0.34*exp(-pow((up + 0.20)/0.15, 2.0)));
-  c += softbox(d) * vec3(0.30,0.295,0.29) + strip(d) * vec3(0.20,0.21,0.23);
+  vec3 c = mix(vec3(0.030, 0.021, 0.017), vec3(0.110, 0.076, 0.058), smoothstep(-0.55, 0.05, up));
+  c = mix(c, vec3(0.175, 0.122, 0.090), smoothstep(0.05, 0.75, up));
+  vec3 band = mix(WALNUT, COPPER, smoothstep(-0.6, 0.6, d.x));
+  c = mix(c, band, 0.30*exp(-pow((up + 0.20)/0.15, 2.0)));
+  c += softbox(d) * LAMP * 0.70 + strip(d) * COPPER * 0.55;
   return c;
 }
 /* ---------- the outer water: a sphere with slow, low lobes ---------- */
@@ -312,7 +381,7 @@ vec3 nrm(vec3 p){
   return normalize(k.xyy*sdf(p + k.xyy*e) + k.yyx*sdf(p + k.yyx*e) + k.yxy*sdf(p + k.yxy*e) + k.xxx*sdf(p + k.xxx*e));
 }
 
-/* ---------- the inner lake: its surface ---------- */
+/* ---------- the inner pool: its surface ---------- */
 float hgt(vec2 q){
   vec2 d1 = vec2(cos(uRock.y), sin(uRock.y));
   vec2 d2 = vec2(cos(uRock.y + 2.1), sin(uRock.y + 2.1));
@@ -323,7 +392,7 @@ float hgt(vec2 q){
   return h;
 }
 
-// the light pattern on a lake floor: a slow caustic network
+// the light pattern on the floor of the drop: a slow caustic network
 float caustic(vec2 p, float t){
   vec2 i = p; float c = 1.0; float inten = 0.005;
   for (int n = 0; n < 4; n++) {
@@ -347,42 +416,43 @@ void main(){
                0.32*sin(uTime*6.2832/41.0) + 0.16*sin(uTime*6.2832/23.0 + 1.0),
                0.86 + 0.70*(uLight - 0.25), e);
   vec2 uv = (gl_FragCoord.xy - 0.5*uRes) / (0.5*uRes.y) - uOff;
+  vec2 suv = (gl_FragCoord.xy - 0.5*uRes) / (0.5*uRes.y);   // stage coordinates: the ground stays put while the orb sits higher
   float px = 2.0 / uRes.y;
-  // camera: almost level with the inner lake, so its surface reads as a ribbon
+  // camera: almost level with the inner pool, so its surface reads as a ribbon
   float D = 4.2;
   vec3 ro = vec3(0.0, D*sin(uEl), D*cos(uEl));
   vec3 fw = normalize(-ro), rt = vec3(1.0, 0.0, 0.0), up = cross(rt, fw);
   float fl = uR * sqrt(D*D - 1.0);
   vec3 rd = normalize(uv.x*rt + uv.y*up + fl*fw);
 
-  vec3 bg = ground(uv);
+  vec3 bg = ground(suv);
   float light = uRock.z, energy = uRock.w;
 
-  // the ground under the orb: a soft cool shadow and the light the water focuses
+  // the floor under the orb: a soft shadow, and the lamplight the water gathers into a warm pool
   vec2 cu = uv - vec2(0.0, -uR*1.03);
   float shd = length(cu * vec2(1.0, 4.0));
-  vec3 col = bg * (1.0 - 0.13*smoothstep(uR*1.15, 0.0, shd));
+  vec3 col = bg * (1.0 - 0.30*smoothstep(uR*1.20, 0.0, shd));
   vec2 cc = uv - vec2(uR*0.20, -uR*1.04);
   float cau = exp(-pow(length(cc * vec2(1.6, 6.0)) / (uR*0.42), 2.0));
   float cauCore = exp(-pow(length(cc * vec2(2.2, 8.0)) / (uR*0.30), 2.0));
-  vec3 cauCol = mix(vec3(0.40,0.88,1.0), vec3(1.0,0.78,0.52), smoothstep(-uR*0.25, uR*0.45, uv.x));
-  col = mix(col, cauCol, cau * 0.22 * light);
-  col += vec3(1.0,0.98,0.95) * cauCore * 0.06;
-  float alpha = max(1.0 - uClear, max(0.13*smoothstep(uR*1.15, 0.0, shd), cau*0.22*light));
+  vec3 cauCol = mix(SAND, COPPER, smoothstep(-uR*0.25, uR*0.45, uv.x));
+  col += cauCol * cau * 0.30 * light;
+  col += LAMP * cauCore * 0.10 * light;
+  float alpha = max(1.0 - uClear, max(0.30*smoothstep(uR*1.20, 0.0, shd), cau*0.30*light));
 
   vec2 bs = isect(ro, rd, 1.08);
   if (bs.x > 0.0) {
     float t = bs.x; bool hit = false; vec3 p = ro;
-    for (int i = 0; i < 14; i++) { p = ro + rd*t; float d = sdf(p); if (abs(d) < 0.0005) { hit = true; break; } t += d; if (t > bs.y) break; }
-    if (abs(sdf(p)) < 0.004) hit = true;
+    for (int i = 0; i < 20; i++) { p = ro + rd*t; float d = sdf(p); if (abs(d) < 0.0005) { hit = true; break; } t += d; if (t > bs.y) break; }
+    if (abs(sdf(p)) < 0.006) hit = true;
     if (hit) {
       vec3 N = nrm(p);
       // a breeze on the surface while the voice speaks: the finest ripples, in the normals only
       N = normalize(N + uShape.z*0.6*vec3(sin(14.0*p.y + uShape.w*1.1), sin(13.0*p.x - uShape.w), 0.0));
       float ndv = clamp(dot(N, -rd), 0.0, 1.0);
-      float F = 0.02 + 0.98*pow(1.0 - ndv, 5.0);
+      float F = 0.03 + 0.97*pow(1.0 - ndv, 5.0);
 
-      /* ---- the ground seen through the water: a real lens, flipped and spread by colour ---- */
+      /* ---- the room seen through the water: a real lens, flipped and spread by colour ---- */
       vec3 inside;
       {
         vec3 rb = refract(rd, N, 1.0/1.333);
@@ -397,19 +467,19 @@ void main(){
           float tp = (-2.4 - q.z) / min(o.z, -0.05);
           vec3 P = q + o*tp; vec3 v = P - ro;
           vec2 g = vec2(dot(v, rt), dot(v, up)) * fl / dot(v, fw);
-          vec3 s = (o.z > -0.05) ? env(o) : ground(g);
+          vec3 s = (o.z > -0.05) ? env(o) : ground(g + uOff);
           tc[c] = c == 0 ? s.r : (c == 1 ? s.g : s.b);
         }
-        inside = tc * vec3(0.955, 0.985, 1.0);   // a whisper of lake tint
-        // light dancing on the floor of the drop, only in the lower half, very faint
+        inside = tc * vec3(1.0, 0.95, 0.90);   // smoked, warm water
+        // light dancing on the floor of the drop, only in the lower half, faint
         float cw = smoothstep(0.05, -0.75, q.y) * smoothstep(1.0, 0.55, length(q.xz));
         float cs = caustic(q.xz*3.2 + vec2(7.0, 3.0), uTime*0.22 + 11.0);
-        inside = mix(inside, vec3(0.93, 0.99, 1.0), cs * cw * 0.30);
-        // the deep side of the water reads a little darker, which is what gives it body on a pale page
-        inside *= 1.0 - 0.10*smoothstep(-0.2, 0.9, -dot(N, normalize(vec3(-0.45, 0.70, 0.55))));
+        inside += LAMP * cs * cw * 0.16 * light;
+        // the side away from the lamp holds the dark of the room, which gives the water its depth
+        inside *= 1.0 - 0.22*smoothstep(-0.2, 0.9, -dot(N, normalize(vec3(-0.45, 0.70, 0.55))));
       }
 
-      /* ---- the lake of light inside: luminous coloured fog, composited front to back ---- */
+      /* ---- the pool of lamplight inside: luminous coloured fog, composited front to back ---- */
       vec3 rv = refract(rd, N, 1.0/1.10);              // the light inside is seen through a gentler lens
       vec2 ev = isect(p, rv, 0.985);
       float tEnd = max(ev.y, 0.0);
@@ -421,7 +491,8 @@ void main(){
       // light gathers on the side that rises
       float kL = 0.55 + 4.0*max(hL - hM + 0.04, 0.0) + 0.30*energy;
       float kR = 0.50 + 4.0*max(hR - hM + 0.04, 0.0) + 0.30*energy;
-      vec3 cyan = vec3(0.30,0.94,1.00), amber = vec3(1.0,0.79,0.46), mint = vec3(0.66,0.97,0.90), lilac = vec3(0.84,0.78,1.0);
+      // the lamp's cream on the left, copper on the right, camel and a rose sand between them
+      vec3 cream = vec3(1.0, 0.84, 0.60), copper = vec3(0.93, 0.52, 0.26), camel = vec3(0.88, 0.63, 0.41), rose = vec3(0.95, 0.68, 0.52);
       float grow = 1.0 + 0.25*energy;
       vec3 q = p + rv*dt*jit;
       for (int i = 0; i < NS; i++) {
@@ -430,9 +501,9 @@ void main(){
         float r = length(q);
         float wall = smoothstep(0.995, 0.80, r);
         // two lobes of light that hug the surface from below
-        vec3 dl = (q - vec3(-0.48, hL - 0.13, 0.0)) / vec3(0.52*grow, 0.27*grow, 0.62);
-        vec3 dr = (q - vec3( 0.52, hR - 0.15, 0.0)) / vec3(0.47*grow, 0.25*grow, 0.62);
-        vec3 dm = (q - vec3( 0.02, hM - 0.12, 0.0)) / vec3(0.34*grow, 0.22*grow, 0.55);
+        vec3 dl = (q - vec3(-0.48, hL - 0.12, 0.0)) / vec3(0.52*grow, 0.22*grow, 0.62);
+        vec3 dr = (q - vec3( 0.52, hR - 0.14, 0.0)) / vec3(0.47*grow, 0.20*grow, 0.62);
+        vec3 dm = (q - vec3( 0.02, hM - 0.11, 0.0)) / vec3(0.34*grow, 0.18*grow, 0.55);
         float wl = exp(-dot(dl, dl)), wr = exp(-dot(dr, dr)), wm = exp(-dot(dm, dm))*0.42*(0.5*kL + 0.5*kR);
         float sheet = exp(-abs(f)/0.05) * 0.35;                         // a thin glowing skin along the surface
         float under = f < 0.0 ? 1.0 : exp(-f/0.035);
@@ -441,17 +512,20 @@ void main(){
         float fib = noise3(fq)*0.65 + noise3(fq*2.17 + 5.3)*0.35;
         fib = 0.55 + 0.9*smoothstep(0.3, 0.8, fib);
         float dl2 = (wl*kL + wr*kR + wm) * under + sheet*(0.6 + 0.5*energy);
-        float sigma = dl2 * fib * wall * light * 3.2;
-        vec3 midc = mix(mint, lilac, 0.5 + 0.5*sin(uTime*0.09 + q.x*2.0));
-        vec3 fc = cyan*wl*kL + amber*wr*kR + midc*(wm + sheet*0.8);
+        // light gathers at the surface: deeper down the pool thins and warms toward walnut, like lamplight in a glass of whisky
+        float depth = clamp(-f / 0.62, 0.0, 1.0);
+        float sigma = dl2 * fib * wall * light * 2.1 * mix(1.0, 0.45, depth);
+        vec3 midc = mix(camel, rose, 0.5 + 0.5*sin(uTime*0.09 + q.x*2.0));
+        vec3 fc = cream*wl*kL + copper*wr*kR + midc*(wm + sheet*0.8);
         fc /= max(wl*kL + wr*kR + wm + sheet*0.8, 1e-3);
-        // the densest cores glow a touch brighter than the frost around them
-        fc *= 1.0 + 0.10*smoothstep(0.8, 1.6, dl2*light);
+        // the densest cores glow brighter than the haze around them: lamplight, not paint
+        fc = mix(fc, vec3(0.62, 0.34, 0.17), depth*0.70);
+        fc *= 1.0 + 0.35*smoothstep(0.7, 1.6, dl2*light);
         float a = 1.0 - exp(-sigma*dt);
-        C += T * a * fc; T *= 1.0 - a;
+        C += T * a * fc * 1.25; T *= 1.0 - a*0.80;
         q += rv*dt;
       }
-      /* the surface seen edge-on: a fine ribbon, built from depth slices so it stays crisp and can split into strands */
+      /* the surface seen edge-on: a fine ribbon of light, built from depth slices so it stays crisp and can split into strands */
       float ink = 0.0, glint = 0.0;
       float Rpx = uR / px;                                             // pixels per unit
       vec2 e2 = isect(p, rv, 0.985);
@@ -467,7 +541,8 @@ void main(){
         ink = 1.0 - (1.0 - ink)*(1.0 - a*(i == 0 ? 0.60 : 0.15));
         glint = max(glint, exp(-pow((fpx - 1.9)/0.9, 2.0)) * fade * depthW);
       }
-      vec3 inkCol = mix(vec3(0.15,0.33,0.40), vec3(0.42,0.31,0.18), smoothstep(-0.25, 0.65, uv.x/uR));
+      // the meniscus: dark where it crosses the light, catching the lamp just above it
+      vec3 inkCol = mix(vec3(0.16, 0.10, 0.07), vec3(0.30, 0.19, 0.11), smoothstep(-0.25, 0.65, uv.x/uR));
       // sparkles: tiny lights that leave the surface on the brightest syllables
       vec3 spark = vec3(0.0);
       for (int i = 0; i < 8; i++) {
@@ -481,34 +556,39 @@ void main(){
         vec3 v = sp - ro; vec2 sc = vec2(dot(v, rt), dot(v, up)) * fl / dot(v, fw) * 1.08;
         float d = length(uv - sc) / px;
         float a = sin(PI*sk.z) * sk.w;
-        spark += a * (vec3(1.0,0.99,0.96)*exp(-d*d/2.0) + vec3(0.80,0.96,1.0)*0.16*exp(-d/4.0));
+        spark += a * (vec3(1.0, 0.95, 0.86)*exp(-d*d/2.0) + vec3(1.0, 0.80, 0.58)*0.20*exp(-d/4.0));
       }
-      vec3 lit = inside * T + C;
-      lit = mix(lit, inkCol, min(ink, 0.85) * 0.80);
-      lit = mix(lit, vec3(1.0), glint * 0.30 * (0.6 + 0.4*light));
+      // the light is added to the dark water behind it and rolls off softly (1 - exp(-x)), so it blooms instead of clipping
+      vec3 lit = inside * T + (1.0 - exp(-C * 1.45)) * 1.04;
+      lit = mix(lit, inkCol, min(ink, 0.85) * 0.70 * (1.0 - T*0.6));
+      lit = mix(lit, LAMP, glint * 0.42 * (0.6 + 0.4*light));
       lit += spark * smoothstep(0.995, 0.86, length(uv/uR));
 
       /* ---- the water's skin ---- */
       vec3 R = reflect(rd, N);
       vec3 refl = env(R);
       vec3 water = mix(lit, refl, F);
-      // the soft box shows on the face as a milky window that bends with the water
-      water = mix(water, vec3(1.0, 0.996, 0.992), softbox(R) * 0.46);
-      water = mix(water, vec3(1.0), strip(R) * 0.40);
-      // the edge: refraction darkens the lower right rim, daylight whitens the upper left, a faint spectrum
+      // the lamp shows on the face as a warm window that bends with the water
+      water = mix(water, LAMP, softbox(R) * 0.68);
+      water = mix(water, mix(COPPER, SAND, 0.35), strip(R) * 0.58);
+      // the edge: the lamp warms the upper left rim, the lower right sinks into the room, a faint spectrum
       float side = dot(normalize(p.xy + 1e-4), normalize(vec2(-0.6, 0.8)));
-      water *= 1.0 - 0.20*smoothstep(0.30, 0.0, ndv) * (0.65 - 0.35*side);
-      water = mix(water, vec3(0.995, 0.997, 1.0), 0.42*(0.55 + 0.45*side)*exp(-pow(ndv/0.13, 2.0)));
+      water *= 1.0 - 0.16*smoothstep(0.30, 0.0, ndv) * (0.65 - 0.35*side);
+      water = mix(water, mix(CAMEL, LAMP, 0.55), 0.40*max(side, 0.0)*exp(-pow(ndv/0.12, 2.0)));
+      // a fine rim all the way round, so the glass keeps its edge against the dark room
+      water = mix(water, mix(WALNUT, CAMEL, 0.5 + 0.5*side), 0.26*exp(-pow(ndv/0.11, 2.0)));
       float ir = pow(1.0 - ndv, 4.0);
       vec3 film = 0.5 + 0.5*cos(2.0*PI*(vec3(0.0, 0.33, 0.67) + ndv*2.4 + 0.1*sin(uTime*0.12 + atan(p.y, p.x))));
-      water += (film - 0.5) * ir * 0.07;
-      float cov = smoothstep(0.0, 0.035, ndv);
+      water += (film - 0.5) * ir * 0.05;
+      // coverage from the distance to the silhouette in pixels (near the edge of a sphere that is about ndv^2/2 of
+      // its radius), so the edge is anti-aliased over about a pixel and a half at any size, crisp against the dark room
+      float cov = smoothstep(0.0, 1.4, ndv*ndv*0.5*uR/px);
       col = mix(col, water, cov);
       alpha = max(alpha, cov);
     }
   }
   // grain, the same as the page
-  float grain = (hash12(gl_FragCoord.xy) - 0.5) * 0.032;   // still grain, like the page
+  float grain = (hash12(gl_FragCoord.xy) - 0.5) * 0.022;   // still grain, like the page
   col += grain;
   // appearing and leaving: on an opaque stage (uClear 0) the orb dissolves into its own ground and the canvas
   // stays opaque, so nothing behind it shows through; on a clear stage the whole drawing fades

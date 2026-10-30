@@ -1,19 +1,23 @@
 <!doctype html>
 <html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="noindex, nofollow"><title>Signal</title>
+<meta name="robots" content="noindex, nofollow"><meta name="theme-color" content="#1A120E"><meta name="color-scheme" content="dark"><title>Signal</title>
 <style>
 @font-face { font-family: "Host Grotesk"; font-weight: 300 800; font-display: swap; src: url("/Signal/assets/fonts/host-grotesk-latin-wght-normal.woff2") format("woff2"); }
-:root { color-scheme: light dark; --ink: #14161A; --ink2: #5B6170; --card: rgba(255,255,255,.7); --edge: rgba(255,255,255,.95); --bg: #F3F2F7; }
-@media (prefers-color-scheme: dark) { :root { --ink: #F4F5F8; --ink2: #A9AFBF; --card: rgba(30,32,41,.7); --edge: rgba(255,255,255,.1); --bg: #111319; } }
-html, body { margin: 0; min-height: 100%; background: var(--bg); }
-body { font-family: "Host Grotesk", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; color: var(--ink);
-  background: var(--bg) url("/Signal/assets/email/ground-bottom-light.jpg") center bottom / 100% auto no-repeat; min-height: 100vh;
-  display: grid; place-items: center; padding: 24px 16px; box-sizing: border-box; }
-@media (prefers-color-scheme: dark) { body { background-image: url("/Signal/assets/email/ground-bottom-dark.jpg"); } }
-.c { max-width: 420px; width: 100%; background: var(--card); border: 1px solid var(--edge); border-radius: 22px; padding: 22px 20px; box-sizing: border-box; }
-b { display: block; font-size: 14px; font-weight: 600; } h1 { font-size: 26px; line-height: 1.1; letter-spacing: -.02em; font-weight: 600; margin: 14px 0 8px; }
-p { margin: 0; font-size: 15px; line-height: 1.45; color: var(--ink2); } a { color: var(--ink); font-weight: 600; }
-</style></head><body><main class="c"><b>Signal</b><h1 id="h">One moment</h1><p id="p"></p></main>
+@font-face { font-family: "Newsreader"; font-weight: 400 600; font-display: swap; src: url("/Signal/assets/fonts/newsreader-latin-display-normal.woff2") format("woff2"); }
+:root { color-scheme: dark; --fg: #F6EDE2; --fg2: #D5C4AE; --fg3: #C1A181; }
+html, body { margin: 0; min-height: 100%; background: #1A120E; }
+body { font-family: "Host Grotesk", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; color: var(--fg2); min-height: 100vh;
+  background: radial-gradient(115% 46% at -8% -6%, rgba(107,74,46,.70), rgba(107,74,46,0) 70%), radial-gradient(60% 26% at 106% 4%, rgba(168,132,98,.22), rgba(168,132,98,0) 72%),
+    linear-gradient(180deg, #21160F 0%, #1A120E 42%, #150F0B 100%) fixed;
+  display: grid; place-items: center; padding: 24px 16px; box-sizing: border-box; -webkit-font-smoothing: antialiased; }
+.c { max-width: 420px; width: 100%; border-radius: 28px; padding: 24px 22px 22px; box-sizing: border-box;
+  background: linear-gradient(180deg, #3A2418 0%, #311F15 34%, #291B12 100%);
+  box-shadow: inset 0 1px 0 rgba(246,237,226,.10), inset 0 0 0 1px rgba(213,196,174,.07), 0 26px 50px -28px rgba(0,0,0,.9); }
+b { display: flex; align-items: center; gap: 9px; font-size: 15px; font-weight: 600; color: var(--fg); }
+b i { width: 12px; height: 12px; border-radius: 50%; background: radial-gradient(circle at 34% 30%, #F6EDE2 0 10%, #D5C4AE 24%, #A88462 50%, #6B4A2E 76%, #3A2418 100%); box-shadow: 0 0 14px 1px rgba(168,132,98,.5); }
+h1 { font-family: "Newsreader", Georgia, serif; font-size: 30px; line-height: 1.12; letter-spacing: -.016em; font-weight: 500; color: var(--fg); margin: 18px 0 8px; }
+p { margin: 0; font-size: 15px; line-height: 1.5; } a { color: var(--fg); font-weight: 600; text-underline-offset: 3px; }
+</style></head><body><main class="c"><b><i aria-hidden="true"></i>Signal</b><h1 id="h">One moment</h1><p id="p"></p></main>
 <script>
 (function () {
   var root = "/Signal/", h = document.getElementById("h"), p = document.getElementById("p");

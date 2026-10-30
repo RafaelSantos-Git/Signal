@@ -5,168 +5,230 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="robots" content="noindex, nofollow, noarchive">
 <meta name="referrer" content="no-referrer">
-<meta name="theme-color" content="#F7F7F9">
+<meta name="theme-color" content="#1A120E">
+<meta name="color-scheme" content="dark">
 <meta name="apple-mobile-web-app-title" content="Signal">
 <title>Signal · Thursday 29 October</title>
 <link rel="apple-touch-icon" href="../../assets/artwork.jpg">
 <link rel="preload" href="../../assets/fonts/host-grotesk-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../../assets/fonts/newsreader-latin-display-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../../assets/fonts/newsreader-latin-display-italic.woff2" as="font" type="font/woff2" crossorigin>
 <style>
 @font-face { font-family: "Host Grotesk"; font-style: normal; font-display: swap; font-weight: 300 800; src: url("../../assets/fonts/host-grotesk-latin-wght-normal.woff2") format("woff2"); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
 @font-face { font-family: "Host Grotesk"; font-style: normal; font-display: swap; font-weight: 300 800; src: url("../../assets/fonts/host-grotesk-latin-ext-wght-normal.woff2") format("woff2"); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
-:root { --ink: #14161A; --ink-2: #4A5060; --ink-3: #636A7C; --track: rgba(20,22,26,.12); --blue: #5B8DEF; color-scheme: light; }
+@font-face { font-family: "Newsreader"; font-style: normal; font-display: swap; font-weight: 400 600; src: url("../../assets/fonts/newsreader-latin-display-normal.woff2") format("woff2"); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: "Newsreader"; font-style: normal; font-display: swap; font-weight: 400 600; src: url("../../assets/fonts/newsreader-latin-ext-display-normal.woff2") format("woff2"); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: "Newsreader"; font-style: italic; font-display: swap; font-weight: 400 500; src: url("../../assets/fonts/newsreader-latin-display-italic.woff2") format("woff2"); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: "Newsreader"; font-style: italic; font-display: swap; font-weight: 400 500; src: url("../../assets/fonts/newsreader-latin-ext-display-italic.woff2") format("woff2"); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+/* Lamplight: Signal's study at dawn. The palette is Rafael's six colours; sand-50 and camel-200 are the same hues
+   stepped lighter where text needs more contrast than the palette gives (fg 12:1 or more, labels 4.5:1 at the
+   card's brightest point). One light, from the top left. */
+:root {
+  --espresso: #1A120E; --chocolate: #3A2418; --walnut: #6B4A2E; --camel: #A88462; --sand: #D5C4AE; --graphite: #4A4A46;
+  --sand-50: #F6EDE2; --camel-200: #C1A181; --walnut-700: #5A3E27;
+  --fg: var(--sand-50); --fg-2: var(--sand); --fg-3: var(--camel-200); --mark: var(--camel);
+  --line: rgba(213,196,174,.12); --line-2: rgba(213,196,174,.2); --track: rgba(213,196,174,.18);
+  --accent: var(--sand); --on-accent: var(--espresso);
+  /* sand surfaces (the player at rest, the talking point): espresso ink, chocolate and a deeper walnut below it */
+  --paper: linear-gradient(180deg, #E2D4C1 0%, #D5C4AE 42%, #CCBAA2 100%);
+  --ink: var(--espresso); --ink-2: var(--chocolate); --ink-3: var(--walnut-700);
+  --serif: "Newsreader", "Iowan Old Style", Georgia, serif;
+  --sans: "Host Grotesk", -apple-system, "Helvetica Neue", Arial, sans-serif;
+  color-scheme: dark;
+}
 * { box-sizing: border-box; margin: 0; padding: 0; }
-html { -webkit-text-size-adjust: 100%; background: #F2F3F7; }
-body { min-height: 100vh; color: var(--ink); font: 15px/1.5 "Host Grotesk", -apple-system, "Helvetica Neue", Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+html { -webkit-text-size-adjust: 100%; background: var(--espresso); }
+body { min-height: 100vh; color: var(--fg-2); font: 15px/1.55 var(--sans); -webkit-font-smoothing: antialiased; font-kerning: normal; }
 a { color: inherit; }
 button { font: inherit; color: inherit; background: none; border: 0; cursor: pointer; -webkit-tap-highlight-color: transparent; }
-button:focus-visible, a:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; border-radius: 8px; }
+button:focus-visible, a:focus-visible { outline: 2px solid var(--camel-200); outline-offset: 3px; border-radius: 10px; }
 .ground { position: fixed; inset: 0; z-index: -1; background:
-  radial-gradient(110% 55% at -5% -5%, rgba(255,247,234,1) 0%, rgba(255,247,234,0) 62%),
-  radial-gradient(85% 34% at 8% 104%, rgba(158,196,255,.95) 0%, rgba(158,196,255,0) 72%),
-  radial-gradient(70% 30% at 40% 108%, rgba(200,178,255,.95) 0%, rgba(200,178,255,0) 72%),
-  radial-gradient(70% 30% at 66% 106%, rgba(255,178,222,.9) 0%, rgba(255,178,222,0) 72%),
-  radial-gradient(70% 32% at 98% 102%, rgba(255,202,158,.95) 0%, rgba(255,202,158,0) 72%),
-  linear-gradient(180deg, #F7F7F9 0%, #F2F3F7 55%, #EFEDF5 100%); }
-.ground::after { content: ""; position: absolute; inset: 0; background: url("../../assets/grain.png") 0 0 / 128px 128px; mix-blend-mode: overlay; opacity: .42; }
-.wrap { max-width: 520px; margin: 0 auto; padding: calc(env(safe-area-inset-top) + 18px) 18px calc(env(safe-area-inset-bottom) + 120px); display: flex; flex-direction: column; gap: 14px; }
-.mast { padding: 6px 6px 4px; }
-.brand { display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 15px; letter-spacing: -0.005em; }
-.brand i { width: 10px; height: 10px; border-radius: 50%; background: radial-gradient(circle at 35% 30%, #fff, #9EC4FF 45%, #C8B2FF 75%, #FFB2DE); box-shadow: inset 0 0 0 .5px rgba(20,22,26,.2); }
-.day { margin-top: 22px; font-weight: 600; font-size: clamp(40px, 12.5vw, 54px); line-height: .95; letter-spacing: -0.045em; }
-.meta { margin-top: 12px; font-size: 13.5px; color: var(--ink-2); font-variant-numeric: tabular-nums; }
-.status { padding: 12px 16px; border-radius: 18px; background: rgba(255,222,170,.55); box-shadow: inset 0 0 0 1px rgba(170,120,40,.18); font-size: 13.5px; }
-.card { position: relative; isolation: isolate; border-radius: 28px; overflow: hidden;
-  background: linear-gradient(180deg, rgba(255,255,255,.66), rgba(255,255,255,.42));
-  -webkit-backdrop-filter: blur(24px) saturate(160%); backdrop-filter: blur(24px) saturate(160%);
-  box-shadow: inset 0 1px 0 rgba(255,255,255,.95), inset 0 -1px 0 rgba(40,40,70,.05), 0 1px 2px rgba(30,30,60,.05), 0 18px 40px -20px rgba(40,40,80,.22); }
-.card::before { content: ""; position: absolute; inset: 0; border-radius: inherit; padding: 1px; pointer-events: none; z-index: 1;
-  background: linear-gradient(155deg, #fff 0%, rgba(255,255,255,.3) 32%, rgba(255,255,255,.06) 62%, rgba(255,255,255,.6) 100%);
-  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor; mask-composite: exclude; }
-.card > * { position: relative; z-index: 2; }
-@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) { .card { background: rgba(255,255,255,.9); } }
+  radial-gradient(115% 46% at -8% -6%, rgba(107,74,46,.70) 0%, rgba(107,74,46,0) 70%),
+  radial-gradient(60% 26% at 106% 4%, rgba(168,132,98,.22) 0%, rgba(168,132,98,0) 72%),
+  radial-gradient(110% 38% at 50% -10%, rgba(58,36,24,.9) 0%, rgba(58,36,24,0) 78%),
+  linear-gradient(180deg, #21160F 0%, #1A120E 42%, #150F0B 100%); }
+.ground::after { content: ""; position: absolute; inset: 0; background: url("../../assets/grain.png") 0 0 / 128px 128px; mix-blend-mode: overlay; opacity: .55; }
+.wrap { max-width: 520px; margin: 0 auto; padding: calc(env(safe-area-inset-top) + 20px) 18px calc(env(safe-area-inset-bottom) + 120px); display: flex; flex-direction: column; gap: 14px; }
 
-/* the player at rest: a plain play button */
-.p-idle { padding: 14px 16px 14px 14px; display: grid; grid-template-columns: 52px 1fr auto; gap: 2px 14px; align-items: center; }
-.playbtn { width: 52px; height: 52px; grid-row: span 2; border-radius: 50%; display: grid; place-items: center; background: var(--ink); transition: transform .15s;
-  box-shadow: inset 0 1px 0 rgba(255,255,255,.18), 0 1px 2px rgba(20,22,26,.18), 0 10px 22px -10px rgba(20,22,26,.45); }
+/* masthead */
+.mast { padding: 6px 4px 4px; }
+.brand { display: flex; align-items: center; gap: 9px; font-weight: 600; font-size: 15px; letter-spacing: .005em; color: var(--fg); }
+.bead { width: 12px; height: 12px; flex: none; border-radius: 50%;
+  background: radial-gradient(circle at 34% 30%, #F6EDE2 0 10%, #D5C4AE 24%, #A88462 50%, #6B4A2E 76%, #3A2418 100%);
+  box-shadow: 0 0 0 .5px rgba(246,237,226,.28), 0 0 14px 1px rgba(168,132,98,.5); }
+.day { margin-top: 30px; font-family: var(--serif); font-weight: 400; font-size: clamp(46px, 14.2vw, 64px); line-height: .98; letter-spacing: -0.024em; color: var(--fg); font-optical-sizing: auto; }
+.day .wd { display: block; font-style: italic; color: var(--mark); letter-spacing: -0.018em; }
+.day .dm { display: block; }
+.meta { margin-top: 14px; font-size: 13.5px; color: var(--fg-3); font-variant-numeric: tabular-nums; }
+.status { display: flex; gap: 11px; align-items: flex-start; padding: 13px 16px 13px 14px; border-radius: 20px; font-size: 13.5px; line-height: 1.5; color: var(--fg);
+  background: linear-gradient(180deg, rgba(107,74,46,.46), rgba(107,74,46,.30)); box-shadow: inset 0 1px 0 rgba(246,237,226,.08), inset 0 0 0 1px rgba(168,132,98,.30); }
+.status::before { content: ""; flex: none; width: 7px; height: 7px; margin-top: 7px; border-radius: 50%; background: var(--camel-200); box-shadow: 0 0 0 3px rgba(193,161,129,.20); }
+
+/* surfaces: leather lit from the top left */
+.card { position: relative; isolation: isolate; border-radius: 28px; overflow: hidden;
+  background: linear-gradient(180deg, #3A2418 0%, #311F15 34%, #291B12 100%);
+  box-shadow: inset 0 1px 0 rgba(246,237,226,.10), inset 0 0 0 1px rgba(213,196,174,.07), 0 1px 2px rgba(0,0,0,.42), 0 26px 50px -28px rgba(0,0,0,.9); }
+.card::before { content: ""; position: absolute; inset: 0; z-index: 0; pointer-events: none; border-radius: inherit;
+  background: radial-gradient(110% 62% at 0% 0%, rgba(168,132,98,.15), rgba(168,132,98,0) 62%); }
+.card::after { content: ""; position: absolute; inset: 0; z-index: 0; pointer-events: none; background: url("../../assets/grain.png") 0 0 / 128px 128px; mix-blend-mode: overlay; opacity: .45; }
+.card > * { position: relative; z-index: 1; }
+
+/* the player at rest: the brightest object on the page, sand lit from the top left */
+.p-idle { position: relative; isolation: isolate; overflow: hidden; border-radius: 30px; padding: 16px 16px 14px 16px; display: grid; grid-template-columns: 56px 1fr auto; gap: 1px 14px; align-items: center;
+  background: var(--paper); color: var(--ink);
+  box-shadow: inset 0 1px 0 rgba(255,250,242,.75), inset 0 0 0 1px rgba(255,250,242,.22), 0 1px 2px rgba(0,0,0,.45), 0 24px 46px -24px rgba(0,0,0,.95); }
+.p-idle::before { content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none; background: radial-gradient(90% 80% at 0% 0%, rgba(255,250,242,.38), rgba(255,250,242,0) 60%); }
+.playbtn { width: 56px; height: 56px; grid-row: span 2; border-radius: 50%; display: grid; place-items: center; background: var(--espresso); transition: transform .15s;
+  box-shadow: inset 0 1px 0 rgba(246,237,226,.16), 0 1px 2px rgba(26,18,14,.35), 0 12px 22px -10px rgba(26,18,14,.75); }
 .playbtn:active { transform: scale(.94); }
-.playbtn svg { width: 17px; height: 17px; fill: #fff; margin-left: 3px; }
-.p-title { font-weight: 600; font-size: 16px; letter-spacing: -0.01em; align-self: end; }
-.p-sub { font-size: 13px; color: var(--ink-2); align-self: start; }
-.speed { grid-row: span 2; font-size: 12.5px; font-weight: 600; color: var(--ink-2); padding: 7px 10px; min-width: 44px; min-height: 32px; border-radius: 999px; background: rgba(255,255,255,.6); box-shadow: inset 0 0 0 1px rgba(20,22,26,.07); font-variant-numeric: tabular-nums; }
-.chaps { grid-column: 1 / -1; display: flex; gap: 3px; margin-top: 12px; height: 16px; align-items: center; }
-.chaps button { height: 16px; flex: var(--w, 1); display: flex; align-items: center; padding: 0; min-width: 4px; }
+.playbtn svg { width: 18px; height: 18px; fill: var(--sand-50); margin-left: 3px; }
+.p-title { font-family: var(--serif); font-style: italic; font-weight: 400; font-size: 20px; line-height: 1.2; letter-spacing: -0.008em; color: var(--ink); align-self: end; }
+.p-sub { font-size: 13px; color: var(--ink-3); align-self: start; }
+.speed { grid-row: span 2; font-size: 12.5px; font-weight: 600; color: var(--ink); padding: 7px 11px; min-width: 46px; min-height: 34px; border-radius: 999px; background: rgba(26,18,14,.05); box-shadow: inset 0 0 0 1px rgba(26,18,14,.18); font-variant-numeric: tabular-nums; position: relative; }
+.speed::after { content: ""; position: absolute; inset: -5px -2px; }
+.chaps { grid-column: 1 / -1; display: flex; gap: 3px; margin-top: 14px; height: 18px; align-items: center; }
+.chaps button { height: 18px; flex: var(--w, 1); display: flex; align-items: center; padding: 0; min-width: 4px; }
 .chaps button i { display: block; width: 100%; height: 4px; border-radius: 2px; background: var(--track); position: relative; overflow: hidden; }
-.chaps button i b { position: absolute; inset: 0 auto 0 0; width: 0; background: var(--ink); border-radius: 2px; }
+.chaps button i b { position: absolute; inset: 0 auto 0 0; width: 0; background: var(--accent); border-radius: 2px; }
+.p-idle .chaps button i { background: rgba(58,36,24,.20); }
+.p-idle .chaps button i b { background: var(--espresso); }
 .now { grid-column: 1 / -1; display: flex; justify-content: space-between; gap: 12px; margin-top: 6px; font-size: 12.5px; color: var(--ink-3); font-variant-numeric: tabular-nums; min-width: 0; }
 .now .js-time { flex: none; white-space: nowrap; }
 .now b { color: var(--ink); font-weight: 600; }
 .now .nx { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.p-idle :focus-visible { outline-color: var(--espresso); }
+.p-idle::after, .say::after { content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none; background: url("../../assets/grain.png") 0 0 / 128px 128px; mix-blend-mode: multiply; opacity: .10; }
 
-/* the stage while he speaks: the orb alone, the controls in a glass panel */
+/* the stage while he speaks: the orb in its own room, the controls on smoked glass */
 .player[data-mode="idle"] .stage { display: none; }
 .player[data-mode="stage"] .p-idle { display: none; }
 .stage { position: relative; height: 420px; border-radius: 30px; overflow: hidden; isolation: isolate;
-  /* the shader's own ground in CSS, under the canvas until its first frame is drawn (no flash of a bare stage) */
-  background: radial-gradient(circle 440px at calc(50% - 283px) -52px, rgba(255,251,245,.6), rgba(255,251,245,0)),
-    linear-gradient(to top, rgba(240,241,245,.42), #F0F1F5) left bottom / 100% 34% no-repeat,
-    linear-gradient(to right, #9EC4FF 4%, #C7B3FF 30%, #FFB3DE 50%, #FFC99E 86%) left bottom / 100% 34% no-repeat,
-    linear-gradient(to bottom, #F8F8FA, #EDEFF3);
-  box-shadow: inset 0 1px 0 rgba(255,255,255,.9), inset 0 0 0 1px rgba(255,255,255,.6), 0 22px 44px -22px rgba(40,40,80,.3); }
+  /* the shader's own ground, under the canvas until its first frame is drawn (no flash of a bare stage): rendered by
+     the shader at the widest stage (484 x 420) and centred at full height, which matches any narrower stage exactly */
+  background: #1A120E url("../../assets/stage-ground.webp") center / auto 100% no-repeat;
+  box-shadow: inset 0 0 0 1px rgba(213,196,174,.08), inset 0 1px 0 rgba(246,237,226,.06), 0 26px 50px -26px rgba(0,0,0,.95); }
+/* the lamp dims as the briefing begins: the sand of the play card fades off the stage while it opens */
+.stage::after { content: ""; position: absolute; inset: 0; z-index: 3; pointer-events: none; background: var(--paper); opacity: 0; }
+.player[data-mode="stage"] .stage::after { animation: dim .9s cubic-bezier(.4,0,.2,1) both; }
+@keyframes dim { from { opacity: 1; } to { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .player[data-mode="stage"] .stage::after { animation: none; } }
 /* the canvas keeps its full height while the stage opens over it, so the orb is never drawn squashed */
 .stage canvas { position: absolute; left: 0; top: 0; width: 100%; height: 420px; display: block; opacity: 0; transition: opacity .5s ease; }
 .stage.live canvas { opacity: 1; }
-.stage.nogl { background: #F2F3F7 url("../../assets/stage-still.webp") center top / auto 100% no-repeat; }  /* no WebGL: the still */
-.ctrl { position: absolute; left: 10px; right: 10px; bottom: 10px; padding: 12px 14px; border-radius: 22px; z-index: 2;
-  background: linear-gradient(180deg, rgba(255,255,255,.74), rgba(255,255,255,.52)); -webkit-backdrop-filter: blur(20px) saturate(170%); backdrop-filter: blur(20px) saturate(170%);
-  box-shadow: inset 0 1px 0 rgba(255,255,255,.95), inset 0 0 0 1px rgba(255,255,255,.55), 0 10px 24px -14px rgba(40,40,80,.3); }
-.now-k { display: flex; align-items: center; gap: 7px; font-size: 12px; font-weight: 600; color: var(--ink-2); margin-bottom: 6px; }
-.now-k i { width: 6px; height: 6px; border-radius: 50%; background: var(--blue); box-shadow: 0 0 0 3px rgba(91,141,239,.18); }
-.player.paused .now-k i { background: var(--ink-3); box-shadow: none; }
-.now-t { font-size: 15px; font-weight: 600; letter-spacing: -0.01em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.now-s { font-size: 12.5px; color: var(--ink-2); margin-top: 1px; min-height: 1.5em; }
-.row2 { display: flex; justify-content: space-between; align-items: center; margin-top: 6px; font-size: 12px; color: var(--ink-3); font-variant-numeric: tabular-nums; }
-.btns { display: flex; align-items: center; gap: 6px; color: var(--ink); font-weight: 600; font-size: 13px; }
-.btns button { min-width: 40px; min-height: 40px; border-radius: 999px; }
-.pp { width: 40px; height: 40px; border-radius: 50%; display: grid; place-items: center; background: var(--ink) !important; }
-.pp svg { width: 13px; height: 13px; fill: #fff; }
+.stage.nogl { background: #1A120E url("../../assets/stage-still.webp") center top / auto 100% no-repeat; }  /* no WebGL: the still */
+.ctrl { position: absolute; left: 10px; right: 10px; bottom: 10px; padding: 13px 14px 12px; border-radius: 20px; z-index: 2;
+  background: linear-gradient(180deg, rgba(74,74,70,.46), rgba(40,38,35,.62)); -webkit-backdrop-filter: blur(22px) saturate(130%); backdrop-filter: blur(22px) saturate(130%);
+  box-shadow: inset 0 1px 0 rgba(246,237,226,.13), inset 0 0 0 1px rgba(213,196,174,.09), 0 12px 28px -16px rgba(0,0,0,.85); }
+.now-k { display: flex; align-items: center; gap: 8px; font-size: 12px; font-weight: 600; letter-spacing: .02em; color: var(--fg-3); margin-bottom: 5px; }
+.now-k i { width: 6px; height: 6px; border-radius: 50%; background: var(--camel-200); box-shadow: 0 0 0 3px rgba(193,161,129,.22), 0 0 10px rgba(193,161,129,.6); }
+.player.paused .now-k i { background: rgba(193,161,129,.45); box-shadow: none; }
+.now-t { font-family: var(--serif); font-size: 19px; font-weight: 500; line-height: 1.25; letter-spacing: -0.008em; color: var(--fg); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.now-s { font-size: 12.5px; color: var(--fg-3); margin-top: 1px; min-height: 1.5em; }
+.row2 { display: flex; justify-content: space-between; align-items: center; margin-top: 6px; font-size: 12.5px; color: var(--fg-3); font-variant-numeric: tabular-nums; }
+.btns { display: flex; align-items: center; gap: 4px; color: var(--fg); font-weight: 600; font-size: 13px; }
+.btns button { min-width: 44px; min-height: 44px; border-radius: 999px; }
+.pp { width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center; background: var(--accent) !important; box-shadow: inset 0 1px 0 rgba(255,255,255,.5), 0 6px 14px -6px rgba(0,0,0,.7); }
+.pp svg { width: 14px; height: 14px; fill: var(--on-accent); }
 .ic-play { margin-left: 2px; }
 .player:not(.paused) .ic-play, .player.paused .ic-pause { display: none; }
 .mini .ic-play { display: none; } .mini.paused .ic-play { display: block; } .mini.paused .ic-pause { display: none; }
 
-.sec { display: flex; justify-content: space-between; align-items: baseline; padding: 10px 6px 0; }
-.sec h2 { font-size: 13px; font-weight: 600; }
-.sec span { font-size: 12.5px; color: var(--ink-3); }
-.story { padding: 18px 18px 16px; display: flex; flex-direction: column; gap: 8px; scroll-margin-top: 16px; }
-.kicker { display: flex; gap: 8px; align-items: center; font-size: 12.5px; color: var(--ink-2); font-weight: 500; flex-wrap: wrap; }
-.kicker .n { font-variant-numeric: tabular-nums; color: var(--ink); font-weight: 600; }
-.dot { width: 3px; height: 3px; border-radius: 50%; background: currentColor; opacity: .5; display: inline-block; }
-.listen { margin-left: auto; display: inline-flex; align-items: center; gap: 5px; font-weight: 600; color: var(--ink); font-size: 12.5px; padding: 6px 10px; min-height: 32px; border-radius: 999px; background: rgba(255,255,255,.55); box-shadow: inset 0 0 0 1px rgba(20,22,26,.07); font-variant-numeric: tabular-nums; }
-.listen svg { width: 11px; height: 11px; fill: currentColor; }
-.listen.sm { margin-left: 8px; padding: 3px 8px; min-height: 28px; font-size: 12px; }
-.story h3 { font-size: 22px; line-height: 1.16; font-weight: 600; letter-spacing: -0.022em; text-wrap: balance; }
-.story p { font-size: 15px; line-height: 1.5; color: var(--ink-2); }
+/* sections */
+.sec { display: flex; justify-content: space-between; align-items: baseline; padding: 24px 4px 0; }
+.sec h2 { font-size: 12px; line-height: 16px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--mark); }
+.sec span { font-size: 12.5px; color: var(--fg-3); font-variant-numeric: tabular-nums; }
+.story { padding: 18px 20px 16px; display: flex; flex-direction: column; gap: 9px; scroll-margin-top: 16px; }
+.kicker { display: flex; gap: 10px; align-items: center; min-height: 34px; font-size: 13px; color: var(--fg-3); }
+.kicker .n { font-family: var(--serif); font-style: italic; font-size: 26px; line-height: 1; color: var(--mark); font-variant-numeric: lining-nums; letter-spacing: -0.01em; }
+.kicker .k { min-width: 0; }
+.listen { position: relative; margin-left: auto; flex: none; display: inline-flex; align-items: center; gap: 6px; font-weight: 600; color: var(--fg); font-size: 12.5px; padding: 6px 12px 6px 10px; min-height: 32px; border-radius: 999px;
+  background: rgba(246,237,226,.07); box-shadow: inset 0 0 0 1px var(--line-2); font-variant-numeric: tabular-nums; }
+.listen::after { content: ""; position: absolute; inset: -6px -4px; }  /* a 44 px target around a quieter chip */
+.listen svg { width: 10px; height: 10px; fill: currentColor; }
+.listen.sm { margin-left: 10px; padding: 4px 10px 4px 9px; min-height: 28px; font-size: 12px; }
+.listen.sm::after { inset: -8px -4px; }
+@media (hover: hover) { .listen:hover, .speed:hover { background: rgba(246,237,226,.13); } .src a:hover, .cal a:hover { text-decoration: underline; text-underline-offset: 3px; } }
+.story h3 { font-family: var(--serif); font-size: 25px; line-height: 1.18; font-weight: 500; letter-spacing: -0.014em; color: var(--fg); text-wrap: balance; margin-top: 2px; }
+.story p { font-size: 15px; line-height: 1.56; color: var(--fg-2); text-wrap: pretty; }
 .story p.bg, .story p.next { font-size: 14px; }
-.story p b, .item p b { color: var(--ink); font-weight: 600; }
-.src { display: flex; align-items: center; gap: 10px; padding-top: 4px; font-size: 12.5px; color: var(--ink-3); flex-wrap: wrap; }
+.story p b, .item p b { color: var(--fg); font-weight: 600; }
+.src { display: flex; align-items: center; gap: 10px; margin-top: 4px; padding-top: 12px; border-top: 1px solid var(--line); font-size: 12.5px; color: var(--fg-3); flex-wrap: wrap; }
 .src .links { flex: 1; min-width: 0; }
-.src a { color: var(--ink); font-weight: 600; text-decoration: none; }
-.src a:hover { text-decoration: underline; }
-.src .upd { font-size: 11.5px; font-weight: 600; color: #7a5a12; background: rgba(255,214,140,.5); padding: 2px 7px; border-radius: 999px; }
-.list { padding: 4px 16px; }
-.item { display: grid; gap: 3px; padding: 14px 2px; border-top: 1px solid rgba(20,22,26,.07); scroll-margin-top: 16px; }
-.item:first-child { border-top: 0; }
-.ik { font-size: 12px; color: var(--ink-3); display: flex; align-items: center; }
-.item h4 { font-size: 16px; line-height: 1.25; font-weight: 600; letter-spacing: -0.012em; }
-.item p { font-size: 14px; line-height: 1.45; color: var(--ink-2); }
-.item p.why { color: var(--ink-3); font-size: 13.5px; }
-.item.hl h4 { font-size: 15.5px; }
-.skills { margin-top: 4px; font-size: 13px; padding: 8px 10px; border-radius: 12px; background: rgba(200,178,255,.22); box-shadow: inset 0 0 0 1px rgba(140,110,220,.12); }
-.skills b { font-weight: 600; }
-.cal { padding: 6px 16px; }
-.cal .r { display: grid; grid-template-columns: 70px 1fr; gap: 10px; padding: 11px 2px; border-top: 1px solid rgba(20,22,26,.07); font-size: 14px; }
-.cal .r:first-child { border-top: 0; }
-.cal .r b { font-weight: 600; font-variant-numeric: tabular-nums; }
+.src a { color: var(--fg); font-weight: 600; text-decoration: none; }
+.src .d { font-variant-numeric: tabular-nums; }
+.src .upd { font-size: 12px; font-weight: 600; color: var(--fg); background: rgba(107,74,46,.45); box-shadow: inset 0 0 0 1px rgba(168,132,98,.4); padding: 2px 8px; border-radius: 999px; }
+.item .src { border-top: 0; padding-top: 2px; }
+
+/* lists sit on the page, divided by hairlines, the way a newspaper sets its briefs */
+.list { padding: 0 4px; }
+.item { display: grid; gap: 5px; padding: 18px 0 16px; border-top: 1px solid var(--line); scroll-margin-top: 16px; }
+.item:first-child { border-top: 0; padding-top: 8px; }
+.ik { font-size: 12.5px; color: var(--fg-3); display: flex; align-items: center; min-height: 28px; }
+.item h4 { font-family: var(--serif); font-size: 19px; line-height: 1.28; font-weight: 500; letter-spacing: -0.008em; color: var(--fg); text-wrap: balance; }
+.item p { font-size: 14.5px; line-height: 1.55; color: var(--fg-2); text-wrap: pretty; }
+.item p.why { color: var(--fg-3); font-size: 14px; }
+.item.hl { padding: 15px 0 13px; }
+.item.hl:first-child { padding-top: 8px; }
+.item.hl h4 { font-size: 17px; line-height: 1.3; }
+.skills { margin-top: 6px; font-size: 13.5px; line-height: 1.5; padding: 10px 12px; border-radius: 14px; color: var(--fg-2); background: rgba(107,74,46,.24); box-shadow: inset 0 0 0 1px rgba(168,132,98,.22); }
+.skills b { color: var(--fg); font-weight: 600; }
+.cal { padding: 0 4px; }
+.cal .r { display: grid; grid-template-columns: 78px 1fr; gap: 12px; padding: 13px 0; border-top: 1px solid var(--line); font-size: 14.5px; line-height: 1.45; color: var(--fg-2); }
+.cal .r:first-child { border-top: 0; padding-top: 8px; }
+.cal .r b { font-weight: 600; color: var(--fg); font-variant-numeric: tabular-nums; }
 .cal a { text-decoration: none; }
-.say { padding: 20px 20px 18px; }
-.say .l { font-size: 12.5px; font-weight: 600; color: var(--ink-2); }
-.say p { margin-top: 8px; font-size: 19px; line-height: 1.35; letter-spacing: -0.012em; font-weight: 500; text-wrap: pretty; }
-.arch { padding: 4px 16px; }
-.arch a { display: grid; gap: 2px; padding: 13px 2px; border-top: 1px solid rgba(20,22,26,.07); text-decoration: none; }
-.arch a:first-child { border-top: 0; }
-.arch .t { font-size: 14.5px; font-weight: 600; }
-.arch .m { font-size: 12.5px; color: var(--ink-3); }
-.arch .o { font-size: 13.5px; color: var(--ink-2); }
-.foot { padding: 8px 8px 0; font-size: 12px; color: var(--ink-3); line-height: 1.5; }
+.thread { padding: 20px 20px 18px; }
+.thread .l { font-size: 12px; line-height: 16px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--mark); }
+.thread p { margin-top: 10px; font-family: var(--serif); font-size: 19px; line-height: 1.42; color: var(--fg); text-wrap: pretty; }
+/* the talking point: the one sand surface on the page */
+.say { position: relative; isolation: isolate; overflow: hidden; margin-top: 10px; padding: 22px 22px 22px; border-radius: 28px; color: var(--espresso);
+  background: var(--paper);
+  box-shadow: inset 0 1px 0 rgba(255,250,242,.75), inset 0 0 0 1px rgba(255,250,242,.22), 0 1px 2px rgba(0,0,0,.45), 0 26px 50px -26px rgba(0,0,0,.95); }
+.say::before { content: ""; position: absolute; inset: 0; z-index: -2; pointer-events: none; background: radial-gradient(90% 70% at 0% 0%, rgba(255,250,242,.38), rgba(255,250,242,0) 60%); }
+.say .q { position: absolute; right: 18px; top: 10px; z-index: -1; font-family: var(--serif); font-style: italic; font-weight: 400; font-size: 112px; line-height: .78; color: rgba(107,74,46,.20); }
+.say .l { font-size: 12px; line-height: 16px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-2); }
+.say p { margin-top: 10px; font-family: var(--serif); font-style: italic; font-size: 23px; line-height: 1.32; font-weight: 400; letter-spacing: -0.01em; color: var(--espresso); text-wrap: pretty; }
+.arch { padding: 0 4px; }
+.arch a { display: grid; gap: 3px; padding: 16px 0 15px; border-top: 1px solid var(--line); text-decoration: none; }
+.arch a:first-child { border-top: 0; padding-top: 8px; }
+.arch .t { font-family: var(--serif); font-size: 19px; line-height: 1.25; font-weight: 500; color: var(--fg); }
+.arch .m { font-size: 12.5px; color: var(--fg-3); font-variant-numeric: tabular-nums; }
+.arch .o { font-size: 14px; line-height: 1.5; color: var(--fg-2); margin-top: 2px; }
+@media (hover: hover) { .arch a:hover .t { text-decoration: underline; text-underline-offset: 4px; text-decoration-thickness: 1px; } }
+.foot { margin-top: 18px; padding: 16px 4px 0; border-top: 1px solid var(--line); font-size: 12.5px; color: var(--fg-3); line-height: 1.55; }
 
 .mini { position: fixed; left: 50%; bottom: calc(env(safe-area-inset-bottom) + 18px); width: min(484px, calc(100% - 28px)); transform: translate(-50%, 140%); transition: transform .45s cubic-bezier(.2,.8,.2,1); z-index: 10;
-  display: flex; align-items: center; gap: 12px; padding: 8px 8px 8px 8px; border-radius: 999px;
-  background: rgba(252,252,255,.7); -webkit-backdrop-filter: blur(22px) saturate(170%); backdrop-filter: blur(22px) saturate(170%);
-  box-shadow: inset 0 1px 0 rgba(255,255,255,.95), inset 0 0 0 1px rgba(255,255,255,.55), 0 14px 30px -14px rgba(40,40,80,.35); }
+  display: flex; align-items: center; gap: 12px; padding: 8px; border-radius: 999px;
+  background: linear-gradient(180deg, rgba(74,74,70,.78), rgba(52,51,48,.80)); -webkit-backdrop-filter: blur(22px) saturate(130%); backdrop-filter: blur(22px) saturate(130%);
+  box-shadow: inset 0 1px 0 rgba(246,237,226,.12), inset 0 0 0 1px rgba(213,196,174,.10), 0 16px 34px -14px rgba(0,0,0,.9); }
 .mini.on { transform: translate(-50%, 0); }
 .mini .orb { width: 40px; height: 40px; flex: none; border-radius: 50%; position: relative; overflow: hidden;
-  background: radial-gradient(circle at 34% 30%, rgba(255,255,255,.95), rgba(255,255,255,0) 32%), radial-gradient(70% 45% at 30% 58%, rgba(77,232,255,calc(.55 + var(--lv, 0) * .45)), rgba(77,232,255,0) 70%), radial-gradient(60% 45% at 74% 62%, rgba(255,200,120,calc(.5 + var(--lv, 0) * .45)), rgba(255,200,120,0) 70%), #EEF1F6;
-  box-shadow: inset 0 0 0 1px rgba(255,255,255,.9), inset 0 -3px 6px rgba(80,100,140,.12), 0 4px 10px -4px rgba(40,60,100,.35); }
+  background: radial-gradient(circle at 33% 26%, rgba(255,244,228,.9), rgba(255,244,228,0) 20%),
+    radial-gradient(70% 34% at 36% 56%, rgba(255,222,170,calc(.62 + var(--lv, 0) * .38)), rgba(255,222,170,0) 72%),
+    radial-gradient(56% 32% at 72% 60%, rgba(226,140,76,calc(.50 + var(--lv, 0) * .45)), rgba(226,140,76,0) 72%),
+    radial-gradient(circle at 50% 60%, #2C1D15, #110B08);
+  box-shadow: inset 0 0 0 1px rgba(213,196,174,.24), inset 0 -3px 6px rgba(0,0,0,.45), 0 4px 10px -4px rgba(0,0,0,.6); }
 .mini .t { flex: 1; min-width: 0; text-align: left; }
-.mini .t b { display: block; font-size: 14px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.mini .t span { font-size: 12px; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.mini .t b { display: block; font-family: var(--serif); font-size: 16px; font-weight: 500; color: var(--fg); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.mini .t span { font-size: 12px; color: var(--fg-3); font-variant-numeric: tabular-nums; }
 .mini .pp { width: 40px; height: 40px; flex: none; }
 .vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 @media (prefers-reduced-motion: reduce) { .mini { transition: none; } }
-@media (forced-colors: active) { .card, .ctrl, .mini, .stage { border: 1px solid CanvasText; } }
+@media (forced-colors: active) { .card, .ctrl, .mini, .stage, .say, .status { border: 1px solid CanvasText; } }
+
 </style>
 </head>
 <body>
 <div class="ground" aria-hidden="true"></div>
 <main class="wrap">
   <header class="mast">
-    <div class="brand"><i aria-hidden="true"></i>Signal</div>
-    <h1 class="day">Thursday<br>29 October</h1>
+    <div class="brand"><i class="bead" aria-hidden="true"></i>Signal</div>
+    <h1 class="day"><span class="wd">Thursday</span> <span class="dm">29 October</span></h1>
     <p class="meta">Daily briefing · 21 stories · 12 min 1 s</p>
   </header>
   <div class="status" role="status">Complete edition: the fixed sources opened on this run, so it adds the Swiss stories this morning&#x27;s lighter briefing missed.</div>
   <section class="player paused" data-mode="idle" aria-label="Listen to the briefing">
-    <div class="card p-idle">
+    <div class="p-idle">
       <button class="playbtn js-play" aria-label="Play the briefing"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 2.8c0-.8.9-1.3 1.6-.9l11 6.9c.6.4.6 1.4 0 1.8l-11 6.9c-.7.4-1.6-.1-1.6-.9z"/></svg></button>
       <div class="p-title">Good morning, sir</div>
       <button class="speed js-speed" aria-label="Playback speed">1×</button>
@@ -187,105 +249,105 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--blue); outline-
     <audio id="audio" preload="metadata" src="../../audio/signal-2026-10-29.mp3"></audio>
   </section>
   <div class="sec"><h2>Lead stories</h2><span>3</span></div><article class="card story" id="s-fc-ai-regulation">
-  <div class="kicker"><span class="n">01</span><i class="dot"></i><span>Rules and supervisors</span><i class="dot"></i><span>Switzerland</span><button class="listen" data-seek="28.76" aria-label="Listen from this story"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 3.6c0-.7.8-1.2 1.4-.8l8.6 5.6c.6.4.6 1.3 0 1.7l-8.6 5.6c-.6.4-1.4 0-1.4-.8z"/></svg>0:29</button></div>
+  <div class="kicker"><span class="n">01</span><span class="k">Rules and supervisors · Switzerland</span><button class="listen" data-seek="28.76" aria-label="Listen from this story, 0:29"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 3.6c0-.7.8-1.2 1.4-.8l8.6 5.6c.6.4.6 1.3 0 1.7l-8.6 5.6c-.6.4-1.4 0-1.4-.8z"/></svg><span>0:29</span></button></div>
   <h3>Federal Council plans binding AI rules, with consultation due in spring 2027</h3>
   <p>On 28 October the Federal Council took note of progress in applying the Council of Europe AI Convention, which it decided to ratify in February 2025. OFCOM published a report on sector-specific AI measures and a guide with model texts on 10 topics for voluntary codes of conduct. The Federal Office of Justice is drafting binding rules on transparency, data protection, non-discrimination, supervision and risk assessment, with consultation due to start in spring 2027.</p><p class="bg">Switzerland chose to ratify the convention and adapt sector laws rather than adopt a horizontal law like the EU AI Act. OFCOM&#x27;s report says sectors tied to data processing and regulated markets face particular challenges.</p><p class="why"><b>Why it matters.</b> Banks now have a dated horizon for binding Swiss AI duties alongside FINMA&#x27;s supervisory expectations, so AI governance built today should map to those five themes.</p><p class="next"><b>Watch next.</b> The Federal Office of Justice draft in spring 2027, and whether banking associations take up OFCOM&#x27;s code of conduct guide.</p>
   <div class="src"><span class="links"><a href="https://www.admin.ch/en/newnsb/s2TQiUUjrA5D" target="_blank" rel="noopener noreferrer">Federal Council<span aria-hidden="true"> ↗</span></a></span><span class="d">28 Oct</span></div>
 </article><article class="card story" id="s-ifz-core-banking">
-  <div class="kicker"><span class="n">02</span><i class="dot"></i><span>Technology in finance</span><i class="dot"></i><span>Switzerland</span><button class="listen" data-seek="111.78" aria-label="Listen from this story"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 3.6c0-.7.8-1.2 1.4-.8l8.6 5.6c.6.4.6 1.3 0 1.7l-8.6 5.6c-.6.4-1.4 0-1.4-.8z"/></svg>1:52</button></div>
+  <div class="kicker"><span class="n">02</span><span class="k">Technology in finance · Switzerland</span><button class="listen" data-seek="111.78" aria-label="Listen from this story, 1:52"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 3.6c0-.7.8-1.2 1.4-.8l8.6 5.6c.6.4.6 1.3 0 1.7l-8.6 5.6c-.6.4-1.4 0-1.4-.8z"/></svg><span>1:52</span></button></div>
   <h3>Swiss banks stay loyal to Finnova and Avaloq but rate their AI poorly</h3>
   <p>The Institute of Financial Services Zug (IFZ) at Lucerne University of Applied Sciences surveyed IT executives at Swiss and Liechtenstein banks; 63 of 123 responded. 65 percent expect to keep their core banking vendor for ten years, up from 32 percent in 2023, and 68 percent innovate mainly in systems around the core. 41 percent rank AI integration among the top three future requirements, yet core systems score about two out of five on it.</p><p class="bg">Among respondents, Finnova runs 63 percent of cores and Avaloq 22 percent, according to Inside IT. The authors call the market a duopoly in which new vendors have not broken in.</p><p class="why"><b>Why it matters.</b> AI in Swiss banking will arrive mostly in the layer around the core, which favours integration, data access and orchestration work over replacement projects.</p><p class="next"><b>Watch next.</b> How Finnova and Avaloq answer with AI roadmaps, and whether the 62 percent who find integration demanding push for better interfaces.</p>
   <div class="src"><span class="links"><a href="https://www.finews.com/news/english-news/74194-banks-core-banking-systems-ifz-study-2026-innovation-avaloq-finnova" target="_blank" rel="noopener noreferrer">finews.com<span aria-hidden="true"> ↗</span></a> · <a href="https://www.inside-it.ch/zwei-anbieter-dominieren-die-kernbankensysteme-20261028" target="_blank" rel="noopener noreferrer">Inside IT<span aria-hidden="true"> ↗</span></a></span><span class="d">28 Oct</span></div>
 </article><article class="card story" id="s-canada-banks-agents">
-  <div class="kicker"><span class="n">03</span><i class="dot"></i><span>Technology in finance</span><i class="dot"></i><span>Global</span><button class="listen" data-seek="189.22" aria-label="Listen from this story"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 3.6c0-.7.8-1.2 1.4-.8l8.6 5.6c.6.4.6 1.3 0 1.7l-8.6 5.6c-.6.4-1.4 0-1.4-.8z"/></svg>3:09</button></div>
+  <div class="kicker"><span class="n">03</span><span class="k">Technology in finance · Global</span><button class="listen" data-seek="189.22" aria-label="Listen from this story, 3:09"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 3.6c0-.7.8-1.2 1.4-.8l8.6 5.6c.6.4.6 1.3 0 1.7l-8.6 5.6c-.6.4-1.4 0-1.4-.8z"/></svg><span>3:09</span></button></div>
   <h3>Canada&#x27;s big banks block personal AI agents from online banking</h3>
   <p>RBC, BMO, TD and CIBC say they do not let third-party personal AI agents access online banking or act for clients, according to The Canadian Press. Scotiabank will restrict such agents while it monitors concerns; National Bank is not blocking them and is watching how they develop. RBC chief executive Dave McKay wrote that nothing is more important than the security of client information.</p><p class="bg">Consumer agents from the AI labs can now log in to websites and complete tasks for users, which puts credentials and transactions in the hands of software the bank does not control.</p><p class="why"><b>Why it matters.</b> This is an early sector-wide stance on agents acting for clients. Swiss and European banks face the same choice between blocking agents and offering approved channels.</p><p class="next"><b>Watch next.</b> Whether banks follow with sanctioned agent access, such as delegated logins or APIs with limited permissions.</p>
   <div class="src"><span class="links"><a href="https://bnnbloomberg.ca/business/artificial-intelligence/2026/10/28/some-canadian-banks-blocking-personal-ai-agents-amid-security-concerns" target="_blank" rel="noopener noreferrer">BNN Bloomberg (The Canadian Press)<span aria-hidden="true"> ↗</span></a></span><span class="d">28 Oct</span></div>
-</article><div class="sec"><h2>Technology in financial services</h2><span>3 stories</span></div><div class="card list"><div class="item" id="s-schwab-claude-live">
-  <div class="ik">Global <button class="listen sm" data-seek="270.67" aria-label="Listen from this story">▶ 4:31</button></div>
+</article><div class="sec"><h2>Technology in financial services</h2><span>3 stories</span></div><div class="list"><div class="item" id="s-schwab-claude-live">
+  <div class="ik"><span>Global</span><button class="listen sm" data-seek="270.67" aria-label="Listen from this story, 4:31"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 3.6c0-.7.8-1.2 1.4-.8l8.6 5.6c.6.4.6 1.3 0 1.7l-8.6 5.6c-.6.4-1.4 0-1.4-.8z"/></svg><span>4:31</span></button></div>
   <h4>Schwab switches on Claude for advisers and covers smaller RIAs&#x27; seat costs</h4>
   <p>Claude for Financial Advisors went live on Schwab&#x27;s platform for registered investment advisers on 28 October, at Schwab Impact in Boston, according to WealthManagement.com. Firms signing up for the enterprise plan by 30 November get a $4,800 credit, equal to the 20-seat, 12-month minimum. Schwab also added Wealth.com&#x27;s estate tool Ester and invested in Nevis, an AI back-office platform.</p>
   <p class="why">A custodian subsidising AI seats for small advisers shows the platform contest in wealth moving to who hosts the AI layer.</p>
   <div class="src"><span class="links"><a href="https://www.wealthmanagement.com/ria-news/schwab-expands-ai-inside-schwab-advisor-center-and-across-the-third-party-solutions-rias-use" target="_blank" rel="noopener noreferrer">WealthManagement.com<span aria-hidden="true"> ↗</span></a></span><span class="d">28 Oct</span></div>
 </div><div class="item" id="s-bny-ripple">
-  <div class="ik">Global <button class="listen sm" data-seek="309.52" aria-label="Listen from this story">▶ 5:10</button></div>
+  <div class="ik"><span>Global</span><button class="listen sm" data-seek="309.52" aria-label="Listen from this story, 5:10"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 3.6c0-.7.8-1.2 1.4-.8l8.6 5.6c.6.4.6 1.3 0 1.7l-8.6 5.6c-.6.4-1.4 0-1.4-.8z"/></svg><span>5:10</span></button></div>
   <h4>BNY adds XRP and RLUSD custody and explores tokenised receivables with Ripple</h4>
   <p>BNY&#x27;s Digital Asset Custody platform now supports XRP and Ripple&#x27;s RLUSD stablecoin for eligible institutional clients, according to Fintech News Switzerland. With working capital platform C2FO, the two will explore supply chain finance using tokenised trade receivables on the XRP Ledger. Clients may later mint and redeem RLUSD through BNY, subject to approvals.</p>
   <p class="why">A global custodian adding stablecoin custody raises the bar for Swiss custodians courting digital asset clients.</p>
   <div class="src"><span class="links"><a href="https://fintechnews.ch/blockchain_bitcoin/ripple-bny-tokenised-trade-finance/86710/" target="_blank" rel="noopener noreferrer">Fintech News Switzerland<span aria-hidden="true"> ↗</span></a></span><span class="d">28 Oct</span></div>
 </div><div class="item" id="s-wealthsimple-round">
-  <div class="ik">Global <button class="listen sm" data-seek="340.46" aria-label="Listen from this story">▶ 5:40</button></div>
+  <div class="ik"><span>Global</span><button class="listen sm" data-seek="340.46" aria-label="Listen from this story, 5:40"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 3.6c0-.7.8-1.2 1.4-.8l8.6 5.6c.6.4.6 1.3 0 1.7l-8.6 5.6c-.6.4-1.4 0-1.4-.8z"/></svg><span>5:40</span></button></div>
   <h4>Wealthsimple raises up to CA$425 million at a CA$13.8 billion valuation</h4>
   <p>GIC leads the round, which includes a CA$300 million primary offering and up to CA$125 million in secondary sales, according to Fintech News Switzerland. Assets under administration reached CA$169.2 billion at 30 September, and in the second quarter new chequing accounts outpaced new investment accounts for the first time.</p>
   <p class="why">A digital wealth platform moving into everyday banking shows the route neobrokers take to win primary relationships from incumbent banks.</p>
   <div class="src"><span class="links"><a href="https://fintechnews.ch/canada/wealthsimple-funding-round-gic-valuation/86708/" target="_blank" rel="noopener noreferrer">Fintech News Switzerland<span aria-hidden="true"> ↗</span></a></span><span class="d">28 Oct</span></div>
-</div></div><div class="sec"><h2>Financial services industry</h2><span>5 stories</span></div><div class="card list"><div class="item" id="s-vontobel-9m">
-  <div class="ik">Switzerland <button class="listen sm" data-seek="381.58" aria-label="Listen from this story">▶ 6:22</button></div>
+</div></div><div class="sec"><h2>Financial services industry</h2><span>5 stories</span></div><div class="list"><div class="item" id="s-vontobel-9m">
+  <div class="ik"><span>Switzerland</span><button class="listen sm" data-seek="381.58" aria-label="Listen from this story, 6:22"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 3.6c0-.7.8-1.2 1.4-.8l8.6 5.6c.6.4.6 1.3 0 1.7l-8.6 5.6c-.6.4-1.4 0-1.4-.8z"/></svg><span>6:22</span></button></div>
   <h4>Vontobel reaches a record CHF 255.1 billion in assets despite institutional outflows</h4>
   <p>Assets under management rose CHF 14.4 billion in nine months, according to finews.ch. Reported net new money was CHF 1.9 billion, or CHF 8.4 billion adjusted, with Private Clients bringing in CHF 3.8 billion. Institutional Clients lost CHF 2.0 billion, after CHF 5.1 billion left Quality Growth strategies and CHF 1.6 billion followed Raiffeisen&#x27;s move of the Futura funds mandate.</p>
   <p class="why">Private client inflows are carrying Swiss wealth managers while asset management mandates move, which keeps pressure on fees and product ranges.</p>
   <div class="src"><span class="links"><a href="https://www.finews.ch/news/banken/74219-vontobel-handelsupdate-neunmonate-2026-aum" target="_blank" rel="noopener noreferrer">finews.ch<span aria-hidden="true"> ↗</span></a></span><span class="d">29 Oct</span></div>
 </div><div class="item" id="s-ubs-ermotti-capital">
-  <div class="ik">Switzerland <button class="listen sm" data-seek="417.77" aria-label="Listen from this story">▶ 6:58</button></div>
+  <div class="ik"><span>Switzerland</span><button class="listen sm" data-seek="417.77" aria-label="Listen from this story, 6:58"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 3.6c0-.7.8-1.2 1.4-.8l8.6 5.6c.6.4.6 1.3 0 1.7l-8.6 5.6c-.6.4-1.4 0-1.4-.8z"/></svg><span>6:58</span></button></div>
   <h4>Ermotti calls the Council of States&#x27; capital decision for UBS very concerning</h4>
   <p>On the results call on 28 October, UBS chief executive Sergio Ermotti said the latest proposal would excessively tighten capital requirements already among the strictest in the world, according to finews.com. He said requiring foreign subsidiaries to be backed 50 percent by equity would have been more balanced, and declined to say what UBS might do if the rules stay strict.</p>
   <p class="why">The next parliamentary round keeps uncertainty over UBS&#x27;s capital, buybacks and domicile alive for its clients and competitors.</p>
   <div class="src"><span class="links"><a href="https://www.finews.com/news/english-news/74201-ubs-ermotti-regulierung-eigenkapital" target="_blank" rel="noopener noreferrer">finews.com<span aria-hidden="true"> ↗</span></a></span><span class="d">28 Oct</span></div>
 </div><div class="item" id="s-cross-border-hk">
-  <div class="ik">Switzerland <button class="listen sm" data-seek="453.71" aria-label="Listen from this story">▶ 7:34</button></div>
+  <div class="ik"><span>Switzerland</span><button class="listen sm" data-seek="453.71" aria-label="Listen from this story, 7:34"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 3.6c0-.7.8-1.2 1.4-.8l8.6 5.6c.6.4.6 1.3 0 1.7l-8.6 5.6c-.6.4-1.4 0-1.4-.8z"/></svg><span>7:34</span></button></div>
   <h4>Hong Kong has overtaken Switzerland as the top cross-border wealth hub</h4>
   <p>Citing a BCG study, finews.ch reports that Hong Kong passed Switzerland in 2025, with nearly 60 percent of its assets from mainland Chinese investors. Switzerland still books about $2.9 trillion of cross-border assets, and about 46 percent of assets managed there belong to clients abroad. August Benz of the Swiss Bankers Association sees growth in the Middle East and parts of Asia and Latin America.</p>
   <p class="why">Swiss private banks defending international clients will need sharper service and booking-centre offers as Asian hubs gain scale.</p>
   <div class="src"><span class="links"><a href="https://www.finews.ch/news/finanzplatz/74165-finance-circle-diskussion-zukunft-grenzueberschreitendes-vermoegensverwaltungsgeschaeft-august-benz-schweizerische-bankiervereinigung-sbvg" target="_blank" rel="noopener noreferrer">finews.ch<span aria-hidden="true"> ↗</span></a></span><span class="d">28 Oct</span></div>
 </div><div class="item" id="s-db-3q26">
-  <div class="ik">Europe <button class="listen sm" data-seek="487.23" aria-label="Listen from this story">▶ 8:07</button></div>
+  <div class="ik"><span>Europe</span><button class="listen sm" data-seek="487.23" aria-label="Listen from this story, 8:07"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 3.6c0-.7.8-1.2 1.4-.8l8.6 5.6c.6.4.6 1.3 0 1.7l-8.6 5.6c-.6.4-1.4 0-1.4-.8z"/></svg><span>8:07</span></button></div>
   <h4>Deutsche Bank posts a third straight record quarter with 47 billion euros of inflows</h4>
   <p>Profit after tax was 1.9 billion euros and pre-tax profit rose 8 percent to 2.6 billion euros on revenue of 8.3 billion euros, the bank said. Private Bank and Asset Management took in record net inflows of 47 billion euros, lifting assets under management to 2.0 trillion euros. The cost/income ratio fell to 62.4 percent.</p>
   <p class="why">Strong private bank and asset management inflows sharpen Deutsche Bank&#x27;s competition with Swiss wealth managers for European clients.</p>
   <div class="src"><span class="links"><a href="https://www.db.com/news/detail/20261028-deutsche-bank-reports-on-the-third-quarter-results-of-2026?language_id=1" target="_blank" rel="noopener noreferrer">Deutsche Bank<span aria-hidden="true"> ↗</span></a></span><span class="d">28 Oct</span></div>
 </div><div class="item" id="s-bnp-3q26">
-  <div class="ik">Europe <button class="listen sm" data-seek="514.82" aria-label="Listen from this story">▶ 8:35</button></div>
+  <div class="ik"><span>Europe</span><button class="listen sm" data-seek="514.82" aria-label="Listen from this story, 8:35"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 3.6c0-.7.8-1.2 1.4-.8l8.6 5.6c.6.4.6 1.3 0 1.7l-8.6 5.6c-.6.4-1.4 0-1.4-.8z"/></svg><span>8:35</span></button></div>
   <h4>BNP Paribas lifts profit 13.5 percent as European banks mostly beat forecasts</h4>
   <p>BNP Paribas said net income attributable to the group rose to 3,456 million euros on revenue up 9.5 percent, and it will launch a 1.3 billion euro buyback in November. Santander&#x27;s underlying profit rose 19 percent but Brazil weighed on its shares, while Standard Chartered beat estimates and raised its targets, according to Reuters.</p>
   <p class="why">Europe&#x27;s largest banks are pairing revenue growth with cost discipline, the benchmark mid-sized Swiss banks are measured against.</p>
   <div class="src"><span class="links"><a href="https://invest.bnpparibas/en/document/3q26-pr" target="_blank" rel="noopener noreferrer">BNP Paribas<span aria-hidden="true"> ↗</span></a> · <a href="https://www.933thedrive.com/2026/10/28/european-banks-beat-profit-forecasts-brazil-overshadows-santander/" target="_blank" rel="noopener noreferrer">Reuters via 93.3 The Drive<span aria-hidden="true"> ↗</span></a></span><span class="d">28 Oct</span></div>
-</div></div><div class="sec"><h2>AI and technology</h2><span>5 stories</span></div><div class="card list"><div class="item" id="s-anthropic-ipo">
-  <div class="ik">Global <button class="listen sm" data-seek="549.01" aria-label="Listen from this story">▶ 9:09</button></div>
+</div></div><div class="sec"><h2>AI and technology</h2><span>5 stories</span></div><div class="list"><div class="item" id="s-anthropic-ipo">
+  <div class="ik"><span>Global</span><button class="listen sm" data-seek="549.01" aria-label="Listen from this story, 9:09"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 3.6c0-.7.8-1.2 1.4-.8l8.6 5.6c.6.4.6 1.3 0 1.7l-8.6 5.6c-.6.4-1.4 0-1.4-.8z"/></svg><span>9:09</span></button></div>
   <h4>Anthropic&#x27;s IPO plan targets up to $2 trillion, with founders keeping control</h4>
   <p>Anthropic plans to list in New York at a valuation of up to $2 trillion, according to SRF. Revenue exceeded $16 billion in the first half of the year. Five share classes give the seven founders 50.1 percent of the votes, and UBS is in the syndicate but not among the lead banks. The date, share count and price are not yet set.</p>
   <p class="why">Banks standardising on Claude will get public-company disclosure on Anthropic&#x27;s finances and governance, which helps their vendor risk reviews.</p>
   <div class="src"><span class="links"><a href="https://www.srf.ch/news/wirtschaft/geschwister-zementieren-macht-anthropic-boersengang-macht-firmengruender-zu-milliardaeren" target="_blank" rel="noopener noreferrer">SRF<span aria-hidden="true"> ↗</span></a></span><span class="d">28 Oct</span></div>
 </div><div class="item" id="s-gemini-4-carbon">
-  <div class="ik">Global <button class="listen sm" data-seek="582.28" aria-label="Listen from this story">▶ 9:42</button></div>
+  <div class="ik"><span>Global</span><button class="listen sm" data-seek="582.28" aria-label="Listen from this story, 9:42"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 3.6c0-.7.8-1.2 1.4-.8l8.6 5.6c.6.4.6 1.3 0 1.7l-8.6 5.6c-.6.4-1.4 0-1.4-.8z"/></svg><span>9:42</span></button></div>
   <h4>Google launches Gemini 4 Carbon, first for cyber defenders</h4>
   <p>Google&#x27;s new frontier model reaches organisations in its Fairwind Program later this week, so they can fix security flaws before a broad release, according to SiliconANGLE. Google says internal tests show it is more than twice as good at generating secure code as its predecessor, and that it halves unsupported claims compared with Gemini 4 Argon, released two weeks earlier.</p>
   <p class="why">Staged access by risk is becoming the norm for frontier releases, which matters to bank CISOs planning how fast such models can be approved internally.</p>
   <div class="src"><span class="links"><a href="https://siliconangle.com/2026/10/28/google-debuts-flagship-gemini-4-carbon-model-with-cybersecurity-upgrades" target="_blank" rel="noopener noreferrer">SiliconANGLE<span aria-hidden="true"> ↗</span></a></span><span class="d">28 Oct</span></div>
 </div><div class="item" id="s-foundry-harness">
-  <div class="ik">Global <button class="listen sm" data-seek="610.4" aria-label="Listen from this story">▶ 10:10</button></div>
+  <div class="ik"><span>Global</span><button class="listen sm" data-seek="610.4" aria-label="Listen from this story, 10:10"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 3.6c0-.7.8-1.2 1.4-.8l8.6 5.6c.6.4.6 1.3 0 1.7l-8.6 5.6c-.6.4-1.4 0-1.4-.8z"/></svg><span>10:10</span></button></div>
   <h4>Microsoft previews a managed agent harness in Foundry, free until 1 December</h4>
   <p>The Copilot harness in Foundry Agent Service runs the agent loop and sandbox while developers supply skills, tools and MCP connections; agents can run code and delegate to subagents, Microsoft said. Runtime is free until 1 December, then sandbox compute costs $0.0994 per vCPU-hour and $0.0118 per GiB-hour, with model inference billed separately.</p>
   <p class="why">Banks on Azure get a managed way to run agents with skills and tools inside their own tenant, which eases the hosting question in architecture reviews.</p><div class="skills"><b>For your skills:</b> Architecture &amp; TOM can offer a managed Azure option for hosting agents with skills and MCP tools, with published sandbox prices.</div>
   <div class="src"><span class="links"><a href="https://devblogs.microsoft.com/foundry/microsoft-copilot-harness-in-foundry/" target="_blank" rel="noopener noreferrer">Microsoft Foundry Blog<span aria-hidden="true"> ↗</span></a></span><span class="d">28 Oct</span></div>
 </div><div class="item" id="s-slack-code-api">
-  <div class="ik">Global <button class="listen sm" data-seek="640.64" aria-label="Listen from this story">▶ 10:41</button></div>
+  <div class="ik"><span>Global</span><button class="listen sm" data-seek="640.64" aria-label="Listen from this story, 10:41"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 3.6c0-.7.8-1.2 1.4-.8l8.6 5.6c.6.4.6 1.3 0 1.7l-8.6 5.6c-.6.4-1.4 0-1.4-.8z"/></svg><span>10:41</span></button></div>
   <h4>Slack opens code channels to agents, with Anthropic among launch partners</h4>
   <p>The Slack Code API, generally available on all Slack plans, lets agents open a code channel, add people and files, post progress, show diffs and previews, and archive the channel when done, Slack said. Anthropic, Cognition, GitHub and Vercel are launch partners, and merging approved GitHub pull requests from the channel is coming.</p>
   <p class="why">Agent work in channels that inherit existing permissions leaves a visible trail, which bank compliance teams will want before approving coding agents.</p>
   <div class="src"><span class="links"><a href="https://slack.com/blog/developers/slack-code-api" target="_blank" rel="noopener noreferrer">Slack<span aria-hidden="true"> ↗</span></a></span><span class="d">28 Oct</span></div>
 </div><div class="item" id="s-giotto-models">
-  <div class="ik">Switzerland <button class="listen sm" data-seek="666.32" aria-label="Listen from this story">▶ 11:06</button></div>
+  <div class="ik"><span>Switzerland</span><button class="listen sm" data-seek="666.32" aria-label="Listen from this story, 11:06"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 3.6c0-.7.8-1.2 1.4-.8l8.6 5.6c.6.4.6 1.3 0 1.7l-8.6 5.6c-.6.4-1.4 0-1.4-.8z"/></svg><span>11:06</span></button></div>
   <h4>Lausanne&#x27;s Giotto launches two reasoning models built for Swiss and European hosting</h4>
   <p>Giotto Solo runs on a single GPU and Giotto Alto on eight Nvidia B300 GPUs; both can run on a shared European cloud, a dedicated cloud in Switzerland or Europe, or on premises, according to ICTjournal. The company says its services meet GDPR requirements and do not depend on US cloud infrastructure. The article gives no benchmark results.</p>
   <p class="why">Swiss banks wary of US hyperscalers get another sovereign option to test, though its performance against the leading labs is unproven.</p>
   <div class="src"><span class="links"><a href="https://www.ictjournal.ch/news/2026-10-28/la-lausannoise-giotto-lance-deux-modeles-dia-axes-sur-la-souverainete" target="_blank" rel="noopener noreferrer">ICTjournal<span aria-hidden="true"> ↗</span></a></span><span class="d">28 Oct</span></div>
-</div></div><div class="sec"><h2>Rules and supervisors</h2><span>headlines</span></div><div class="card list"><div class="item hl" id="s-fc-payment-fees">
+</div></div><div class="sec"><h2>Rules and supervisors</h2><span>headlines</span></div><div class="list hls"><div class="item hl" id="s-fc-payment-fees">
   <h4>Federal Council consults on making card and Twint fees transparent for merchants</h4>
   <div class="src"><span class="links"><a href="https://www.srf.ch/news/schweiz/vernehmlassung-eroeffnet-visa-mastercard-twint-gebuehren-sollen-transparenter-werden" target="_blank" rel="noopener noreferrer">SRF<span aria-hidden="true"> ↗</span></a></span><span class="d">28 Oct</span></div>
 </div><div class="item hl" id="s-fed-hold">
   <h4>Fed holds rates at 3.75 to 4 percent; two members wanted a hike</h4>
   <div class="src"><span class="links"><a href="https://www.federalreserve.gov/monetarypolicy/files/monetary20261028a1.pdf" target="_blank" rel="noopener noreferrer">Federal Reserve<span aria-hidden="true"> ↗</span></a></span><span class="d">28 Oct</span></div>
-</div></div><div class="sec"><h2>Ecosystem</h2><span>headlines</span></div><div class="card list"><div class="item hl" id="s-jb-chro">
+</div></div><div class="sec"><h2>Ecosystem</h2><span>headlines</span></div><div class="list hls"><div class="item hl" id="s-jb-chro">
   <h4>Julius Baer names Francis Hoefman chief human resources officer from 11 January</h4>
   <div class="src"><span class="links"><a href="https://www.employeebenefits.co.uk/global-reward/2026/10/28/julius-baer-appoints-new-chief-human-resources-officer/" target="_blank" rel="noopener noreferrer">Employee Benefits<span aria-hidden="true"> ↗</span></a></span><span class="d">28 Oct</span></div>
 </div><div class="item hl" id="s-bellecapital-london">
@@ -294,7 +356,7 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--blue); outline-
 </div><div class="item hl" id="s-vav-gentinetta">
   <h4>Pascal Gentinetta returns as managing director of the VAV banking association in 2027</h4>
   <div class="src"><span class="links"><a href="https://www.finews.ch/news/banken/74204-vav-pascal-gentinetta-geschaeftsfuehrer" target="_blank" rel="noopener noreferrer">finews.ch<span aria-hidden="true"> ↗</span></a></span><span class="d">28 Oct</span></div>
-</div></div><div class="sec"><h2>This week</h2><span></span></div><div class="card cal"><div class="r"><b>Thu 29 Oct</b><a href="https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html" target="_blank" rel="noopener noreferrer">ECB monetary policy decision at 14:15 and press conference</a></div></div><div class="card say"><div class="l">Say it today</div><p>Most Swiss banks expect to keep their core banking vendor for a decade while rating its AI at two out of five, so AI will arrive in the layer around the core, where data access and integration decide what is possible.</p></div><div class="sec"><h2>Earlier briefings</h2><span>1</span></div><div class="card arch"><a href="../../d/2026-10-28/"><span class="t">Wednesday 28 October</span><span class="m">Daily · 9 min 37 s</span><span class="o">UBS beats its cost-saving goal and ties buybacks to the capital debate, Temenos raises its guidance, and Microsoft offers 60,000 staff voluntary departure.</span></a></div>
+</div></div><div class="sec"><h2>This week</h2><span></span></div><div class="cal"><div class="r"><b>Thu 29 Oct</b><a href="https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html" target="_blank" rel="noopener noreferrer">ECB monetary policy decision at 14:15 and press conference</a></div></div><div class="say"><span class="q" aria-hidden="true">&#8220;</span><div class="l">Say it today</div><p>Most Swiss banks expect to keep their core banking vendor for a decade while rating its AI at two out of five, so AI will arrive in the layer around the core, where data access and integration decide what is possible.</p></div><div class="sec"><h2>Earlier briefings</h2><span>1</span></div><div class="arch"><a href="../../d/2026-10-28/"><span class="t">Wednesday 28 October</span><span class="m">Daily · 9 min 37 s</span><span class="o">UBS beats its cost-saving goal and ties buybacks to the capital debate, Temenos raises its guidance, and Microsoft offers 60,000 staff voluntary departure.</span></a></div>
   <p class="foot">Signal reads free public sources and links every story to where it was published; every link was opened on 29 Oct. Prepared at 08:39 Zurich time. The voice is synthetic.</p>
 </main>
 <div class="mini paused" aria-hidden="true">
@@ -303,9 +365,11 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--blue); outline-
   <button class="pp js-play" aria-label="Play or pause"><svg class="ic-play" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 2.8c0-.8.9-1.3 1.6-.9l11 6.9c.6.4.6 1.4 0 1.8l-11 6.9c-.7.4-1.6-.1-1.6-.9z"/></svg><svg class="ic-pause" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 3h3.5v14H5zM11.5 3H15v14h-3.5z"/></svg></button>
 </div>
 <script type="application/json" id="signal-data">{"title": "Signal · Thursday 29 October", "album": "Daily briefing", "duration": 720.71, "chapters": [{"start": 0.0, "title": "Opening", "eyebrow": "Signal", "sub": "", "story": null}, {"start": 28.76, "title": "Bern's path to AI rules", "eyebrow": "Lead story 1 of 3", "sub": "Rules and supervisors · Switzerland", "story": "fc-ai-regulation"}, {"start": 111.78, "title": "Core banking loyalty", "eyebrow": "Lead story 2 of 3", "sub": "Technology in finance · Switzerland", "story": "ifz-core-banking"}, {"start": 189.22, "title": "Canada's banks block AI agents", "eyebrow": "Lead story 3 of 3", "sub": "Technology in finance · Global", "story": "canada-banks-agents"}, {"start": 270.67, "title": "Schwab and Claude", "eyebrow": "Technology in financial services", "sub": "Global", "story": "schwab-claude-live"}, {"start": 309.52, "title": "BNY and Ripple", "eyebrow": "Technology in financial services", "sub": "Global", "story": "bny-ripple"}, {"start": 340.46, "title": "Wealthsimple's funding", "eyebrow": "Technology in financial services", "sub": "Global", "story": "wealthsimple-round"}, {"start": 381.58, "title": "Vontobel's record assets", "eyebrow": "Financial services industry", "sub": "Switzerland", "story": "vontobel-9m"}, {"start": 417.77, "title": "UBS and capital", "eyebrow": "Financial services industry", "sub": "Switzerland", "story": "ubs-ermotti-capital"}, {"start": 453.71, "title": "Hong Kong overtakes Switzerland", "eyebrow": "Financial services industry", "sub": "Switzerland", "story": "cross-border-hk"}, {"start": 487.23, "title": "Deutsche Bank", "eyebrow": "Financial services industry", "sub": "Europe", "story": "db-3q26"}, {"start": 514.82, "title": "BNP Paribas and peers", "eyebrow": "Financial services industry", "sub": "Europe", "story": "bnp-3q26"}, {"start": 549.01, "title": "Anthropic's IPO", "eyebrow": "AI and technology", "sub": "Global", "story": "anthropic-ipo"}, {"start": 582.28, "title": "Gemini 4 Carbon", "eyebrow": "AI and technology", "sub": "Global", "story": "gemini-4-carbon"}, {"start": 610.4, "title": "Microsoft Foundry harness", "eyebrow": "AI and technology", "sub": "Global", "story": "foundry-harness"}, {"start": 640.64, "title": "Slack Code API", "eyebrow": "AI and technology", "sub": "Global", "story": "slack-code-api"}, {"start": 666.32, "title": "Giotto's sovereign models", "eyebrow": "AI and technology", "sub": "Switzerland", "story": "giotto-models"}, {"start": 698.89, "title": "Close", "eyebrow": "Signal", "sub": "", "story": null}], "temperament": {"name": "calm", "fastest_rhythm": 1.6, "slowest_rhythm": 11.7, "attack": 0.09, "release": 0.55, "damping": 0.92, "settle": 2.0, "appear": 1.5, "leave": 0.8}, "trackUrl": "../../audio/signal-2026-10-29.track.json", "artwork": "../../assets/artwork.jpg"}</script>
-<script type="x-shader/x-fragment" id="orb-frag">/* Signal's orb: a sphere of thick water holding a small lake of light.
+<script type="x-shader/x-fragment" id="orb-frag">/* Signal's orb: a sphere of dark water holding a small pool of lamplight.
+   The room is Signal's study at dawn: an espresso ground, one warm lamp from the top left, embers along the floor.
    Drawn with Atelier's presence.js, which prepends its header (uRes, uTime, uNoise, the motion uniforms, hash12, noise3).
-   The calm temperament lives in the page: fastest_rhythm 1.6, slowest_rhythm 11.7, attack 0.09, release 0.55, damping 0.92, settle 2.0. */
+   The calm temperament lives in the page: fastest_rhythm 1.6, slowest_rhythm 11.7, attack 0.09, release 0.55, damping 0.92, settle 2.0.
+   Colours are the page's palette in sRGB: espresso 1A120E, chocolate 3A2418, walnut 6B4A2E, camel A88462, sand D5C4AE. */
 uniform float uR, uClear, uEl;
 uniform vec2 uOff;
 // motion values for this orb, derived from the engine at the start of main()
@@ -315,33 +379,38 @@ vec3 uWob;     // lobe phases
 vec4 uRock;    // tilt, swell direction, light level, energy
 
 #define PI 3.14159265
+const vec3 ESPRESSO = vec3(0.102, 0.071, 0.055);
+const vec3 CHOCOLATE = vec3(0.227, 0.141, 0.094);
+const vec3 WALNUT = vec3(0.420, 0.290, 0.180);
+const vec3 CAMEL = vec3(0.659, 0.518, 0.384);
+const vec3 SAND = vec3(0.835, 0.769, 0.682);
+const vec3 LAMP = vec3(1.000, 0.910, 0.780);      // the lamp's own light, a warm cream
+const vec3 COPPER = vec3(0.780, 0.510, 0.300);    // walnut and camel at their warmest, for the embers
 
-
-/* ---------- the page ground: pale, daylight from the top left, a low pastel band ---------- */
+/* ---------- the stage ground: espresso, lit by a lamp at the top left, embers low along the floor ---------- */
 vec3 ground(vec2 uv){
-  vec3 c = mix(vec3(0.930,0.936,0.952), vec3(0.972,0.972,0.980), smoothstep(-1.0, 1.0, uv.y));
-  c = mix(c, vec3(1.0,0.986,0.962), 0.60*exp(-1.3*length(uv - vec2(-1.35, 1.25))));
+  vec3 c = mix(vec3(0.050, 0.034, 0.027), vec3(0.106, 0.073, 0.055), smoothstep(-1.0, 1.0, uv.y));
+  c += WALNUT * 0.72 * exp(-1.35*length(uv - vec2(-1.30, 1.30)));
+  c += CAMEL * 0.12 * exp(-2.0*length(uv - vec2(1.25, 1.10)));
   float x = clamp(uv.x*0.42 + 0.5, 0.0, 1.0);
-  vec3 band = vec3(0.62,0.77,1.0);
-  band = mix(band, vec3(0.78,0.70,1.0), smoothstep(0.15, 0.40, x));
-  band = mix(band, vec3(1.0,0.70,0.87), smoothstep(0.40, 0.60, x));
-  band = mix(band, vec3(1.0,0.79,0.62), smoothstep(0.62, 0.90, x));
+  vec3 band = mix(WALNUT, CAMEL, smoothstep(0.10, 0.55, x));
+  band = mix(band, COPPER, smoothstep(0.58, 0.95, x));
   float g = exp(-2.6*max(uv.y + 0.62, 0.0)) * smoothstep(-1.7, -0.5, uv.y);
-  c = mix(c, band, 0.62*clamp(g, 0.0, 1.0));
+  c = mix(c, band, 0.60*clamp(g, 0.0, 1.0));
   return c;
 }
 
 /* ---------- studio lights ---------- */
-// a rounded-rectangle soft box, top left, brighter at its top edge
+// the lamp: a rounded-rectangle soft box, top left, brighter at its top edge
 float softbox(vec3 d){
-  vec3 L = normalize(vec3(-0.55, 0.62, 0.58));
+  vec3 L = normalize(vec3(-0.55, 0.70, 0.52));
   vec3 a = normalize(cross(L, vec3(0.0, 1.0, 0.0))), b = cross(a, L);
   float w = dot(d, L); if (w < 0.0) return 0.0;
   float u = dot(d, a) / 0.47, v = dot(d, b) / 0.26;
   float sh = pow(abs(u), 3.0) + pow(abs(v), 3.0);
-  return smoothstep(1.0, 0.20, sh) * (0.60 + 0.40*smoothstep(-1.0, 1.0, v));
+  return smoothstep(1.0, 0.12, sh) * (0.55 + 0.45*smoothstep(-1.0, 1.0, v));
 }
-// a tall thin strip on the right
+// a tall thin strip on the right, the embers' side
 float strip(vec3 d){
   vec3 L = normalize(vec3(0.92, 0.12, 0.38));
   vec3 a = normalize(cross(L, vec3(0.0, 1.0, 0.0))), b = cross(a, L);
@@ -350,14 +419,14 @@ float strip(vec3 d){
   return smoothstep(1.0, 0.3, pow(abs(u), 2.0) + pow(abs(v), 6.0));
 }
 
-/* ---------- the studio seen in the water: one large round soft box top left, a strip on the right ---------- */
+/* ---------- the room seen in the water: dark wood, the lamp top left, a strip of ember light on the right ---------- */
 vec3 env(vec3 d){
   float up = d.y;
-  vec3 c = mix(vec3(0.66,0.70,0.77), vec3(0.89,0.905,0.93), smoothstep(-0.55, 0.05, up));
-  c = mix(c, vec3(0.972,0.975,0.983), smoothstep(0.05, 0.75, up));
-  vec3 band = mix(vec3(0.66,0.78,1.0), vec3(1.0,0.78,0.70), smoothstep(-0.6, 0.6, d.x));
-  c = mix(c, band, 0.34*exp(-pow((up + 0.20)/0.15, 2.0)));
-  c += softbox(d) * vec3(0.30,0.295,0.29) + strip(d) * vec3(0.20,0.21,0.23);
+  vec3 c = mix(vec3(0.030, 0.021, 0.017), vec3(0.110, 0.076, 0.058), smoothstep(-0.55, 0.05, up));
+  c = mix(c, vec3(0.175, 0.122, 0.090), smoothstep(0.05, 0.75, up));
+  vec3 band = mix(WALNUT, COPPER, smoothstep(-0.6, 0.6, d.x));
+  c = mix(c, band, 0.30*exp(-pow((up + 0.20)/0.15, 2.0)));
+  c += softbox(d) * LAMP * 0.70 + strip(d) * COPPER * 0.55;
   return c;
 }
 /* ---------- the outer water: a sphere with slow, low lobes ---------- */
@@ -372,7 +441,7 @@ vec3 nrm(vec3 p){
   return normalize(k.xyy*sdf(p + k.xyy*e) + k.yyx*sdf(p + k.yyx*e) + k.yxy*sdf(p + k.yxy*e) + k.xxx*sdf(p + k.xxx*e));
 }
 
-/* ---------- the inner lake: its surface ---------- */
+/* ---------- the inner pool: its surface ---------- */
 float hgt(vec2 q){
   vec2 d1 = vec2(cos(uRock.y), sin(uRock.y));
   vec2 d2 = vec2(cos(uRock.y + 2.1), sin(uRock.y + 2.1));
@@ -383,7 +452,7 @@ float hgt(vec2 q){
   return h;
 }
 
-// the light pattern on a lake floor: a slow caustic network
+// the light pattern on the floor of the drop: a slow caustic network
 float caustic(vec2 p, float t){
   vec2 i = p; float c = 1.0; float inten = 0.005;
   for (int n = 0; n < 4; n++) {
@@ -407,42 +476,43 @@ void main(){
                0.32*sin(uTime*6.2832/41.0) + 0.16*sin(uTime*6.2832/23.0 + 1.0),
                0.86 + 0.70*(uLight - 0.25), e);
   vec2 uv = (gl_FragCoord.xy - 0.5*uRes) / (0.5*uRes.y) - uOff;
+  vec2 suv = (gl_FragCoord.xy - 0.5*uRes) / (0.5*uRes.y);   // stage coordinates: the ground stays put while the orb sits higher
   float px = 2.0 / uRes.y;
-  // camera: almost level with the inner lake, so its surface reads as a ribbon
+  // camera: almost level with the inner pool, so its surface reads as a ribbon
   float D = 4.2;
   vec3 ro = vec3(0.0, D*sin(uEl), D*cos(uEl));
   vec3 fw = normalize(-ro), rt = vec3(1.0, 0.0, 0.0), up = cross(rt, fw);
   float fl = uR * sqrt(D*D - 1.0);
   vec3 rd = normalize(uv.x*rt + uv.y*up + fl*fw);
 
-  vec3 bg = ground(uv);
+  vec3 bg = ground(suv);
   float light = uRock.z, energy = uRock.w;
 
-  // the ground under the orb: a soft cool shadow and the light the water focuses
+  // the floor under the orb: a soft shadow, and the lamplight the water gathers into a warm pool
   vec2 cu = uv - vec2(0.0, -uR*1.03);
   float shd = length(cu * vec2(1.0, 4.0));
-  vec3 col = bg * (1.0 - 0.13*smoothstep(uR*1.15, 0.0, shd));
+  vec3 col = bg * (1.0 - 0.30*smoothstep(uR*1.20, 0.0, shd));
   vec2 cc = uv - vec2(uR*0.20, -uR*1.04);
   float cau = exp(-pow(length(cc * vec2(1.6, 6.0)) / (uR*0.42), 2.0));
   float cauCore = exp(-pow(length(cc * vec2(2.2, 8.0)) / (uR*0.30), 2.0));
-  vec3 cauCol = mix(vec3(0.40,0.88,1.0), vec3(1.0,0.78,0.52), smoothstep(-uR*0.25, uR*0.45, uv.x));
-  col = mix(col, cauCol, cau * 0.22 * light);
-  col += vec3(1.0,0.98,0.95) * cauCore * 0.06;
-  float alpha = max(1.0 - uClear, max(0.13*smoothstep(uR*1.15, 0.0, shd), cau*0.22*light));
+  vec3 cauCol = mix(SAND, COPPER, smoothstep(-uR*0.25, uR*0.45, uv.x));
+  col += cauCol * cau * 0.30 * light;
+  col += LAMP * cauCore * 0.10 * light;
+  float alpha = max(1.0 - uClear, max(0.30*smoothstep(uR*1.20, 0.0, shd), cau*0.30*light));
 
   vec2 bs = isect(ro, rd, 1.08);
   if (bs.x > 0.0) {
     float t = bs.x; bool hit = false; vec3 p = ro;
-    for (int i = 0; i < 14; i++) { p = ro + rd*t; float d = sdf(p); if (abs(d) < 0.0005) { hit = true; break; } t += d; if (t > bs.y) break; }
-    if (abs(sdf(p)) < 0.004) hit = true;
+    for (int i = 0; i < 20; i++) { p = ro + rd*t; float d = sdf(p); if (abs(d) < 0.0005) { hit = true; break; } t += d; if (t > bs.y) break; }
+    if (abs(sdf(p)) < 0.006) hit = true;
     if (hit) {
       vec3 N = nrm(p);
       // a breeze on the surface while the voice speaks: the finest ripples, in the normals only
       N = normalize(N + uShape.z*0.6*vec3(sin(14.0*p.y + uShape.w*1.1), sin(13.0*p.x - uShape.w), 0.0));
       float ndv = clamp(dot(N, -rd), 0.0, 1.0);
-      float F = 0.02 + 0.98*pow(1.0 - ndv, 5.0);
+      float F = 0.03 + 0.97*pow(1.0 - ndv, 5.0);
 
-      /* ---- the ground seen through the water: a real lens, flipped and spread by colour ---- */
+      /* ---- the room seen through the water: a real lens, flipped and spread by colour ---- */
       vec3 inside;
       {
         vec3 rb = refract(rd, N, 1.0/1.333);
@@ -457,19 +527,19 @@ void main(){
           float tp = (-2.4 - q.z) / min(o.z, -0.05);
           vec3 P = q + o*tp; vec3 v = P - ro;
           vec2 g = vec2(dot(v, rt), dot(v, up)) * fl / dot(v, fw);
-          vec3 s = (o.z > -0.05) ? env(o) : ground(g);
+          vec3 s = (o.z > -0.05) ? env(o) : ground(g + uOff);
           tc[c] = c == 0 ? s.r : (c == 1 ? s.g : s.b);
         }
-        inside = tc * vec3(0.955, 0.985, 1.0);   // a whisper of lake tint
-        // light dancing on the floor of the drop, only in the lower half, very faint
+        inside = tc * vec3(1.0, 0.95, 0.90);   // smoked, warm water
+        // light dancing on the floor of the drop, only in the lower half, faint
         float cw = smoothstep(0.05, -0.75, q.y) * smoothstep(1.0, 0.55, length(q.xz));
         float cs = caustic(q.xz*3.2 + vec2(7.0, 3.0), uTime*0.22 + 11.0);
-        inside = mix(inside, vec3(0.93, 0.99, 1.0), cs * cw * 0.30);
-        // the deep side of the water reads a little darker, which is what gives it body on a pale page
-        inside *= 1.0 - 0.10*smoothstep(-0.2, 0.9, -dot(N, normalize(vec3(-0.45, 0.70, 0.55))));
+        inside += LAMP * cs * cw * 0.16 * light;
+        // the side away from the lamp holds the dark of the room, which gives the water its depth
+        inside *= 1.0 - 0.22*smoothstep(-0.2, 0.9, -dot(N, normalize(vec3(-0.45, 0.70, 0.55))));
       }
 
-      /* ---- the lake of light inside: luminous coloured fog, composited front to back ---- */
+      /* ---- the pool of lamplight inside: luminous coloured fog, composited front to back ---- */
       vec3 rv = refract(rd, N, 1.0/1.10);              // the light inside is seen through a gentler lens
       vec2 ev = isect(p, rv, 0.985);
       float tEnd = max(ev.y, 0.0);
@@ -481,7 +551,8 @@ void main(){
       // light gathers on the side that rises
       float kL = 0.55 + 4.0*max(hL - hM + 0.04, 0.0) + 0.30*energy;
       float kR = 0.50 + 4.0*max(hR - hM + 0.04, 0.0) + 0.30*energy;
-      vec3 cyan = vec3(0.30,0.94,1.00), amber = vec3(1.0,0.79,0.46), mint = vec3(0.66,0.97,0.90), lilac = vec3(0.84,0.78,1.0);
+      // the lamp's cream on the left, copper on the right, camel and a rose sand between them
+      vec3 cream = vec3(1.0, 0.84, 0.60), copper = vec3(0.93, 0.52, 0.26), camel = vec3(0.88, 0.63, 0.41), rose = vec3(0.95, 0.68, 0.52);
       float grow = 1.0 + 0.25*energy;
       vec3 q = p + rv*dt*jit;
       for (int i = 0; i < NS; i++) {
@@ -490,9 +561,9 @@ void main(){
         float r = length(q);
         float wall = smoothstep(0.995, 0.80, r);
         // two lobes of light that hug the surface from below
-        vec3 dl = (q - vec3(-0.48, hL - 0.13, 0.0)) / vec3(0.52*grow, 0.27*grow, 0.62);
-        vec3 dr = (q - vec3( 0.52, hR - 0.15, 0.0)) / vec3(0.47*grow, 0.25*grow, 0.62);
-        vec3 dm = (q - vec3( 0.02, hM - 0.12, 0.0)) / vec3(0.34*grow, 0.22*grow, 0.55);
+        vec3 dl = (q - vec3(-0.48, hL - 0.12, 0.0)) / vec3(0.52*grow, 0.22*grow, 0.62);
+        vec3 dr = (q - vec3( 0.52, hR - 0.14, 0.0)) / vec3(0.47*grow, 0.20*grow, 0.62);
+        vec3 dm = (q - vec3( 0.02, hM - 0.11, 0.0)) / vec3(0.34*grow, 0.18*grow, 0.55);
         float wl = exp(-dot(dl, dl)), wr = exp(-dot(dr, dr)), wm = exp(-dot(dm, dm))*0.42*(0.5*kL + 0.5*kR);
         float sheet = exp(-abs(f)/0.05) * 0.35;                         // a thin glowing skin along the surface
         float under = f < 0.0 ? 1.0 : exp(-f/0.035);
@@ -501,17 +572,20 @@ void main(){
         float fib = noise3(fq)*0.65 + noise3(fq*2.17 + 5.3)*0.35;
         fib = 0.55 + 0.9*smoothstep(0.3, 0.8, fib);
         float dl2 = (wl*kL + wr*kR + wm) * under + sheet*(0.6 + 0.5*energy);
-        float sigma = dl2 * fib * wall * light * 3.2;
-        vec3 midc = mix(mint, lilac, 0.5 + 0.5*sin(uTime*0.09 + q.x*2.0));
-        vec3 fc = cyan*wl*kL + amber*wr*kR + midc*(wm + sheet*0.8);
+        // light gathers at the surface: deeper down the pool thins and warms toward walnut, like lamplight in a glass of whisky
+        float depth = clamp(-f / 0.62, 0.0, 1.0);
+        float sigma = dl2 * fib * wall * light * 2.1 * mix(1.0, 0.45, depth);
+        vec3 midc = mix(camel, rose, 0.5 + 0.5*sin(uTime*0.09 + q.x*2.0));
+        vec3 fc = cream*wl*kL + copper*wr*kR + midc*(wm + sheet*0.8);
         fc /= max(wl*kL + wr*kR + wm + sheet*0.8, 1e-3);
-        // the densest cores glow a touch brighter than the frost around them
-        fc *= 1.0 + 0.10*smoothstep(0.8, 1.6, dl2*light);
+        // the densest cores glow brighter than the haze around them: lamplight, not paint
+        fc = mix(fc, vec3(0.62, 0.34, 0.17), depth*0.70);
+        fc *= 1.0 + 0.35*smoothstep(0.7, 1.6, dl2*light);
         float a = 1.0 - exp(-sigma*dt);
-        C += T * a * fc; T *= 1.0 - a;
+        C += T * a * fc * 1.25; T *= 1.0 - a*0.80;
         q += rv*dt;
       }
-      /* the surface seen edge-on: a fine ribbon, built from depth slices so it stays crisp and can split into strands */
+      /* the surface seen edge-on: a fine ribbon of light, built from depth slices so it stays crisp and can split into strands */
       float ink = 0.0, glint = 0.0;
       float Rpx = uR / px;                                             // pixels per unit
       vec2 e2 = isect(p, rv, 0.985);
@@ -527,7 +601,8 @@ void main(){
         ink = 1.0 - (1.0 - ink)*(1.0 - a*(i == 0 ? 0.60 : 0.15));
         glint = max(glint, exp(-pow((fpx - 1.9)/0.9, 2.0)) * fade * depthW);
       }
-      vec3 inkCol = mix(vec3(0.15,0.33,0.40), vec3(0.42,0.31,0.18), smoothstep(-0.25, 0.65, uv.x/uR));
+      // the meniscus: dark where it crosses the light, catching the lamp just above it
+      vec3 inkCol = mix(vec3(0.16, 0.10, 0.07), vec3(0.30, 0.19, 0.11), smoothstep(-0.25, 0.65, uv.x/uR));
       // sparkles: tiny lights that leave the surface on the brightest syllables
       vec3 spark = vec3(0.0);
       for (int i = 0; i < 8; i++) {
@@ -541,34 +616,39 @@ void main(){
         vec3 v = sp - ro; vec2 sc = vec2(dot(v, rt), dot(v, up)) * fl / dot(v, fw) * 1.08;
         float d = length(uv - sc) / px;
         float a = sin(PI*sk.z) * sk.w;
-        spark += a * (vec3(1.0,0.99,0.96)*exp(-d*d/2.0) + vec3(0.80,0.96,1.0)*0.16*exp(-d/4.0));
+        spark += a * (vec3(1.0, 0.95, 0.86)*exp(-d*d/2.0) + vec3(1.0, 0.80, 0.58)*0.20*exp(-d/4.0));
       }
-      vec3 lit = inside * T + C;
-      lit = mix(lit, inkCol, min(ink, 0.85) * 0.80);
-      lit = mix(lit, vec3(1.0), glint * 0.30 * (0.6 + 0.4*light));
+      // the light is added to the dark water behind it and rolls off softly (1 - exp(-x)), so it blooms instead of clipping
+      vec3 lit = inside * T + (1.0 - exp(-C * 1.45)) * 1.04;
+      lit = mix(lit, inkCol, min(ink, 0.85) * 0.70 * (1.0 - T*0.6));
+      lit = mix(lit, LAMP, glint * 0.42 * (0.6 + 0.4*light));
       lit += spark * smoothstep(0.995, 0.86, length(uv/uR));
 
       /* ---- the water's skin ---- */
       vec3 R = reflect(rd, N);
       vec3 refl = env(R);
       vec3 water = mix(lit, refl, F);
-      // the soft box shows on the face as a milky window that bends with the water
-      water = mix(water, vec3(1.0, 0.996, 0.992), softbox(R) * 0.46);
-      water = mix(water, vec3(1.0), strip(R) * 0.40);
-      // the edge: refraction darkens the lower right rim, daylight whitens the upper left, a faint spectrum
+      // the lamp shows on the face as a warm window that bends with the water
+      water = mix(water, LAMP, softbox(R) * 0.68);
+      water = mix(water, mix(COPPER, SAND, 0.35), strip(R) * 0.58);
+      // the edge: the lamp warms the upper left rim, the lower right sinks into the room, a faint spectrum
       float side = dot(normalize(p.xy + 1e-4), normalize(vec2(-0.6, 0.8)));
-      water *= 1.0 - 0.20*smoothstep(0.30, 0.0, ndv) * (0.65 - 0.35*side);
-      water = mix(water, vec3(0.995, 0.997, 1.0), 0.42*(0.55 + 0.45*side)*exp(-pow(ndv/0.13, 2.0)));
+      water *= 1.0 - 0.16*smoothstep(0.30, 0.0, ndv) * (0.65 - 0.35*side);
+      water = mix(water, mix(CAMEL, LAMP, 0.55), 0.40*max(side, 0.0)*exp(-pow(ndv/0.12, 2.0)));
+      // a fine rim all the way round, so the glass keeps its edge against the dark room
+      water = mix(water, mix(WALNUT, CAMEL, 0.5 + 0.5*side), 0.26*exp(-pow(ndv/0.11, 2.0)));
       float ir = pow(1.0 - ndv, 4.0);
       vec3 film = 0.5 + 0.5*cos(2.0*PI*(vec3(0.0, 0.33, 0.67) + ndv*2.4 + 0.1*sin(uTime*0.12 + atan(p.y, p.x))));
-      water += (film - 0.5) * ir * 0.07;
-      float cov = smoothstep(0.0, 0.035, ndv);
+      water += (film - 0.5) * ir * 0.05;
+      // coverage from the distance to the silhouette in pixels (near the edge of a sphere that is about ndv^2/2 of
+      // its radius), so the edge is anti-aliased over about a pixel and a half at any size, crisp against the dark room
+      float cov = smoothstep(0.0, 1.4, ndv*ndv*0.5*uR/px);
       col = mix(col, water, cov);
       alpha = max(alpha, cov);
     }
   }
   // grain, the same as the page
-  float grain = (hash12(gl_FragCoord.xy) - 0.5) * 0.032;   // still grain, like the page
+  float grain = (hash12(gl_FragCoord.xy) - 0.5) * 0.022;   // still grain, like the page
   col += grain;
   // appearing and leaving: on an opaque stage (uClear 0) the orb dissolves into its own ground and the canvas
   // stays opaque, so nothing behind it shows through; on a clear stage the whole drawing fades
