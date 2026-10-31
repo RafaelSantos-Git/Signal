@@ -14,8 +14,8 @@
 <link rel="preload" href="assets/fonts/host-grotesk-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/newsreader-latin-display-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/newsreader-latin-display-italic.woff2" as="font" type="font/woff2" crossorigin>
-<style>:root { color-scheme: dark; --canvas: #050506; --ground: radial-gradient(110% 44% at -10% -8%, rgba(200,206,220,.13) 0%, rgba(200,206,220,0) 70%), radial-gradient(60% 24% at 108% 2%, rgba(255,255,255,.06) 0%, rgba(255,255,255,0) 72%), linear-gradient(180deg, #0D0E10 0%, #060607 40%, #030304 100%); --grain-o: .35; --bead: radial-gradient(circle at 34% 30%, #FFFFFF 0 10%, #E6E8EC 24%, #A3A8B2 50%, #555A63 76%, #1C1E22 100%); --bead-shadow: 0 0 0 .5px rgba(255,255,255,.3), 0 0 14px 1px rgba(220,225,235,.35); --fg: #F5F5F7; --fg-2: #B8BCC5; --fg-3: #8D929C; --mark: #A7ACB6; --line: rgba(255,255,255,.08); --line-2: rgba(255,255,255,.16); --track: rgba(255,255,255,.14); --accent: #F5F5F7; --on-accent: #050506; --accent-shadow: inset 0 1px 0 rgba(255,255,255,.7), 0 6px 14px -6px rgba(0,0,0,.8); --focus: #DCDEE3; --status-bg: linear-gradient(180deg, rgba(255,255,255,.07), rgba(255,255,255,.04)); --status-edge: rgba(255,255,255,.12); --edge-top: rgba(255,255,255,.10); --edge: rgba(255,255,255,.06); --live: #F5F5F7; --live-ring: rgba(245,245,247,.18); --live-glow: rgba(245,245,247,.5); --card: linear-gradient(180deg, #131417 0%, #0E0F11 36%, #0B0B0D 100%); --card-light: radial-gradient(110% 62% at 0% 0%, rgba(220,226,238,.07), rgba(220,226,238,0) 62%); --card-grain-o: .35; --shadow-near: rgba(0,0,0,.6); --shadow-far: rgba(0,0,0,.95); --paper: linear-gradient(180deg, #F4F5F7 0%, #E1E3E7 38%, #CDD0D6 100%); --paper-light: radial-gradient(90% 80% at 0% 0%, rgba(255,255,255,.7), rgba(255,255,255,0) 60%), repeating-linear-gradient(90deg, rgba(0,0,0,.02) 0 1px, rgba(0,0,0,0) 1px 3px); --paper-edge-top: rgba(255,255,255,.9); --paper-edge: rgba(255,255,255,.35); --paper-grain-blend: multiply; --paper-grain-o: .06; --ink: #0A0A0C; --ink-2: #2A2D33; --ink-3: #4A4F58; --play: #0A0A0C; --play-icon: #F5F5F7; --play-shadow: inset 0 1px 0 rgba(255,255,255,.14), 0 1px 2px rgba(0,0,0,.35), 0 12px 22px -10px rgba(0,0,0,.6); --paper-chip: rgba(10,10,12,.05); --paper-chip-edge: rgba(10,10,12,.18); --paper-track: rgba(10,10,12,.16); --paper-fill: #0A0A0C; --quote: rgba(10,10,12,.10); --glass: linear-gradient(180deg, rgba(40,42,48,.55), rgba(14,14,16,.70)); --glass-edge-top: rgba(255,255,255,.14); --glass-edge: rgba(255,255,255,.08); --chip: rgba(255,255,255,.06); --chip-hover: rgba(255,255,255,.12); --tint: rgba(255,255,255,.10); --tint-soft: rgba(255,255,255,.05); --tint-edge: rgba(255,255,255,.16); --mini: linear-gradient(180deg, rgba(40,42,48,.82), rgba(22,23,26,.86)); --mo-hi: 255,255,255; --mo-l: 235,240,250; --mo-r: 170,180,200; --mo-body: #15161A; --mo-deep: #050506; --stage-ground: url("assets/stage-ground.webp"); --stage-still: url("assets/stage-still.webp"); }
-:root[data-theme="light"] { color-scheme: light; --grain-o: .22; --card-grain-o: .15; --card: linear-gradient(180deg, #FFFFFF 0%, #FCFCFD 40%, #F8F8FA 100%); --card-light: radial-gradient(110% 62% at 0% 0%, rgba(255,255,255,.9), rgba(255,255,255,0) 62%); --edge-top: rgba(255,255,255,1); --shadow-near: rgba(20,22,30,.06); --shadow-far: rgba(20,22,30,.22); --glass: linear-gradient(180deg, rgba(255,255,255,.74), rgba(255,255,255,.56)); --glass-edge-top: rgba(255,255,255,.95); --glass-edge: rgba(255,255,255,.6); --canvas: #F5F5F7; --ground: radial-gradient(110% 44% at -10% -8%, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 70%), radial-gradient(70% 30% at 108% 0%, rgba(200,206,218,.35) 0%, rgba(200,206,218,0) 72%), linear-gradient(180deg, #FAFAFB 0%, #F5F5F7 45%, #EDEEF1 100%); --bead: radial-gradient(circle at 34% 30%, #FFFFFF 0 10%, #E6E8EC 24%, #A3A8B2 50%, #555A63 76%, #1C1E22 100%); --bead-shadow: 0 0 0 .5px rgba(10,10,14,.25), 0 2px 6px rgba(10,10,14,.18); --fg: #0B0B0D; --fg-2: #3F434B; --fg-3: #656A74; --mark: #656A74; --line: rgba(10,10,14,.08); --line-2: rgba(10,10,14,.14); --track: rgba(10,10,14,.12); --accent: #0B0B0D; --on-accent: #FFFFFF; --accent-shadow: 0 6px 14px -6px rgba(0,0,0,.4); --focus: #0B0B0D; --status-bg: rgba(10,10,14,.04); --status-edge: rgba(10,10,14,.10); --edge: rgba(10,10,14,.06); --live: #0B0B0D; --live-ring: rgba(10,10,14,.12); --live-glow: rgba(10,10,14,.2); --paper: linear-gradient(180deg, #1C1D21 0%, #131417 40%, #0B0B0D 100%); --paper-light: radial-gradient(90% 80% at 0% 0%, rgba(255,255,255,.10), rgba(255,255,255,0) 60%); --paper-edge-top: rgba(255,255,255,.14); --paper-edge: rgba(255,255,255,.06); --paper-grain-blend: overlay; --paper-grain-o: .3; --ink: #F5F5F7; --ink-2: #B8BCC5; --ink-3: #9DA2AC; --play: #F5F5F7; --play-icon: #0B0B0D; --play-shadow: inset 0 1px 0 rgba(255,255,255,.8), 0 10px 22px -10px rgba(0,0,0,.6); --paper-chip: rgba(255,255,255,.07); --paper-chip-edge: rgba(255,255,255,.16); --paper-track: rgba(255,255,255,.16); --paper-fill: #F5F5F7; --quote: rgba(255,255,255,.10); --chip: rgba(10,10,14,.04); --chip-hover: rgba(10,10,14,.08); --tint: rgba(10,10,14,.06); --tint-soft: rgba(10,10,14,.04); --tint-edge: rgba(10,10,14,.12); --mini: linear-gradient(180deg, rgba(255,255,255,.84), rgba(248,248,250,.80)); --mo-hi: 255,255,255; --mo-l: 196,202,214; --mo-r: 120,128,145; --mo-body: #EEF0F3; --mo-deep: #C9CDD5; --stage-ground: url("assets/stage-ground-light.webp"); --stage-still: url("assets/stage-still-light.webp"); }
+<style>:root { color-scheme: dark; --canvas: #050506; --ground: radial-gradient(110% 44% at -10% -8%, rgba(200,206,220,.13) 0%, rgba(200,206,220,0) 70%), radial-gradient(60% 24% at 108% 2%, rgba(255,255,255,.06) 0%, rgba(255,255,255,0) 72%), linear-gradient(180deg, #0D0E10 0%, #060607 40%, #030304 100%); --grain-o: .35; --bead: radial-gradient(circle at 34% 30%, #FFFFFF 0 10%, #E6E8EC 24%, #A3A8B2 50%, #555A63 76%, #1C1E22 100%); --bead-shadow: 0 0 0 .5px rgba(255,255,255,.3), 0 0 14px 1px rgba(220,225,235,.35); --fg: #F5F5F7; --fg-2: #B8BCC5; --fg-3: #8D929C; --mark: #A7ACB6; --line: rgba(255,255,255,.08); --line-2: rgba(255,255,255,.16); --track: rgba(255,255,255,.14); --accent: #F5F5F7; --on-accent: #050506; --accent-shadow: inset 0 1px 0 rgba(255,255,255,.7), 0 6px 14px -6px rgba(0,0,0,.8); --focus: #DCDEE3; --status-bg: linear-gradient(180deg, rgba(255,255,255,.07), rgba(255,255,255,.04)); --status-edge: rgba(255,255,255,.12); --edge-top: rgba(255,255,255,.10); --edge: rgba(255,255,255,.06); --live: #F5F5F7; --live-ring: rgba(245,245,247,.18); --live-glow: rgba(245,245,247,.5); --card: linear-gradient(180deg, #131417 0%, #0E0F11 36%, #0B0B0D 100%); --card-light: radial-gradient(110% 62% at 0% 0%, rgba(220,226,238,.07), rgba(220,226,238,0) 62%); --card-grain-o: .35; --shadow-near: rgba(0,0,0,.6); --shadow-far: rgba(0,0,0,.95); --paper: linear-gradient(180deg, #F4F5F7 0%, #E1E3E7 38%, #CDD0D6 100%); --paper-light: radial-gradient(90% 80% at 0% 0%, rgba(255,255,255,.7), rgba(255,255,255,0) 60%), repeating-linear-gradient(90deg, rgba(0,0,0,.02) 0 1px, rgba(0,0,0,0) 1px 3px); --paper-edge-top: rgba(255,255,255,.9); --paper-edge: rgba(255,255,255,.35); --paper-grain-blend: multiply; --paper-grain-o: .06; --ink: #0A0A0C; --ink-2: #2A2D33; --ink-3: #4A4F58; --play: #0A0A0C; --play-icon: #F5F5F7; --play-shadow: inset 0 1px 0 rgba(255,255,255,.14), 0 1px 2px rgba(0,0,0,.35), 0 12px 22px -10px rgba(0,0,0,.6); --paper-chip: rgba(10,10,12,.05); --paper-chip-edge: rgba(10,10,12,.18); --paper-track: rgba(10,10,12,.16); --paper-fill: #0A0A0C; --quote: rgba(10,10,12,.10); --glass: linear-gradient(180deg, rgba(40,42,48,.55), rgba(14,14,16,.70)); --glass-edge-top: rgba(255,255,255,.14); --glass-edge: rgba(255,255,255,.08); --chip: rgba(255,255,255,.06); --chip-hover: rgba(255,255,255,.12); --tint: rgba(255,255,255,.10); --tint-soft: rgba(255,255,255,.05); --tint-edge: rgba(255,255,255,.16); --mini: linear-gradient(180deg, rgba(40,42,48,.82), rgba(22,23,26,.86)); --stage-ground: url("assets/stage-ground.webp"); --stage-still: url("assets/stage-still.webp"); }
+:root[data-theme="light"] { color-scheme: light; --grain-o: .22; --card-grain-o: .15; --card: linear-gradient(180deg, #FFFFFF 0%, #FCFCFD 40%, #F8F8FA 100%); --card-light: radial-gradient(110% 62% at 0% 0%, rgba(255,255,255,.9), rgba(255,255,255,0) 62%); --edge-top: rgba(255,255,255,1); --shadow-near: rgba(20,22,30,.06); --shadow-far: rgba(20,22,30,.22); --glass: linear-gradient(180deg, rgba(255,255,255,.74), rgba(255,255,255,.56)); --glass-edge-top: rgba(255,255,255,.95); --glass-edge: rgba(255,255,255,.6); --canvas: #F5F5F7; --ground: radial-gradient(110% 44% at -10% -8%, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 70%), radial-gradient(70% 30% at 108% 0%, rgba(200,206,218,.35) 0%, rgba(200,206,218,0) 72%), linear-gradient(180deg, #FAFAFB 0%, #F5F5F7 45%, #EDEEF1 100%); --bead: radial-gradient(circle at 34% 30%, #FFFFFF 0 10%, #E6E8EC 24%, #A3A8B2 50%, #555A63 76%, #1C1E22 100%); --bead-shadow: 0 0 0 .5px rgba(10,10,14,.25), 0 2px 6px rgba(10,10,14,.18); --fg: #0B0B0D; --fg-2: #3F434B; --fg-3: #656A74; --mark: #656A74; --line: rgba(10,10,14,.08); --line-2: rgba(10,10,14,.14); --track: rgba(10,10,14,.12); --accent: #0B0B0D; --on-accent: #FFFFFF; --accent-shadow: 0 6px 14px -6px rgba(0,0,0,.4); --focus: #0B0B0D; --status-bg: rgba(10,10,14,.04); --status-edge: rgba(10,10,14,.10); --edge: rgba(10,10,14,.06); --live: #0B0B0D; --live-ring: rgba(10,10,14,.12); --live-glow: rgba(10,10,14,.2); --paper: linear-gradient(180deg, #1C1D21 0%, #131417 40%, #0B0B0D 100%); --paper-light: radial-gradient(90% 80% at 0% 0%, rgba(255,255,255,.10), rgba(255,255,255,0) 60%); --paper-edge-top: rgba(255,255,255,.14); --paper-edge: rgba(255,255,255,.06); --paper-grain-blend: overlay; --paper-grain-o: .3; --ink: #F5F5F7; --ink-2: #B8BCC5; --ink-3: #9DA2AC; --play: #F5F5F7; --play-icon: #0B0B0D; --play-shadow: inset 0 1px 0 rgba(255,255,255,.8), 0 10px 22px -10px rgba(0,0,0,.6); --paper-chip: rgba(255,255,255,.07); --paper-chip-edge: rgba(255,255,255,.16); --paper-track: rgba(255,255,255,.16); --paper-fill: #F5F5F7; --quote: rgba(255,255,255,.10); --chip: rgba(10,10,14,.04); --chip-hover: rgba(10,10,14,.08); --tint: rgba(10,10,14,.06); --tint-soft: rgba(10,10,14,.04); --tint-edge: rgba(10,10,14,.12); --mini: linear-gradient(180deg, rgba(255,255,255,.84), rgba(248,248,250,.80)); --stage-ground: url("assets/stage-ground-light.webp"); --stage-still: url("assets/stage-still-light.webp"); }
 
 @font-face { font-family: "Host Grotesk"; font-style: normal; font-display: swap; font-weight: 300 800; src: url("assets/fonts/host-grotesk-latin-wght-normal.woff2") format("woff2"); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
 @font-face { font-family: "Host Grotesk"; font-style: normal; font-display: swap; font-weight: 300 800; src: url("assets/fonts/host-grotesk-latin-ext-wght-normal.woff2") format("woff2"); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
@@ -204,12 +204,13 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--focus); outline
   background: var(--mini); -webkit-backdrop-filter: blur(22px) saturate(130%); backdrop-filter: blur(22px) saturate(130%);
   box-shadow: inset 0 1px 0 var(--glass-edge-top), inset 0 0 0 1px var(--glass-edge), 0 16px 34px -14px var(--shadow-far); }
 .mini.on { transform: translate(-50%, 0); }
-.mini .orb { width: 40px; height: 40px; flex: none; border-radius: 50%; position: relative; overflow: hidden;
-  background: radial-gradient(circle at 33% 26%, rgba(var(--mo-hi),.9), rgba(var(--mo-hi),0) 20%),
-    radial-gradient(70% 34% at 36% 56%, rgba(var(--mo-l),calc(.62 + var(--lv, 0) * .38)), rgba(var(--mo-l),0) 72%),
-    radial-gradient(56% 32% at 72% 60%, rgba(var(--mo-r),calc(.50 + var(--lv, 0) * .45)), rgba(var(--mo-r),0) 72%),
-    radial-gradient(circle at 50% 60%, var(--mo-body), var(--mo-deep));
-  box-shadow: inset 0 0 0 1px var(--line-2), inset 0 -3px 6px rgba(0,0,0,.45), 0 4px 10px -4px var(--shadow-far); }
+/* the mini player's disc: Lumière itself, drawn small while the stage is out of view */
+.mini .orb { width: 44px; height: 44px; flex: none; border-radius: 50%; position: relative; overflow: hidden; isolation: isolate;
+  background: radial-gradient(circle at 50% 42%, var(--tint) 0, transparent 62%), var(--canvas);
+  box-shadow: 0 4px 10px -4px var(--shadow-far); }
+.mini .orb canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; opacity: 0; transition: opacity .35s ease; }
+.mini .orb.live canvas { opacity: 1; }
+.mini .orb::after { content: ""; position: absolute; inset: 0; z-index: 1; border-radius: 50%; pointer-events: none; box-shadow: inset 0 0 0 1px var(--line-2), inset 0 1px 0 var(--edge-top); }
 .mini .t { flex: 1; min-width: 0; text-align: left; }
 .mini .t b { display: block; font-family: var(--serif); font-size: 16px; font-weight: 500; color: var(--fg); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .mini .t span { font-size: 12px; color: var(--fg-3); font-variant-numeric: tabular-nums; }
@@ -1338,7 +1339,9 @@ void main(){
   // Lumière: the director (assets/director.js) runs every spring and event from the baked voice; the engine
   // (assets/presence.js) draws assets/lumiere.frag with the uniforms it writes
   const EL0 = 34 * Math.PI / 180;
-  let L = null, voiceAsked = false, lastT = 0, ctrlH = 0, cv = null;
+  const FIT_W = 0.80, FIT_H = 3.5, MINI_W = 0.86, MINI_H = 3.8, MINI_OFF = -0.06, MINI_PX = 1.2;
+  let L = null, voiceAsked = false, lastT = 0, ctrlH = 0, cv = null, host = 'stage';
+  const disc = mini.querySelector('.orb');
   const theme = () => root.dataset.theme === 'light' ? 'light' : 'dark';
   const fragFor = m => document.getElementById('lumiere-frag').textContent.replace('const float LIGHT = 0.0;', 'const float LIGHT = ' + (m === 'light' ? '1.0' : '0.0') + ';');
   const mmss = s => { s = Math.max(0, Math.floor(s || 0)); return Math.floor(s / 60) + ':' + String(s % 60).padStart(2, '0'); };
@@ -1375,11 +1378,16 @@ void main(){
     }
     return L;
   }
-  // the presence fills the stage above the control panel: the outer ring sets the width, the pearl the height
+  // the presence sits in the stage above the control panel with room around it: the outer ring sets the width,
+  // the pearl the height. In the mini player's disc the whole projection is drawn small, centred.
   function layout(c) {
+    if (c && c.parentNode === disc) {
+      const W = c.clientWidth || 44, H = c.clientHeight || 44, u = Math.min(W * MINI_W / 4.1, H / MINI_H);
+      return { baseFrac: 2 * u / W, target: [0, 1.0, 0], offset: [0, MINI_OFF], pxs: MINI_PX };
+    }
     const W = c.clientWidth || 360, H = c.clientHeight || 420;
     if (!ctrlH) { const k = stage.querySelector('.ctrl'); ctrlH = k ? k.offsetHeight + 10 : 120; }
-    const free = Math.max(150, H - ctrlH - 12), unit = Math.min(W * 0.94 / 4.1, free / 2.95);
+    const free = Math.max(150, H - ctrlH - 12), unit = Math.min(W * FIT_W / 4.1, free / FIT_H);
     return { baseFrac: 2 * unit / W, target: [0, 1.0, 0], offset: [0, (H / 2 - free / 2 - 6) / H], pxs: 1 };
   }
   function engineState() {
@@ -1397,26 +1405,37 @@ void main(){
     L.write(gl, at, cv, layout(cv));
     if (L.mode() !== before) engineState();
     if (L.mode() === 'asleep' && !started) window.__sleeping = true;
-    mini.style.setProperty('--lv', ((L.S.out && L.S.out.loud) || 0).toFixed(3));
   }
   function ensureOrb() {
-    if (orb || !window.Presence || !lum()) return;
-    cv = stage.querySelector('canvas');
+    if (orb || !window.Presence || !lum() || stage.classList.contains('nogl')) return;
+    const small = host === 'mini', box = small ? disc : stage;
+    cv = box.querySelector('canvas');
+    if (!cv) { cv = document.createElement('canvas'); cv.setAttribute('aria-hidden', 'true'); box.append(cv); }
     try {
+      const r = window.devicePixelRatio || 1;
       orb = Presence.create(cv, { fragment: fragFor(theme()), temperament: D.temperament, manage: false, analyser: false, alwaysOn: true, idleCap: true,
-                                  dpr: Math.min(2, window.devicePixelRatio || 1), maxDpr: 2, uniforms: feed });
+                                  dpr: Math.min(small ? 3 : 2, r), maxDpr: small ? 3 : 2, uniforms: feed });
       if (!orb.supported) { cv.remove(); orb = null; stage.classList.add('nogl'); return; }
       window.__sleeping = false; orb.show(1); engineState();
-      requestAnimationFrame(() => requestAnimationFrame(() => stage.classList.add('live')));
+      requestAnimationFrame(() => requestAnimationFrame(() => box.classList.add('live')));
     } catch (err) { console.warn('lumiere', err); if (cv) cv.remove(); orb = null; stage.classList.add('nogl'); }
   }
-  // another mode: the same director (so nothing restarts), the other shader on a fresh canvas
-  function remount() {
+  // the same director keeps running (so nothing restarts); the engine moves to a fresh canvas
+  function unmount() {
     if (!orb) return;
     orb.destroy();
     try { const g = cv.getContext('webgl'); const x = g && g.getExtension('WEBGL_lose_context'); if (x) x.loseContext(); } catch (e) {}
     const c = document.createElement('canvas'); c.setAttribute('aria-hidden', 'true'); cv.replaceWith(c);
-    orb = null; L.resetTexture(); stage.classList.remove('live'); ensureOrb();
+    orb = null; L.resetTexture(); stage.classList.remove('live'); disc.classList.remove('live');
+  }
+  // another mode: the other shader, in the same place
+  function remount() { if (!orb) return; unmount(); ensureOrb(); }
+  // scrolled away from the stage while he speaks: Lumière follows into the mini player, and back again
+  function place() {
+    const want = started && !stageVisible ? 'mini' : 'stage';
+    if (want === host) return;
+    host = want;
+    if (orb) { unmount(); ensureOrb(); }
   }
   function enterStage() {
     if (started) return;
@@ -1484,7 +1503,7 @@ void main(){
   $$('[data-seek]').forEach(b => b.addEventListener('click', () => { play(+b.dataset.seek); player.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' }); }));
   mini.addEventListener('click', ev => { if (ev.target.closest('.pp')) return; player.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' }); });
 
-  function syncMini() { mini.classList.toggle('on', started && !stageVisible); mini.setAttribute('aria-hidden', String(!(started && !stageVisible))); }
+  function syncMini() { mini.classList.toggle('on', started && !stageVisible); mini.setAttribute('aria-hidden', String(!(started && !stageVisible))); place(); }
   if ('IntersectionObserver' in window) new IntersectionObserver(es => { stageVisible = es[0].isIntersecting; syncMini(); }, { threshold: 0.15 }).observe(player);
 
   if ('mediaSession' in navigator) {
