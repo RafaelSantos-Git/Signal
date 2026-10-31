@@ -263,14 +263,14 @@ void main(){
       const dt = Math.min(0.05, Math.max(0, (now - (lastNow || now)) / 1000)); lastNow = now;
       const sub = Math.max(1, Math.ceil(dt / (1 / 240)));
       for (let k = 0; k < sub; k++) { const sg = signal(S.t); E.step(dt / sub, sg.level, sg.onset && k === 0); }
-      draw();
+      if (!(o.idleCap && S.state === 0 && now - (S.__lastDraw || 0) < 31)) { draw(); S.__lastDraw = now; }
       // adapt: a second of slow frames drops the pixel ratio to 1
       // adapt only once warmed up: the first 2 s after a start are slow anywhere (shader compile, the stage opening)
-      if (now - startedAt > 2000) { if (dt > 0.02) { slowFrames += dt; if (slowFrames > 1 && dpr > 1) { dpr = 1; resize(); } } else slowFrames = Math.max(0, slowFrames - dt); }
+      if (now - startedAt > 2000) { if (dt > 0.02) { slowFrames += dt; if (slowFrames > 1 && dpr > 1) { dpr = Math.max(1, Math.round((dpr - 0.3) * 4) / 4); slowFrames = 0; resize(); } } else slowFrames = Math.max(0, slowFrames - dt); }
       // settled: hidden, or resting with no signal and the springs still; stop until something changes
       if (S.state !== 0 || S.level > 0.01) lastActive = S.t;
       const still = Math.abs(S.opacity - S.opacityTarget) < 0.002 && Math.abs(S.amp.v) < 1e-3 && S.t - lastActive > E.tp.settle * 2;
-      if ((S.opacityTarget === 0 && S.opacity < 0.002) || (S.state === 0 && still)) { running = false; return; }
+      if ((S.opacityTarget === 0 && S.opacity < 0.002) || (S.state === 0 && still && !(o.alwaysOn && !window.__sleeping))) { running = false; return; }
       if (visible && onScreen) raf = requestAnimationFrame(frame); else running = false;
     }
     function start() { if (!running && gl && visible && onScreen) { running = true; lastNow = 0; startedAt = performance.now(); raf = requestAnimationFrame(frame); } }
