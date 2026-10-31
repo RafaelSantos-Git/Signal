@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "updated": "2026-10-31T10:21+01:00",
+  "editions": [
+    {
+      "date": "2026-10-31",
+      "mode": "daily",
+      "slug": "2026-10-31",
+      "title": "Signal · Saturday 31 October",
+      "kind": "Daily briefing",
+      "duration": 699.03,
+      "stories": 31,
+      "overview": "Euro area supervisors put generative AI use at about 85 percent of banks, Bern finds a UBS move abroad would bring little capital relief, and North Korean hackers are blamed for a record theft from Binance.",
+      "path": "d/2026-10-31/",
+      "edition": "d/2026-10-31/edition.json"
+    },
+    {
+      "date": "2026-10-30",
+      "mode": "daily",
+      "slug": "2026-10-30",
+      "title": "Signal · Friday 30 October",
+      "kind": "Daily briefing",
+      "duration": 345.28,
+      "stories": 10,
+      "overview": "The ECB holds rates as energy pushes inflation to 3.8 percent, BBVA puts AI agents at the centre of a strong quarter, and Société Générale posts a record third quarter.",
+      "path": "d/2026-10-30/",
+      "edition": "d/2026-10-30/edition.json"
+    },
+    {
+      "date": "2026-10-29",
+      "mode": "daily",
+      "slug": "2026-10-29",
+      "title": "Signal · Thursday 29 October",
+      "kind": "Daily briefing",
+      "duration": 720.71,
+      "stories": 21,
+      "overview": "Bern sets out its path to binding AI rules, Swiss banks stay loyal to core systems they rate poorly on AI, and Canada's big banks shut out personal AI agents.",
+      "path": "d/2026-10-29/",
+      "edition": "d/2026-10-29/edition.json"
+    },
+    {
+      "date": "2026-10-28",
+      "mode": "daily",
+      "slug": "2026-10-28",
+      "title": "Signal · Wednesday 28 October",
+      "kind": "Daily briefing",
+      "duration": 577.41,
+      "stories": 15,
+      "overview": "UBS beats its cost-saving goal and ties buybacks to the capital debate, Temenos raises its guidance, and Microsoft offers 60,000 staff voluntary departure.",
+      "path": "d/2026-10-28/",
+      "edition": "d/2026-10-28/edition.json"
+    }
+  ]
+}
