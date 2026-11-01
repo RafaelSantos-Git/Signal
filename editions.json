@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "updated": "2026-10-31T10:21+01:00",
+  "updated": "2026-11-01T06:41+01:00",
   "editions": [
+    {
+      "date": "2026-11-01",
+      "mode": "weekly",
+      "slug": "2026-11-01-weekly",
+      "title": "Signal · Sunday 1 November",
+      "kind": "Weekly watch",
+      "duration": 778.82,
+      "stories": 10,
+      "overview": "UBS beats on profit as its capital fight with Bern hardens, the Federal Council sets a timetable for binding AI rules, banks put AI agents to work, the AI labs raise big numbers and hard questions, and a record Binance theft meets AI-run attacks.",
+      "path": "d/2026-11-01-weekly/",
+      "edition": "d/2026-11-01-weekly/edition.json"
+    },
     {
       "date": "2026-10-31",
       "mode": "daily",

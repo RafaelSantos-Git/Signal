@@ -1,7 +1,8 @@
 {
   "log": {
     "last_delivery": {
-      "daily": "2026-10-31T10:21+01:00"
+      "daily": "2026-10-31T10:21+01:00",
+      "weekly": "2026-11-01T06:41+01:00"
     },
     "stories": [
       {
@@ -798,50 +799,163 @@
   "calendar": {
     "events": [
       {
+        "date": "2026-11-02",
+        "event": "Julius Baer starts its share buyback of up to CHF 600 million",
+        "url": "https://www.finews.com/news/english-news/74247-julius-baer-launches-share-buyback-program",
+        "added": "2026-11-01",
+        "checked": "2026-11-01"
+      },
+      {
         "date": "2026-11-03",
         "event": "Swiss consumer prices for October (Federal Statistical Office)",
         "url": null,
         "added": "2026-10-31",
-        "checked": "2026-10-31"
+        "checked": "2026-11-01"
       },
       {
         "date": "2026-11-03",
         "event": "Swiss Bankers Association's Digital Finance Day, Zurich",
         "url": "https://www.swissbanking.ch/en/services/events/digital-finance-day-2026",
         "added": "2026-10-31",
-        "checked": "2026-10-31"
+        "checked": "2026-11-01"
       },
       {
         "date": "2026-11-03",
         "event": "US midterm elections",
         "url": null,
         "added": "2026-10-31",
-        "checked": "2026-10-31"
+        "checked": "2026-11-01"
       },
       {
         "date": "2026-11-05",
         "event": "Bank of England rate decision and Monetary Policy Report",
         "url": "https://www.bankofengland.co.uk/news/2024/december/mpc-dates-for-2026",
         "added": "2026-10-31",
-        "checked": "2026-10-31"
+        "checked": "2026-11-01"
       },
       {
         "date": "2026-11-05",
         "event": "Swiss Re nine-month results",
         "url": "https://www.swissre.com/investors/financial-calendar.html",
         "added": "2026-10-31",
-        "checked": "2026-10-31"
+        "checked": "2026-11-01"
       },
       {
         "date": "2026-11-05",
         "event": "SNB Chairman Martin Schlegel speaks at The SNB and its Watchers",
-        "url": "https://www.snb.ch/en/ifor/media/id/media_events",
+        "url": "https://www.snb.ch/en/services-events/digital-services/event-schedule",
         "added": "2026-10-31",
-        "checked": "2026-10-31"
+        "checked": "2026-11-01"
+      },
+      {
+        "date": "2026-11-17",
+        "event": "Nvidia third-quarter results (fiscal 2027)",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873",
+        "added": "2026-11-01",
+        "checked": "2026-11-01"
+      },
+      {
+        "date": "2026-11-17",
+        "event": "Microsoft Ignite opens in San Francisco (to 20 November)",
+        "url": "https://www.moscone.com/events/microsoft-ignite-2026",
+        "added": "2026-11-01",
+        "checked": "2026-11-01"
+      },
+      {
+        "date": "2026-11-18",
+        "event": "Singapore FinTech Festival (to 20 November)",
+        "url": "https://www.fintechfestival.sg/",
+        "added": "2026-11-01",
+        "checked": "2026-11-01"
+      },
+      {
+        "date": "2026-11-30",
+        "event": "AWS re:Invent opens in Las Vegas (to 4 December)",
+        "url": "https://aws.amazon.com/events/reinvent/",
+        "added": "2026-11-01",
+        "checked": "2026-11-01"
+      },
+      {
+        "date": "2026-12-01",
+        "event": "Billing starts for the Copilot harness in Microsoft Foundry",
+        "url": "https://devblogs.microsoft.com/foundry/microsoft-copilot-harness-in-foundry/",
+        "added": "2026-11-01",
+        "checked": "2026-11-01"
+      },
+      {
+        "date": "2026-12-09",
+        "event": "Federal Reserve rate decision",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+        "added": "2026-11-01",
+        "checked": "2026-11-01"
+      },
+      {
+        "date": "2026-12-10",
+        "event": "SNB monetary policy assessment",
+        "url": "https://www.snb.ch/en/services-events/digital-services/event-schedule",
+        "added": "2026-11-01",
+        "checked": "2026-11-01"
+      },
+      {
+        "date": "2026-12-17",
+        "event": "ECB monetary policy decision",
+        "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
+        "added": "2026-11-01",
+        "checked": "2026-11-01"
+      },
+      {
+        "date": "2026-12-17",
+        "event": "Bank of England rate decision",
+        "url": "https://www.bankofengland.co.uk/news/2024/december/mpc-dates-for-2026",
+        "added": "2026-11-01",
+        "checked": "2026-11-01"
+      },
+      {
+        "date": "2027-01-01",
+        "event": "SBA due diligence code CDB 27 in force (four-month transition)",
+        "url": "https://www.swissbanking.ch/en/media-politics/news/cdb-27-revised-code-of-conduct-on-combating-money-laundering-from-2027",
+        "added": "2026-11-01",
+        "checked": "2026-11-01"
+      },
+      {
+        "date": "2027-01-08",
+        "event": "SNB preliminary annual result for 2026",
+        "url": "https://www.snb.ch/en/services-events/digital-services/event-schedule",
+        "added": "2026-11-01",
+        "checked": "2026-11-01"
+      },
+      {
+        "date": "2027-01-13",
+        "event": "Partners Group assets under management at 31 December",
+        "url": "https://www.partnersgroup.com/en/shareholders/financial-calendar",
+        "added": "2026-11-01",
+        "checked": "2026-11-01"
+      },
+      {
+        "date": "2027-01-27",
+        "event": "Federal Reserve rate decision",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+        "added": "2026-11-01",
+        "checked": "2026-11-01"
       }
     ]
   },
   "archive": [
+    {
+      "date": "2026-11-01",
+      "mode": "weekly",
+      "overview": "UBS beats on profit as its capital fight with Bern hardens, the Federal Council sets a timetable for binding AI rules, banks put AI agents to work, the AI labs raise big numbers and hard questions, and a record Binance theft meets AI-run attacks.",
+      "headlines": [
+        "UBS beats on profit as its capital fight with Bern hardens",
+        "Federal Council sets Switzerland's path to binding AI rules",
+        "Banks move AI agents into daily work as supervisors count wide adoption",
+        "Anthropic files to list as OpenAI trims its round and spending jitters spread",
+        "Record USD 6.36 billion Binance theft and AI-run attacks test security"
+      ],
+      "audio_url": "audio/signal-2026-11-01-weekly.mp3",
+      "duration": 778.82,
+      "slug": "2026-11-01-weekly"
+    },
     {
       "date": "2026-10-31",
       "mode": "daily",
