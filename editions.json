@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "updated": "2026-11-01T06:41+01:00",
+  "updated": "2026-11-03T07:50+01:00",
   "editions": [
+    {
+      "date": "2026-11-03",
+      "mode": "daily",
+      "slug": "2026-11-03",
+      "title": "Signal · Tuesday 3 November",
+      "kind": "Daily briefing",
+      "duration": 829.45,
+      "stories": 25,
+      "overview": "Goldman Sachs limits AI coding tools to engineers, Swiss cantonal banks warn against a FINMA 'mega authority', and Anthropic's amended filing says it may imminently meet its AI-acceleration threshold.",
+      "path": "d/2026-11-03/",
+      "edition": "d/2026-11-03/edition.json"
+    },
     {
       "date": "2026-11-01",
       "mode": "weekly",
