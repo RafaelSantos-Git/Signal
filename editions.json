@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "updated": "2026-11-03T07:50+01:00",
+  "updated": "2026-11-04T06:39+01:00",
   "editions": [
+    {
+      "date": "2026-11-04",
+      "mode": "daily",
+      "slug": "2026-11-04",
+      "title": "Signal · Wednesday 4 November",
+      "kind": "Daily briefing",
+      "duration": 753.54,
+      "stories": 26,
+      "overview": "FINMA's chair unveils an AI pilot running on the authority's own hardware, Binance traces its USD 6.3 billion theft to a fake job interview and AI tooling, and an EU court adviser says chatbots can infringe press publishers' rights.",
+      "path": "d/2026-11-04/",
+      "edition": "d/2026-11-04/edition.json"
+    },
     {
       "date": "2026-11-03",
       "mode": "daily",

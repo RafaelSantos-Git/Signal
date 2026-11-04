@@ -1,7 +1,7 @@
 {
   "log": {
     "last_delivery": {
-      "daily": "2026-11-03T07:50+01:00",
+      "daily": "2026-11-04T06:39+01:00",
       "weekly": "2026-11-01T06:41+01:00"
     },
     "stories": [
@@ -1346,38 +1346,293 @@
           "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/"
         ],
         "summary": ""
+      },
+      {
+        "date": "2026-11-04",
+        "mode": "daily",
+        "key": "finma|pilot|subsuma-ai",
+        "headline": "FINMA unveils Subsuma, an AI pilot for licensing questions, running on its own hardware",
+        "urls": [
+          "https://www.finma.ch/en/documentation/finma-publications/addresses-and-specialist-articles/referate-folder/20261103-rede-marlene-amstadt-sba/"
+        ],
+        "summary": "FINMA chair Marlene Amstad presented Subsuma for the first time at the Swiss Bankers Association's Digital Finance Day on 3 November. It assesses requests from the close to 100 fintech start-ups a year asking whether they need a licence, an"
+      },
+      {
+        "date": "2026-11-04",
+        "mode": "daily",
+        "key": "binance|report|fake-interview-ai-tool",
+        "headline": "Update: Binance says fake interview and AI tool enabled USD 6.3 billion theft",
+        "urls": [
+          "https://www.nbcnews.com/business/markets/binance-hack-fake-job-interview-heist-rcna607238",
+          "https://www.thenationalnews.com/business/money/2026/11/03/binance-says-fake-job-interviews-and-internal-ai-tool-used-in-63bn-heist/"
+        ],
+        "summary": "Binance's initial report on 3 November says the attack began in June, when a wallet developer downloaded a tampered AI coding tool; it replaced the device, but the team's roles had been exposed. In September a second engineer downloaded mal"
+      },
+      {
+        "date": "2026-11-04",
+        "mode": "daily",
+        "key": "cjeu|opinion|like-company-gemini",
+        "headline": "EU court adviser says chatbots can infringe press rights but training is generally allowed",
+        "urls": [
+          "https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260155en.pdf",
+          "https://ppc.land/googles-gemini-can-infringe-press-rights-in-2-ways-eu-court-adviser-says/"
+        ],
+        "summary": "Advocate General Maciej Szpunar gave his opinion on 3 November in Like Company v Google, the first generative AI case to reach the Court of Justice. A chatbot that retrieves an article and reuses it in an answer may infringe the publisher's"
+      },
+      {
+        "date": "2026-11-04",
+        "mode": "daily",
+        "key": "safirum|launch|chf-s-stablecoin",
+        "headline": "Safirum launches CHF-S, a whitelisted franc stablecoin on Solana under FINMA's guidance",
+        "urls": [
+          "https://www.finews.com/news/english-news/74312-new-swiss-franc-stablecoin-safirum-bastien-thiebaud-maverix-giuliano-glocker"
+        ],
+        "summary": "Zug-based Safirum launched CHF-S on Solana on 3 November, backed 1:1 by accounts at Berner Kantonalbank and Banque Richelieu. Only identified, whitelisted wallets can hold it and only institutional investors can mint it; Maverix was first. "
+      },
+      {
+        "date": "2026-11-04",
+        "mode": "daily",
+        "key": "swiss-blockchain-federation|report|global-benchmark-2026",
+        "headline": "Swiss Blockchain Federation ranks Switzerland sixth of 15 on financial infrastructure, faulting FINMA",
+        "urls": [
+          "https://www.finews.ch/news/finanzplatz/74308-sbf-finanzinfrastruktur-blockchain-finma-amina-benchmarkreport-ranking"
+        ],
+        "summary": "The federation's first Global Benchmark Report, presented on 3 November with Amina Bank and law firm MME, places Switzerland behind the US, Singapore, the UK, Germany and Japan. It names FINMA's implementation, small market size and missing"
+      },
+      {
+        "date": "2026-11-04",
+        "mode": "daily",
+        "key": "pkzh|suspend|pk-softech-migration",
+        "headline": "Zurich city pension fund halts PK Softech migration after data theft at the vendor",
+        "urls": [
+          "https://www.finews.ch/news/finanzplatz/74311-pkzh-pk-softech-cyberangriff-systemwechsel",
+          "https://www.inside-it.ch/pensionskasse-zuerich-sistiert-softwaremigration-20261103"
+        ],
+        "summary": "The board of Pensionskasse Stadt Zürich suspended the new administration system planned for early 2027 and will keep its current one through 2027. Test data it had sent to PK Softech was among what criminals took in the late-September attac"
+      },
+      {
+        "date": "2026-11-04",
+        "mode": "daily",
+        "key": "switzerland|inflation|october-2026",
+        "headline": "Swiss inflation jumps to 1.5 percent in October, its highest since December 2023",
+        "urls": [
+          "https://www.srf.ch/news/wirtschaft/teuerung-2026-schweizer-inflation-steigt-im-oktober-auf-1-5-prozent",
+          "https://www.srf.ch/news/schweiz/ubs-lohnumfrage-schweizer-loehne-steigen-2027-nur-leicht"
+        ],
+        "summary": "The figure beat economists' forecasts of 1.1 to 1.4 percent, driven by petroleum products costing 40 percent more than a year earlier, SRF reported on 3 November. Core inflation held at 0.5 percent, and the headline rate stays inside the SN"
+      },
+      {
+        "date": "2026-11-04",
+        "mode": "daily",
+        "key": "hslu-lukb|study|affluent-clients-switching",
+        "headline": "One in four Swiss millionaires switched main investment bank in five years, study finds",
+        "urls": [
+          "https://www.finews.com/news/english-news/74296-swiss-millionaires-private-banking-bank-switching-ubs-cantonal-banks-hslu-lukb-study"
+        ],
+        "summary": "The Lucerne University of Applied Sciences and Luzerner Kantonalbank surveyed 307 people with more than CHF 1 million in freely available assets. They hold 3.3 banking relationships on average; UBS is the main investment bank for 27 percent"
+      },
+      {
+        "date": "2026-11-04",
+        "mode": "daily",
+        "key": "lloyds|jobs|voluntary-redundancy",
+        "headline": "Lloyds opens voluntary redundancy as UK banks' AI-linked job cuts spread, reports say",
+        "urls": [
+          "https://fstech.co.uk/fst/Lloyds_Launches_Voluntary_Redundancy_Programme.php",
+          "https://www.cityam.com/barclays-and-natwest-layoffs-signal-start-of-bankings-ai-job-squeeze/"
+        ],
+        "summary": "Lloyds has invited staff across several divisions to register for severance, with leavers going in the first quarter of 2027, FStech reported, citing The Times. Barclays is cutting about 5,000 roles and NatWest removed 1,000 in the third qu"
+      },
+      {
+        "date": "2026-11-04",
+        "mode": "daily",
+        "key": "intesa-sanpaolo|results|9m26",
+        "headline": "Intesa lifts 2026 outlook well above EUR 10 billion and lists 33 AI projects",
+        "urls": [
+          "https://group.intesasanpaolo.com/en/investor-relations/press-releases/2026/11/20261103-ris3q26-uk",
+          "https://www.financialcontent.com/article/gnwcq-2026-11-3-intesa-sanpaolo-posts-record-net-income-of-82-billion-in-the-first-nine-months-of-2026"
+        ],
+        "summary": "Intesa Sanpaolo reported record nine-month net income of EUR 8.2 billion, up 8.1 percent, on 3 November. It counts 33 AI, generative and agentic AI initiatives, about 71 percent of applications in the cloud and over 2,700 staff exits this y"
+      },
+      {
+        "date": "2026-11-04",
+        "mode": "daily",
+        "key": "bundesbank|speech|nagel-december-hike",
+        "headline": "Bundesbank's Nagel says an ECB rate rise in December is very likely necessary",
+        "urls": [
+          "https://live.euronext.com/en/financial-news/bundesbanks-nagel-joins-ecb-chorus-backing-december-rate-hike",
+          "https://investinglive.com/central-banks/ecb-s-nagel-says-a-december-rate-hike-is-very-likely-to-be-necessary/"
+        ],
+        "summary": "Joachim Nagel, the Bundesbank president, said in Berlin on 3 November there seems to be little alternative to a hike unless the inflation outlook improves significantly, according to Reuters. It would be the ECB's third this year, from a 2."
+      },
+      {
+        "date": "2026-11-04",
+        "mode": "daily",
+        "key": "anthropic|research|flashprove-provable-inference",
+        "headline": "Anthropic publishes FlashProve, an open-source way to prove which model gave an answer",
+        "urls": [
+          "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/"
+        ],
+        "summary": "FlashProve generates a cryptographic proof that an output came from a specific model, even when the lab itself runs the service. Labs would publish a fingerprint of each model without revealing its weights. Anthropic has released the specif"
+      },
+      {
+        "date": "2026-11-04",
+        "mode": "daily",
+        "key": "snowflake|launch|expedition-2026-agents",
+        "headline": "Snowflake adds always-on agent bots, a governed business ontology and an AI gateway",
+        "urls": [
+          "https://www.snowflake.com/en/news/press-releases/expedition-2026-coco-cowork/",
+          "https://www.snowflake.com/en/news/press-releases/expedition-2026-business-ontology-ai-gateway/"
+        ],
+        "summary": "At Expedition 2026 on 3 November, Snowflake announced CoCo and CoWork Bots that work in the background under a user's own permissions and check in only for decisions. Business Ontology holds approved definitions for agents, and Cortex AI Ga"
+      },
+      {
+        "date": "2026-11-04",
+        "mode": "daily",
+        "key": "gitlab|vulnerability|cve-2026-97229-swiss-instances",
+        "headline": "Almost a third of exposed GitLab servers are vulnerable, including 48 in Switzerland",
+        "urls": [
+          "https://www.inside-it.ch/schweizer-server-von-kritischen-gitlab-luecken-betroffen-20261103"
+        ],
+        "summary": "Shadowserver counted 10,925 internet-facing GitLab instances open to at least one of two flaws rated 10 on the CVSS scale as of 1 November, out of about 39,000, Inside IT reported. One flaw, CVE-2026-97229, is being exploited; patches have "
+      },
+      {
+        "date": "2026-11-04",
+        "mode": "daily",
+        "key": "flexera|report|state-of-the-cloud-2026",
+        "headline": "Cloud waste rises again to 29 percent as AI costs complicate budgets, Flexera finds",
+        "urls": [
+          "https://www.netzwoche.ch/news/2026-11-03/verschwenderische-cloud-ausgaben-nehmen-wieder-zu"
+        ],
+        "summary": "Firms estimate 29 percent of their cloud infrastructure and platform spend is wasted, the first rise after five years of decline, according to Flexera's State of the Cloud Report 2026, reported by Netzwoche on 3 November. Respondents overra"
+      },
+      {
+        "date": "2026-11-04",
+        "mode": "daily",
+        "key": "anthropic|ipo|compute-share-of-revenue",
+        "headline": "Update: Anthropic's compute took 58 percent of revenue last quarter, up from 48 percent",
+        "urls": [
+          "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/"
+        ],
+        "summary": "Anthropic's amended filing puts third-quarter compute at USD 10 billion, including USD 5.0 billion under short-term commitments that cost significantly more than multi-year deals, TechCrunch reported on 3 November. Revenue per dollar of com"
+      },
+      {
+        "date": "2026-11-04",
+        "mode": "daily",
+        "key": "fca|rules|esg-rating-providers",
+        "headline": "FCA brings ESG rating providers under regulation, with applications from 24 June 2027",
+        "urls": [
+          "https://www.fca.org.uk/news/press-releases/new-fca-rules-bring-esg-rating-providers-uk-regulation-first-time"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-04",
+        "mode": "daily",
+        "key": "fca|expectations|car-finance-settlement-offers",
+        "headline": "FCA sets expectations for lenders making car finance settlement offers during legal challenges",
+        "urls": [
+          "https://www.fca.org.uk/news/press-releases/fca-sets-expectations-firms-making-car-finance-settlement-offers"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-04",
+        "mode": "daily",
+        "key": "ecb|speech|machado-simplification",
+        "headline": "ECB's Machado wants simpler, more proportionate rules without lowering capital standards",
+        "urls": [
+          "https://www.bankingsupervision.europa.eu/press/speeches/date/2026/html/ssm.sp261103~dff42acdd1.en.html"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-04",
+        "mode": "daily",
+        "key": "finma|sanctions|sudan-nicaragua-november",
+        "headline": "FINMA publishes updated sanctions notices on Sudan and Nicaragua, in force 3 November",
+        "urls": [
+          "https://www.finma.ch/en/news/2026/11/20261103-sr-946-231-18/",
+          "https://www.finma.ch/en/news/2026/11/20261103-sr-946-231-158-5/"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-04",
+        "mode": "daily",
+        "key": "lombard-odier|appoint|staeger-ernst-uhnw",
+        "headline": "Lombard Odier hires UBS's Christina Stäger Ernst to lead German-Swiss UHNW and family offices",
+        "urls": [
+          "https://www.finews.ch/news/banken/74271-lombard-odier-christina-staeger-ernst-ubs-uhnw-family-offices-deutschschweiz"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-04",
+        "mode": "daily",
+        "key": "j-stern|merger|bvo-capital",
+        "headline": "J. Stern & Co. completes merger with Geneva's bvo capital after FINMA approval",
+        "urls": [
+          "https://www.finews.ch/news/finanzplatz/74300-j-stern-co-uebernahme-bvo-capital-finma-praesenz-in-der-schweiz"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-04",
+        "mode": "daily",
+        "key": "tareno|interview|zurich-acquisitions",
+        "headline": "Basel wealth manager Tareno nears CHF 4 billion and works towards Zurich acquisitions",
+        "urls": [
+          "https://www.finews.ch/news/finanzplatz/74316-interview-sybille-wyss-tareno-vermoegensverwalter-akquistionen-assets-under-management-tareno-fonds"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-04",
+        "mode": "daily",
+        "key": "atmos-capital-partners|launch|cat-bonds",
+        "headline": "Former Twelve Securis executives launch cat bond boutique Atmos Capital Partners in Zurich",
+        "urls": [
+          "https://www.finews.ch/news/finanzplatz/74288-catbonds-atmos-neugruendung-twelve-securis-matt-fischer-etienne-schwartz-martin-sennrich"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-04",
+        "mode": "daily",
+        "key": "six|figures|october-2026",
+        "headline": "SIX: ETF turnover up 24.5 percent on September as SMI closes at a record",
+        "urls": [
+          "https://www.six-group.com/en/newsroom/media-releases/2026/20261103-keyfigures-exchange-october-2026.html"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-04",
+        "mode": "daily",
+        "key": "fal|funding|series-f-16bn",
+        "headline": "Inference start-up Fal raises USD 1.3 billion at a USD 16 billion valuation",
+        "urls": [
+          "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/"
+        ],
+        "summary": ""
       }
     ]
   },
   "calendar": {
     "events": [
       {
-        "date": "2026-11-03",
-        "event": "Swiss consumer prices for October (Federal Statistical Office)",
+        "date": "2026-11-04",
+        "event": "Euro area flash inflation for October",
         "url": null,
-        "added": "2026-10-31",
-        "checked": "2026-11-03"
-      },
-      {
-        "date": "2026-11-03",
-        "event": "Swiss Bankers Association's Digital Finance Day, Zurich",
-        "url": "https://www.swissbanking.ch/en/services/events/digital-finance-day-2026",
-        "added": "2026-10-31",
-        "checked": "2026-11-03"
-      },
-      {
-        "date": "2026-11-03",
-        "event": "US midterm elections",
-        "url": null,
-        "added": "2026-10-31",
-        "checked": "2026-11-03"
+        "added": "2026-11-04",
+        "checked": "2026-11-04"
       },
       {
         "date": "2026-11-05",
         "event": "Bank of England rate decision and Monetary Policy Report",
         "url": "https://www.bankofengland.co.uk/news/2024/december/mpc-dates-for-2026",
         "added": "2026-10-31",
-        "checked": "2026-11-03"
+        "checked": "2026-11-04"
       },
       {
         "date": "2026-11-05",
@@ -1391,14 +1646,21 @@
         "event": "SNB Chairman Martin Schlegel speaks at The SNB and its Watchers",
         "url": "https://www.snb.ch/en/services-events/digital-services/event-schedule",
         "added": "2026-10-31",
-        "checked": "2026-11-03"
+        "checked": "2026-11-04"
       },
       {
         "date": "2026-11-05",
         "event": "Swiss Re, Valiant and Swisscom third-quarter figures",
         "url": "https://www.swissre.com/investors/financial-calendar.html",
         "added": "2026-11-03",
-        "checked": "2026-11-03"
+        "checked": "2026-11-04"
+      },
+      {
+        "date": "2026-11-06",
+        "event": "SNB foreign currency reserves at end-October",
+        "url": null,
+        "added": "2026-11-04",
+        "checked": "2026-11-04"
       },
       {
         "date": "2026-11-17",
@@ -1494,6 +1756,19 @@
     ]
   },
   "archive": [
+    {
+      "date": "2026-11-04",
+      "mode": "daily",
+      "overview": "FINMA's chair unveils an AI pilot running on the authority's own hardware, Binance traces its USD 6.3 billion theft to a fake job interview and AI tooling, and an EU court adviser says chatbots can infringe press publishers' rights.",
+      "headlines": [
+        "FINMA unveils Subsuma, an AI pilot for licensing questions, running on its own hardware",
+        "Update: Binance says fake interview and AI tool enabled USD 6.3 billion theft",
+        "EU court adviser says chatbots can infringe press rights but training is generally allowed"
+      ],
+      "audio_url": "audio/signal-2026-11-04.mp3",
+      "duration": 753.54,
+      "slug": "2026-11-04"
+    },
     {
       "date": "2026-11-03",
       "mode": "daily",
