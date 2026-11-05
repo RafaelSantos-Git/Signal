@@ -1,7 +1,7 @@
 {
   "log": {
     "last_delivery": {
-      "daily": "2026-11-04T06:39+01:00",
+      "daily": "2026-11-05T06:35+01:00",
       "weekly": "2026-11-01T06:41+01:00"
     },
     "stories": [
@@ -1615,24 +1615,308 @@
           "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/"
         ],
         "summary": ""
+      },
+      {
+        "date": "2026-11-05",
+        "mode": "daily",
+        "key": "occ|framework|bank-ai-supervision",
+        "headline": "OCC tells US bank examiners to judge AI by consequences, ranking payment agents highest",
+        "urls": [
+          "https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-54.html",
+          "https://srnnews.com/us-bank-regulator-issues-first-ever-ai-guidance-for-examiners",
+          "https://finance.yahoo.com/technology/ai/articles/us-bank-regulator-issues-first-195718686.html"
+        ],
+        "summary": "The Office of the Comptroller of the Currency issued a 22-page supervisory framework on 4 November for examiners reviewing banks' use of what the US government now calls super intelligence. AI is not to be treated as a separate risk categor"
+      },
+      {
+        "date": "2026-11-05",
+        "mode": "daily",
+        "key": "ubs|capital-rules|equity-method-proposal",
+        "headline": "Bloomberg: National Council member proposes valuation change to ease UBS capital dispute",
+        "urls": [
+          "https://www.cash.ch/news/presse-kompromiss-in-ubs-eigenmittelfrage-will-bewertungsmethode-andern-982502",
+          "https://www.finanzen.net/nachricht/aktien/eigenkapitalvorschriften-ubs-aktie-zieht-an-neue-bewertungsmethode-soll-kapitalstreit-entschaerfen-16037052"
+        ],
+        "summary": "A member of the National Council has proposed that UBS value its foreign subsidiaries under the equity method, which could reduce its future capital needs, according to Bloomberg as reported by AWP. How much is unclear, and support is far f"
+      },
+      {
+        "date": "2026-11-05",
+        "mode": "daily",
+        "key": "us-midterms|markets|democratic-sweep",
+        "headline": "Democrats take Congress; Dow jumps 3 percent, Brent sinks and the SMI passes 15,000",
+        "urls": [
+          "https://www.cnn.com/2026/11/04/investing/us-markets-midterm-elections",
+          "https://www.srf.ch/news/wirtschaft/sieg-der-demokraten-in-den-usa-wie-die-finanzmaerkte-auf-die-midterms-reagieren",
+          "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/"
+        ],
+        "summary": "Democrats won majorities in both the House and the Senate in the 3 November midterms. On 4 November the Dow rose 1,569 points, or 3 percent, its best day since April 2025, while Brent fell almost 8.7 percent to USD 94.62 a barrel and Treasu"
+      },
+      {
+        "date": "2026-11-05",
+        "mode": "daily",
+        "key": "credit-mutuel-arkea|cyberattack|fortuneo-fraud",
+        "headline": "Crédit Mutuel Arkéa confirms cyberattack as investigator traces USD 133 million to crypto",
+        "urls": [
+          "https://www.it-connect.fr/cyberattaque-credit-mutuel-arkea-fortuneo-133-millions/",
+          "https://www.boursorama.com/bourse/actualites/credit-mutuel-arkea-la-banque-francaise-victime-d-un-piratage-massif-des-fonds-voles-d1cca903d414cfc980141769125b1d26",
+          "https://cybersecuritynews.com/credit-mutuel-arkea-confirms-cyberattack/"
+        ],
+        "summary": "The French banking group said on 4 November that an attack enabled fraudulent transactions, that it is contained and that customers will lose nothing. It has not confirmed the amount: blockchain investigator ZachXBT estimates more than USD "
+      },
+      {
+        "date": "2026-11-05",
+        "mode": "daily",
+        "key": "capgemini|report|world-cloud-fs-2027",
+        "headline": "Capgemini: 59 percent of financial firms try multi-agent AI, 10 percent orchestrate it enterprise-wide",
+        "urls": [
+          "https://www.capgemini.com/news/press-releases/financial-institutions-accelerate-transition-to-multi-agent-ai-in-drive-for-bottom-line-value/"
+        ],
+        "summary": "The Capgemini Research Institute's World Cloud Report for Financial Services 2027, published on 5 November and based on 1,100 C-suite executives, finds 59 percent piloting or deploying multi-agent AI. Roughly half cannot consistently show a"
+      },
+      {
+        "date": "2026-11-05",
+        "mode": "daily",
+        "key": "twint|launch|qr-bills",
+        "headline": "TWINT now lets Swiss users pay QR bills in its app and schedule them",
+        "urls": [
+          "https://www.finews.ch/news/finanzplatz/74269-twint-erweitert-angebot-bezahlung-von-qr-rechnungen-nutzer-zeitpunkt-der-zahlung-selbst-festlegen-unternehmen-ohne-anpassung-rechnungsprozesse"
+        ],
+        "summary": "TWINT said on 4 November that customers can scan the Swiss QR code on a bill, check the details and set a payment date within the due period. A payment button and an upload option cover digital bills. Issuers change nothing because it build"
+      },
+      {
+        "date": "2026-11-05",
+        "mode": "daily",
+        "key": "eca-vaud|writedown|si-assurance",
+        "headline": "Vaud's cantonal insurer ECA writes off CHF 12.9 million on software never deployed",
+        "urls": [
+          "https://www.ictjournal.ch/news/2026-11-04/un-logiciel-jamais-deploye-coute-129-millions-a-leca-vaudois"
+        ],
+        "summary": "ECA Vaud booked a CHF 12.9 million impairment in its 2025 accounts for SI Assurance, a system for some 639,000 policies, according to ICTjournal, citing 24 heures. The initial 2020 contract with Inetum, then GFI, was CHF 5.59 million. ECA b"
+      },
+      {
+        "date": "2026-11-05",
+        "mode": "daily",
+        "key": "salesforce|expansion|agentforce-coworker",
+        "headline": "Salesforce says Agentforce Coworker passes 185,000 users, with Fulton Bank among adopters",
+        "urls": [
+          "https://www.salesforce.com/news/stories/agentforce-coworker-surpasses-185k-users/"
+        ],
+        "summary": "Salesforce said on 4 November that Coworker usage grew 21 times in three months and that more than 185,000 people now use it. New features include reusable Skills, conversation history and access from Microsoft Teams, mobile and desktop. It"
+      },
+      {
+        "date": "2026-11-05",
+        "mode": "daily",
+        "key": "federal-council|decision|bvg-minimum-rate-2027",
+        "headline": "Federal Council lifts BVG minimum rate to 2.0 percent from 2027; insurers object",
+        "urls": [
+          "https://www.finews.ch/news/versicherungen/74331-bvg-mindestzins-bundesrat-anhebung-svv"
+        ],
+        "summary": "The Federal Council raised the minimum interest rate on occupational pension savings from 1.25 to 2.0 percent from January 2027, above the 1.75 percent its pension commission recommended, citing pension funds' solid finances and inflation s"
+      },
+      {
+        "date": "2026-11-05",
+        "mode": "daily",
+        "key": "swiss-bond-market|record|primary-2026",
+        "headline": "Swiss franc bond issuance hits CHF 89 billion, already matching the 2009 record",
+        "urls": [
+          "https://www.finews.ch/news/finanzplatz/74279-primaermarkt-allzeitrekord-kapitalmarkt-premieren-via-outlets-stadt-neuenburg"
+        ],
+        "summary": "Bonds with a nominal value of CHF 89 billion reached the Swiss primary market by the end of October, level with the CHF 88.9 billion of 2009, finews reported on 4 November, using Zürcher Kantonalbank statistics. October's CHF 7.3 billion, e"
+      },
+      {
+        "date": "2026-11-05",
+        "mode": "daily",
+        "key": "dws|rebrand|deutsche-asset-management-family-offices",
+        "headline": "DWS adopts Deutsche Asset Management brand and coordinates family offices from Switzerland",
+        "urls": [
+          "https://www.finews.ch/news/finanzplatz/74284-dws-deutsche-asset-management-schweiz-family-offices-sven-wuerttemberger"
+        ],
+        "summary": "DWS is introducing Deutsche Asset Management as its global umbrella brand from early November to March 2027, DWS Switzerland chief executive Sven Württemberger told finews; DWS and Xtrackers stay as product brands. He takes on worldwide coo"
+      },
+      {
+        "date": "2026-11-05",
+        "mode": "daily",
+        "key": "revolut|valuation|secondary-2026",
+        "headline": "Revolut reaches USD 115 billion valuation in secondary sale as US bank nears",
+        "urls": [
+          "https://techcrunch.com/2026/11/04/revoluts-valuation-jumps-53-to-115b-in-new-share-sale-as-it-prepares-to-launch-us-bank/",
+          "https://www.financemagnates.com/fintech/revolut-confirms-115-billion-valuation-after-secondary-share-sale/"
+        ],
+        "summary": "Investors including Glade Brook, Coatue, Durable, T. Rowe Price and Baillie Gifford completed a secondary share sale valuing Revolut at USD 115 billion, 53 percent above a year ago, TechCrunch reported on 4 November. No new money went into "
+      },
+      {
+        "date": "2026-11-05",
+        "mode": "daily",
+        "key": "starling|leadership|bhatia-exit",
+        "headline": "Starling chief executive Raman Bhatia plans to leave after two years, FT reports",
+        "urls": [
+          "https://www.pymnts.com/personnel/2026/starling-ceo-departing-after-2-years-with-digital-bank/"
+        ],
+        "summary": "Raman Bhatia, chief executive of UK digital bank Starling, has privately told the board he no longer wants to run the bank, according to the Financial Times, as reported by PYMNTS on 4 November. The board has stepped up succession plans ami"
+      },
+      {
+        "date": "2026-11-05",
+        "mode": "daily",
+        "key": "openai|research|linux-kernel-exploits-948",
+        "headline": "OpenAI says agents built 948 Linux root exploits, with patches, for USD 1.2 million",
+        "urls": [
+          "https://runtimewire.com/article/openai-agents-948-linux-kernel-flaws",
+          "https://startupfortune.com/openais-ai-pipeline-turned-2308-linux-kernel-bugs-into-948-root-exploits/"
+        ],
+        "summary": "OpenAI said on 4 November that one pipeline run reproduced 1,724 Linux kernel vulnerabilities and produced 948 validated privilege escalation exploits with candidate patches, at USD 1,213,430 in API credits, according to RuntimeWire and Sta"
+      },
+      {
+        "date": "2026-11-05",
+        "mode": "daily",
+        "key": "apple|budget|internal-ai-caps",
+        "headline": "Apple reportedly cuts engineers' daily AI cap from USD 300 to USD 200",
+        "urls": [
+          "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/"
+        ],
+        "summary": "Apple lowered the daily AI spending cap for engineering teams from USD 300 to USD 200 in October, with some allowances falling to USD 100, and is weighing a limit as low as USD 25 a day outside engineering, according to Bloomberg, as report"
+      },
+      {
+        "date": "2026-11-05",
+        "mode": "daily",
+        "key": "uber|earnings-call|ai-agent-orders",
+        "headline": "Uber saw four agent-booked rides among about 320 million weekly trips and orders",
+        "urls": [
+          "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/"
+        ],
+        "summary": "Uber said on its third-quarter earnings call on 4 November that only four rides and 500 Uber Eats orders came through AI agents in the week of Halloween, its busiest in October, out of around 320 million trips and orders. Chief executive Da"
+      },
+      {
+        "date": "2026-11-05",
+        "mode": "daily",
+        "key": "openai|acquire|pierre-computer",
+        "headline": "OpenAI agrees to buy Pierre for Codex; Meta buys coding start-up Conductor",
+        "urls": [
+          "https://tech-insider.org/openai-to-acquire-pierre-codex-code-storage-trees-diffs-2026/",
+          "https://shiftdelete.net/en/openai-acquires-pierre",
+          "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/"
+        ],
+        "summary": "OpenAI said on 4 November it will acquire Pierre Computer Company, whose Code Storage offers Git hosting built for software agents, and fold it into Codex; terms were not disclosed and the deal has not closed. The same day Meta confirmed it"
+      },
+      {
+        "date": "2026-11-05",
+        "mode": "daily",
+        "key": "databricks|release|spark-4-3-runtime-19",
+        "headline": "Apache Spark 4.3 brings stateful real-time streaming under 150 ms to Databricks Runtime 19",
+        "urls": [
+          "https://www.databricks.com/blog/introducing-apache-spark-43-now-available-databricks-runtime-19"
+        ],
+        "summary": "Databricks said on 5 November that Apache Spark 4.3, now in Databricks Runtime 19, adds streaming aggregation, deduplication and custom stateful processing to Real-Time Mode, with sub-150 ms P99 latency in three benchmarks. It also adds SCD"
+      },
+      {
+        "date": "2026-11-05",
+        "mode": "daily",
+        "key": "finma|consultation|circular-2019-2",
+        "headline": "FINMA consults until 15 January on its interest rate risk circular for banks",
+        "urls": [
+          "https://www.finma.ch/en/news/2026/11/20261104-mm-rs-19-02/"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-05",
+        "mode": "daily",
+        "key": "sik-n|motion|digital-dependencies",
+        "headline": "National Council security committee backs motion on federal digital and AI model dependencies",
+        "urls": [
+          "https://www.inside-it.ch/bundesrat-soll-digitale-abhaengigkeiten-minimieren-20261104"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-05",
+        "mode": "daily",
+        "key": "federal-supreme-court|ruling|init7-network-blocks",
+        "headline": "Federal Supreme Court: prosecutors lack legal basis for website blocks in investment fraud case",
+        "urls": [
+          "https://www.netzwoche.ch/news/2026-11-04/bundesgericht-urteilt-gegen-netzsperren-ohne-sonderregelung"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-05",
+        "mode": "daily",
+        "key": "fca|blog|post-quantum-cryptography",
+        "headline": "FCA tells financial firms to start preparing for post-quantum cryptography now",
+        "urls": [
+          "https://www.fca.org.uk/news/blogs/act-now-be-resilient-quantum-future"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-05",
+        "mode": "daily",
+        "key": "pictet-alternative-advisors|appoint|lukesch-real-estate",
+        "headline": "Pictet Alternative Advisors names Alexander Lukesch head of Multi Manager Real Estate",
+        "urls": [
+          "https://www.finews.com/news/english-news/74322-pictet-alternative-advisorsalexander-lukesch-multi-manager-real-estate"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-05",
+        "mode": "daily",
+        "key": "banque-bonhote|appoint|altinsoy-geneva",
+        "headline": "Banque Bonhôte hires Ali Altinsoy to run Geneva, plus Lausanne and South Africa specialists",
+        "urls": [
+          "https://www.finews.com/news/english-news/74325-banque-bonhote-new-hires-ramia-montandon-ali-altinsoy-jaime-arnold-geneva-branch-south-africa-business"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-05",
+        "mode": "daily",
+        "key": "elca|acquire|loewenfels",
+        "headline": "Elca buys Lucerne IT firm Löwenfels to add health and social insurance expertise",
+        "urls": [
+          "https://www.inside-it.ch/loewenfels-wird-teil-der-elca-group-20261104"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-05",
+        "mode": "daily",
+        "key": "holcim|cyberattack|emperador-360gb",
+        "headline": "Holcim confirms data theft as ransomware group Emperador claims 360 GB",
+        "urls": [
+          "https://www.ictjournal.ch/news/2026-11-04/des-pirates-derobent-360-go-de-donnees-a-la-multinationale-suisse-holcim"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-05",
+        "mode": "daily",
+        "key": "gartner|report|strategic-trends-2027",
+        "headline": "Gartner's 2027 technology trends centre on controlling autonomous systems and digital sovereignty",
+        "urls": [
+          "https://www.netzwoche.ch/news/2026-11-04/gartner-nennt-ki-governance-und-digitale-souveraenitaet-als-zentrale"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-05",
+        "mode": "daily",
+        "key": "mufg|merger|bank-europe-universal",
+        "headline": "MUFG merges its EU securities arm into an Amsterdam-based universal bank",
+        "urls": [
+          "https://fintechnews.ch/fintech/mufg-bank-europe-eu-universal-bank/86830/"
+        ],
+        "summary": ""
       }
     ]
   },
   "calendar": {
     "events": [
       {
-        "date": "2026-11-04",
-        "event": "Euro area flash inflation for October",
-        "url": null,
-        "added": "2026-11-04",
-        "checked": "2026-11-04"
-      },
-      {
         "date": "2026-11-05",
         "event": "Bank of England rate decision and Monetary Policy Report",
         "url": "https://www.bankofengland.co.uk/news/2024/december/mpc-dates-for-2026",
         "added": "2026-10-31",
-        "checked": "2026-11-04"
+        "checked": "2026-11-05"
       },
       {
         "date": "2026-11-05",
@@ -1646,7 +1930,7 @@
         "event": "SNB Chairman Martin Schlegel speaks at The SNB and its Watchers",
         "url": "https://www.snb.ch/en/services-events/digital-services/event-schedule",
         "added": "2026-10-31",
-        "checked": "2026-11-04"
+        "checked": "2026-11-05"
       },
       {
         "date": "2026-11-05",
@@ -1656,11 +1940,25 @@
         "checked": "2026-11-04"
       },
       {
+        "date": "2026-11-05",
+        "event": "Swiss Re nine-month results; Valiant and Swisscom third-quarter figures",
+        "url": "https://www.swissre.com/media/events/20261105-9m-results-media.html",
+        "added": "2026-11-05",
+        "checked": "2026-11-05"
+      },
+      {
+        "date": "2026-11-05",
+        "event": "Commerzbank third-quarter results",
+        "url": null,
+        "added": "2026-11-05",
+        "checked": "2026-11-05"
+      },
+      {
         "date": "2026-11-06",
         "event": "SNB foreign currency reserves at end-October",
         "url": null,
         "added": "2026-11-04",
-        "checked": "2026-11-04"
+        "checked": "2026-11-05"
       },
       {
         "date": "2026-11-17",
@@ -1682,6 +1980,13 @@
         "url": "https://www.fintechfestival.sg/",
         "added": "2026-11-01",
         "checked": "2026-11-01"
+      },
+      {
+        "date": "2026-11-23",
+        "event": "National Council economic affairs committee: detailed debate on the UBS capital bill (to 24 November)",
+        "url": "https://www.cash.ch/news/presse-kompromiss-in-ubs-eigenmittelfrage-will-bewertungsmethode-andern-982502",
+        "added": "2026-11-05",
+        "checked": "2026-11-05"
       },
       {
         "date": "2026-11-30",
@@ -1747,6 +2052,13 @@
         "checked": "2026-11-01"
       },
       {
+        "date": "2027-01-15",
+        "event": "FINMA consultation on Circular 2019/2 (interest rate risks) closes",
+        "url": "https://www.finma.ch/en/news/2026/11/20261104-mm-rs-19-02/",
+        "added": "2026-11-05",
+        "checked": "2026-11-05"
+      },
+      {
         "date": "2027-01-27",
         "event": "Federal Reserve rate decision",
         "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
@@ -1756,6 +2068,19 @@
     ]
   },
   "archive": [
+    {
+      "date": "2026-11-05",
+      "mode": "daily",
+      "overview": "The OCC's AI framework for US bank examiners, a reported valuation compromise in the UBS capital dispute and the markets' reaction to the Democrats' sweep of Congress lead this morning.",
+      "headlines": [
+        "OCC tells US bank examiners to judge AI by consequences, ranking payment agents highest",
+        "Bloomberg: National Council member proposes valuation change to ease UBS capital dispute",
+        "Democrats take Congress; Dow jumps 3 percent, Brent sinks and the SMI passes 15,000"
+      ],
+      "audio_url": "audio/signal-2026-11-05.mp3",
+      "duration": 792.33,
+      "slug": "2026-11-05"
+    },
     {
       "date": "2026-11-04",
       "mode": "daily",
