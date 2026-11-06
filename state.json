@@ -1,7 +1,7 @@
 {
   "log": {
     "last_delivery": {
-      "daily": "2026-11-05T06:35+01:00",
+      "daily": "2026-11-06T06:38+01:00",
       "weekly": "2026-11-01T06:41+01:00"
     },
     "stories": [
@@ -1906,59 +1906,368 @@
           "https://fintechnews.ch/fintech/mufg-bank-europe-eu-universal-bank/86830/"
         ],
         "summary": ""
+      },
+      {
+        "date": "2026-11-06",
+        "mode": "daily",
+        "key": "us-markets|selloff|ai-data-centres-midterms",
+        "headline": "AI sell-off wipes USD 2.5 trillion from US stocks and spreads to Asia",
+        "urls": [
+          "https://www.cnn.com/2026/11/05/investing/tech-heavy-nasdaq-plunges",
+          "https://www.thenationalnews.com/business/markets/2026/11/06/nasdaq-plunges-5-as-investors-dump-ai-stocks-after-midterms/",
+          "https://www.finanznachrichten.de/nachrichten-2026-11/70050451-swiss-market-ends-modestly-lower-after-choppy-session-020.htm"
+        ],
+        "summary": "The Nasdaq fell 5.52 percent on Thursday, its worst day since April 2025, and closed in correction. CNN puts the value lost at roughly USD 2.5 trillion, with Nvidia down 9.3 percent. On Friday the Kospi fell more than 8 percent, triggering "
+      },
+      {
+        "date": "2026-11-06",
+        "mode": "daily",
+        "key": "anthropic|launch|claude-personal-finance",
+        "headline": "Claude adds Personal Finance, linking US bank accounts through Plaid with read-only access",
+        "urls": [
+          "https://claude.com/resources/articles/introducing-personal-finance-in-claude",
+          "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/"
+        ],
+        "summary": "Anthropic said on 5 November that Personal Finance is rolling out in beta on its Pro, Max and Ultra plans in the US. Users sign in to their bank through Plaid and can ask about balances, spending, fees and interest. Access is read-only, so "
+      },
+      {
+        "date": "2026-11-06",
+        "mode": "daily",
+        "key": "abb-softbank|blocked|robotics-sale-china",
+        "headline": "China blocks SoftBank's USD 5.4 billion purchase of ABB's robotics division",
+        "urls": [
+          "https://www.swissinfo.ch/eng/workplace/china-blocks-softbanks-5-4bn-takeover-of-abbs-robotics-division/92331403"
+        ],
+        "summary": "ABB confirmed on 5 November that SoftBank had told it Chinese regulators prohibited the acquisition of the robotics business in China. The Financial Times, carried by swissinfo, says the National Development and Reform Commission blocked th"
+      },
+      {
+        "date": "2026-11-06",
+        "mode": "daily",
+        "key": "arab-bank-switzerland|launch|adgm-digital-assets",
+        "headline": "Arab Bank Switzerland opens an Abu Dhabi digital assets unit under Valérie Noël",
+        "urls": [
+          "https://www.finews.com/news/english-news/74347-arab-bank-abu-dhabi-valerie-noel-ceo-expansion"
+        ],
+        "summary": "Arab Bank Switzerland ME Ltd has begun operations in the Abu Dhabi Global Market after final regulatory approval, the bank said on 5 November. It will advise institutions, fintechs, family offices and wealthy clients on digital asset access"
+      },
+      {
+        "date": "2026-11-06",
+        "mode": "daily",
+        "key": "fca|launch|quantum-experimentation-group",
+        "headline": "FCA plans a Quantum Experimentation Group to test fraud and money laundering detection",
+        "urls": [
+          "https://www.fca.org.uk/news/press-releases/fca-explore-quantum-computing-tackle-financial-crime"
+        ],
+        "summary": "The FCA said on 5 November it will bring firms, quantum technology providers and national research laboratories together from the first quarter of 2027. The group starts with quantum machine learning for money laundering and fraud, using an"
+      },
+      {
+        "date": "2026-11-06",
+        "mode": "daily",
+        "key": "pwma-kpmg|report|hong-kong-private-wealth-2026",
+        "headline": "Hong Kong wealth firms report faster AI adoption as assets hit HK$12.9 trillion",
+        "urls": [
+          "https://www.wealthbriefing.com/html/article.php/hong-kong-private-wealth-aum-hits-record"
+        ],
+        "summary": "Private banking and wealth assets in Hong Kong rose 24 percent to a record HK$12.9 trillion in 2025, and net inflows climbed 79 percent, the PWMA and KPMG report found. Some 88 percent of firms reported moderate or significant progress on A"
+      },
+      {
+        "date": "2026-11-06",
+        "mode": "daily",
+        "key": "firmly|funding|series-a-jpmorgan-mastercard",
+        "headline": "JPMorgan Payments and Mastercard back agentic commerce start-up firmly in USD 15 million round",
+        "urls": [
+          "https://www.pymnts.com/news/artificial-intelligence/2026/firmly-lands-15-million-dollars-investors-back-merchant-side-agentic-commerce/"
+        ],
+        "summary": "Seattle-based firmly raised a USD 15 million Series A led by Squarepoint Capital, with J.P. Morgan Payments, Mastercard and Samsung Next as strategic investors, according to a release reported by PYMNTS on 5 November. It connects merchants "
+      },
+      {
+        "date": "2026-11-06",
+        "mode": "daily",
+        "key": "ubs|jobs|london-200",
+        "headline": "UBS cuts about 200 London jobs as Credit Suisse integration nears end, Bloomberg reports",
+        "urls": [
+          "https://www.swissinfo.ch/eng/finance-banking/ubs-cuts-200-london-jobs-as-credit-suisse-fusion-ends/92331957"
+        ],
+        "summary": "The cuts were announced internally in recent weeks and reach units including wealth management and investment banking, Bloomberg reported on 5 November, citing people familiar with the matter. UBS declined to comment. The combined workforce"
+      },
+      {
+        "date": "2026-11-06",
+        "mode": "daily",
+        "key": "swiss-re|results|9m26",
+        "headline": "Swiss Re lifts nine-month profit 3 percent to USD 4.2 billion as competition grows",
+        "urls": [
+          "https://www.finews.com/news/english-news/74344-swiss-re-result-9m-2026"
+        ],
+        "summary": "Swiss Re said on 5 November that net profit reached USD 4.2 billion with a return on equity of 22.5 percent, and it is targeting USD 4.5 billion for the year. Property and casualty profit fell 6 percent in a more competitive market, while l"
+      },
+      {
+        "date": "2026-11-06",
+        "mode": "daily",
+        "key": "valiant|results|9m26",
+        "headline": "Valiant lifts nine-month profit 5.4 percent to CHF 114.2 million on commission growth",
+        "urls": [
+          "https://www.finews.com/news/english-news/74345-valiant-result-9m-2026"
+        ],
+        "summary": "Valiant said on 5 November that net interest income fell 1.3 percent to CHF 292.7 million at zero rates, while commission and services profit rose just over 10 percent to CHF 79.3 million. Operating expenses rose 1.8 percent, partly on digi"
+      },
+      {
+        "date": "2026-11-06",
+        "mode": "daily",
+        "key": "boe|decision|bank-rate-4pc",
+        "headline": "Bank of England raises Bank Rate to 4 percent, its first rise since 2023",
+        "urls": [
+          "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026",
+          "https://uk.finance.yahoo.com/news/bank-england-hikes-interest-rates-155943723.html"
+        ],
+        "summary": "The Monetary Policy Committee voted 8 to 1 for a quarter-point rise, with one member wanting half a point, the Bank said on 5 November. It expects inflation of around 5 percent by the middle of next year, with the Middle East conflict in it"
+      },
+      {
+        "date": "2026-11-06",
+        "mode": "daily",
+        "key": "commerzbank|results|9m26",
+        "headline": "Commerzbank posts record nine-month operating profit of EUR 4 billion as UniCredit approvals continue",
+        "urls": [
+          "https://news.europawire.eu/commerzbank-nine-month-operating-profit-reaches-record-e4bn-as-net-earnings-rise-41/eu-press-release/2026/11/05/14/09/12/186176/"
+        ],
+        "summary": "Operating profit rose 17.3 percent to EUR 4.037 billion and net profit 41.4 percent to EUR 2.669 billion, Commerzbank said on 5 November, keeping its target of at least EUR 3.4 billion. Completion of UniCredit's offer still needs further cl"
+      },
+      {
+        "date": "2026-11-06",
+        "mode": "daily",
+        "key": "openai|release|gpt-6-cyber",
+        "headline": "OpenAI limits GPT-6 Cyber, its fourth security model this year, to approved security customers",
+        "urls": [
+          "https://fortune.com/2026/11/05/openai-debuts-new-cybersecurity-focused-ai-model-amid-growing-alarm-about-ai-driven-cyber-attacks",
+          "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/"
+        ],
+        "summary": "GPT-6 Cyber beats the general-purpose GPT-6 Astra on most cyber tasks, OpenAI says. Researchers used it to find 81 high-severity Firefox flaws and build working exploits for 948 Linux kernel vulnerabilities, 588 of them new, Fortune reports"
+      },
+      {
+        "date": "2026-11-06",
+        "mode": "daily",
+        "key": "mistral|launch|studio-managed-agents",
+        "headline": "Mistral adds managed agents to Studio; BNP Paribas runs it on its own infrastructure",
+        "urls": [
+          "https://mistral.ai/news/build-with-studio/"
+        ],
+        "summary": "Mistral said on 5 November that Studio gains managed agents and apps, plus new workflow, observability and evaluation features, deployable in the cloud, a private cloud or on premises. ABANCA and BNP Paribas are named as production users, a"
+      },
+      {
+        "date": "2026-11-06",
+        "mode": "daily",
+        "key": "anthropic|launch|claude-enterprise-security-centre",
+        "headline": "Anthropic gives Claude Enterprise a security centre, inference hooks and central admin",
+        "urls": [
+          "https://claude.com/resources/articles/claude-enterprise-security-updates"
+        ],
+        "summary": "Anthropic said on 5 November that a new security centre compares an organisation's settings with its recommended configuration and exports a report for auditors. Inference hooks, now generally available, send prompts and tool calls to exist"
+      },
+      {
+        "date": "2026-11-06",
+        "mode": "daily",
+        "key": "openai|statement|ipo-ready-2027",
+        "headline": "OpenAI could be ready for an IPO in 2027, president Greg Brockman says",
+        "urls": [
+          "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/"
+        ],
+        "summary": "Brockman told a Wall Street Journal conference that OpenAI saw 70 percent quarterly growth in annualised revenue in the third quarter as enterprise doubled, TechCrunch reported on 5 November. Enterprise now brings in most revenue, up from a"
+      },
+      {
+        "date": "2026-11-06",
+        "mode": "daily",
+        "key": "google-mandiant|report|llmjacking",
+        "headline": "Google reports LLMjacking attacks costing victims up to USD 1 million, finance firms included",
+        "urls": [
+          "https://www.ictjournal.ch/news/2026-11-05/des-cybercriminels-detournent-des-acces-llm-et-font-exploser-les-factures-cloud"
+        ],
+        "summary": "Google Threat Intelligence Group and Mandiant describe 2026 incidents in which stolen cloud credentials and exposed API keys gave attackers access to company model accounts, ICTjournal reported on 5 November. Fraudulent charges passed USD 1"
+      },
+      {
+        "date": "2026-11-06",
+        "mode": "daily",
+        "key": "switzerland|sanctions|eu-21st-package-usmanov",
+        "headline": "Switzerland adopts the EU's 21st sanctions package and delists Usmanov and Fridman",
+        "urls": [
+          "https://www.finews.com/news/english-news/74349-alisher-usmanov-switzerland-lifts-sanctions-federal-court-of-justice-eu-council-lawsuit"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-06",
+        "mode": "daily",
+        "key": "efk|audit|bacs-cyber-reporting",
+        "headline": "Federal Audit Office finds Switzerland's 24-hour cyber reporting platform works, bar one authentication gap",
+        "urls": [
+          "https://www.netzwoche.ch/news/2026-11-05/finanzkontrolle-ist-fast-zufrieden-mit-meldeplattform-des-bacs"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-06",
+        "mode": "daily",
+        "key": "snb|speech|schlegel-watchers-2026",
+        "headline": "SNB Chairman Schlegel explains how policy transmits to the Swiss economy at SNB Watchers",
+        "urls": [
+          "https://www.snb.ch/en/publications/communication/speeches/2026/ref_20261105_msl"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-06",
+        "mode": "daily",
+        "key": "eba|guidelines|internal-governance-crd6",
+        "headline": "EBA publishes revised internal governance guidelines under CRD VI, promising more proportionality",
+        "urls": [
+          "https://www.eba.europa.eu/publications-and-media/press-releases/eba-publishes-revised-guidelines-internal-governance-delivering-greater-proportionality-and"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-06",
+        "mode": "daily",
+        "key": "bcbs|consultation|consolidated-guidelines-amendments",
+        "headline": "Basel Committee consults until 21 December on amendments tied to its consolidated guidelines",
+        "urls": [
+          "https://www.bis.org/publications/consolidated-guidelines-consequential-amendments"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-06",
+        "mode": "daily",
+        "key": "ecb-ssm|speech|tuominen-aml",
+        "headline": "ECB's Tuominen says the digital age has intensified money laundering risks for banks",
+        "urls": [
+          "https://www.bankingsupervision.europa.eu//press/speeches/date/2026/html/ssm.sp261105~717ce34d36.en.html"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-06",
+        "mode": "daily",
+        "key": "ecb|speech|cipollone-future-of-money",
+        "headline": "ECB's Cipollone sets out the Eurosystem's payments strategy for retail and wholesale money",
+        "urls": [
+          "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261105~6495a0df6f.en.html"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-06",
+        "mode": "daily",
+        "key": "ecb|speech|schnabel-monetary-policy-lessons",
+        "headline": "ECB's Schnabel draws monetary policy lessons as her term nears its end",
+        "urls": [
+          "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261105_1~5e97d9d5a0.en.html"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-06",
+        "mode": "daily",
+        "key": "aargauische-kantonalbank|appoint|ceo-schoeb",
+        "headline": "Aargauische Kantonalbank names Baloise Bank's Thomas Schöb as CEO from June 2027",
+        "urls": [
+          "https://www.finews.com/news/english-news/74346-aargauische-kantonalbank-thomas-schoeb-dieter-widmer-baloise-director-president"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-06",
+        "mode": "daily",
+        "key": "bank-wir|appoint|cfo-wiesner",
+        "headline": "Bank WIR names Baloise Bank's David Wiesner as CFO from May 2027",
+        "urls": [
+          "https://www.finews.ch/news/banken/74341-bank-wir-neuer-cfo-david-wiesner"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-06",
+        "mode": "daily",
+        "key": "alpha-street-financial|launch|geneva-eam-advisory",
+        "headline": "Frédéric Oculy's new Alpha Street Financial advises small external asset managers from Geneva",
+        "urls": [
+          "https://www.finews.com/news/english-news/74354-alpha-street-financial-frederic-oculy-boutique-club-deal"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-06",
+        "mode": "daily",
+        "key": "liontrust|interview|swiss-acquisition",
+        "headline": "Liontrust CEO John Ions stays open to a Swiss acquisition after failed GAM deal",
+        "urls": [
+          "https://www.finews.com/news/english-news/74287-liontrust-john-ions-switzerland-expansion-acquisitions-gam-asset-management"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-06",
+        "mode": "daily",
+        "key": "revolut|expansion|austria-branch-2027",
+        "headline": "Revolut registers its Austrian banking branch and plans a 2027 launch with local IBANs",
+        "urls": [
+          "https://fintechnews.ch/fintechaustria/revolut-austria-branch-local-iban/86853/"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-06",
+        "mode": "daily",
+        "key": "dbs|appoint|chairman-lim",
+        "headline": "DBS names Anthony Lim chairman; wealth assets reach a record S$544 billion",
+        "urls": [
+          "https://www.wealthbriefing.com/html/article.php/dbs-names-new-chairman",
+          "https://www.wealthbriefing.com/html/article.php/dbs%27s-wealth-aum-hits-record-high%3B-q3-2026-profit-slips-"
+        ],
+        "summary": ""
       }
     ]
   },
   "calendar": {
     "events": [
       {
-        "date": "2026-11-05",
-        "event": "Bank of England rate decision and Monetary Policy Report",
-        "url": "https://www.bankofengland.co.uk/news/2024/december/mpc-dates-for-2026",
-        "added": "2026-10-31",
-        "checked": "2026-11-05"
-      },
-      {
-        "date": "2026-11-05",
-        "event": "Swiss Re nine-month results",
-        "url": "https://www.swissre.com/investors/financial-calendar.html",
-        "added": "2026-10-31",
-        "checked": "2026-11-01"
-      },
-      {
-        "date": "2026-11-05",
-        "event": "SNB Chairman Martin Schlegel speaks at The SNB and its Watchers",
-        "url": "https://www.snb.ch/en/services-events/digital-services/event-schedule",
-        "added": "2026-10-31",
-        "checked": "2026-11-05"
-      },
-      {
-        "date": "2026-11-05",
-        "event": "Swiss Re, Valiant and Swisscom third-quarter figures",
-        "url": "https://www.swissre.com/investors/financial-calendar.html",
-        "added": "2026-11-03",
-        "checked": "2026-11-04"
-      },
-      {
-        "date": "2026-11-05",
-        "event": "Swiss Re nine-month results; Valiant and Swisscom third-quarter figures",
-        "url": "https://www.swissre.com/media/events/20261105-9m-results-media.html",
-        "added": "2026-11-05",
-        "checked": "2026-11-05"
-      },
-      {
-        "date": "2026-11-05",
-        "event": "Commerzbank third-quarter results",
-        "url": null,
-        "added": "2026-11-05",
-        "checked": "2026-11-05"
-      },
-      {
         "date": "2026-11-06",
         "event": "SNB foreign currency reserves at end-October",
         "url": null,
         "added": "2026-11-04",
-        "checked": "2026-11-05"
+        "checked": "2026-11-06"
+      },
+      {
+        "date": "2026-11-10",
+        "event": "BAK and the Association of Foreign Banks launch a foreign banks barometer",
+        "url": null,
+        "added": "2026-11-06",
+        "checked": "2026-11-06"
+      },
+      {
+        "date": "2026-11-11",
+        "event": "Swiss Life third-quarter update",
+        "url": null,
+        "added": "2026-11-06",
+        "checked": "2026-11-06"
+      },
+      {
+        "date": "2026-11-12",
+        "event": "Zurich Insurance third-quarter update",
+        "url": null,
+        "added": "2026-11-06",
+        "checked": "2026-11-06"
+      },
+      {
+        "date": "2026-11-12",
+        "event": "Swiss Finance Institute annual meeting on the impact of AI on finance, Zurich",
+        "url": null,
+        "added": "2026-11-06",
+        "checked": "2026-11-06"
+      },
+      {
+        "date": "2026-11-16",
+        "event": "Lugano Global Forum, opened by Sergio Ermotti (to 17 November)",
+        "url": null,
+        "added": "2026-11-06",
+        "checked": "2026-11-06"
       },
       {
         "date": "2026-11-17",
@@ -2068,6 +2377,19 @@
     ]
   },
   "archive": [
+    {
+      "date": "2026-11-06",
+      "mode": "daily",
+      "overview": "An AI-led rout wipes USD 2.5 trillion from US stocks and reaches Asia, Claude starts reading US bank accounts through Plaid, and China blocks SoftBank's purchase of ABB's robotics division.",
+      "headlines": [
+        "AI sell-off wipes USD 2.5 trillion from US stocks and spreads to Asia",
+        "Claude adds Personal Finance, linking US bank accounts through Plaid with read-only access",
+        "China blocks SoftBank's USD 5.4 billion purchase of ABB's robotics division"
+      ],
+      "audio_url": "audio/signal-2026-11-06.mp3",
+      "duration": 720.63,
+      "slug": "2026-11-06"
+    },
     {
       "date": "2026-11-05",
       "mode": "daily",

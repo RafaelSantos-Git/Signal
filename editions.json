@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "updated": "2026-11-05T06:35+01:00",
+  "updated": "2026-11-06T06:38+01:00",
   "editions": [
+    {
+      "date": "2026-11-06",
+      "mode": "daily",
+      "slug": "2026-11-06",
+      "title": "Signal · Friday 6 November",
+      "kind": "Daily briefing",
+      "duration": 720.63,
+      "stories": 31,
+      "overview": "An AI-led rout wipes USD 2.5 trillion from US stocks and reaches Asia, Claude starts reading US bank accounts through Plaid, and China blocks SoftBank's purchase of ABB's robotics division.",
+      "path": "d/2026-11-06/",
+      "edition": "d/2026-11-06/edition.json"
+    },
     {
       "date": "2026-11-05",
       "mode": "daily",
