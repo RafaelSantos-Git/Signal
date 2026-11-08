@@ -2,7 +2,7 @@
   "log": {
     "last_delivery": {
       "daily": "2026-11-06T06:38+01:00",
-      "weekly": "2026-11-01T06:41+01:00"
+      "weekly": "2026-11-08T06:35+01:00"
     },
     "stories": [
       {
@@ -2228,81 +2228,74 @@
   "calendar": {
     "events": [
       {
-        "date": "2026-11-06",
-        "event": "SNB foreign currency reserves at end-October",
-        "url": null,
-        "added": "2026-11-04",
-        "checked": "2026-11-06"
-      },
-      {
         "date": "2026-11-10",
         "event": "BAK and the Association of Foreign Banks launch a foreign banks barometer",
         "url": null,
         "added": "2026-11-06",
-        "checked": "2026-11-06"
+        "checked": "2026-11-08"
       },
       {
         "date": "2026-11-11",
         "event": "Swiss Life third-quarter update",
         "url": null,
         "added": "2026-11-06",
-        "checked": "2026-11-06"
+        "checked": "2026-11-08"
       },
       {
         "date": "2026-11-12",
         "event": "Zurich Insurance third-quarter update",
         "url": null,
         "added": "2026-11-06",
-        "checked": "2026-11-06"
+        "checked": "2026-11-08"
       },
       {
         "date": "2026-11-12",
         "event": "Swiss Finance Institute annual meeting on the impact of AI on finance, Zurich",
         "url": null,
         "added": "2026-11-06",
-        "checked": "2026-11-06"
+        "checked": "2026-11-08"
       },
       {
         "date": "2026-11-16",
         "event": "Lugano Global Forum, opened by Sergio Ermotti (to 17 November)",
         "url": null,
         "added": "2026-11-06",
-        "checked": "2026-11-06"
+        "checked": "2026-11-08"
       },
       {
         "date": "2026-11-17",
         "event": "Nvidia third-quarter results (fiscal 2027)",
         "url": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873",
         "added": "2026-11-01",
-        "checked": "2026-11-01"
+        "checked": "2026-11-08"
       },
       {
         "date": "2026-11-17",
         "event": "Microsoft Ignite opens in San Francisco (to 20 November)",
         "url": "https://www.moscone.com/events/microsoft-ignite-2026",
         "added": "2026-11-01",
-        "checked": "2026-11-01"
+        "checked": "2026-11-08"
       },
       {
         "date": "2026-11-18",
         "event": "Singapore FinTech Festival (to 20 November)",
         "url": "https://www.fintechfestival.sg/",
         "added": "2026-11-01",
-        "checked": "2026-11-01"
+        "checked": "2026-11-08"
       },
       {
         "date": "2026-11-23",
         "event": "National Council economic affairs committee: detailed debate on the UBS capital bill (to 24 November)",
         "url": "https://www.cash.ch/news/presse-kompromiss-in-ubs-eigenmittelfrage-will-bewertungsmethode-andern-982502",
         "added": "2026-11-05",
-        "checked": "2026-11-05"
+        "checked": "2026-11-08"
       },
       {
         "date": "2026-11-30",
         "event": "AWS re:Invent opens in Las Vegas (to 4 December)",
         "url": "https://aws.amazon.com/events/reinvent/",
         "added": "2026-11-01",
-        "checked": "2026-11-01"
+        "checked": "2026-11-08"
       },
       {
         "date": "2026-12-01",
@@ -2316,28 +2309,28 @@
         "event": "Federal Reserve rate decision",
         "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
         "added": "2026-11-01",
-        "checked": "2026-11-01"
+        "checked": "2026-11-08"
       },
       {
         "date": "2026-12-10",
         "event": "SNB monetary policy assessment",
         "url": "https://www.snb.ch/en/services-events/digital-services/event-schedule",
         "added": "2026-11-01",
-        "checked": "2026-11-01"
+        "checked": "2026-11-08"
       },
       {
         "date": "2026-12-17",
         "event": "ECB monetary policy decision",
         "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
         "added": "2026-11-01",
-        "checked": "2026-11-01"
+        "checked": "2026-11-08"
       },
       {
         "date": "2026-12-17",
         "event": "Bank of England rate decision",
         "url": "https://www.bankofengland.co.uk/news/2024/december/mpc-dates-for-2026",
         "added": "2026-11-01",
-        "checked": "2026-11-01"
+        "checked": "2026-11-08"
       },
       {
         "date": "2027-01-01",
@@ -2347,36 +2340,58 @@
         "checked": "2026-11-01"
       },
       {
+        "date": "2027-01-01",
+        "event": "BVG minimum interest rate rises to 2.0 percent",
+        "url": "https://www.finews.ch/news/versicherungen/74331-bvg-mindestzins-bundesrat-anhebung-svv",
+        "added": "2026-11-08",
+        "checked": "2026-11-08"
+      },
+      {
         "date": "2027-01-08",
         "event": "SNB preliminary annual result for 2026",
         "url": "https://www.snb.ch/en/services-events/digital-services/event-schedule",
         "added": "2026-11-01",
-        "checked": "2026-11-01"
+        "checked": "2026-11-08"
       },
       {
         "date": "2027-01-13",
         "event": "Partners Group assets under management at 31 December",
         "url": "https://www.partnersgroup.com/en/shareholders/financial-calendar",
         "added": "2026-11-01",
-        "checked": "2026-11-01"
+        "checked": "2026-11-08"
       },
       {
         "date": "2027-01-15",
         "event": "FINMA consultation on Circular 2019/2 (interest rate risks) closes",
         "url": "https://www.finma.ch/en/news/2026/11/20261104-mm-rs-19-02/",
         "added": "2026-11-05",
-        "checked": "2026-11-05"
+        "checked": "2026-11-08"
       },
       {
         "date": "2027-01-27",
         "event": "Federal Reserve rate decision",
         "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
         "added": "2026-11-01",
-        "checked": "2026-11-01"
+        "checked": "2026-11-08"
       }
     ]
   },
   "archive": [
+    {
+      "date": "2026-11-08",
+      "mode": "weekly",
+      "overview": "The UBS capital fight turns to a compromise idea, banks put numbers on AI, Binance traces its theft to a tampered AI tool, rates rise as AI stocks fall, and supervisors start inspecting bank AI.",
+      "headlines": [
+        "UBS capital fight turns to a compromise idea as FINMA's new powers draw fire",
+        "Banks put numbers on AI: UBS counts 608 use cases, Santander EUR 194 million",
+        "Binance ties its USD 6.3 billion theft to a tampered AI coding tool",
+        "Bank of England raises rates as AI stocks slide after the US midterms",
+        "Supervisors start inspecting bank AI as FINMA unveils its own pilot"
+      ],
+      "audio_url": "audio/signal-2026-11-08-weekly.mp3",
+      "duration": 727.34,
+      "slug": "2026-11-08-weekly"
+    },
     {
       "date": "2026-11-06",
       "mode": "daily",

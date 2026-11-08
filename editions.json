@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "updated": "2026-11-06T06:38+01:00",
+  "updated": "2026-11-08T06:35+01:00",
   "editions": [
+    {
+      "date": "2026-11-08",
+      "mode": "weekly",
+      "slug": "2026-11-08-weekly",
+      "title": "Signal · Sunday 8 November",
+      "kind": "Weekly watch",
+      "duration": 727.34,
+      "stories": 21,
+      "overview": "The UBS capital fight turns to a compromise idea, banks put numbers on AI, Binance traces its theft to a tampered AI tool, rates rise as AI stocks fall, and supervisors start inspecting bank AI.",
+      "path": "d/2026-11-08-weekly/",
+      "edition": "d/2026-11-08-weekly/edition.json"
+    },
     {
       "date": "2026-11-06",
       "mode": "daily",
