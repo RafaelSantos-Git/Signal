@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "updated": "2026-11-08T06:35+01:00",
+  "updated": "2026-11-09T06:39+01:00",
   "editions": [
+    {
+      "date": "2026-11-09",
+      "mode": "daily",
+      "slug": "2026-11-09",
+      "title": "Signal · Monday 9 November",
+      "kind": "Daily briefing",
+      "duration": 743.19,
+      "stories": 20,
+      "overview": "Nvidia's board opens an investigation after reports its chief executive was targeted by foreign intelligence, Anthropic's IPO talk falls to about USD 1.2 trillion as OpenAI raises at USD 1.25 trillion, and South Korea moves to scrap bank network separation rules after AI-assisted hacks.",
+      "path": "d/2026-11-09/",
+      "edition": "d/2026-11-09/edition.json"
+    },
     {
       "date": "2026-11-08",
       "mode": "weekly",

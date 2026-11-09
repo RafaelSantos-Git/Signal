@@ -1,7 +1,7 @@
 {
   "log": {
     "last_delivery": {
-      "daily": "2026-11-06T06:38+01:00",
+      "daily": "2026-11-09T06:39+01:00",
       "weekly": "2026-11-08T06:35+01:00"
     },
     "stories": [
@@ -2222,6 +2222,214 @@
           "https://www.wealthbriefing.com/html/article.php/dbs%27s-wealth-aum-hits-record-high%3B-q3-2026-profit-slips-"
         ],
         "summary": ""
+      },
+      {
+        "date": "2026-11-09",
+        "mode": "daily",
+        "key": "nvidia|investigation|huang-foreign-intelligence",
+        "headline": "Nvidia's board opens independent investigation after reports its CEO was targeted by foreign intelligence",
+        "urls": [
+          "https://www.globenewswire.com/news-release/2026/11/08/3398017/0/en/statement-from-nvidia-board-of-directors.html",
+          "https://www.nbcnews.com/tech/tech-news/nvidia-ceo-jensen-huang-investigation-rcna608148",
+          "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/"
+        ],
+        "summary": "Nvidia's board said on 8 November that a committee of independent directors, with outside counsel, will investigate reporting that chief executive Jensen Huang was the target of a foreign intelligence effort. It said it has no reason to bel"
+      },
+      {
+        "date": "2026-11-09",
+        "mode": "daily",
+        "key": "anthropic-openai|valuation|ipo-talk-falls-openai-round",
+        "headline": "Update: AI lab valuations reset as Anthropic IPO talk falls to USD 1.2 trillion",
+        "urls": [
+          "https://finance.yahoo.com/markets/article/anthropics-ipo-dilemma-after-the-ai-sell-off-damned-if-you-do-damned-if-you-dont-231326634.html",
+          "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+          "https://finance.yahoo.com/technology/article/anthropics-ipo-valuation-could-plunge-to-near-1-trillion-amid-market-turmoil-153332732.html"
+        ],
+        "summary": "Prospective buyers of Anthropic's IPO are discussing a valuation of USD 1.2 trillion to USD 1.3 trillion, some as low as USD 1.1 trillion, according to Bloomberg as cited by Yahoo Finance, against as much as USD 2 trillion projected in earl"
+      },
+      {
+        "date": "2026-11-09",
+        "mode": "daily",
+        "key": "korea-fsc|deregulate|network-separation-ai-security",
+        "headline": "South Korea will phase out bank network separation rules after AI-assisted hacks",
+        "urls": [
+          "https://www.koreatimes.co.kr/economy/20261106/fighting-ai-with-ai-korea-to-phase-out-network-separation-rules-for-financial-firms",
+          "https://en.sedaily.com/finance/2026/11/06/korea-to-fully-lift-network-separation-rules-for-ai-security"
+        ],
+        "summary": "South Korea's Financial Services Commission said on 5 November it will phase out the rules requiring financial firms to keep internal networks separate from the internet, with a task force drafting an AI-based replacement by the first quart"
+      },
+      {
+        "date": "2026-11-09",
+        "mode": "daily",
+        "key": "dacadoo|liquidation|movement-asset-sale",
+        "headline": "Swiss digital health platform dacadoo in liquidation; Israel's movement buys its assets",
+        "urls": [
+          "https://www.startupticker.ch/en/news/wellness-company-acquires-dacadoo-s-assets"
+        ],
+        "summary": "Israel-based wellness group movement has acquired the technology and intellectual property of Swiss digital health company dacadoo, whose platform is used by insurers, health organisations and employers in dozens of countries. The Swiss com"
+      },
+      {
+        "date": "2026-11-09",
+        "mode": "daily",
+        "key": "progressive-building-society|migration|almis-cobalt-treasury",
+        "headline": "Progressive Building Society replaces 20-year-old treasury system, reaching parallel run in ten days",
+        "urls": [
+          "https://fintech.global/2026/11/06/progressive-building-society-bets-on-almis-cobalt/"
+        ],
+        "summary": "Progressive Building Society has replaced the treasury system it used for more than 20 years with Cobalt from ALMIS International, FinTech Global reported on 6 November, going from contract to parallel run in 10 days. Cobalt puts front, mid"
+      },
+      {
+        "date": "2026-11-09",
+        "mode": "daily",
+        "key": "nh-nonghyup|launch|ai-work-agents",
+        "headline": "NH NongHyup Bank presents ten AI work agents built with its own AI subsidiary",
+        "urls": [
+          "https://en.sedaily.com/finance/2026/11/06/nh-nonghyup-bank-unveils-ai-work-agents-cutting-report"
+        ],
+        "summary": "NH NongHyup Bank presented 10 AI work agents built with its subsidiary AgileSoDA, Seoul Economic Daily reported on 6 November. For project finance reviews, the agents read 500 to 1,000 pages and pull 318 items into a draft report; the bank "
+      },
+      {
+        "date": "2026-11-09",
+        "mode": "daily",
+        "key": "banque-heritage|strategy|no-sale-eam-pillar",
+        "headline": "Banque Heritage CEO rejects sale rumours and plans an external asset management arm",
+        "urls": [
+          "https://www.finews.com/news/english-news/74360-banque-heritage-ceo-marcos-esteve-sale-rumors-growth-strategy-external-asset-managers"
+        ],
+        "summary": "Chief executive Marcos Esteve told finews on 9 November that selling the Geneva bank is not part of its strategy and that it is evaluating a move into external asset management as a second pillar. He targets CHF 20 billion in assets, about "
+      },
+      {
+        "date": "2026-11-09",
+        "mode": "daily",
+        "key": "mediobanca|results|9m26",
+        "headline": "Mediobanca's nine-month profit rises 13.3 percent while wealth profit falls 21.7 percent",
+        "urls": [
+          "https://www.wealthbriefing.com/html/article.php/mediobanca%27s-attributable-net-profit-rises-in-first-nine-months-of-2026"
+        ],
+        "summary": "Mediobanca reported attributable net profit of EUR 1.09 billion for the first nine months of 2026, up 13.3 percent, with a CET1 ratio of 15.0 percent, WealthBriefing reported on 6 November. Wealth management profit fell 21.7 percent to EUR "
+      },
+      {
+        "date": "2026-11-09",
+        "mode": "daily",
+        "key": "us-banks|outlook|democrat-oversight-2027",
+        "headline": "US banks brace for tighter oversight after Democrats win both houses of Congress",
+        "urls": [
+          "https://www.cash.ch/news/top-news/us-banken-erwarten-scharfere-kontrolle-durch-demokraten-982900"
+        ],
+        "summary": "Large US banks expect closer scrutiny once Democrats take control of Congress in January, Reuters reported via cash.ch on 7 November, with fees, credit terms and mortgages in focus. Elizabeth Warren is favoured to chair the Senate Banking C"
+      },
+      {
+        "date": "2026-11-09",
+        "mode": "daily",
+        "key": "ueno-bank|resolution|paraguay-president-resigns",
+        "headline": "Paraguay's president resigns as digital lender ueno's collapse becomes a state crisis",
+        "urls": [
+          "https://www.finews.ch/news/banken/74365-wenn-der-praesident-ueber-eine-digitalbank-stolpert",
+          "https://fintechnews.ch/latin-america-fintech/paraguay-ueno-bank-collapse-digital-lender/86875/"
+        ],
+        "summary": "Paraguay's central bank ordered the resolution of ueno bank on 2 November after it breached solvency rules, freezing deposits of about three million customers, finews reported on 6 November. Authorities are guaranteeing deposits. President "
+      },
+      {
+        "date": "2026-11-09",
+        "mode": "daily",
+        "key": "google-deepmind|research|rsa-1024-weaknesses",
+        "headline": "DeepMind says AI agents found two weaknesses in legacy 1024-bit RSA",
+        "urls": [
+          "https://cryptobriefing.com/google-deepmind-ai-rsa-1024-bit-weaknesses/",
+          "https://www.datastudios.org/post/google-deepmind-ai-agents-two-weaknesses-legacy-1024-bit-rsa"
+        ],
+        "summary": "Google DeepMind said on 6 November that AI agents, guided by human cryptanalysts, found a signature forgery attack on legacy 1024-bit RSA and a way to factor many keys at once about 30 times more cheaply than the best prior batch method, a "
+      },
+      {
+        "date": "2026-11-09",
+        "mode": "daily",
+        "key": "ramp|report|ai-spend-flat-late-summer",
+        "headline": "Ramp data shows AI spending flat over late summer despite rising token volumes",
+        "urls": [
+          "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/"
+        ],
+        "summary": "Token spend grew 1.5 percent across August and September, against 42 percent in July, according to Ramp data cited by TechCrunch on 6 November, before rising 8.9 percent between 23 September and 23 October. Ramp's economist points to price "
+      },
+      {
+        "date": "2026-11-09",
+        "mode": "daily",
+        "key": "censys|research|artex-exposed-deployments",
+        "headline": "Researchers find more than 800 exposed deployments of the Artex AI hacking tool",
+        "urls": [
+          "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/"
+        ],
+        "summary": "Censys found more than 800 deployments of Artex, an open-source autonomous penetration testing tool made in China, reachable from the web without a password, TechCrunch reported on 6 November. Artex has been linked to attacks including on t"
+      },
+      {
+        "date": "2026-11-09",
+        "mode": "daily",
+        "key": "ai-infrastructure|power|anthropic-generators-crusoe-google",
+        "headline": "Anthropic buys USD 3.4 billion in gas generators; Google takes over Crusoe's Wyoming project",
+        "urls": [
+          "https://www.cash.ch/news/top-news/anthropic-steckt-milliarden-von-dollar-in-stromgeneratoren-983437",
+          "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/"
+        ],
+        "summary": "Anthropic has secured about 1.7 gigawatts of gas-fired generators from OnePWR Solutions for around USD 3.4 billion including installation, the Financial Times reported, according to Reuters via cash.ch on 8 November. Separately, Crusoe conf"
+      },
+      {
+        "date": "2026-11-09",
+        "mode": "daily",
+        "key": "valais|launch|ava-sovereign-ai",
+        "headline": "Valais rolls out AVA, an in-house sovereign AI platform built on open models",
+        "urls": [
+          "https://www.ictjournal.ch/news/2026-11-06/le-valais-deploie-sa-propre-ia-souveraine-pour-son-administration"
+        ],
+        "summary": "The canton of Valais has made AVA available to its whole administration after a six-month build, ICTjournal reported on 6 November. It runs open models including Apertus, Mistral and Qwen on dedicated GPUs in Switzerland, served more than 2"
+      },
+      {
+        "date": "2026-11-09",
+        "mode": "daily",
+        "key": "finma|notice|sanctions-21st-package-crypto",
+        "headline": "Update: FINMA tells intermediaries to apply sanctions, including a ban on Russian crypto ownership",
+        "urls": [
+          "https://www.finma.ch/en/news/2026/11/20261106-sanktionen-russland-belarus/"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-09",
+        "mode": "daily",
+        "key": "eba|notice|reporting-simplification-timelines",
+        "headline": "EBA extends supervisory reporting timelines to December 2027, some areas to December 2028",
+        "urls": [
+          "https://www.eba.europa.eu/publications-and-media/press-releases/eba-outlines-next-steps-supervisory-reporting-simplification-and-extends-implementation-timelines"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-09",
+        "mode": "daily",
+        "key": "ecb|data|consolidated-banking-end-june-2026",
+        "headline": "ECB data: EU banks' CET1 16.43 percent, non-performing loans 1.99 percent at end-June",
+        "urls": [
+          "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261106~356f2fc73a.en.html"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-09",
+        "mode": "daily",
+        "key": "partners-group|appoint|infrastructure-europe-team",
+        "headline": "Partners Group hires three for European infrastructure, including CPP's former data centre strategy lead",
+        "urls": [
+          "https://www.finews.com/news/english-news/74366-partners-group-expands-infrastructure-team-europe"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-09",
+        "mode": "daily",
+        "key": "basel-stadt|strategy|ai-2026-2029",
+        "headline": "Basel-Stadt adopts a 2026 to 2029 AI strategy with 21 goals for its administration",
+        "urls": [
+          "https://www.netzwoche.ch/news/2026-11-06/kanton-basel-stadt-verabschiedet-ki-strategie"
+        ],
+        "summary": ""
       }
     ]
   },
@@ -2232,28 +2440,28 @@
         "event": "BAK and the Association of Foreign Banks launch a foreign banks barometer",
         "url": null,
         "added": "2026-11-06",
-        "checked": "2026-11-08"
+        "checked": "2026-11-09"
       },
       {
         "date": "2026-11-11",
         "event": "Swiss Life third-quarter update",
         "url": null,
         "added": "2026-11-06",
-        "checked": "2026-11-08"
+        "checked": "2026-11-09"
       },
       {
         "date": "2026-11-12",
         "event": "Zurich Insurance third-quarter update",
         "url": null,
         "added": "2026-11-06",
-        "checked": "2026-11-08"
+        "checked": "2026-11-09"
       },
       {
         "date": "2026-11-12",
         "event": "Swiss Finance Institute annual meeting on the impact of AI on finance, Zurich",
         "url": null,
         "added": "2026-11-06",
-        "checked": "2026-11-08"
+        "checked": "2026-11-09"
       },
       {
         "date": "2026-11-16",
@@ -2377,6 +2585,19 @@
     ]
   },
   "archive": [
+    {
+      "date": "2026-11-09",
+      "mode": "daily",
+      "overview": "Nvidia's board opens an investigation after reports its chief executive was targeted by foreign intelligence, Anthropic's IPO talk falls to about USD 1.2 trillion as OpenAI raises at USD 1.25 trillion, and South Korea moves to scrap bank network separation rules after AI-assisted hacks.",
+      "headlines": [
+        "Nvidia's board opens independent investigation after reports its CEO was targeted by foreign intelligence",
+        "Update: AI lab valuations reset as Anthropic IPO talk falls to USD 1.2 trillion",
+        "South Korea will phase out bank network separation rules after AI-assisted hacks"
+      ],
+      "audio_url": "audio/signal-2026-11-09.mp3",
+      "duration": 743.19,
+      "slug": "2026-11-09"
+    },
     {
       "date": "2026-11-08",
       "mode": "weekly",
