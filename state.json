@@ -1,7 +1,7 @@
 {
   "log": {
     "last_delivery": {
-      "daily": "2026-11-09T06:39+01:00",
+      "daily": "2026-11-10T05:17+01:00",
       "weekly": "2026-11-08T06:35+01:00"
     },
     "stories": [
@@ -2430,6 +2430,238 @@
           "https://www.netzwoche.ch/news/2026-11-06/kanton-basel-stadt-verabschiedet-ki-strategie"
         ],
         "summary": ""
+      },
+      {
+        "date": "2026-11-10",
+        "mode": "daily",
+        "key": "anthropic|release|claude-fable-mythos-5-2",
+        "headline": "Anthropic releases Claude Fable 5.2 and Mythos 5.2 at a lower price",
+        "urls": [
+          "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+          "https://aws.amazon.com/blogs/machine-learning/introducing-claude-fable-5-2-on-aws/",
+          "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/"
+        ],
+        "summary": "Anthropic released Claude Fable 5.2 and Claude Mythos 5.2 on 9 November, one model offered with and without strict cyber and biology safeguards. It says both generate output up to 30 percent faster than the 5.1 versions, at USD 8 per millio"
+      },
+      {
+        "date": "2026-11-10",
+        "mode": "daily",
+        "key": "credit-agricole|merger-proposal|banco-bpm",
+        "headline": "Crédit Agricole proposes merging Banco BPM with Crédit Agricole Italia",
+        "urls": [
+          "https://www.credit-agricole.com/en/pdfPreview/211722"
+        ],
+        "summary": "Crédit Agricole proposed on 9 November a merger of Banco BPM and Crédit Agricole Italia, creating Italy's third-largest banking group with 6.5 million customers and more than 2,300 branches. Banco BPM shareholders would receive a 20 percent"
+      },
+      {
+        "date": "2026-11-10",
+        "mode": "daily",
+        "key": "evident|report|bank-ai-use-cases-q3-2026",
+        "headline": "Banks announced a record 111 AI use cases last quarter, Evident finds",
+        "urls": [
+          "https://evidentinsights.com/insights"
+        ],
+        "summary": "The 50 banks in the Evident AI Index announced 111 new AI use cases in the third quarter, a record, including 22 agentic ones. For 41 percent of them it was the bank's first AI deployment in that business line or function, yet only 21 perce"
+      },
+      {
+        "date": "2026-11-10",
+        "mode": "daily",
+        "key": "pensionskasse-zug|breach|pk-softech",
+        "headline": "Update: Zug pension fund says members' data may be in PK Softech theft",
+        "urls": [
+          "https://www.inside-it.ch/auch-pensionskasse-zug-von-pk-softech-hack-betroffen-20261109"
+        ],
+        "summary": "Pensionskasse Zug said its members' data may have been taken in the cyberattack on PK Softech, software supplier to its outsourced administrator Libera. Told of the incident in mid-October, it believed it was unaffected until last week. The"
+      },
+      {
+        "date": "2026-11-10",
+        "mode": "daily",
+        "key": "credit-mutuel-arkea|cyberattack|third-party-entry",
+        "headline": "Update: Arkéa attackers stole about EUR 100 million through a supplier's platform, Reuters says",
+        "urls": [
+          "https://fintechnews.ch/fintechfrance/credit-mutuel-arkea-hack/86920/"
+        ],
+        "summary": "Attackers stole around EUR 100 million from Crédit Mutuel Arkéa, according to Reuters as reported by Fintech News Switzerland; the bank acknowledged the approximate scale without confirming the figure. They entered through a third-party ser"
+      },
+      {
+        "date": "2026-11-10",
+        "mode": "daily",
+        "key": "sas-microsoft|survey|bank-ai-credit-risk-2026",
+        "headline": "Survey: 82 percent of banks use generative AI in credit and risk decisions",
+        "urls": [
+          "https://fintechnews.sg/140623/ai/ai-reaches-widespread-adoption-among-banks"
+        ],
+        "summary": "A survey of 300 credit, treasury and risk leaders at banks in 31 countries, by FT Longitude, SAS and Microsoft, found 82 percent use generative AI and 41 percent agentic AI in decision-making, according to Fintech News Singapore. 59 percent"
+      },
+      {
+        "date": "2026-11-10",
+        "mode": "daily",
+        "key": "dallas-fed|survey|customer-ai-agents",
+        "headline": "Dallas Fed survey: 11.4 percent of banks already restrict customers' AI agents",
+        "urls": [
+          "https://www.pymnts.com/news/banking/2026/banks-draw-lines-around-customers-ai-agents/"
+        ],
+        "summary": "In a Federal Reserve Bank of Dallas survey of 70 bankers, 11.4 percent said their institution or service provider had restricted customers' AI agents on online banking, and 22.9 percent planned to within six months, according to PYMNTS. Ano"
+      },
+      {
+        "date": "2026-11-10",
+        "mode": "daily",
+        "key": "ubs|survey|swiss-salaries-2027",
+        "headline": "UBS expects Swiss wages to rise 1 percent in 2027, barely ahead of inflation",
+        "urls": [
+          "https://www.ictjournal.ch/news/2026-11-09/les-salaires-du-secteur-des-tic-se-tassent-tandis-que-les-competences-ia-gagnent-du"
+        ],
+        "summary": "UBS's new salary survey expects nominal wages in Switzerland to rise 1 percent in 2027 against inflation of 0.8 percent, real growth of 0.2 percent, according to ICTjournal. IT and telecoms pay, which UBS had expected to rise 1.7 percent in"
+      },
+      {
+        "date": "2026-11-10",
+        "mode": "daily",
+        "key": "unicredit|results|q3-2026-commerzbank-control",
+        "headline": "UniCredit earns a record EUR 3.3 billion and could control Commerzbank this year",
+        "urls": [
+          "https://www.finews.ch/news/banken/74379-unicredit-commerzbank-ergebnis-q3-2026"
+        ],
+        "summary": "UniCredit reported record third-quarter net profit of EUR 3.3 billion, up 24 percent, with a 25.5 percent return on tangible equity, according to finews.ch. It expects the last approvals for a larger Commerzbank stake by the end of November"
+      },
+      {
+        "date": "2026-11-10",
+        "mode": "daily",
+        "key": "cfa-institute|report|systemic-risk-rankings-2026",
+        "headline": "CFA Institute council ranks AI-driven cyberattacks among four most immediate systemic risks",
+        "urls": [
+          "https://www.wealthbriefing.com/html/article.php/geopolitics%2C-ai-cyberattacks-come-top-of-systemic-risk-rankings--cfa-"
+        ],
+        "summary": "The CFA Institute Systemic Risk Council ranked geopolitical shocks, AI-driven cyberattacks, opaque data-centre financings and sudden extreme climate events as the most immediate of 13 threats to financial stability, according to WealthBrief"
+      },
+      {
+        "date": "2026-11-10",
+        "mode": "daily",
+        "key": "meta|release|muse-ember",
+        "headline": "Meta releases Muse Ember, a low-cost model for high-volume agent work",
+        "urls": [
+          "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/"
+        ],
+        "summary": "Meta Superintelligence Lab released Muse Ember, its lightest and cheapest model, at 10 cents per million input tokens, built for tool calls, routing, extraction and long-document parsing, according to TechCrunch. It reads text, images and a"
+      },
+      {
+        "date": "2026-11-10",
+        "mode": "daily",
+        "key": "google|launch|tpu-8tx-8i-max",
+        "headline": "Google adds TPU 8tx for confidential inference and TPU 8i Max for long contexts",
+        "urls": [
+          "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/"
+        ],
+        "summary": "Google added two eighth-generation TPU systems: TPU 8tx, with hardware-level security for sensitive data, and TPU 8i Max, for very large context windows. Google says TPUs now have nearly 100 customers, including frontier labs and trading fi"
+      },
+      {
+        "date": "2026-11-10",
+        "mode": "daily",
+        "key": "databricks|commitment|european-sovereignty",
+        "headline": "Databricks will launch on AWS's European Sovereign Cloud and contract through an EU entity",
+        "urls": [
+          "https://www.databricks.com/blog/databricks-commitment-european-sovereignty"
+        ],
+        "summary": "Databricks said it will launch on the AWS European Sovereign Cloud and is committed to making Azure Databricks meet EU sovereignty requirements. European customers can now contract directly with a Databricks EU entity; the company serves th"
+      },
+      {
+        "date": "2026-11-10",
+        "mode": "daily",
+        "key": "anthropic|ipo|timetable-valuation-range",
+        "headline": "Update: Anthropic plans to set its IPO price range this week, WSJ reports",
+        "urls": [
+          "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/"
+        ],
+        "summary": "Anthropic plans to set a valuation range this week and begin trading on Thursday or Friday of next week, The Wall Street Journal reported, according to TechCrunch. Some institutional investors are pushing for a valuation below the USD 1.5 t"
+      },
+      {
+        "date": "2026-11-10",
+        "mode": "daily",
+        "key": "eba|methodology|stress-test-2027",
+        "headline": "EBA cuts the data requested for its 2027 EU-wide stress test by 55 percent",
+        "urls": [
+          "https://www.eba.europa.eu/publications-and-media/press-releases/eba-streamlines-2027-eu-wide-stress-test-more-55-reduction-requested-data"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-10",
+        "mode": "daily",
+        "key": "eba|factsheet|white-labelling",
+        "headline": "EBA publishes a consumer factsheet on white-labelled banking and payment products",
+        "urls": [
+          "https://www.eba.europa.eu/publications-and-media/press-releases/eba-publishes-consumer-factsheet-white-labelled-financial-products-and-services"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-10",
+        "mode": "daily",
+        "key": "binance|closures|eu-accounts-mica",
+        "headline": "Binance to close some EU customer accounts by 31 December as MiCA transition ends",
+        "urls": [
+          "https://fintechnews.ch/blockchain_bitcoin/binance-europe-account-closures/86925/"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-10",
+        "mode": "daily",
+        "key": "goldman-sachs|partners|class-2026-swiss",
+        "headline": "Goldman Sachs names five Swiss nationals among its 109 new partners",
+        "urls": [
+          "https://www.finews.com/news/english-news/74378-goldman-sachs-new-partners-gaudenz-eichenberger-christian-beerli-sabine-wick-guillaume-banderet-frederic-pripp"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-10",
+        "mode": "daily",
+        "key": "blockstream|appoint|ozturk-emea",
+        "headline": "Blockstream hires former PwC executive Oz Ozturk to lead EMEA from Lugano",
+        "urls": [
+          "https://www.finews.com/news/english-news/74388-crypto-blockstream-oz-ozturk-europe-chief-lugano-pwc"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-10",
+        "mode": "daily",
+        "key": "generali-investments-switzerland|appoint|cfo-acili",
+        "headline": "Generali Investments Switzerland appoints Oezgür Acili as chief financial officer",
+        "urls": [
+          "https://www.finews.com/news/english-news/74371-generali-investments-switzerland-oezguer-acili-chief-financial-officer-2"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-10",
+        "mode": "daily",
+        "key": "bfh|appoint|data-driven-government-chair",
+        "headline": "Bern University of Applied Sciences creates a professorship for data-driven government",
+        "urls": [
+          "https://www.inside-it.ch/bfh-schafft-professur-fuer-data-driven-government-20261109"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-10",
+        "mode": "daily",
+        "key": "worldline|launch|minipos-cube",
+        "headline": "Worldline launches a compact card and TWINT terminal for small Swiss merchants",
+        "urls": [
+          "https://www.finews.ch/news/finanzplatz/74384-worldline-neues-zahlterminal"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-10",
+        "mode": "daily",
+        "key": "cisco|study|swiss-cyber-defence",
+        "headline": "Cisco study finds 72 percent of Swiss companies defend reactively against cyber threats",
+        "urls": [
+          "https://www.inside-it.ch/schweizer-unternehmen-bilden-schlusslicht-bei-cyberabwehr-20261109"
+        ],
+        "summary": ""
       }
     ]
   },
@@ -2440,35 +2672,35 @@
         "event": "BAK and the Association of Foreign Banks launch a foreign banks barometer",
         "url": null,
         "added": "2026-11-06",
-        "checked": "2026-11-09"
+        "checked": "2026-11-10"
       },
       {
         "date": "2026-11-11",
         "event": "Swiss Life third-quarter update",
         "url": null,
         "added": "2026-11-06",
-        "checked": "2026-11-09"
+        "checked": "2026-11-10"
       },
       {
         "date": "2026-11-12",
         "event": "Zurich Insurance third-quarter update",
         "url": null,
         "added": "2026-11-06",
-        "checked": "2026-11-09"
+        "checked": "2026-11-10"
       },
       {
         "date": "2026-11-12",
         "event": "Swiss Finance Institute annual meeting on the impact of AI on finance, Zurich",
         "url": null,
         "added": "2026-11-06",
-        "checked": "2026-11-09"
+        "checked": "2026-11-10"
       },
       {
         "date": "2026-11-16",
         "event": "Lugano Global Forum, opened by Sergio Ermotti (to 17 November)",
         "url": null,
         "added": "2026-11-06",
-        "checked": "2026-11-08"
+        "checked": "2026-11-10"
       },
       {
         "date": "2026-11-17",
@@ -2585,6 +2817,19 @@
     ]
   },
   "archive": [
+    {
+      "date": "2026-11-10",
+      "mode": "daily",
+      "overview": "Anthropic releases Claude Fable 5.2 and Mythos 5.2 at a lower price, Crédit Agricole proposes merging Banco BPM with its Italian arm, and Evident counts a record 111 new AI use cases at banks in the third quarter.",
+      "headlines": [
+        "Anthropic releases Claude Fable 5.2 and Mythos 5.2 at a lower price",
+        "Crédit Agricole proposes merging Banco BPM with Crédit Agricole Italia",
+        "Banks announced a record 111 AI use cases last quarter, Evident finds"
+      ],
+      "audio_url": "audio/signal-2026-11-10.mp3",
+      "duration": 736.24,
+      "slug": "2026-11-10"
+    },
     {
       "date": "2026-11-09",
       "mode": "daily",

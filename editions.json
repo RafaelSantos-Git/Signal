@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "updated": "2026-11-09T06:39+01:00",
+  "updated": "2026-11-10T05:17+01:00",
   "editions": [
+    {
+      "date": "2026-11-10",
+      "mode": "daily",
+      "slug": "2026-11-10",
+      "title": "Signal · Tuesday 10 November",
+      "kind": "Daily briefing",
+      "duration": 736.24,
+      "stories": 23,
+      "overview": "Anthropic releases Claude Fable 5.2 and Mythos 5.2 at a lower price, Crédit Agricole proposes merging Banco BPM with its Italian arm, and Evident counts a record 111 new AI use cases at banks in the third quarter.",
+      "path": "d/2026-11-10/",
+      "edition": "d/2026-11-10/edition.json"
+    },
     {
       "date": "2026-11-09",
       "mode": "daily",
