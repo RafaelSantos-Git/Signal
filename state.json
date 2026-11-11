@@ -1,7 +1,7 @@
 {
   "log": {
     "last_delivery": {
-      "daily": "2026-11-10T05:17+01:00",
+      "daily": "2026-11-11T05:14+01:00",
       "weekly": "2026-11-08T06:35+01:00"
     },
     "stories": [
@@ -2662,59 +2662,305 @@
           "https://www.inside-it.ch/schweizer-unternehmen-bilden-schlusslicht-bei-cyberabwehr-20261109"
         ],
         "summary": ""
+      },
+      {
+        "date": "2026-11-11",
+        "mode": "daily",
+        "key": "anthropic|ipo|roadshow-price-range",
+        "headline": "Update: Anthropic starts its IPO roadshow with a USD 70 to 78 price range",
+        "urls": [
+          "https://www.anthropic.com/news/roadshow-launch",
+          "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/"
+        ],
+        "summary": "Anthropic said on 10 November that it had launched the roadshow for its initial public offering of 825 million Class A shares at an expected USD 70 to 78 each, and that it has applied to list on Nasdaq under the symbol ANT. At the top of th"
+      },
+      {
+        "date": "2026-11-11",
+        "mode": "daily",
+        "key": "bank-consortium|funding|stablecoin-project-faro",
+        "headline": "Goldman, Citi and other banks commit about USD 270 million to a joint stablecoin",
+        "urls": [
+          "https://decrypt.co/382953/goldman-citi-global-banks-270-million-challenge-crypto-stablecoin-giants"
+        ],
+        "summary": "Goldman Sachs, Citigroup, Santander and Deutsche Bank are among the banks committing around USD 270 million to fund five years of operations for a joint dollar stablecoin issuer, Bloomberg reported on 10 November, according to Decrypt. The "
+      },
+      {
+        "date": "2026-11-11",
+        "mode": "daily",
+        "key": "avaloq|launch|mosaic-us",
+        "headline": "Avaloq enters the US wealth market with Mosaic, a modular platform",
+        "urls": [
+          "https://www.avaloq.com/insights/news/avaloq-enters-us-wealth-market",
+          "https://www.inside-it.ch/avaloq-expandiert-in-den-us-markt-20261110"
+        ],
+        "summary": "Avaloq said on 10 November that it is entering the US with Avaloq Mosaic, which connects investment data and portfolio processes across wealth managers' existing systems instead of replacing them. It starts with Portfolio IQ, a real-time vi"
+      },
+      {
+        "date": "2026-11-11",
+        "mode": "daily",
+        "key": "bekb|integration|aity",
+        "headline": "Bern Cantonal Bank folds its IT subsidiary Aity back into the bank from 2028",
+        "urls": [
+          "https://www.finews.com/news/english-news/74397-bern-cantonal-bank-bekb-integrates-it-subsidiary-aity-completely-organizational-separation-too-complex",
+          "https://www.inside-it.ch/berner-kantonalbank-beendet-eigenstaendigkeit-von-aity-20261110"
+        ],
+        "summary": "BEKB said on 10 November that Aity, the IT company it formed after taking over its IT from partner DXC, will be fully integrated into the bank on 1 January 2028. The separate structure added complexity and external business grew less than e"
+      },
+      {
+        "date": "2026-11-11",
+        "mode": "daily",
+        "key": "light-frame|funding|seed-2026",
+        "headline": "Former Alpian chief's Light Frame raises USD 5.1 million for wealth banking software",
+        "urls": [
+          "https://www.finews.com/news/english-news/74398-ex-alpian-ceo-schuyler-weiss-light-frame-seed-funding-fintech-banking-software"
+        ],
+        "summary": "Light Frame, founded in 2024 by former Alpian chief executive Schuyler Weiss, raised USD 5.1 million in a seed round led by Fortino Ventures, according to finews. Its cloud platform links core banking and portfolio management for private ba"
+      },
+      {
+        "date": "2026-11-11",
+        "mode": "daily",
+        "key": "morgan-stanley|acquire|vinyl-equity",
+        "headline": "Morgan Stanley agrees to buy transfer agent Vinyl Equity, eyeing tokenised shares",
+        "urls": [
+          "https://fintechnews.ch/fintechusa/morgan-stanley-vinyl-equity-acquisition-transfer-agent/86942/"
+        ],
+        "summary": "Morgan Stanley has agreed to buy Vinyl Equity, an SEC-registered digital transfer agent founded in 2022, for undisclosed terms. Vinyl will join Morgan Stanley at Work so companies can run cap tables, share plans and transfers in one place, "
+      },
+      {
+        "date": "2026-11-11",
+        "mode": "daily",
+        "key": "ubs|index|real-estate-bubble-q3-2026",
+        "headline": "UBS Swiss Real Estate Bubble Index eases to 0.64, still in the moderate zone",
+        "urls": [
+          "https://www.finews.com/news/english-news/74417-ubs-real-estate-bubble-risk-q3-2026"
+        ],
+        "summary": "The index fell to 0.64 in the third quarter from 0.71, and UBS still rates the risk moderate, citing the economic recovery and higher household incomes. Prices of owner-occupied homes were 3.5 percent above a year earlier, while asking rent"
+      },
+      {
+        "date": "2026-11-11",
+        "mode": "daily",
+        "key": "norges-bank|sale|uetlihof",
+        "headline": "Norway's wealth fund puts the UBS-occupied Üetlihof in Zurich back up for sale",
+        "urls": [
+          "https://www.finews.ch/news/finanzplatz/74404-der-ueetlihof-soll-schnell-verkauft-werden"
+        ],
+        "summary": "Norway's sovereign wealth fund has started a new sale of the Üetlihof, the former Credit Suisse office complex in Zurich, and wants a deal before the end of the year, according to the NZZ, cited by finews. UBS's lease runs until 2037 with o"
+      },
+      {
+        "date": "2026-11-11",
+        "mode": "daily",
+        "key": "lukb|governance|ceo-to-board",
+        "headline": "Lucerne backs LUKB chief's move to the board; FINMA sets a cooling-off year",
+        "urls": [
+          "https://www.finews.com/news/english-news/74396-wechsel-daniel-salzmann-ceo-in-den-verwaltungsrat-luzerner-kantonalbank-politische-diskussionen-luzerner-regierung-keine-governance-probleme-finma-auflagen"
+        ],
+        "summary": "The Lucerne government sees no governance problem in chief executive Daniel Salzmann joining Luzerner Kantonalbank's board in April 2027, months after he steps down at the end of 2026, according to finews, citing the Luzerner Zeitung. FINMA"
+      },
+      {
+        "date": "2026-11-11",
+        "mode": "daily",
+        "key": "affirm|acquire|ratepay",
+        "headline": "Affirm agrees to buy Ratepay from Nexi, adding pay-by-invoice in German-speaking markets",
+        "urls": [
+          "https://fintechnews.ch/payments/affirm-acquires-ratepay-nexi-bnpl/86948/"
+        ],
+        "summary": "US payment network Affirm will acquire Ratepay, the German pay-by-invoice provider serving merchants in Germany, Austria and Switzerland, from Italy's Nexi, which is focusing on its core activities. The two also signed a memorandum to widen"
+      },
+      {
+        "date": "2026-11-11",
+        "mode": "daily",
+        "key": "barclays|launch|riyadh-office",
+        "headline": "Barclays opens a Riyadh office under a Saudi licence and names a local CEO",
+        "urls": [
+          "https://www.wealthbriefing.com/html/article.php/barclays-opens-riyadh-office%3B-names-saudi-ceo"
+        ],
+        "summary": "Barclays has opened an office in Riyadh's King Abdullah Financial District after Saudi Arabia's Capital Market Authority licensed it for investment banking and global markets business, WealthBriefing reported on 10 November. Majed Al Hassou"
+      },
+      {
+        "date": "2026-11-11",
+        "mode": "daily",
+        "key": "google|ga|gemini-4-carbon",
+        "headline": "Update: Google opens Gemini 4 Carbon to all paying developers at Argon's price",
+        "urls": [
+          "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/"
+        ],
+        "summary": "Two weeks after giving it to cyber defenders, Google made Gemini 4 Carbon, its strongest model, available on 10 November to paying developers and enterprises, at Argon's introductory price of USD 2 per million input tokens and USD 10 per mi"
+      },
+      {
+        "date": "2026-11-11",
+        "mode": "daily",
+        "key": "anthropic|launch|claude-meetings",
+        "headline": "Anthropic adds Claude Meetings, Whiteboards and Sheets as AI labs build office suites",
+        "urls": [
+          "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/"
+        ],
+        "summary": "Claude Meetings, in beta on Team and Enterprise plans, joins Google Meet calls as a visible participant and drafts plans and timelines while people talk, according to TechCrunch. It will not join calls with external guests unless an admin a"
+      },
+      {
+        "date": "2026-11-11",
+        "mode": "daily",
+        "key": "openai|launch|business-hub",
+        "headline": "OpenAI launches a Business Hub so companies can manage how ChatGPT presents them",
+        "urls": [
+          "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/"
+        ],
+        "summary": "OpenAI's Business Hub, in beta, lets companies create verified profiles of their products and services, launch a business agent that answers users' questions, and see limited insights such as profile views, mentions and website clicks, Tech"
+      },
+      {
+        "date": "2026-11-11",
+        "mode": "daily",
+        "key": "databricks|integration|metric-views-power-bi",
+        "headline": "Databricks now publishes Unity Catalog metric views straight into Power BI semantic models",
+        "urls": [
+          "https://www.databricks.com/blog/unity-catalog-metric-views-now-power-bi-one-unified-governed-semantic-layer-all-your-reporting"
+        ],
+        "summary": "Databricks said on 10 November that metrics defined once in Unity Catalog metric views can be published directly to Power BI semantic models, from Catalog Explorer or a Power BI task that keeps them in sync. Unity Catalog access controls st"
+      },
+      {
+        "date": "2026-11-11",
+        "mode": "daily",
+        "key": "finma|ordinance|amlo-finma-revision",
+        "headline": "FINMA publishes its revised anti-money laundering ordinance, in force on 1 January 2027",
+        "urls": [
+          "https://www.finma.ch/en/news/2026/11/20261110-mm-gwv-finma/"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-11",
+        "mode": "daily",
+        "key": "new-york|law|raise-act-registration",
+        "headline": "New York opens RAISE Act registration; frontier AI developers must register by 1 January",
+        "urls": [
+          "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-11",
+        "mode": "daily",
+        "key": "coinbase|charter|occ-national-trust",
+        "headline": "Coinbase wins final OCC approval for its national trust company",
+        "urls": [
+          "https://fintechnews.ch/fintechusa/coinbase-occ-charter-national-trust-custody/86962/"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-11",
+        "mode": "daily",
+        "key": "ecb|speech|cipollone-digital-euro-cash",
+        "headline": "ECB's Cipollone urges adoption of the digital euro package by year-end",
+        "urls": [
+          "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261110~9422461bad.en.html"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-11",
+        "mode": "daily",
+        "key": "swiss-cash|launch|association",
+        "headline": "Cash industry firms form the Swiss Cash association to defend notes and coins",
+        "urls": [
+          "https://www.finews.com/news/english-news/74367-swisscash-lobby-association-cash-infrastructure-means-of-payment-coins-banknotes-city-of-zurich-fee-transparency"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-11",
+        "mode": "daily",
+        "key": "embodied-ai|launch|air-humanoid",
+        "headline": "EPFL spin-off Embodied AI unveils AIR, a humanoid robot that learns from demonstrations",
+        "urls": [
+          "https://www.ictjournal.ch/news/2026-11-10/une-spin-off-de-lepfl-devoile-un-robot-humanoide-qui-apprend-au-travail"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-11",
+        "mode": "daily",
+        "key": "cofra|appoint|ceo-wunderlin",
+        "headline": "Cofra names Schroders Capital's Georg Wunderlin chief executive from April 2027",
+        "urls": [
+          "https://www.finews.com/news/english-news/74406-cofra-georg-wunderlin-new-ceo-schroders-capital-brenninkmeijer-family-private-markets"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-11",
+        "mode": "daily",
+        "key": "valterna|hire|vontobel-ubs-advisers",
+        "headline": "Valterna hires three from Vontobel and UBS and plans a move to Lucerne",
+        "urls": [
+          "https://www.finews.com/news/english-news/74400-valterna-recruits-client-advisers-from-vontobel-and-ubs-move-to-lucerne"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-11",
+        "mode": "daily",
+        "key": "eeii-hcp|merger|exclusivity",
+        "headline": "EEII and Haute Capital Partners agree exclusive merger talks until 31 December",
+        "urls": [
+          "https://www.finews.ch/news/finanzplatz/74408-beteiligungsgesellschaften-eeii-und-haute-capital-partners-exklusivitaetsvereinbarung-ende-oktober-angekuendigte-plaene-fuer-einen-zusammenschluss"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-11",
+        "mode": "daily",
+        "key": "sba|study|hslu-bank-history",
+        "headline": "Swiss Bankers Association publishes HSLU research tracing Swiss banks since the 18th century",
+        "urls": [
+          "https://www.finews.ch/news/banken/74402-sbvg-bankiervereinigung-bankengeschichte-hslu"
+        ],
+        "summary": ""
       }
     ]
   },
   "calendar": {
     "events": [
       {
-        "date": "2026-11-10",
-        "event": "BAK and the Association of Foreign Banks launch a foreign banks barometer",
-        "url": null,
-        "added": "2026-11-06",
-        "checked": "2026-11-10"
-      },
-      {
         "date": "2026-11-11",
         "event": "Swiss Life third-quarter update",
         "url": null,
         "added": "2026-11-06",
-        "checked": "2026-11-10"
+        "checked": "2026-11-11"
       },
       {
         "date": "2026-11-12",
         "event": "Zurich Insurance third-quarter update",
         "url": null,
         "added": "2026-11-06",
-        "checked": "2026-11-10"
+        "checked": "2026-11-11"
       },
       {
         "date": "2026-11-12",
         "event": "Swiss Finance Institute annual meeting on the impact of AI on finance, Zurich",
         "url": null,
         "added": "2026-11-06",
-        "checked": "2026-11-10"
+        "checked": "2026-11-11"
       },
       {
         "date": "2026-11-16",
         "event": "Lugano Global Forum, opened by Sergio Ermotti (to 17 November)",
         "url": null,
         "added": "2026-11-06",
-        "checked": "2026-11-10"
+        "checked": "2026-11-11"
       },
       {
         "date": "2026-11-17",
         "event": "Nvidia third-quarter results (fiscal 2027)",
-        "url": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6",
         "added": "2026-11-01",
-        "checked": "2026-11-08"
+        "checked": "2026-11-11"
       },
       {
         "date": "2026-11-17",
         "event": "Microsoft Ignite opens in San Francisco (to 20 November)",
         "url": "https://www.moscone.com/events/microsoft-ignite-2026",
         "added": "2026-11-01",
-        "checked": "2026-11-08"
+        "checked": "2026-11-11"
       },
       {
         "date": "2026-11-18",
@@ -2817,6 +3063,19 @@
     ]
   },
   "archive": [
+    {
+      "date": "2026-11-11",
+      "mode": "daily",
+      "overview": "Anthropic sets the price range for its IPO, global banks put about USD 270 million behind a joint stablecoin, and Avaloq takes its Mosaic platform to the US.",
+      "headlines": [
+        "Update: Anthropic starts its IPO roadshow with a USD 70 to 78 price range",
+        "Goldman, Citi and other banks commit about USD 270 million to a joint stablecoin",
+        "Avaloq enters the US wealth market with Mosaic, a modular platform"
+      ],
+      "audio_url": "audio/signal-2026-11-11.mp3",
+      "duration": 702.75,
+      "slug": "2026-11-11"
+    },
     {
       "date": "2026-11-10",
       "mode": "daily",

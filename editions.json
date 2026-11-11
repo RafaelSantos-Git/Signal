@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "updated": "2026-11-10T05:17+01:00",
+  "updated": "2026-11-11T05:14+01:00",
   "editions": [
+    {
+      "date": "2026-11-11",
+      "mode": "daily",
+      "slug": "2026-11-11",
+      "title": "Signal · Wednesday 11 November",
+      "kind": "Daily briefing",
+      "duration": 702.75,
+      "stories": 25,
+      "overview": "Anthropic sets the price range for its IPO, global banks put about USD 270 million behind a joint stablecoin, and Avaloq takes its Mosaic platform to the US.",
+      "path": "d/2026-11-11/",
+      "edition": "d/2026-11-11/edition.json"
+    },
     {
       "date": "2026-11-10",
       "mode": "daily",
