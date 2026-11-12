@@ -1,7 +1,7 @@
 {
   "log": {
     "last_delivery": {
-      "daily": "2026-11-11T05:14+01:00",
+      "daily": "2026-11-12T05:14+01:00",
       "weekly": "2026-11-08T06:35+01:00"
     },
     "stories": [
@@ -2915,59 +2915,263 @@
           "https://www.finews.ch/news/banken/74402-sbvg-bankiervereinigung-bankengeschichte-hslu"
         ],
         "summary": ""
+      },
+      {
+        "date": "2026-11-12",
+        "mode": "daily",
+        "key": "mckinsey|report|global-banking-annual-review-2026",
+        "headline": "McKinsey finds Swiss banks more profitable than peers but short of AI scale",
+        "urls": [
+          "https://www.finews.com/news/english-news/74432-global-banking-sector-new-record-profits-swiss-inst"
+        ],
+        "summary": "Banks worldwide raised profits by 7 percent to a record USD 1.3 trillion last year, McKinsey's Global Banking Annual Review 2026 found, and Swiss banks did even better on the back of wealth management. Of about 46,000 customers surveyed in "
+      },
+      {
+        "date": "2026-11-12",
+        "mode": "daily",
+        "key": "nvidia|board|huang-future",
+        "headline": "Update: Nvidia's board meets on Jensen Huang's future after a second affair report",
+        "urls": [
+          "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/"
+        ],
+        "summary": "Nvidia's board is preparing to remove chief executive Jensen Huang and could meet as soon as 11 November to decide, according to the Wall Street Journal, as reported by TechCrunch. The New York Times reported on 11 November that Huang had a"
+      },
+      {
+        "date": "2026-11-12",
+        "mode": "daily",
+        "key": "snb|statement|federal-council-annual-discussion",
+        "headline": "SNB sees no credit crunch and confirms its growth forecasts",
+        "urls": [
+          "https://www.finews.com/news/english-news/74455-swiss-credit-market-assessment-of-the-swiss-national-bank-snb-fall-of-credit-suisse-growth-forecasts-for-the-swis"
+        ],
+        "summary": "At its annual discussion with the Federal Council on 11 November, the Swiss National Bank said domestic lending has kept growing over the past ten years, including after the collapse of Credit Suisse, and that it sees no signs of a credit c"
+      },
+      {
+        "date": "2026-11-12",
+        "mode": "daily",
+        "key": "blackrock-aladdin|study|ai-adoption-2026",
+        "headline": "Aladdin study finds AI widespread in investment firms but rarely used in decisions",
+        "urls": [
+          "https://fintechnews.ch/aifintech/despite-broad-ai-adoption-in-investment-management-applications-remains-narrow/86975/"
+        ],
+        "summary": "A Forrester Consulting study for BlackRock's Aladdin, polling more than 300 senior decision-makers at asset managers, insurers, pension funds, banks and wealth managers, found 87 percent have deployed AI or set up use cases. Most use it onl"
+      },
+      {
+        "date": "2026-11-12",
+        "mode": "daily",
+        "key": "selma|appoint|pfister-adviser",
+        "headline": "Selma hires former Swiss Life chief Bruno Pfister to expand AI retirement advice",
+        "urls": [
+          "https://www.finews.com/news/english-news/74435-former-swiss-life-group-ceo-bruno-pfister-advisory-role-swiss-fintech-selm"
+        ],
+        "summary": "Digital wealth manager Selma has appointed Bruno Pfister, Swiss Life's group chief executive from 2008 to 2014, as strategic adviser for its AI-driven pension advice, finews reported. Selma says more than 100,000 people retire in Switzerlan"
+      },
+      {
+        "date": "2026-11-12",
+        "mode": "daily",
+        "key": "swiss-life|results|9m-2026",
+        "headline": "Swiss Life grows premiums 8 percent as third-party asset inflows slow",
+        "urls": [
+          "https://www.finews.com/news/english-news/74431-insurance-group-swiss-life-first-nine-mon"
+        ],
+        "summary": "Swiss Life said fee income rose 8 percent in local currencies to CHF 2.04 billion in the first nine months and premiums 8 percent to CHF 17.4 billion, with Swiss premiums up 15 percent to CHF 9.4 billion. Net new money in third-party asset "
+      },
+      {
+        "date": "2026-11-12",
+        "mode": "daily",
+        "key": "allianz|results|9m-2026",
+        "headline": "Allianz reports a record EUR 14.1 billion nine-month operating profit and raises guidance",
+        "urls": [
+          "https://www.allianz.com/en/mediacenter/news/media-releases/financials/261111-announcement.html"
+        ],
+        "summary": "Allianz said operating profit for the first nine months reached a record EUR 14.1 billion, up from EUR 13.1 billion a year earlier. It raised the upper end of its 2026 target, set at EUR 17.4 billion plus or minus EUR 1 billion, to around E"
+      },
+      {
+        "date": "2026-11-12",
+        "mode": "daily",
+        "key": "federal-reserve|outlook|waller-50bp-hike",
+        "headline": "Ten-year Treasury yields top 5 percent as Fed's Waller floats a larger hike",
+        "urls": [
+          "https://www.finews.com/news/english-news/74456-inflation-in-the-usa-selloff-in-the-bond-market-yield-on-ten-year-government-bonds-ri"
+        ],
+        "summary": "US consumer prices rose 0.4 percent in October from September, above the 0.3 percent expected. Fed Governor Christopher Waller said on 10 November that a 50-basis-point rise was possible, though futures still price a 25-point move on 9 Dece"
+      },
+      {
+        "date": "2026-11-12",
+        "mode": "daily",
+        "key": "china|tax|offshore-trusts-back-taxes",
+        "headline": "China's wealthy declare USD 24 billion in back taxes on offshore trusts",
+        "urls": [
+          "https://www.wealthbriefing.com/html/article.php/beijing-tax-clampdown-nets-over-%2424-billion-of-offshore-wealth--media"
+        ],
+        "summary": "Wealthy Chinese have declared more than RMB 160 billion (USD 24 billion) in back taxes tied to offshore trusts, and the authorities collected more than RMB 120 billion of it in October, WealthBriefing reported, citing Xinhua and Bloomberg. "
+      },
+      {
+        "date": "2026-11-12",
+        "mode": "daily",
+        "key": "openai|revenue|q3-2026-10bn",
+        "headline": "OpenAI's quarterly revenue passed USD 10 billion for the first time, Bloomberg reports",
+        "urls": [
+          "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/"
+        ],
+        "summary": "OpenAI's third-quarter revenue crossed USD 10 billion, Bloomberg reported citing anonymous sources, according to TechCrunch. That would be an almost 50 percent jump from the USD 6.7 billion reported for the second quarter, with the adjusted"
+      },
+      {
+        "date": "2026-11-12",
+        "mode": "daily",
+        "key": "databricks|launch|genie-autonomous-plugins",
+        "headline": "Databricks turns Genie into an autonomous coworker and plugs it into Claude and ChatGPT",
+        "urls": [
+          "https://www.databricks.com/blog/new-genie-autonomous-ai-complex-enterprise-work",
+          "https://www.databricks.com/blog/bring-your-business-context-chatgpt-claude-microsoft-copilot-cowork-and-grok-bot"
+        ],
+        "summary": "Databricks said Genie now runs long tasks on its own within guardrails, drawing on Genie Ontology for certified business definitions, while Unity Gateway lets administrators control tool access, trace actions and cap spending. Genie plugins"
+      },
+      {
+        "date": "2026-11-12",
+        "mode": "daily",
+        "key": "google|launch|gemini-decisions-api",
+        "headline": "Google launches a Gemini Decisions API for fast, scored yes-or-no and rubric judgements",
+        "urls": [
+          "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
+        ],
+        "summary": "Google introduced the Gemini Decisions API, powered by a new model, Gemini Decision 1, which evaluates up to 1,000 yes-or-no, multiple-choice and rubric questions in a single pass across text, images, audio, video and PDFs. It returns confi"
+      },
+      {
+        "date": "2026-11-12",
+        "mode": "daily",
+        "key": "microsoft|security|november-2026-patches",
+        "headline": "Microsoft fixes about 1,090 vulnerabilities, including an Outlook flaw already being exploited",
+        "urls": [
+          "https://www.inside-it.ch/microsoft-behebt-ueber-1000-schwachstellen-20261111"
+        ],
+        "summary": "Microsoft's November security updates cover about 1,090 vulnerabilities across Windows, Office, Exchange Server, Azure and .NET, according to Inside IT, citing the Zero Day Initiative. An Outlook flaw that leaks users' NTLM hashes is under "
+      },
+      {
+        "date": "2026-11-12",
+        "mode": "daily",
+        "key": "coreweave|results|q3-2026-prepayments",
+        "headline": "CoreWeave asks customers to prepay as it funds AI capacity without unsecured debt",
+        "urls": [
+          "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/"
+        ],
+        "summary": "CoreWeave reported third-quarter revenue of USD 3.66 billion, up 168 percent, with a USD 709 million net loss and USD 846 million in interest expense, according to TechCrunch. It is asking customers to pay up front, borrowing against specif"
+      },
+      {
+        "date": "2026-11-12",
+        "mode": "daily",
+        "key": "liechtenstein|investigation|beneficial-owner-register-cyberattack",
+        "headline": "Liechtenstein commissions an external investigation into the cyberattack on its beneficial owner register",
+        "urls": [
+          "https://www.inside-it.ch/nach-cyberangriff-liechtenstein-zahlt-1%252C6-millionen-fuer-externe-untersuchung-20261111"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-12",
+        "mode": "daily",
+        "key": "imd|ranking|world-digital-competitiveness-2026",
+        "headline": "Switzerland drops from first to ninth in IMD's digital competitiveness ranking, citing AI",
+        "urls": [
+          "https://www.inside-it.ch/schweiz-faellt-zurueck-bei-digitalisierung-20261111"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-12",
+        "mode": "daily",
+        "key": "redalpine|fund|rac-viii",
+        "headline": "Zurich venture firm redalpine closes its eighth early-stage fund at USD 250 million",
+        "urls": [
+          "https://fintechnews.ch/funding/redalpine-250m-fund-rac-viii-close/87025/"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-12",
+        "mode": "daily",
+        "key": "accenture|survey|swiss-cybersecurity-ai",
+        "headline": "Accenture survey: 41 percent of Swiss companies already use AI in cybersecurity",
+        "urls": [
+          "https://www.inside-it.ch/schweizer-firmen-ruesten-gegen-ki-angriffe-auf-20261111"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-12",
+        "mode": "daily",
+        "key": "swiss-post|outsourcing|e-voting-swisscom",
+        "headline": "Swisscom to operate part of Swiss Post's e-voting infrastructure, DNIP reports",
+        "urls": [
+          "https://www.ictjournal.ch/news/2026-11-11/swisscom-exploitera-une-partie-de-linfrastructure-de-vote-electronique-de-la-poste"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-12",
+        "mode": "daily",
+        "key": "signicat|appoint|fenner-ceo",
+        "headline": "Signicat names Keith Fenner chief executive as AI-driven identity fraud rises",
+        "urls": [
+          "https://fintechnews.ch/aifintech/signicat-keith-fenner-ceo-appointment/87000/"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-12",
+        "mode": "daily",
+        "key": "fidelity|listing|buffer-etfs-six",
+        "headline": "Fidelity lists two buffer ETFs on SIX Swiss Exchange",
+        "urls": [
+          "https://www.finews.com/news/english-news/74443-fidelity-buffer-etf-loss-buffer-swiss-exchange-six"
+        ],
+        "summary": ""
       }
     ]
   },
   "calendar": {
     "events": [
       {
-        "date": "2026-11-11",
-        "event": "Swiss Life third-quarter update",
-        "url": null,
-        "added": "2026-11-06",
-        "checked": "2026-11-11"
-      },
-      {
         "date": "2026-11-12",
         "event": "Zurich Insurance third-quarter update",
         "url": null,
         "added": "2026-11-06",
-        "checked": "2026-11-11"
+        "checked": "2026-11-12"
       },
       {
         "date": "2026-11-12",
         "event": "Swiss Finance Institute annual meeting on the impact of AI on finance, Zurich",
         "url": null,
         "added": "2026-11-06",
-        "checked": "2026-11-11"
+        "checked": "2026-11-12"
       },
       {
         "date": "2026-11-16",
         "event": "Lugano Global Forum, opened by Sergio Ermotti (to 17 November)",
         "url": null,
         "added": "2026-11-06",
-        "checked": "2026-11-11"
+        "checked": "2026-11-12"
       },
       {
         "date": "2026-11-17",
         "event": "Nvidia third-quarter results (fiscal 2027)",
         "url": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6",
         "added": "2026-11-01",
-        "checked": "2026-11-11"
+        "checked": "2026-11-12"
       },
       {
         "date": "2026-11-17",
         "event": "Microsoft Ignite opens in San Francisco (to 20 November)",
         "url": "https://www.moscone.com/events/microsoft-ignite-2026",
         "added": "2026-11-01",
-        "checked": "2026-11-11"
+        "checked": "2026-11-12"
       },
       {
         "date": "2026-11-18",
         "event": "Singapore FinTech Festival (to 20 November)",
         "url": "https://www.fintechfestival.sg/",
         "added": "2026-11-01",
-        "checked": "2026-11-08"
+        "checked": "2026-11-12"
       },
       {
         "date": "2026-11-23",
@@ -3063,6 +3267,19 @@
     ]
   },
   "archive": [
+    {
+      "date": "2026-11-12",
+      "mode": "daily",
+      "overview": "McKinsey finds Swiss banks highly profitable but short of AI scale, Nvidia's board weighs Jensen Huang's future, and the SNB sees no credit crunch.",
+      "headlines": [
+        "McKinsey finds Swiss banks more profitable than peers but short of AI scale",
+        "Update: Nvidia's board meets on Jensen Huang's future after a second affair report",
+        "SNB sees no credit crunch and confirms its growth forecasts"
+      ],
+      "audio_url": "audio/signal-2026-11-12.mp3",
+      "duration": 739.91,
+      "slug": "2026-11-12"
+    },
     {
       "date": "2026-11-11",
       "mode": "daily",

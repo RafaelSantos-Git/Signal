@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "updated": "2026-11-11T05:14+01:00",
+  "updated": "2026-11-12T05:14+01:00",
   "editions": [
+    {
+      "date": "2026-11-12",
+      "mode": "daily",
+      "slug": "2026-11-12",
+      "title": "Signal · Thursday 12 November",
+      "kind": "Daily briefing",
+      "duration": 739.91,
+      "stories": 21,
+      "overview": "McKinsey finds Swiss banks highly profitable but short of AI scale, Nvidia's board weighs Jensen Huang's future, and the SNB sees no credit crunch.",
+      "path": "d/2026-11-12/",
+      "edition": "d/2026-11-12/edition.json"
+    },
     {
       "date": "2026-11-11",
       "mode": "daily",
