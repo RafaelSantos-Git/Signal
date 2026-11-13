@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "updated": "2026-11-12T05:14+01:00",
+  "updated": "2026-11-13T04:45+01:00",
   "editions": [
+    {
+      "date": "2026-11-13",
+      "mode": "daily",
+      "slug": "2026-11-13",
+      "title": "Signal · Friday 13 November",
+      "kind": "Daily briefing",
+      "duration": 771.48,
+      "stories": 20,
+      "overview": "Jensen Huang leaves Nvidia with immediate effect, the finance ministry fines former Credit Suisse chair Urs Rohner, and wealth platform FNZ pulls back to its core markets.",
+      "path": "d/2026-11-13/",
+      "edition": "d/2026-11-13/edition.json"
+    },
     {
       "date": "2026-11-12",
       "mode": "daily",
@@ -157,18 +169,6 @@
       "overview": "Bern sets out its path to binding AI rules, Swiss banks stay loyal to core systems they rate poorly on AI, and Canada's big banks shut out personal AI agents.",
       "path": "d/2026-10-29/",
       "edition": "d/2026-10-29/edition.json"
-    },
-    {
-      "date": "2026-10-28",
-      "mode": "daily",
-      "slug": "2026-10-28",
-      "title": "Signal · Wednesday 28 October",
-      "kind": "Daily briefing",
-      "duration": 577.41,
-      "stories": 15,
-      "overview": "UBS beats its cost-saving goal and ties buybacks to the capital debate, Temenos raises its guidance, and Microsoft offers 60,000 staff voluntary departure.",
-      "path": "d/2026-10-28/",
-      "edition": "d/2026-10-28/edition.json"
     }
   ]
 }

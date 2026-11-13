@@ -1,7 +1,7 @@
 {
   "log": {
     "last_delivery": {
-      "daily": "2026-11-12T05:14+01:00",
+      "daily": "2026-11-13T04:45+01:00",
       "weekly": "2026-11-08T06:35+01:00"
     },
     "stories": [
@@ -3126,31 +3126,226 @@
           "https://www.finews.com/news/english-news/74443-fidelity-buffer-etf-loss-buffer-swiss-exchange-six"
         ],
         "summary": ""
+      },
+      {
+        "date": "2026-11-13",
+        "mode": "daily",
+        "key": "nvidia|ceo|huang-resigns",
+        "headline": "Update: Jensen Huang resigns as Nvidia chief; CFO Colette Kress steps in",
+        "urls": [
+          "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/",
+          "https://www.ictjournal.ch/news/2026-11-12/jensen-huang-quitte-nvidia-avec-effet-immediat",
+          "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/"
+        ],
+        "summary": "Nvidia's board said on 12 November that Jensen Huang, co-founder and chief executive for 33 years, had resigned as president, CEO and director with immediate effect. Colette Kress, chief financial officer since 2013, becomes interim CEO whi"
+      },
+      {
+        "date": "2026-11-13",
+        "mode": "daily",
+        "key": "urs-rohner|fine|cs-surveillance-false-information",
+        "headline": "Finance ministry fines former Credit Suisse chair Urs Rohner over surveillance affair",
+        "urls": [
+          "https://www.swissinfo.ch/eng/best-of-srg-content/ex-credit-suisse-chair-fined-for-spying-scandals/92369383",
+          "https://www.finews.com/news/english-news/74462-urs-rohner-busse-edf-beschattungsaffaere"
+        ],
+        "summary": "The Federal Department of Finance has penalised Urs Rohner, Credit Suisse chair from 2011 to 2021, for knowingly giving FINMA false information about the bank's surveillance of staff, according to SRF Investigativ and Republik. The order of"
+      },
+      {
+        "date": "2026-11-13",
+        "mode": "daily",
+        "key": "fnz|restructuring|offices-headcount",
+        "headline": "Wealth platform FNZ cuts jobs and narrows its footprint to core markets",
+        "urls": [
+          "https://www.scottishfinancialnews.com/articles/fnz-to-accelerate-transformation-plans-as-it-announces-plans-to-reduce-headcount",
+          "https://www.moneymarketing.co.uk/news/fnz-cuts-jobs-as-wealth-platform-accelerates-transformation-plan/"
+        ],
+        "summary": "FNZ, which administers USD 2.5 trillion for 30 million investors, said on 12 November it will cut headcount, reduce global and regional overheads and narrow its geographic footprint. Offices in Singapore, the Nordics, Spain, Italy and Franc"
+      },
+      {
+        "date": "2026-11-13",
+        "mode": "daily",
+        "key": "allocare|acquired|volaris",
+        "headline": "Lucerne wealthtech Allocare joins Constellation Software's Volaris Group",
+        "urls": [
+          "https://www.finews.com/news/english-news/74459-canadian-software-group-acquires-swiss-wealthtech-firm-allocare",
+          "https://www.inside-it.ch/luzerner-allocare-wird-teil-der-volaris-group-20261112"
+        ],
+        "summary": "Allocare, which makes portfolio management, compliance and reporting software for banks, independent wealth managers and family offices, has belonged to Volaris since 1 October, it said on 12 November. It keeps its brand and operational ind"
+      },
+      {
+        "date": "2026-11-13",
+        "mode": "daily",
+        "key": "rothschild-co|appoint|ctoo-de-ridder",
+        "headline": "Rothschild & Co hires Lombard Odier's technology and operations head as group CTOO",
+        "urls": [
+          "https://www.finews.ch/news/banken/74470-rothschilt-und-co-geoffroy-de-ridder-ctoo"
+        ],
+        "summary": "Rothschild & Co has named Geoffroy de Ridder group chief technology and operations officer, a new role he takes up in December alongside the same post for wealth and asset management, finews reports. He led technology and operations at Lomb"
+      },
+      {
+        "date": "2026-11-13",
+        "mode": "daily",
+        "key": "avaloq|study|uk-wealth-ai-trust",
+        "headline": "Avaloq: 44 percent of UK investors want AI out of product recommendations",
+        "urls": [
+          "https://www.wealthbriefing.com/html/article.php/uk-wealth-managers-have-higher-client-ratios%2C-admin-takes-up-more-time--avaloq-study"
+        ],
+        "summary": "UK wealth managers handle larger client books and spend more time on administration than peers elsewhere, according to Avaloq research reported by WealthBriefing on 12 November. Ninety percent of UK managers expect AI to benefit the industr"
+      },
+      {
+        "date": "2026-11-13",
+        "mode": "daily",
+        "key": "hsbc-uk|launch|stripe-tap-to-pay",
+        "headline": "HSBC UK adds Stripe-powered Tap to Pay to its business banking app",
+        "urls": [
+          "https://fintechnews.ch/london/stripe-hsbc-tap-to-pay-uk-small-business/87034/"
+        ],
+        "summary": "Sole traders and small businesses banking with HSBC UK can now accept contactless payments on a compatible smartphone, without a separate card reader, by switching the feature on in the bank's business app, Fintech News Switzerland reports."
+      },
+      {
+        "date": "2026-11-13",
+        "mode": "daily",
+        "key": "sba|study|bak-value-added-2025",
+        "headline": "Swiss banks generated CHF 74.5 billion in value added in 2025, SBA study finds",
+        "urls": [
+          "https://www.swissinfo.ch/eng/swiss-economy/swiss-banks-generate-value-added-of-chf-74-5-billion/92368551"
+        ],
+        "summary": "Banks' direct gross value added reached CHF 43.8 billion in 2025, about 5.1 percent of the Swiss total, with 157,700 full-time staff, according to a BAK Economics study for the Swiss Bankers Association reported by Keystone-SDA. With indire"
+      },
+      {
+        "date": "2026-11-13",
+        "mode": "daily",
+        "key": "zurich-insurance|results|9m-2026",
+        "headline": "Zurich lifts property and casualty premiums 7 percent despite European storm losses",
+        "urls": [
+          "https://www.finews.com/news/english-news/74465-zurich-insurance-earnings-q3-2026-gross-premium-growth"
+        ],
+        "summary": "Gross written premiums in property and casualty rose 7 percent on a comparable basis to USD 42.1 billion in the first nine months, with motor up 14 percent, Zurich said on 12 November. Storms in Switzerland, Germany and Italy raised the cat"
+      },
+      {
+        "date": "2026-11-13",
+        "mode": "daily",
+        "key": "swiss-franc|markets|carry-squeeze-smi-record",
+        "headline": "Franc rally squeezes carry trades as the SMI sets a record above 15,200",
+        "urls": [
+          "https://www.swissinfo.ch/eng/macroeconomics/swiss-franc-carry-trade-squeeze-adds-fuel-to-haven-rally/92370964",
+          "https://www.swissinfo.ch/eng/swiss-economy/the-smi-sets-a-new-record-high-of-over-15200-points/92372030"
+        ],
+        "summary": "Year-to-date returns from selling the franc against the euro fell to 0.1 percent last week from 3.4 percent at the end of September, Bloomberg reports, after the franc touched 0.91376 per euro, its strongest since May. SNB officials told th"
+      },
+      {
+        "date": "2026-11-13",
+        "mode": "daily",
+        "key": "metro-bank|sale|formal-sale-process",
+        "headline": "Metro Bank launches a formal sale process as part of a strategic review",
+        "urls": [
+          "https://www.tradingview.com/news/eqs:044b91d99094b:0-announcement-of-strategic-review-including-commencement-of-formal-sale-process/",
+          "https://www.globalbankingandfinance.com/uks-metro-bank-up-sale-part-strategic-review/"
+        ],
+        "summary": "Metro Bank said on 12 November its board is reviewing options, including a formal sale, and that it is in no active discussions with any potential bidder. The UK lender, valued at GBP 1.2 billion before the news according to Reuters, reaffi"
+      },
+      {
+        "date": "2026-11-13",
+        "mode": "daily",
+        "key": "google|release|gemini-4-hydrogen",
+        "headline": "Google launches Gemini 4 Hydrogen, a fast model for everyday coding and agents",
+        "urls": [
+          "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+          "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen/"
+        ],
+        "summary": "Google said on 12 November that Hydrogen scores 51 on the Artificial Analysis Intelligence Index at its default setting, ahead of Gemini 4 Argon's 50, and costs USD 1.50 per million input tokens and USD 7.50 per million output tokens across"
+      },
+      {
+        "date": "2026-11-13",
+        "mode": "daily",
+        "key": "microsoft|outage|m365-2026-11-12",
+        "headline": "Microsoft 365 outage disrupts Outlook, Teams and Copilot for hours worldwide",
+        "urls": [
+          "https://techcrunch.com/2026/11/12/microsofts-outlook-email-hit-by-new-outage/",
+          "https://www.srf.ch/news/wirtschaft/software-riese-microsoft-stundenlanger-ausfall-beeintraechtigt-outlook-und-teams"
+        ],
+        "summary": "Microsoft said on 12 November that a large number of servers had become unexpectedly unavailable, cutting access to Exchange Online mailboxes in any region, with Teams, SharePoint, Copilot and Defender XDR also hit, TechCrunch reports. Rest"
+      },
+      {
+        "date": "2026-11-13",
+        "mode": "daily",
+        "key": "fireworks-ai|breach|notion-ai-transcripts",
+        "headline": "Breach at AI host Fireworks exposes Notion AI chat transcripts",
+        "urls": [
+          "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/"
+        ],
+        "summary": "Fireworks AI, which serves open models to developers, said attackers breached its cloud provider and reached a development system holding customers' billing information and some datasets, TechCrunch reports. Notion said about 1 percent of i"
+      },
+      {
+        "date": "2026-11-13",
+        "mode": "daily",
+        "key": "united-airlines|restrict|personal-ai-agents",
+        "headline": "United Airlines blocks personal AI agents from booking, citing credential risks",
+        "urls": [
+          "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/"
+        ],
+        "summary": "United said on 12 November it will restrict unauthorised third-party AI agents from its booking and account systems, directly and through agencies and aggregators, warning that shared credentials can lead to unintended purchases or account "
+      },
+      {
+        "date": "2026-11-13",
+        "mode": "daily",
+        "key": "t-systems-schweiz|launch|swiss-ai-factory",
+        "headline": "T-Systems Switzerland launches a sovereign AI platform for firms with sensitive data",
+        "urls": [
+          "https://www.netzwoche.ch/news/2026-11-12/t-systems-schweiz-lanciert-plattform-fuer-souveraene-ki"
+        ],
+        "summary": "The Swiss AI Factory combines GPU capacity in T-Systems' Swiss data centres, open-source models and an AI gateway that applies anonymisation, access control and audit logs, Netzwoche reports. Customers choose their models and where data is "
+      },
+      {
+        "date": "2026-11-13",
+        "mode": "daily",
+        "key": "revolut|ecb-approval|lithuania-france-transfer",
+        "headline": "ECB approves moving part of Revolut's Lithuanian bank to its new French bank",
+        "urls": [
+          "https://fintechnews.ch/virtual-banking/revolut-ecb-approval-lithuania-france/87031/"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-13",
+        "mode": "daily",
+        "key": "consulting-network-switzerland|study|ai-driven-consulting-2026",
+        "headline": "Swiss consultancies use AI widely; 55 percent see no effect on prices or margins",
+        "urls": [
+          "https://www.inside-it.ch/ki-noch-kein-geschaeft-fuer-schweizer-consultants-20261112"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-13",
+        "mode": "daily",
+        "key": "epfl|launch|ai-bachelor-2027",
+        "headline": "EPFL will launch a bachelor's degree in artificial intelligence in autumn 2027",
+        "urls": [
+          "https://www.ictjournal.ch/news/2026-11-12/lepfl-lance-un-bachelor-dedie-a-lia-des-la-rentree-2027"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-13",
+        "mode": "daily",
+        "key": "michael-page|report|swiss-salaries-2027",
+        "headline": "Michael Page: Swiss pay broadly flat for 2027, while AI specialists see sharp rises",
+        "urls": [
+          "https://www.netzwoche.ch/news/2026-11-12/schweizer-it-loehne-steigen-besonders-jene-der-ki-profis"
+        ],
+        "summary": ""
       }
     ]
   },
   "calendar": {
     "events": [
       {
-        "date": "2026-11-12",
-        "event": "Zurich Insurance third-quarter update",
-        "url": null,
-        "added": "2026-11-06",
-        "checked": "2026-11-12"
-      },
-      {
-        "date": "2026-11-12",
-        "event": "Swiss Finance Institute annual meeting on the impact of AI on finance, Zurich",
-        "url": null,
-        "added": "2026-11-06",
-        "checked": "2026-11-12"
-      },
-      {
         "date": "2026-11-16",
         "event": "Lugano Global Forum, opened by Sergio Ermotti (to 17 November)",
         "url": null,
         "added": "2026-11-06",
-        "checked": "2026-11-12"
+        "checked": "2026-11-13"
       },
       {
         "date": "2026-11-17",
@@ -3164,14 +3359,21 @@
         "event": "Microsoft Ignite opens in San Francisco (to 20 November)",
         "url": "https://www.moscone.com/events/microsoft-ignite-2026",
         "added": "2026-11-01",
-        "checked": "2026-11-12"
+        "checked": "2026-11-13"
+      },
+      {
+        "date": "2026-11-17",
+        "event": "Nvidia third-quarter results, the first under interim chief Colette Kress",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6",
+        "added": "2026-11-13",
+        "checked": "2026-11-13"
       },
       {
         "date": "2026-11-18",
         "event": "Singapore FinTech Festival (to 20 November)",
         "url": "https://www.fintechfestival.sg/",
         "added": "2026-11-01",
-        "checked": "2026-11-12"
+        "checked": "2026-11-13"
       },
       {
         "date": "2026-11-23",
@@ -3179,6 +3381,13 @@
         "url": "https://www.cash.ch/news/presse-kompromiss-in-ubs-eigenmittelfrage-will-bewertungsmethode-andern-982502",
         "added": "2026-11-05",
         "checked": "2026-11-08"
+      },
+      {
+        "date": "2026-11-23",
+        "event": "National Council economic affairs committee debates the UBS capital bill (to 24 November)",
+        "url": "https://www.cash.ch/news/presse-kompromiss-in-ubs-eigenmittelfrage-will-bewertungsmethode-andern-982502",
+        "added": "2026-11-13",
+        "checked": "2026-11-13"
       },
       {
         "date": "2026-11-30",
@@ -3267,6 +3476,19 @@
     ]
   },
   "archive": [
+    {
+      "date": "2026-11-13",
+      "mode": "daily",
+      "overview": "Jensen Huang leaves Nvidia with immediate effect, the finance ministry fines former Credit Suisse chair Urs Rohner, and wealth platform FNZ pulls back to its core markets.",
+      "headlines": [
+        "Update: Jensen Huang resigns as Nvidia chief; CFO Colette Kress steps in",
+        "Finance ministry fines former Credit Suisse chair Urs Rohner over surveillance affair",
+        "Wealth platform FNZ cuts jobs and narrows its footprint to core markets"
+      ],
+      "audio_url": "audio/signal-2026-11-13.mp3",
+      "duration": 771.48,
+      "slug": "2026-11-13"
+    },
     {
       "date": "2026-11-12",
       "mode": "daily",
@@ -3439,19 +3661,6 @@
       "audio_url": "audio/signal-2026-10-29.mp3",
       "duration": 720.71,
       "slug": "2026-10-29"
-    },
-    {
-      "date": "2026-10-28",
-      "mode": "daily",
-      "overview": "UBS beats its cost-saving goal and ties buybacks to the capital debate, Temenos raises its guidance, and Microsoft offers 60,000 staff voluntary departure.",
-      "headlines": [
-        "UBS lifts pre-tax profit 27% and raises its cost-saving goal to $13.7bn",
-        "Temenos raises its 2026 profit guidance after a strong third quarter",
-        "Microsoft offers voluntary departure to about 60,000 staff as AI spending grows"
-      ],
-      "audio_url": "audio/signal-2026-10-28.mp3",
-      "duration": 577.41,
-      "slug": "2026-10-28"
     }
   ]
 }
