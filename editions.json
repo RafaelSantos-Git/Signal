@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "updated": "2026-11-13T04:45+01:00",
+  "updated": "2026-11-15T04:49+01:00",
   "editions": [
+    {
+      "date": "2026-11-15",
+      "mode": "weekly",
+      "slug": "2026-11-15-weekly",
+      "title": "Signal · Sunday 15 November",
+      "kind": "Weekly watch",
+      "duration": 739.39,
+      "stories": 22,
+      "overview": "Jensen Huang leaves Nvidia days before its results, Anthropic sets out its IPO as model prices fall, banks count AI use cases while Swiss banks lack scale, ChatGPT and Gemini reach for customers' wallets, and Crédit Agricole bids to reshape Italian banking.",
+      "path": "d/2026-11-15-weekly/",
+      "edition": "d/2026-11-15-weekly/edition.json"
+    },
     {
       "date": "2026-11-13",
       "mode": "daily",
@@ -157,18 +169,6 @@
       "overview": "The ECB holds rates as energy pushes inflation to 3.8 percent, BBVA puts AI agents at the centre of a strong quarter, and Société Générale posts a record third quarter.",
       "path": "d/2026-10-30/",
       "edition": "d/2026-10-30/edition.json"
-    },
-    {
-      "date": "2026-10-29",
-      "mode": "daily",
-      "slug": "2026-10-29",
-      "title": "Signal · Thursday 29 October",
-      "kind": "Daily briefing",
-      "duration": 720.71,
-      "stories": 21,
-      "overview": "Bern sets out its path to binding AI rules, Swiss banks stay loyal to core systems they rate poorly on AI, and Canada's big banks shut out personal AI agents.",
-      "path": "d/2026-10-29/",
-      "edition": "d/2026-10-29/edition.json"
     }
   ]
 }
