@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "updated": "2026-11-15T04:49+01:00",
+  "updated": "2026-11-16T04:50+01:00",
   "editions": [
+    {
+      "date": "2026-11-16",
+      "mode": "daily",
+      "slug": "2026-11-16",
+      "title": "Signal · Monday 16 November",
+      "kind": "Daily briefing",
+      "duration": 759.45,
+      "stories": 19,
+      "overview": "A quiet weekend: JPMorgan blocks AI shopping agents from its customers' cards, the FBI warns that the ARTEX AI attack framework is hitting financial firms, and BaFin fines Deutsche Bank over its Postbank migration.",
+      "path": "d/2026-11-16/",
+      "edition": "d/2026-11-16/edition.json"
+    },
     {
       "date": "2026-11-15",
       "mode": "weekly",
@@ -157,18 +169,6 @@
       "overview": "Euro area supervisors put generative AI use at about 85 percent of banks, Bern finds a UBS move abroad would bring little capital relief, and North Korean hackers are blamed for a record theft from Binance.",
       "path": "d/2026-10-31/",
       "edition": "d/2026-10-31/edition.json"
-    },
-    {
-      "date": "2026-10-30",
-      "mode": "daily",
-      "slug": "2026-10-30",
-      "title": "Signal · Friday 30 October",
-      "kind": "Daily briefing",
-      "duration": 345.28,
-      "stories": 10,
-      "overview": "The ECB holds rates as energy pushes inflation to 3.8 percent, BBVA puts AI agents at the centre of a strong quarter, and Société Générale posts a record third quarter.",
-      "path": "d/2026-10-30/",
-      "edition": "d/2026-10-30/edition.json"
     }
   ]
 }

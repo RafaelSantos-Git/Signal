@@ -1,7 +1,7 @@
 {
   "log": {
     "last_delivery": {
-      "daily": "2026-11-13T04:45+01:00",
+      "daily": "2026-11-16T04:50+01:00",
       "weekly": "2026-11-15T04:49+01:00"
     },
     "stories": [
@@ -3335,6 +3335,198 @@
           "https://www.netzwoche.ch/news/2026-11-12/schweizer-it-loehne-steigen-besonders-jene-der-ki-profis"
         ],
         "summary": ""
+      },
+      {
+        "date": "2026-11-16",
+        "mode": "daily",
+        "key": "jpmorgan|restrict|ai-agents-credit-cards",
+        "headline": "JPMorgan blocks AI shopping agents from using its customers' credit cards",
+        "urls": [
+          "https://www.pymnts.com/news/2026/jpmorgan-stops-ai-agents-from-using-customer-credit-cards/",
+          "https://www.fool.com/investing/2026/11/14/jamie-dimon-just-said-5-words-blocking-outside-ai/"
+        ],
+        "summary": "JPMorgan Chase is blocking AI agents from shopping with its customers' credit cards when customers give an agent their card number, The Wall Street Journal reported on 13 November, according to PYMNTS. Cards from Bank of America, Capital On"
+      },
+      {
+        "date": "2026-11-16",
+        "mode": "daily",
+        "key": "fbi|advisory|artex-ai-attack-framework",
+        "headline": "FBI warns the ARTEX AI attack framework is hitting financial firms and others",
+        "urls": [
+          "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/"
+        ],
+        "summary": "In a FLASH advisory released on 13 November, the FBI said several threat actors have used ARTEX, an open-source framework whose AI agents handle reconnaissance, exploitation and data theft, since at least August against financial, governmen"
+      },
+      {
+        "date": "2026-11-16",
+        "mode": "daily",
+        "key": "deutsche-bank|fine|bafin-postbank-migration",
+        "headline": "BaFin fines Deutsche Bank EUR 8 million over its Postbank IT migration",
+        "urls": [
+          "https://fintechnews.ch/fintechgermany/bafin-fines-deutsche-bank-8-million-postbank/87066/"
+        ],
+        "summary": "Germany's financial supervisor BaFin fined Deutsche Bank EUR 8 million under the Securities Trading Act over Project Unity, which moved Postbank customers onto the parent bank's IT system, according to Fintech News Switzerland. BaFin found "
+      },
+      {
+        "date": "2026-11-16",
+        "mode": "daily",
+        "key": "sygnum|launch|eth-alpha-fund",
+        "headline": "Sygnum launches a market-neutral fund that pays its returns in ether",
+        "urls": [
+          "https://fintechnews.ch/blockchain_bitcoin/sygnum-eth-alpha-fund-staking-yield/87060/"
+        ],
+        "summary": "Digital asset bank Sygnum launched its ETH Alpha Fund SP for qualified and professional investors, targeting 8 to 10 percent a year in ETH after fees, against about 2 to 3 percent from staking alone, the company said. Core holdings stay sta"
+      },
+      {
+        "date": "2026-11-16",
+        "mode": "daily",
+        "key": "griffin|funding|series-b-cards-stablecoins",
+        "headline": "UK platform bank Griffin raises USD 20 million for cards and stablecoins",
+        "urls": [
+          "https://fintechnews.ch/london/griffin-series-b-cards-stablecoins/87076/"
+        ],
+        "summary": "Griffin, a UK bank serving fintechs and platforms, raised USD 20 million in a Series B led by Octagon Partners, valuing it at more than USD 100 million. It says the money carries it to profitability and funds branded debit cards, then credi"
+      },
+      {
+        "date": "2026-11-16",
+        "mode": "daily",
+        "key": "anchorage-digital|partner|visa-usdpt-settlement",
+        "headline": "Visa partners can now settle in Western Union's USDPT stablecoin via Anchorage",
+        "urls": [
+          "https://fintechnews.ch/fintechusa/anchorage-digital-visa-stablecoin-settlement-usdpt/87085/"
+        ],
+        "summary": "Anchorage Digital is working with Visa so that some stablecoins it issues can settle on the card network, starting with Western Union's USDPT, which Visa and eligible partners can now use to pay what they owe on VisaNet. The firms did not s"
+      },
+      {
+        "date": "2026-11-16",
+        "mode": "daily",
+        "key": "glarner-kantonalbank|strategy|owner-strategy-2026",
+        "headline": "Glarus asks its cantonal bank to build capital and keep payouts steady",
+        "urls": [
+          "https://www.finews.ch/news/banken/74476-glarner-kantonalbank-eignerstrategie-kanton"
+        ],
+        "summary": "The Glarus government adopted a new owner strategy for Glarner Kantonalbank on 10 November, replacing the 2008 version, finews reported. The canton keeps its majority stake and the state guarantee, and wants equity built from the bank's own"
+      },
+      {
+        "date": "2026-11-16",
+        "mode": "daily",
+        "key": "ubs|index|pension-fund-performance-october-2026",
+        "headline": "Swiss pension funds gain 0.41 percent in October as Swiss shares rise 6 percent",
+        "urls": [
+          "https://www.finews.ch/news/versicherungen/74474-ubs-pensionskassen-performance-oktober-2026"
+        ],
+        "summary": "Swiss pension funds returned 0.41 percent on average in October and 4.91 percent so far this year, according to UBS's pension fund performance study, reported by finews. Swiss equities gained 6.01 percent while global equities fell 2.84 per"
+      },
+      {
+        "date": "2026-11-16",
+        "mode": "daily",
+        "key": "urs-rohner|report|greenpeace-surveillance",
+        "headline": "Update: Rohner ordered Credit Suisse's surveillance of Greenpeace, SonntagsZeitung reports",
+        "urls": [
+          "https://www.cash.ch/news/presseschau-vom-wochenende-46-1415-november-985369"
+        ],
+        "summary": "Former Credit Suisse chair Urs Rohner personally ordered the surveillance of Greenpeace after activists abseiled from the ceiling at the bank's 2017 annual meeting, the SonntagsZeitung reported, according to cash.ch's weekend press review, "
+      },
+      {
+        "date": "2026-11-16",
+        "mode": "daily",
+        "key": "generali|results|9m-2026",
+        "headline": "Generali lifts its nine-month operating result 8.5 percent despite heavier catastrophe losses",
+        "urls": [
+          "https://www.generali.com/media/press-releases/all/2026/Financial-information-at-30-september-2026",
+          "https://www.finews.ch/news/versicherungen/74480-generali-ergebnis-9m-2026"
+        ],
+        "summary": "Generali's operating result rose 8.5 percent to EUR 6,446 million in the first nine months, gross written premiums grew 4.5 percent to EUR 76.5 billion and life net inflows rose 13.6 percent to EUR 11.7 billion, the group said on 13 Novembe"
+      },
+      {
+        "date": "2026-11-16",
+        "mode": "daily",
+        "key": "langchain|funding|series-c-3bn",
+        "headline": "LangChain raises USD 300 million at a USD 3 billion valuation",
+        "urls": [
+          "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/"
+        ],
+        "summary": "LangChain raised a USD 300 million Series C led by CapitalG, with GIC, DFJ Growth, IVP and Sapphire Ventures, at a USD 3 billion valuation, more than double its value a year ago, the company announced on 13 November, according to TechCrunch"
+      },
+      {
+        "date": "2026-11-16",
+        "mode": "daily",
+        "key": "gartner|forecast|it-spending-2027",
+        "headline": "Gartner sees AI lifting 2027 IT spending 18.3 percent to USD 5.96 trillion",
+        "urls": [
+          "https://www.netzwoche.ch/news/2026-11-13/ki-treibt-it-ausgaben-2027-auf-neue-hoechststaende"
+        ],
+        "summary": "Worldwide IT spending excluding telecom services will reach USD 5.961 trillion in 2027, up 18.3 percent on 2026, Gartner forecast, according to Netzwoche. Data centre systems lead with 55.5 percent growth to USD 1,366 billion. Data centre d"
+      },
+      {
+        "date": "2026-11-16",
+        "mode": "daily",
+        "key": "digitec-galaxus|launch|mcp-catalogue",
+        "headline": "Galaxus opens its product catalogue to Claude and ChatGPT through MCP",
+        "urls": [
+          "https://www.ictjournal.ch/news/2026-11-13/galaxus-ouvre-son-catalogue-de-produits-aux-assistants-ia"
+        ],
+        "summary": "Digitec Galaxus launched a Model Context Protocol interface that lets AI assistants such as Claude and ChatGPT search its Swiss catalogue and show prices, ratings and review summaries in the chat, ICTjournal reported. It says it is the firs"
+      },
+      {
+        "date": "2026-11-16",
+        "mode": "daily",
+        "key": "garante|fine|meta-gallery-access",
+        "headline": "Italy's data protection authority fines Meta EUR 805 million over Facebook gallery access",
+        "urls": [
+          "https://www.srf.ch/news/wirtschaft/zugriff-ohne-einwilligung-meta-muss-in-italien-805-millionen-euro-strafe-zahlen"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-16",
+        "mode": "daily",
+        "key": "ecb|speech|schnabel-made-in-europe",
+        "headline": "ECB's Isabel Schnabel says the Single Market must give Europe the scale it lacks",
+        "urls": [
+          "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261113~3883f1f187.en.html"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-16",
+        "mode": "daily",
+        "key": "eba|statement|ngfs-energy-transition-cop31",
+        "headline": "EBA backs the NGFS declaration on the energy transition's macro-financial effects",
+        "urls": [
+          "https://www.eba.europa.eu/publications-and-media/press-releases/eba-supports-ngfs-declaration-macro-financial-dimension-energy-transition-occasion-cop31"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-16",
+        "mode": "daily",
+        "key": "infomaniak|build|bulle-datacentre",
+        "headline": "Infomaniak plans a heat-recovering data centre in Bulle with Gruyère Energie by 2028",
+        "urls": [
+          "https://www.inside-it.ch/infomaniak-plant-rechenzentrum-im-greyerzerland-20261113"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-16",
+        "mode": "daily",
+        "key": "epfl|research|brain-region-chip",
+        "headline": "EPFL researchers build an implantable chip that reads how brain regions interact",
+        "urls": [
+          "https://www.netzwoche.ch/news/2026-11-15/epfl-chip-analysiert-das-zusammenspiel-von-hirnregionen"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-16",
+        "mode": "daily",
+        "key": "arton-capital|open|zurich-office",
+        "headline": "Arton Capital opens a Zurich office for residence and citizenship advice",
+        "urls": [
+          "https://www.wealthbriefing.com/html/article.php/arton-capital-opens-zurich-office"
+        ],
+        "summary": ""
       }
     ]
   },
@@ -3345,35 +3537,35 @@
         "event": "Lugano Global Forum, opened by Sergio Ermotti (to 17 November)",
         "url": null,
         "added": "2026-11-06",
-        "checked": "2026-11-15"
+        "checked": "2026-11-16"
       },
       {
         "date": "2026-11-16",
         "event": "Swiss Payment Forum, Zurich (to 17 November)",
         "url": "https://www.netzwoche.ch/node/106107",
         "added": "2026-11-15",
-        "checked": "2026-11-15"
+        "checked": "2026-11-16"
       },
       {
         "date": "2026-11-17",
         "event": "Microsoft Ignite opens in San Francisco (to 20 November)",
         "url": "https://www.moscone.com/events/microsoft-ignite-2026",
         "added": "2026-11-01",
-        "checked": "2026-11-15"
+        "checked": "2026-11-16"
       },
       {
         "date": "2026-11-17",
         "event": "Nvidia third-quarter results, the first under interim chief Colette Kress",
         "url": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873",
         "added": "2026-11-13",
-        "checked": "2026-11-15"
+        "checked": "2026-11-16"
       },
       {
         "date": "2026-11-18",
         "event": "Singapore FinTech Festival (to 20 November)",
         "url": "https://www.fintechfestival.sg/",
         "added": "2026-11-01",
-        "checked": "2026-11-15"
+        "checked": "2026-11-16"
       },
       {
         "date": "2026-11-19",
@@ -3381,6 +3573,13 @@
         "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
         "added": "2026-11-15",
         "checked": "2026-11-15"
+      },
+      {
+        "date": "2026-11-19",
+        "event": "Anthropic shares expected to start trading on Nasdaq as ANT",
+        "url": "https://stockanalysis.com/news/anthropic-ipo-multiple-times-oversubscribed/",
+        "added": "2026-11-16",
+        "checked": "2026-11-16"
       },
       {
         "date": "2026-11-23",
@@ -3497,6 +3696,19 @@
     ]
   },
   "archive": [
+    {
+      "date": "2026-11-16",
+      "mode": "daily",
+      "overview": "A quiet weekend: JPMorgan blocks AI shopping agents from its customers' cards, the FBI warns that the ARTEX AI attack framework is hitting financial firms, and BaFin fines Deutsche Bank over its Postbank migration.",
+      "headlines": [
+        "JPMorgan blocks AI shopping agents from using its customers' credit cards",
+        "FBI warns the ARTEX AI attack framework is hitting financial firms and others",
+        "BaFin fines Deutsche Bank EUR 8 million over its Postbank IT migration"
+      ],
+      "audio_url": "audio/signal-2026-11-16.mp3",
+      "duration": 759.45,
+      "slug": "2026-11-16"
+    },
     {
       "date": "2026-11-15",
       "mode": "weekly",
@@ -3671,19 +3883,6 @@
       "audio_url": "audio/signal-2026-10-31.mp3",
       "duration": 699.03,
       "slug": "2026-10-31"
-    },
-    {
-      "date": "2026-10-30",
-      "mode": "daily",
-      "overview": "The ECB holds rates as energy pushes inflation to 3.8 percent, BBVA puts AI agents at the centre of a strong quarter, and Société Générale posts a record third quarter.",
-      "headlines": [
-        "ECB holds rates as energy pushes euro area inflation to 3.8 percent",
-        "BBVA lifts quarterly profit 19.1 percent and plans to industrialise AI agents",
-        "Société Générale posts record quarter with net income up 24.1 percent"
-      ],
-      "audio_url": "audio/signal-2026-10-30.mp3",
-      "duration": 345.28,
-      "slug": "2026-10-30"
     }
   ]
 }
