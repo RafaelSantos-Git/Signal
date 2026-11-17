@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "updated": "2026-11-16T04:50+01:00",
+  "updated": "2026-11-17T04:57+01:00",
   "editions": [
+    {
+      "date": "2026-11-17",
+      "mode": "daily",
+      "slug": "2026-11-17",
+      "title": "Signal · Tuesday 17 November",
+      "kind": "Daily briefing",
+      "duration": 746.16,
+      "stories": 23,
+      "overview": "The Fed's Michael Barr warns AI agents could speed bank runs to minutes, Brussels clears UniCredit's takeover of Commerzbank without conditions, and California sues OpenAI over rogue agent incidents.",
+      "path": "d/2026-11-17/",
+      "edition": "d/2026-11-17/edition.json"
+    },
     {
       "date": "2026-11-16",
       "mode": "daily",
@@ -157,18 +169,6 @@
       "overview": "UBS beats on profit as its capital fight with Bern hardens, the Federal Council sets a timetable for binding AI rules, banks put AI agents to work, the AI labs raise big numbers and hard questions, and a record Binance theft meets AI-run attacks.",
       "path": "d/2026-11-01-weekly/",
       "edition": "d/2026-11-01-weekly/edition.json"
-    },
-    {
-      "date": "2026-10-31",
-      "mode": "daily",
-      "slug": "2026-10-31",
-      "title": "Signal · Saturday 31 October",
-      "kind": "Daily briefing",
-      "duration": 699.03,
-      "stories": 31,
-      "overview": "Euro area supervisors put generative AI use at about 85 percent of banks, Bern finds a UBS move abroad would bring little capital relief, and North Korean hackers are blamed for a record theft from Binance.",
-      "path": "d/2026-10-31/",
-      "edition": "d/2026-10-31/edition.json"
     }
   ]
 }
