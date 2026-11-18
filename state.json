@@ -1,7 +1,7 @@
 {
   "log": {
     "last_delivery": {
-      "daily": "2026-11-17T04:57+01:00",
+      "daily": "2026-11-18T04:52+01:00",
       "weekly": "2026-11-15T04:49+01:00"
     },
     "stories": [
@@ -3762,52 +3762,277 @@
           "https://www.finews.ch/news/finanzplatz/74489-wegzuege-von-vontobel-und-cembra-immobilienberater-colliers-unternehmen-stadt-zurueckkehren-kleinere-bueroflaechen-an-besseren-lagen-neue-nachfrage-kuenstliche-intelligenz-und-robotik"
         ],
         "summary": ""
+      },
+      {
+        "date": "2026-11-18",
+        "mode": "daily",
+        "key": "ubs|capital-rules|accept-defeat",
+        "headline": "Update: UBS prepares to accept tougher Swiss capital rules, Reuters reports",
+        "urls": [
+          "https://uk.finance.yahoo.com/news/exclusive-ubs-set-accept-defeat-131059810.html",
+          "https://www.finews.com/news/english-news/74513-giorgio-pradelli-president-bankers-association-interview-nzz-banks-financial-center"
+        ],
+        "summary": "UBS is poised to accept defeat in its two-year fight to soften Switzerland's capital rules, Reuters reported on 17 November, citing three people familiar with the matter. The bank expects only token concessions and plans to set out its opti"
+      },
+      {
+        "date": "2026-11-18",
+        "mode": "daily",
+        "key": "deutsche-bank|leak|inside-deutsche-bank",
+        "headline": "Leak of 15 million Deutsche Bank files shows oligarch business ran through Switzerland",
+        "urls": [
+          "https://www.dawn.com/news/2044722",
+          "https://www.finews.com/news/english-news/74512-data-leak-15-million-internal-documents-deutsche-bank-under-pressure-exposures-swiss-business-russian-billionaires-with-close-ties-to-the-kremlin-bank-secrecy-plays-an-important-role"
+        ],
+        "summary": "An investigation by more than 200 journalists, published on 17 November from files two whistleblowers took from Deutsche Bank, found the bank served around twenty politically connected Russian oligarchs from Zurich and Geneva, according to "
+      },
+      {
+        "date": "2026-11-18",
+        "mode": "daily",
+        "key": "us-outages|cause|ai-found-flaw-patching",
+        "headline": "US officials link bank and NSA outages to rushed patches of AI-found flaws",
+        "urls": [
+          "https://www.washingtonsun.com/technology/bank-ceos-nsa-tell-congress-ai-driven-patches-behind-outages",
+          "https://www.cnn.com/2026/11/17/politics/highly-classified-national-security-communications-network-goes-down"
+        ],
+        "summary": "Wall Street executives and the NSA have told members of Congress that this week's US outages stem from rushed fixes for vulnerabilities identified by AI models, the Washington Sun reported on 17 November, citing three sources. Director of N"
+      },
+      {
+        "date": "2026-11-18",
+        "mode": "daily",
+        "key": "jpmorgan|model|large-payments-model",
+        "headline": "JPMorgan's single payments model improves card fraud detection by up to 85.5 percent",
+        "urls": [
+          "https://www.pymnts.com/cybersecurity/fraud-prevention/2026/jpmorgan-builds-one-ai-model-to-catch-85-more-fraud/"
+        ],
+        "summary": "JPMorgan built one model, trained on up to 400 billion tokens of card, ACH and wire data, for fraud detection, authorisation prediction and payment retries, PYMNTS reported on 17 November from a paper the bank published on 11 November. It i"
+      },
+      {
+        "date": "2026-11-18",
+        "mode": "daily",
+        "key": "evident|index|asset-management-2026",
+        "headline": "BlackRock, Vanguard and Fidelity lead Evident's first AI index for asset managers",
+        "urls": [
+          "https://www.investmentnews.com/transformation/blackrock-vanguard-fidelity-lead-inaugural-ai-index-for-asset-managers/269040"
+        ],
+        "summary": "Evident's first AI index for asset management, released on 17 November, ranks 30 large firms, with Bridgewater and Man Group fourth and fifth. The top nine account for 45 percent of 320 disclosed AI use cases, and only AllianceBernstein, Ca"
+      },
+      {
+        "date": "2026-11-18",
+        "mode": "daily",
+        "key": "model-ml|funding|series-b",
+        "headline": "Model ML raises USD 250 million to automate junior bankers' and consultants' work",
+        "urls": [
+          "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/"
+        ],
+        "summary": "London-based Model ML raised a USD 250 million Series B at a USD 1.5 billion valuation, co-led by General Atlantic and QED Investors, TechCrunch reported on 17 November. Its agents build financial models, pitch decks and due diligence repor"
+      },
+      {
+        "date": "2026-11-18",
+        "mode": "daily",
+        "key": "zurich-insurance|investor-day|beazley-synergies",
+        "headline": "Zurich raises its Beazley capital synergy target 80 percent to USD 1.8 billion",
+        "urls": [
+          "https://www.finews.com/news/english-news/74505-zurich-insurance-group-expects-beazley-acquisition-specialty-insurer-synergies-capital-synergies-revenue-po"
+        ],
+        "summary": "Zurich Insurance now expects USD 1.8 billion of capital synergies within two years of buying Beazley, up from USD 1 billion, and about USD 1.5 billion of extra revenue in the medium term, up from USD 1 billion, it said at its investor day o"
+      },
+      {
+        "date": "2026-11-18",
+        "mode": "daily",
+        "key": "deloitte-switzerland|results|fy2025-26",
+        "headline": "Deloitte Switzerland's revenue from financial services clients falls 12 percent",
+        "urls": [
+          "https://www.finews.ch/news/finanzplatz/74527-banken-und-versicherungen-wichtigste-kundengruppe-deloitte-groessten-umsatzrueckgang-f"
+        ],
+        "summary": "Deloitte Switzerland's net revenue fell 3.9 percent to CHF 562.5 million in the year to May, with banks, insurers and other financial firms down 12 percent to CHF 161.9 million, according to finews on 17 November. Consulting revenue fell al"
+      },
+      {
+        "date": "2026-11-18",
+        "mode": "daily",
+        "key": "swiss-re-institute|outlook|sigma-2027",
+        "headline": "Swiss Re Institute sees AI investment adding 0.4 points to 2027 global growth",
+        "urls": [
+          "https://www.finews.ch/news/finanzplatz/74519-weltwirtschaft-2027-staerker-wachsen-swiss-re-investitionen-in-kuenstliche-intelligenz-stei"
+        ],
+        "summary": "The Swiss Re Institute forecasts global growth of 2.8 percent in 2027, after an estimated 2.6 percent this year, with AI investment contributing about 0.4 percentage points, according to finews on 17 November. Chief economist Jérôme Jean Ha"
+      },
+      {
+        "date": "2026-11-18",
+        "mode": "daily",
+        "key": "nvidia|results|q3-fy2027",
+        "headline": "Nvidia's revenue rises 103 percent to USD 115.8 billion; board rules out Huang's return",
+        "urls": [
+          "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
+          "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/",
+          "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/"
+        ],
+        "summary": "Nvidia reported third-quarter revenue of USD 115.8 billion on 17 November, up 103 percent, with data centre revenue of USD 107.6 billion, and guided to about USD 130 billion for this quarter. Chairman Harvey Jones said the board does not in"
+      },
+      {
+        "date": "2026-11-18",
+        "mode": "daily",
+        "key": "openai|release|gpt-6-2-astra-sol",
+        "headline": "OpenAI releases GPT-6.2 Astra and Sol, cutting Astra's price by a fifth",
+        "urls": [
+          "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/"
+        ],
+        "summary": "OpenAI released GPT-6.2 Astra, its frontier model, and GPT-6.2 Sol, its everyday model, on 17 November. Astra costs USD 8 per million input tokens and USD 40 per million output tokens, 80 percent of GPT-6 Astra's price and level with Claude"
+      },
+      {
+        "date": "2026-11-18",
+        "mode": "daily",
+        "key": "microsoft|ignite|2026-microsoft-iq",
+        "headline": "Microsoft opens Ignite with Microsoft IQ, a context layer for enterprise agents",
+        "urls": [
+          "https://azure.microsoft.com/en-us/blog/microsoft-ignite-2026-whats-new-in-azure-the-platform-purpose-built-for-ai/",
+          "https://www.salesforce.com/news/stories/copilotforce-announcement/"
+        ],
+        "summary": "At Ignite on 17 November, Microsoft introduced Microsoft IQ, a platform for managing the business context agents draw on, with Azure HorizonDB for PostgreSQL and Fabric apps now generally available. Salesforce and Microsoft announced Copilo"
+      },
+      {
+        "date": "2026-11-18",
+        "mode": "daily",
+        "key": "anthropic|ipo|cloud-stakes-private-placement",
+        "headline": "Update: Amazon and Google to own almost 30 percent of Anthropic after its IPO",
+        "urls": [
+          "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/"
+        ],
+        "summary": "Anthropic disclosed on 17 November that Amazon will hold 14.7 percent and Google 13.7 percent after the IPO, both in non-voting shares, TechCrunch reported. AMD, Broadcom, Google, Micron, Microsoft, Nvidia and TSMC Partners agreed to buy US"
+      },
+      {
+        "date": "2026-11-18",
+        "mode": "daily",
+        "key": "google|policy|gemini-temporary-chat-retention",
+        "headline": "Google will keep temporary Gemini chats for about two months, up from 72 hours",
+        "urls": [
+          "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/"
+        ],
+        "summary": "Google is extending how long it keeps temporary Gemini chats, and those held with history turned off, to around two months, rolling out globally in the Gemini app over the coming weeks, TechCrunch reported on 17 November. It is also separat"
+      },
+      {
+        "date": "2026-11-18",
+        "mode": "daily",
+        "key": "finma|speech|walter-ten-core-elements",
+        "headline": "FINMA's Stefan Walter sets out ten core elements of effective supervision",
+        "urls": [
+          "https://www.finma.ch/en/documentation/finma-publications/addresses-and-specialist-articles/referate-folder/20261117-rede-stefan-walter-vaduz/"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-18",
+        "mode": "daily",
+        "key": "canton-zurich|strategy|cloud-strategy-2026",
+        "headline": "Canton of Zurich's cloud strategy allows global clouds even for sensitive personal data",
+        "urls": [
+          "https://www.netzwoche.ch/news/2026-11-17/zuerich-sieht-globale-clouds-auch-fuer-sensible-daten-vor"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-18",
+        "mode": "daily",
+        "key": "e-id|initiative|digital-ja-aber-frei",
+        "headline": "Popular initiative would bar Swiss state e-ID wallets from any financial transactions",
+        "urls": [
+          "https://www.inside-it.ch/volksinitiative-will-freiwilligkeit-der-e-id-absichern-20261117"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-18",
+        "mode": "daily",
+        "key": "sec|investigation|nvidia-disclosures",
+        "headline": "SEC opens a civil probe into Nvidia's disclosures, the Wall Street Journal reports",
+        "urls": [
+          "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-18",
+        "mode": "daily",
+        "key": "efg|appoint|asia-cio-huynh",
+        "headline": "EFG International names former BlackRock executive Tuan Huynh Asia chief investment officer",
+        "urls": [
+          "https://www.wealthbriefing.com/html/article.php/-efg-international-names-ex_dash_blackrock-figure-as-asia-cio"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-18",
+        "mode": "daily",
+        "key": "hamilton-lane|appoint|vonmoos-switzerland",
+        "headline": "Hamilton Lane hires former Credit Suisse executive Michael Vonmoos to lead Switzerland",
+        "urls": [
+          "https://www.finews.com/news/english-news/74516-private-markets-specialist-hamilton-lane-michael-vonmoos-new-head-of-switzerland-deutsche-bank-credit-suisse"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-18",
+        "mode": "daily",
+        "key": "banque-richelieu|appoint|burger-swiss-market",
+        "headline": "Banque Richelieu Switzerland hires BCGE's Klaus Burger as head of Swiss market",
+        "urls": [
+          "https://www.finews.com/news/english-news/74514-banque-richelieu-switzerland-standort-zuerich-richard-albrecht-ceo-klaus-burger-head-of-swiss-market"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-18",
+        "mode": "daily",
+        "key": "morgan-stanley-im|listing|active-etfs-six",
+        "headline": "Morgan Stanley Investment Management lists four active ETFs on SIX Swiss Exchange",
+        "urls": [
+          "https://www.six-group.com/en/newsroom/media-releases/2026/20261117-morganstanley-etf-issuer.html"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-18",
+        "mode": "daily",
+        "key": "freiburger-kantonalbank|rating|moodys-first",
+        "headline": "Fribourg Cantonal Bank gets its first Moody's rating, Aaa for long-term deposits",
+        "urls": [
+          "https://www.finews.ch/news/banken/74525-freiburger-kantonalbank-fkb-rating-moodys-staatsgarantie-ersteinstufung"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-18",
+        "mode": "daily",
+        "key": "reka|cyberattack|customer-data",
+        "headline": "Hackers reach personal and travel data of about 8,000 Reka customers",
+        "urls": [
+          "https://www.netzwoche.ch/news/2026-11-17/ueber-8000-reka-kunden-von-whatsapp-phishing-betroffen"
+        ],
+        "summary": ""
       }
     ]
   },
   "calendar": {
     "events": [
       {
-        "date": "2026-11-17",
-        "event": "Microsoft Ignite opens in San Francisco (to 20 November)",
-        "url": "https://www.moscone.com/events/microsoft-ignite-2026",
-        "added": "2026-11-01",
-        "checked": "2026-11-17"
-      },
-      {
-        "date": "2026-11-17",
-        "event": "Nvidia third-quarter results, the first under interim chief Colette Kress",
-        "url": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873",
-        "added": "2026-11-13",
-        "checked": "2026-11-16"
-      },
-      {
-        "date": "2026-11-17",
-        "event": "Nvidia third-quarter results, the first under interim chief Colette Kress (call at 23:00 Zurich time)",
-        "url": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873",
-        "added": "2026-11-17",
-        "checked": "2026-11-17"
-      },
-      {
         "date": "2026-11-18",
         "event": "Singapore FinTech Festival (to 20 November)",
         "url": "https://www.fintechfestival.sg/",
         "added": "2026-11-01",
-        "checked": "2026-11-17"
+        "checked": "2026-11-18"
       },
       {
         "date": "2026-11-18",
         "event": "ECB Financial Stability Review",
         "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261116~db374b56ab.en.html",
         "added": "2026-11-17",
-        "checked": "2026-11-17"
+        "checked": "2026-11-18"
       },
       {
         "date": "2026-11-18",
         "event": "Anthropic expected to price its IPO, with Nasdaq trading as ANT from 19 November",
         "url": "https://stockanalysis.com/news/anthropic-ipo-multiple-times-oversubscribed/",
         "added": "2026-11-17",
-        "checked": "2026-11-17"
+        "checked": "2026-11-18"
       },
       {
         "date": "2026-11-19",
@@ -3824,11 +4049,18 @@
         "checked": "2026-11-16"
       },
       {
+        "date": "2026-11-20",
+        "event": "Microsoft Ignite closes in San Francisco",
+        "url": "https://www.moscone.com/events/microsoft-ignite-2026",
+        "added": "2026-11-18",
+        "checked": "2026-11-18"
+      },
+      {
         "date": "2026-11-23",
         "event": "National Council economic affairs committee debates the UBS capital bill (to 24 November)",
         "url": "https://www.cash.ch/news/presse-kompromiss-in-ubs-eigenmittelfrage-will-bewertungsmethode-andern-982502",
         "added": "2026-11-13",
-        "checked": "2026-11-15"
+        "checked": "2026-11-18"
       },
       {
         "date": "2026-11-26",
@@ -3938,6 +4170,19 @@
     ]
   },
   "archive": [
+    {
+      "date": "2026-11-18",
+      "mode": "daily",
+      "overview": "UBS is reported ready to accept Switzerland's tougher capital rules, a leak of 15 million Deutsche Bank files shows its oligarch business ran through Zurich and Geneva, and US officials link a wave of outages to rushed patches of AI-found flaws.",
+      "headlines": [
+        "Update: UBS prepares to accept tougher Swiss capital rules, Reuters reports",
+        "Leak of 15 million Deutsche Bank files shows oligarch business ran through Switzerland",
+        "US officials link bank and NSA outages to rushed patches of AI-found flaws"
+      ],
+      "audio_url": "audio/signal-2026-11-18.mp3",
+      "duration": 762.3,
+      "slug": "2026-11-18"
+    },
     {
       "date": "2026-11-17",
       "mode": "daily",
@@ -4110,21 +4355,6 @@
       "audio_url": "audio/signal-2026-11-03.mp3",
       "duration": 829.45,
       "slug": "2026-11-03"
-    },
-    {
-      "date": "2026-11-01",
-      "mode": "weekly",
-      "overview": "UBS beats on profit as its capital fight with Bern hardens, the Federal Council sets a timetable for binding AI rules, banks put AI agents to work, the AI labs raise big numbers and hard questions, and a record Binance theft meets AI-run attacks.",
-      "headlines": [
-        "UBS beats on profit as its capital fight with Bern hardens",
-        "Federal Council sets Switzerland's path to binding AI rules",
-        "Banks move AI agents into daily work as supervisors count wide adoption",
-        "Anthropic files to list as OpenAI trims its round and spending jitters spread",
-        "Record USD 6.36 billion Binance theft and AI-run attacks test security"
-      ],
-      "audio_url": "audio/signal-2026-11-01-weekly.mp3",
-      "duration": 778.82,
-      "slug": "2026-11-01-weekly"
     }
   ]
 }
