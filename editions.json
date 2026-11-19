@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "updated": "2026-11-18T04:52+01:00",
+  "updated": "2026-11-19T04:47+01:00",
   "editions": [
+    {
+      "date": "2026-11-19",
+      "mode": "daily",
+      "slug": "2026-11-19",
+      "title": "Signal · Thursday 19 November",
+      "kind": "Daily briefing",
+      "duration": 706.4,
+      "stories": 22,
+      "overview": "Anthropic prices a record IPO at USD 83 a share, FINMA introduces a 15-day fintech fast track, and Singapore sets AI missions for finance with a sandbox for agent payments.",
+      "path": "d/2026-11-19/",
+      "edition": "d/2026-11-19/edition.json"
+    },
     {
       "date": "2026-11-18",
       "mode": "daily",
@@ -157,18 +169,6 @@
       "overview": "FINMA's chair unveils an AI pilot running on the authority's own hardware, Binance traces its USD 6.3 billion theft to a fake job interview and AI tooling, and an EU court adviser says chatbots can infringe press publishers' rights.",
       "path": "d/2026-11-04/",
       "edition": "d/2026-11-04/edition.json"
-    },
-    {
-      "date": "2026-11-03",
-      "mode": "daily",
-      "slug": "2026-11-03",
-      "title": "Signal · Tuesday 3 November",
-      "kind": "Daily briefing",
-      "duration": 829.45,
-      "stories": 25,
-      "overview": "Goldman Sachs limits AI coding tools to engineers, Swiss cantonal banks warn against a FINMA 'mega authority', and Anthropic's amended filing says it may imminently meet its AI-acceleration threshold.",
-      "path": "d/2026-11-03/",
-      "edition": "d/2026-11-03/edition.json"
     }
   ]
 }
