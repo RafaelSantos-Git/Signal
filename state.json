@@ -1,222 +1,10 @@
 {
   "log": {
     "last_delivery": {
-      "daily": "2026-11-19T04:47+01:00",
+      "daily": "2026-11-20T04:58+01:00",
       "weekly": "2026-11-15T04:49+01:00"
     },
     "stories": [
-      {
-        "date": "2026-10-29",
-        "mode": "daily",
-        "key": "federal-council|progress|ai-convention-implementation",
-        "headline": "Federal Council plans binding AI rules, with consultation due in spring 2027",
-        "urls": [
-          "https://www.admin.ch/en/newnsb/s2TQiUUjrA5D"
-        ],
-        "summary": "On 28 October the Federal Council took note of progress in applying the Council of Europe AI Convention, which it decided to ratify in February 2025. OFCOM published a report on sector-specific AI measures and a guide with model texts on 10"
-      },
-      {
-        "date": "2026-10-29",
-        "mode": "daily",
-        "key": "ifz|study|core-banking-2026",
-        "headline": "Swiss banks stay loyal to Finnova and Avaloq but rate their AI poorly",
-        "urls": [
-          "https://www.finews.com/news/english-news/74194-banks-core-banking-systems-ifz-study-2026-innovation-avaloq-finnova",
-          "https://www.inside-it.ch/zwei-anbieter-dominieren-die-kernbankensysteme-20261028"
-        ],
-        "summary": "The Institute of Financial Services Zug (IFZ) at Lucerne University of Applied Sciences surveyed IT executives at Swiss and Liechtenstein banks; 63 of 123 responded. 65 percent expect to keep their core banking vendor for ten years, up from"
-      },
-      {
-        "date": "2026-10-29",
-        "mode": "daily",
-        "key": "canadian-banks|block|personal-ai-agents",
-        "headline": "Canada's big banks block personal AI agents from online banking",
-        "urls": [
-          "https://bnnbloomberg.ca/business/artificial-intelligence/2026/10/28/some-canadian-banks-blocking-personal-ai-agents-amid-security-concerns"
-        ],
-        "summary": "RBC, BMO, TD and CIBC say they do not let third-party personal AI agents access online banking or act for clients, according to The Canadian Press. Scotiabank will restrict such agents while it monitors concerns; National Bank is not blocki"
-      },
-      {
-        "date": "2026-10-29",
-        "mode": "daily",
-        "key": "schwab|launch|claude-for-advisors-credit",
-        "headline": "Schwab switches on Claude for advisers and covers smaller RIAs' seat costs",
-        "urls": [
-          "https://www.wealthmanagement.com/ria-news/schwab-expands-ai-inside-schwab-advisor-center-and-across-the-third-party-solutions-rias-use"
-        ],
-        "summary": "Claude for Financial Advisors went live on Schwab's platform for registered investment advisers on 28 October, at Schwab Impact in Boston, according to WealthManagement.com. Firms signing up for the enterprise plan by 30 November get a $4,8"
-      },
-      {
-        "date": "2026-10-29",
-        "mode": "daily",
-        "key": "bny-ripple|expand|tokenised-trade-finance",
-        "headline": "BNY adds XRP and RLUSD custody and explores tokenised receivables with Ripple",
-        "urls": [
-          "https://fintechnews.ch/blockchain_bitcoin/ripple-bny-tokenised-trade-finance/86710/"
-        ],
-        "summary": "BNY's Digital Asset Custody platform now supports XRP and Ripple's RLUSD stablecoin for eligible institutional clients, according to Fintech News Switzerland. With working capital platform C2FO, the two will explore supply chain finance usi"
-      },
-      {
-        "date": "2026-10-29",
-        "mode": "daily",
-        "key": "wealthsimple|funding|gic-round-2026",
-        "headline": "Wealthsimple raises up to CA$425 million at a CA$13.8 billion valuation",
-        "urls": [
-          "https://fintechnews.ch/canada/wealthsimple-funding-round-gic-valuation/86708/"
-        ],
-        "summary": "GIC leads the round, which includes a CA$300 million primary offering and up to CA$125 million in secondary sales, according to Fintech News Switzerland. Assets under administration reached CA$169.2 billion at 30 September, and in the secon"
-      },
-      {
-        "date": "2026-10-29",
-        "mode": "daily",
-        "key": "vontobel|update|9m26-aum",
-        "headline": "Vontobel reaches a record CHF 255.1 billion in assets despite institutional outflows",
-        "urls": [
-          "https://www.finews.ch/news/banken/74219-vontobel-handelsupdate-neunmonate-2026-aum"
-        ],
-        "summary": "Assets under management rose CHF 14.4 billion in nine months, according to finews.ch. Reported net new money was CHF 1.9 billion, or CHF 8.4 billion adjusted, with Private Clients bringing in CHF 3.8 billion. Institutional Clients lost CHF "
-      },
-      {
-        "date": "2026-10-29",
-        "mode": "daily",
-        "key": "ubs|statement|capital-rules-council-of-states",
-        "headline": "Ermotti calls the Council of States' capital decision for UBS very concerning",
-        "urls": [
-          "https://www.finews.com/news/english-news/74201-ubs-ermotti-regulierung-eigenkapital"
-        ],
-        "summary": "On the results call on 28 October, UBS chief executive Sergio Ermotti said the latest proposal would excessively tighten capital requirements already among the strictest in the world, according to finews.com. He said requiring foreign subsi"
-      },
-      {
-        "date": "2026-10-29",
-        "mode": "daily",
-        "key": "bcg|study|cross-border-wealth-hubs",
-        "headline": "Hong Kong has overtaken Switzerland as the top cross-border wealth hub",
-        "urls": [
-          "https://www.finews.ch/news/finanzplatz/74165-finance-circle-diskussion-zukunft-grenzueberschreitendes-vermoegensverwaltungsgeschaeft-august-benz-schweizerische-bankiervereinigung-sbvg"
-        ],
-        "summary": "Citing a BCG study, finews.ch reports that Hong Kong passed Switzerland in 2025, with nearly 60 percent of its assets from mainland Chinese investors. Switzerland still books about $2.9 trillion of cross-border assets, and about 46 percent "
-      },
-      {
-        "date": "2026-10-29",
-        "mode": "daily",
-        "key": "deutsche-bank|results|3q26",
-        "headline": "Deutsche Bank posts a third straight record quarter with 47 billion euros of inflows",
-        "urls": [
-          "https://www.db.com/news/detail/20261028-deutsche-bank-reports-on-the-third-quarter-results-of-2026?language_id=1"
-        ],
-        "summary": "Profit after tax was 1.9 billion euros and pre-tax profit rose 8 percent to 2.6 billion euros on revenue of 8.3 billion euros, the bank said. Private Bank and Asset Management took in record net inflows of 47 billion euros, lifting assets u"
-      },
-      {
-        "date": "2026-10-29",
-        "mode": "daily",
-        "key": "bnp-paribas|results|3q26",
-        "headline": "BNP Paribas lifts profit 13.5 percent as European banks mostly beat forecasts",
-        "urls": [
-          "https://invest.bnpparibas/en/document/3q26-pr",
-          "https://www.933thedrive.com/2026/10/28/european-banks-beat-profit-forecasts-brazil-overshadows-santander/"
-        ],
-        "summary": "BNP Paribas said net income attributable to the group rose to 3,456 million euros on revenue up 9.5 percent, and it will launch a 1.3 billion euro buyback in November. Santander's underlying profit rose 19 percent but Brazil weighed on its "
-      },
-      {
-        "date": "2026-10-29",
-        "mode": "daily",
-        "key": "anthropic|ipo|prospectus",
-        "headline": "Anthropic's IPO plan targets up to $2 trillion, with founders keeping control",
-        "urls": [
-          "https://www.srf.ch/news/wirtschaft/geschwister-zementieren-macht-anthropic-boersengang-macht-firmengruender-zu-milliardaeren"
-        ],
-        "summary": "Anthropic plans to list in New York at a valuation of up to $2 trillion, according to SRF. Revenue exceeded $16 billion in the first half of the year. Five share classes give the seven founders 50.1 percent of the votes, and UBS is in the s"
-      },
-      {
-        "date": "2026-10-29",
-        "mode": "daily",
-        "key": "google|launch|gemini-4-carbon",
-        "headline": "Google launches Gemini 4 Carbon, first for cyber defenders",
-        "urls": [
-          "https://siliconangle.com/2026/10/28/google-debuts-flagship-gemini-4-carbon-model-with-cybersecurity-upgrades"
-        ],
-        "summary": "Google's new frontier model reaches organisations in its Fairwind Program later this week, so they can fix security flaws before a broad release, according to SiliconANGLE. Google says internal tests show it is more than twice as good at ge"
-      },
-      {
-        "date": "2026-10-29",
-        "mode": "daily",
-        "key": "microsoft|preview|foundry-copilot-harness",
-        "headline": "Microsoft previews a managed agent harness in Foundry, free until 1 December",
-        "urls": [
-          "https://devblogs.microsoft.com/foundry/microsoft-copilot-harness-in-foundry/"
-        ],
-        "summary": "The Copilot harness in Foundry Agent Service runs the agent loop and sandbox while developers supply skills, tools and MCP connections; agents can run code and delegate to subagents, Microsoft said. Runtime is free until 1 December, then sa"
-      },
-      {
-        "date": "2026-10-29",
-        "mode": "daily",
-        "key": "slack|launch|code-api",
-        "headline": "Slack opens code channels to agents, with Anthropic among launch partners",
-        "urls": [
-          "https://slack.com/blog/developers/slack-code-api"
-        ],
-        "summary": "The Slack Code API, generally available on all Slack plans, lets agents open a code channel, add people and files, post progress, show diffs and previews, and archive the channel when done, Slack said. Anthropic, Cognition, GitHub and Verce"
-      },
-      {
-        "date": "2026-10-29",
-        "mode": "daily",
-        "key": "giotto|launch|solo-alto-models",
-        "headline": "Lausanne's Giotto launches two reasoning models built for Swiss and European hosting",
-        "urls": [
-          "https://www.ictjournal.ch/news/2026-10-28/la-lausannoise-giotto-lance-deux-modeles-dia-axes-sur-la-souverainete"
-        ],
-        "summary": "Giotto Solo runs on a single GPU and Giotto Alto on eight Nvidia B300 GPUs; both can run on a shared European cloud, a dedicated cloud in Switzerland or Europe, or on premises, according to ICTjournal. The company says its services meet GDP"
-      },
-      {
-        "date": "2026-10-29",
-        "mode": "daily",
-        "key": "federal-council|consultation|payment-fee-transparency",
-        "headline": "Federal Council consults on making card and Twint fees transparent for merchants",
-        "urls": [
-          "https://www.srf.ch/news/schweiz/vernehmlassung-eroeffnet-visa-mastercard-twint-gebuehren-sollen-transparenter-werden"
-        ],
-        "summary": ""
-      },
-      {
-        "date": "2026-10-29",
-        "mode": "daily",
-        "key": "fed|decision|october-2026",
-        "headline": "Fed holds rates at 3.75 to 4 percent; two members wanted a hike",
-        "urls": [
-          "https://www.federalreserve.gov/monetarypolicy/files/monetary20261028a1.pdf"
-        ],
-        "summary": ""
-      },
-      {
-        "date": "2026-10-29",
-        "mode": "daily",
-        "key": "julius-baer|appoint|chro",
-        "headline": "Julius Baer names Francis Hoefman chief human resources officer from 11 January",
-        "urls": [
-          "https://www.employeebenefits.co.uk/global-reward/2026/10/28/julius-baer-appoints-new-chief-human-resources-officer/"
-        ],
-        "summary": ""
-      },
-      {
-        "date": "2026-10-29",
-        "mode": "daily",
-        "key": "bellecapital|hire|rathbones-team",
-        "headline": "Bellecapital hires five Rathbones advisers, taking its London team to 12",
-        "urls": [
-          "https://www.finews.ch/news/finanzplatz/74221-bellecapital-team-london-rathbones-team-valerie-von-stotzingen-relationship-manager-uk-mark-eberle"
-        ],
-        "summary": ""
-      },
-      {
-        "date": "2026-10-29",
-        "mode": "daily",
-        "key": "vav|appoint|gentinetta",
-        "headline": "Pascal Gentinetta returns as managing director of the VAV banking association in 2027",
-        "urls": [
-          "https://www.finews.ch/news/banken/74204-vav-pascal-gentinetta-geschaeftsfuehrer"
-        ],
-        "summary": ""
-      },
       {
         "date": "2026-10-30",
         "mode": "daily",
@@ -4082,45 +3870,275 @@
           "https://www.finews.com/news/english-news/74552-survey-swiss-institutional-investors-natixis-government-debt-high-valuations"
         ],
         "summary": ""
+      },
+      {
+        "date": "2026-11-20",
+        "mode": "daily",
+        "key": "ubs-sba|consultation-response|banking-stability-package",
+        "headline": "UBS and the Swiss Bankers Association reject key parts of the banking stability package",
+        "urls": [
+          "https://www.swissbanking.ch/en/media-politics/press-releases/banking-stability-the-sba-calls-for-fundamental-corrections-to-reform-package",
+          "https://www.ubs.com/global/en/our-firm/bankingstability.html",
+          "https://investrends.ch/aktuell/news/ubs-verlangt-substanzielle-aenderungen-an-neuer-bankenregulierung/"
+        ],
+        "summary": "In consultation responses published on 19 November, UBS said it rejects significant portions of the Federal Council's third too-big-to-fail package, and the Swiss Bankers Association called it excessive and unbalanced. Both oppose wider FIN"
+      },
+      {
+        "date": "2026-11-20",
+        "mode": "daily",
+        "key": "ecb|srep|2027-requirements-priorities",
+        "headline": "ECB finds gaps in cyber, third-party and ICT controls at 92 percent of banks",
+        "urls": [
+          "https://www.bankingsupervision.europa.eu/press/pr/date/2026/html/ssm.pr261119~4cb883c88e.en.html"
+        ],
+        "summary": "Publishing its 2026 supervisory review of 108 banks on 19 November, the ECB kept overall CET1 requirements and guidance broadly stable at 11.3 percent of risk-weighted assets for 2027, against 11.2 percent for 2026. Operational and ICT risk"
+      },
+      {
+        "date": "2026-11-20",
+        "mode": "daily",
+        "key": "jpmorgan-visa-mastercard|breach|third-party-vendors",
+        "headline": "JPMorgan, Visa and Mastercard say vendors' breaches exposed some customer data",
+        "urls": [
+          "https://abcnews.com/US/jpmorgan-chase-reports-cyberattack-party-service-providers/story?id=138287705",
+          "https://qz.com/hackers-leak-visa-mastercard-jpmorgan-data-vendors-111926"
+        ],
+        "summary": "JPMorganChase said on 19 November that third parties providing services to it were the target of a cyberattack, and that attackers accessed marketing data that may include customer names and email addresses. Mastercard reported exposed emai"
+      },
+      {
+        "date": "2026-11-20",
+        "mode": "daily",
+        "key": "eba|report|risk-assessment-autumn-2026",
+        "headline": "EBA says EU banks already make extensive use of frontier AI models",
+        "urls": [
+          "https://www.eba.europa.eu/publications-and-media/press-releases/eueea-banks-continue-display-resilience-amid-sovereign-debt-pressures-borrower-vulnerabilities-and"
+        ],
+        "summary": "In its Autumn 2026 Risk Assessment Report, published on 19 November, the EBA said banks expect AI to improve productivity and already use frontier models to detect system weaknesses and strengthen controls. It warned that AI may raise expos"
+      },
+      {
+        "date": "2026-11-20",
+        "mode": "daily",
+        "key": "six|launch|rivero-amiko-disputes",
+        "headline": "SIX starts using Rivero's Amiko for debit card fraud and dispute claims",
+        "urls": [
+          "https://fintechnews.ch/payments/rivero-amiko-six-card-dispute-go-live/87178/"
+        ],
+        "summary": "SIX has launched Amiko, the fraud recovery and dispute platform of Swiss fintech Rivero, for its debit card business, starting with one partner bank and expanding in phases. Cardholders report fraud or dispute a payment in the debiX+ app, g"
+      },
+      {
+        "date": "2026-11-20",
+        "mode": "daily",
+        "key": "twint|pricing|hybrid-merchant-model",
+        "headline": "Twint adds a hybrid merchant fee and a tool comparing payment costs",
+        "urls": [
+          "https://www.finews.com/news/english-news/74574-twint-basis-hybrid-model-transaction-costs-markus-kilb-payments-merchants"
+        ],
+        "summary": "Merchants with a direct Twint contract can keep the Basis model at 1.3 percent per transaction or choose a new Hybrid model: a flat 9 rappen below CHF 10, and 0.99 percent plus 9 rappen from CHF 10, according to finews. Twint also launched "
+      },
+      {
+        "date": "2026-11-20",
+        "mode": "daily",
+        "key": "tether|investment|scrypt",
+        "headline": "Tether invests in Swiss platform Scrypt to expand stablecoin payments for institutions",
+        "urls": [
+          "https://www.finews.ch/news/finanzplatz/74586-tether-scrypt-investition-beteiligung-stablecoins-digitalassets-krypto"
+        ],
+        "summary": "Scrypt, a Swiss platform for round-the-clock trading, payments and custody of crypto assets, announced a strategic investment by Tether, issuer of the largest dollar stablecoin, according to finews. The funds are to support its expansion in"
+      },
+      {
+        "date": "2026-11-20",
+        "mode": "daily",
+        "key": "ubs|offshoring|group-functions-india",
+        "headline": "UBS to move hundreds of group function roles from Europe to India, Bloomberg reports",
+        "urls": [
+          "https://www.swissinfo.ch/eng/finance-banking/ubs-to-offshore-hundreds-of-roles-to-india/92407836"
+        ],
+        "summary": "UBS plans to shift hundreds of roles in finance, operations, risk control, compliance, legal and human resources to India over the next couple of years, according to Bloomberg, as reported by swissinfo. Most are junior to mid-level roles no"
+      },
+      {
+        "date": "2026-11-20",
+        "mode": "daily",
+        "key": "norges-bank|sale|uetlihof",
+        "headline": "Update: UBS property funds buy the Üetlihof for CHF 850 million",
+        "urls": [
+          "https://www.finews.com/news/english-news/74590-ubs-funds-acquire-uetlihof-zurich-norwegian-sovereign-wealth-fund-850-million"
+        ],
+        "summary": "Norges Bank Investment Management signed an agreement on 19 November to sell the Üetlihof office complex in Zurich to four Swiss real estate funds of UBS Asset Management for CHF 850 million, according to finews. Closing is planned for Janu"
+      },
+      {
+        "date": "2026-11-20",
+        "mode": "daily",
+        "key": "postfinance|results|9m-2026",
+        "headline": "PostFinance lifts nine-month operating profit by CHF 58 million to CHF 282 million",
+        "urls": [
+          "https://investrends.ch/aktuell/news/postfinance-steigert-betriebsgewinn-nach-neun-monaten-2026-deutlich/"
+        ],
+        "summary": "PostFinance raised its operating result for the first nine months of 2026 by CHF 58 million to CHF 282 million, driven by fee and payment income and lower costs, according to AWP via investrends. Interest income remained under pressure from"
+      },
+      {
+        "date": "2026-11-20",
+        "mode": "daily",
+        "key": "ing|strategy|wealth-double-revenues",
+        "headline": "ING aims to double wealth revenues within five years as it expands private banking",
+        "urls": [
+          "https://www.wealthbriefing.com/html/article.php/ing%27s-strong-wealth-management-ambitions-in-view-with-wider-footprint-"
+        ],
+        "summary": "ING wants its wealth business to double revenues in five years, about 15 percent growth a year, Anneka Treon, its global head of private banking, wealth management and investments, told WealthBriefing. The bank opened private banking in Spa"
+      },
+      {
+        "date": "2026-11-20",
+        "mode": "daily",
+        "key": "anthropic|ipo|trading-debut",
+        "headline": "Update: Anthropic shares close 17 percent above the IPO price on their first day",
+        "urls": [
+          "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
+          "https://allnews.ch/content/march%C3%A9s/anthropic-s%E2%80%99envole-%C3%A0-wall-street-pour-son-ipo"
+        ],
+        "summary": "Anthropic's shares traded at USD 111.50 in their first minutes on Nasdaq on 19 November, 33 percent above the USD 83 offer price, according to TechCrunch. They closed up 17.07 percent at USD 97.17 after touching USD 115, according to AFP vi"
+      },
+      {
+        "date": "2026-11-20",
+        "mode": "daily",
+        "key": "meta|privacy|muse-cross-account-data",
+        "headline": "Meta's Muse agent showed staff other users' messages and bank balances, Reuters reports",
+        "urls": [
+          "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/"
+        ],
+        "summary": "Meta employees raised concerns in internal posts that the Muse agent mixed up conversations across accounts, surfacing childcare requests, product orders and bank account balances that were not theirs, according to a Reuters report cited by"
+      },
+      {
+        "date": "2026-11-20",
+        "mode": "daily",
+        "key": "databricks|mitigation|java4shell",
+        "headline": "Databricks restarts clusters to shield customers from the Java4Shell OpenJDK flaw",
+        "urls": [
+          "https://www.databricks.com/blog/java4shell-vulnerability-cve-2026-114938-assessment"
+        ],
+        "summary": "Databricks said on 19 November it had applied a mitigation that disables the vulnerable code in all supported Databricks Runtime versions, taking the rare step of proactively restarting affected clusters, and will release patched runtimes. "
+      },
+      {
+        "date": "2026-11-20",
+        "mode": "daily",
+        "key": "european-commission|cyberattack|artex",
+        "headline": "EU Commission confirms cyberattack in which attackers reportedly used the AI tool Artex",
+        "urls": [
+          "https://www.inside-it.ch/eu-kommission-bestaetigt-cyberangriff-20261119"
+        ],
+        "summary": "The European Commission confirmed a cyberattack that disrupted internal platforms, including the Sysper HR system, for more than ten days, according to Politico as reported by Inside IT. CERT-EU detected the campaign in early November, and "
+      },
+      {
+        "date": "2026-11-20",
+        "mode": "daily",
+        "key": "google|launch|gemini-mac-computer-use",
+        "headline": "Google lets the Gemini app operate Mac apps, files and websites for users",
+        "urls": [
+          "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/"
+        ],
+        "summary": "Google added computer use to the Gemini app for Mac on 19 November. Users describe a workflow and Gemini clicks, types and fills in forms across local files, desktop apps and the web in a separate window, while users choose which apps it ma"
+      },
+      {
+        "date": "2026-11-20",
+        "mode": "daily",
+        "key": "finma|guidance|portfolio-managers-trustees-07-2026",
+        "headline": "FINMA simplifies supervision of portfolio managers and trustees, dropping its flat CHF 500 fee",
+        "urls": [
+          "https://www.finma.ch/en/news/2026/11/20261119-mm-am-07-26/"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-20",
+        "mode": "daily",
+        "key": "canton-zug|policy|m365-confidential-data",
+        "headline": "Canton of Zug lets staff process confidential data in Microsoft 365, tax data excepted",
+        "urls": [
+          "https://www.inside-it.ch/zug-will-vertrauliche-daten-verarbeiten-in-m365-20261119"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-20",
+        "mode": "daily",
+        "key": "publica|audit|pk-softech-breach",
+        "headline": "Federal pension fund Publica orders an external audit after its supplier's data leak",
+        "urls": [
+          "https://www.admin.ch/en/newnsb/A40p0VPerHSv"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-20",
+        "mode": "daily",
+        "key": "blkb|reorganisation|risk-management-sidler-exit",
+        "headline": "BLKB creates a separate risk management unit; wealth management head Béatrice Sidler leaves",
+        "urls": [
+          "https://www.finews.ch/news/banken/74564-blkb-risk-management-neuer-geschaeftsbereich-beatrice-sidler-wealth-management"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-20",
+        "mode": "daily",
+        "key": "amina-bank|launch|staking-sui-near",
+        "headline": "AMINA Bank adds SUI and NEAR, offering staking on ten digital assets",
+        "urls": [
+          "https://fintechnews.ch/blockchain_bitcoin/amina-bank-staking-sui-near-collateral/87171/"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-20",
+        "mode": "daily",
+        "key": "adecco|survey|swiss-ai-agents-2026",
+        "headline": "Adecco: 71 percent of Swiss employees surveyed use AI agents, up from 47 percent",
+        "urls": [
+          "https://www.netzwoche.ch/news/2026-11-19/ki-agenten-verbreiten-sich-im-schweizer-arbeitsalltag"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-20",
+        "mode": "daily",
+        "key": "basel-landschaft|cyberattack|cantonal-it",
+        "headline": "Cyberattacks on the canton of Basel-Landschaft affect about 20 of its applications",
+        "urls": [
+          "https://www.netzwoche.ch/news/2026-11-19/cyberkriminelle-greifen-it-des-kantons-basel-landschaft-an"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-20",
+        "mode": "daily",
+        "key": "f5|patch|nginx-five-critical",
+        "headline": "F5 fixes five critical Nginx flaws; 37,768 Swiss servers reportedly run vulnerable versions",
+        "urls": [
+          "https://www.inside-it.ch/kritische-schwachstellen-in-nginx-entdeckt-20261119"
+        ],
+        "summary": ""
       }
     ]
   },
   "calendar": {
     "events": [
       {
-        "date": "2026-11-19",
-        "event": "Anthropic shares expected to start trading on Nasdaq as ANT, according to CNBC via TechCrunch",
-        "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
-        "added": "2026-11-15",
-        "checked": "2026-11-15"
-      },
-      {
-        "date": "2026-11-19",
-        "event": "Anthropic shares expected to start trading on Nasdaq as ANT",
-        "url": "https://stockanalysis.com/news/anthropic-ipo-multiple-times-oversubscribed/",
-        "added": "2026-11-16",
-        "checked": "2026-11-16"
-      },
-      {
-        "date": "2026-11-19",
-        "event": "Anthropic shares start trading on Nasdaq as ANT; the offering is due to close on 20 November",
-        "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
-        "added": "2026-11-19",
-        "checked": "2026-11-19"
-      },
-      {
         "date": "2026-11-20",
         "event": "Microsoft Ignite closes in San Francisco",
         "url": "https://www.moscone.com/events/microsoft-ignite-2026",
         "added": "2026-11-18",
-        "checked": "2026-11-18"
+        "checked": "2026-11-20"
       },
       {
         "date": "2026-11-20",
         "event": "Singapore FinTech Festival closes",
         "url": "https://www.fintechfestival.sg/",
         "added": "2026-11-19",
-        "checked": "2026-11-19"
+        "checked": "2026-11-20"
+      },
+      {
+        "date": "2026-11-20",
+        "event": "Anthropic's IPO is due to close",
+        "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+        "added": "2026-11-20",
+        "checked": "2026-11-20"
       },
       {
         "date": "2026-11-23",
@@ -4134,14 +4152,14 @@
         "event": "National Council economic affairs committee debates the UBS capital bill in detail (to 24 November)",
         "url": "https://www.cash.ch/news/presse-kompromiss-in-ubs-eigenmittelfrage-will-bewertungsmethode-andern-982502",
         "added": "2026-11-19",
-        "checked": "2026-11-19"
+        "checked": "2026-11-20"
       },
       {
         "date": "2026-11-26",
         "event": "Open-i 2026, Swiss innovation conference, Zurich",
         "url": "https://www.netzwoche.ch/node/107112",
         "added": "2026-11-15",
-        "checked": "2026-11-15"
+        "checked": "2026-11-20"
       },
       {
         "date": "2026-11-26",
@@ -4155,7 +4173,7 @@
         "event": "AWS re:Invent opens in Las Vegas (to 4 December)",
         "url": "https://aws.amazon.com/events/reinvent/",
         "added": "2026-11-01",
-        "checked": "2026-11-19"
+        "checked": "2026-11-20"
       },
       {
         "date": "2026-12-01",
@@ -4258,6 +4276,19 @@
     ]
   },
   "archive": [
+    {
+      "date": "2026-11-20",
+      "mode": "daily",
+      "overview": "UBS and the Swiss Bankers Association reject key parts of the banking stability package, the ECB finds gaps in cyber and ICT controls at 92 percent of the banks it supervises, and JPMorgan, Visa and Mastercard say vendor breaches exposed customer data.",
+      "headlines": [
+        "UBS and the Swiss Bankers Association reject key parts of the banking stability package",
+        "ECB finds gaps in cyber, third-party and ICT controls at 92 percent of banks",
+        "JPMorgan, Visa and Mastercard say vendors' breaches exposed some customer data"
+      ],
+      "audio_url": "audio/signal-2026-11-20.mp3",
+      "duration": 670.54,
+      "slug": "2026-11-20"
+    },
     {
       "date": "2026-11-19",
       "mode": "daily",
@@ -4430,19 +4461,6 @@
       "audio_url": "audio/signal-2026-11-05.mp3",
       "duration": 792.33,
       "slug": "2026-11-05"
-    },
-    {
-      "date": "2026-11-04",
-      "mode": "daily",
-      "overview": "FINMA's chair unveils an AI pilot running on the authority's own hardware, Binance traces its USD 6.3 billion theft to a fake job interview and AI tooling, and an EU court adviser says chatbots can infringe press publishers' rights.",
-      "headlines": [
-        "FINMA unveils Subsuma, an AI pilot for licensing questions, running on its own hardware",
-        "Update: Binance says fake interview and AI tool enabled USD 6.3 billion theft",
-        "EU court adviser says chatbots can infringe press rights but training is generally allowed"
-      ],
-      "audio_url": "audio/signal-2026-11-04.mp3",
-      "duration": 753.54,
-      "slug": "2026-11-04"
     }
   ]
 }
