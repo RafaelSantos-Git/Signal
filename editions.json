@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "updated": "2026-11-20T04:58+01:00",
+  "updated": "2026-11-22T04:50+01:00",
   "editions": [
+    {
+      "date": "2026-11-22",
+      "mode": "weekly",
+      "slug": "2026-11-22-weekly",
+      "title": "Signal · Sunday 22 November",
+      "kind": "Weekly watch",
+      "duration": 726.15,
+      "stories": 25,
+      "overview": "UBS and the bankers' association push back on Swiss capital rules, an AI sell-off follows supervisors' warnings on AI debt, Anthropic closes a record IPO, the ECB finds ICT gaps at 96 percent of banks as AI attacks spread, and US banks make customers liable for their AI agents.",
+      "path": "d/2026-11-22-weekly/",
+      "edition": "d/2026-11-22-weekly/edition.json"
+    },
     {
       "date": "2026-11-20",
       "mode": "daily",
@@ -157,18 +169,6 @@
       "overview": "An AI-led rout wipes USD 2.5 trillion from US stocks and reaches Asia, Claude starts reading US bank accounts through Plaid, and China blocks SoftBank's purchase of ABB's robotics division.",
       "path": "d/2026-11-06/",
       "edition": "d/2026-11-06/edition.json"
-    },
-    {
-      "date": "2026-11-05",
-      "mode": "daily",
-      "slug": "2026-11-05",
-      "title": "Signal · Thursday 5 November",
-      "kind": "Daily briefing",
-      "duration": 792.33,
-      "stories": 28,
-      "overview": "The OCC's AI framework for US bank examiners, a reported valuation compromise in the UBS capital dispute and the markets' reaction to the Democrats' sweep of Congress lead this morning.",
-      "path": "d/2026-11-05/",
-      "edition": "d/2026-11-05/edition.json"
     }
   ]
 }

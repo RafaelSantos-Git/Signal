@@ -2,435 +2,9 @@
   "log": {
     "last_delivery": {
       "daily": "2026-11-20T04:58+01:00",
-      "weekly": "2026-11-15T04:49+01:00"
+      "weekly": "2026-11-22T04:50+01:00"
     },
     "stories": [
-      {
-        "date": "2026-10-30",
-        "mode": "daily",
-        "key": "ecb|decision|october-2026",
-        "headline": "ECB holds rates as energy pushes euro area inflation to 3.8 percent",
-        "urls": [
-          "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is261029~5c5ffe99e5.en.html",
-          "https://www.eunews.it/en/2026/10/29/the-ecb-leaves-interest-rates-unchanged-but-high-energy-prices-and-financing-conditions-are-casting-a-shadow-over-the-future/"
-        ],
-        "summary": "The ECB's Governing Council kept its three key interest rates unchanged on 29 October, leaving the deposit facility rate at 2.50 percent, according to Eunews. Headline inflation rose to 3.8 percent in September from 3.2 percent in August, w"
-      },
-      {
-        "date": "2026-10-30",
-        "mode": "daily",
-        "key": "bbva|results|3q26",
-        "headline": "BBVA lifts quarterly profit 19.1 percent and plans to industrialise AI agents",
-        "urls": [
-          "https://www.fool.com/earnings/call-transcripts/2026/10/29/bbva-bbva-q3-2026-earnings-call-transcript/"
-        ],
-        "summary": "BBVA reported third-quarter net attributable profit of about 3 billion euros, up 19.1 percent, and a nine-month return on tangible equity of 22 percent, according to its earnings call transcript. Management said a voice assistant resolves c"
-      },
-      {
-        "date": "2026-10-30",
-        "mode": "daily",
-        "key": "societe-generale|results|3q26",
-        "headline": "Société Générale posts record quarter with net income up 24.1 percent",
-        "urls": [
-          "https://www.manilatimes.net/2026/10/29/tmt-newswire/globenewswire/societe-generale-third-quarter-2026-earnings/2456857"
-        ],
-        "summary": "Société Générale reported third-quarter group net income of 1,888 million euros, up 24.1 percent, on revenues of 7,173 million euros, up 7.8 percent. Operating expenses rose only 0.8 percent, taking the cost-to-income ratio to 57.1 percent "
-      },
-      {
-        "date": "2026-10-30",
-        "mode": "daily",
-        "key": "goldman-sachs|interview|family-offices-ai",
-        "headline": "Goldman Sachs expects AI to make family offices more sophisticated",
-        "urls": [
-          "https://www.finews.com/news/english-news/74235-goldman-sachs-darren-allaway-family-offices-ai-private-equity-switzerland"
-        ],
-        "summary": "Darren Allaway, EMEA head of Goldman Sachs Apex, told finews that AI will fuel another wave of sophistication among family offices. He said their allocation to alternatives has not fallen and may have risen slightly, and that AI and the ene"
-      },
-      {
-        "date": "2026-10-30",
-        "mode": "daily",
-        "key": "lgt-capital-partners|appoint|ceo",
-        "headline": "LGT Capital Partners names Sascha Gruber chief executive from January 2027",
-        "urls": [
-          "https://www.finews.com/news/english-news/74227-lgt-capital-partners-new-ceo-sascha-gruber"
-        ],
-        "summary": "Sascha Gruber, at the firm since 2002, will succeed founder Roberto Paganoni as chief executive on 1 January 2027, subject to regulatory approval, according to finews. Paganoni moves to the group holding board. The Pfäffikon firm manages mo"
-      },
-      {
-        "date": "2026-10-30",
-        "mode": "daily",
-        "key": "aswm|members|targa-gsk",
-        "headline": "Swiss wealth managers' alliance grows to 42 members and CHF 155 billion",
-        "urls": [
-          "https://www.finews.com/news/english-news/74229-aswm-alliance-swiss-wealth-managers-new-members-targa-5-advisors-gsk-partners-geneva-nicole-curti-eli-mizrahi"
-        ],
-        "summary": "The Alliance of Swiss Wealth Managers admitted Targa 5 Advisors and GSK & Partners from 1 November, taking it to 42 members managing more than CHF 155 billion with over 1,710 staff, according to finews. In 2022 it represented CHF 103 billio"
-      },
-      {
-        "date": "2026-10-30",
-        "mode": "daily",
-        "key": "deloitte|survey|cfo-barometer-autumn-2026",
-        "headline": "Swiss CFOs are at their most optimistic in a long time",
-        "urls": [
-          "https://www.finews.com/news/english-news/74228-deloitte-cfo-sentiment-barometer-autumn-2026"
-        ],
-        "summary": "In Deloitte's autumn CFO survey, 61 percent of Swiss finance chiefs expect the economy to improve over the next 12 months and 8 percent expect it to worsen, according to finews. AI budgets average 0.9 percent of total spending."
-      },
-      {
-        "date": "2026-10-30",
-        "mode": "daily",
-        "key": "bewerbino|launch|job-platform",
-        "headline": "Bewerbino: an alpaca-branded job platform for the financial centre's job cuts",
-        "urls": [
-          "https://www.finews.com/news/english-news/74239-bewerbino-arthur-ergen-an-alpaca-against-job-anxiety-on-the-financial-center-job-cuts-artificial-intelligence-platform-machine-job-search-dream-job"
-        ],
-        "summary": ""
-      },
-      {
-        "date": "2026-10-30",
-        "mode": "daily",
-        "key": "eeii|mou|haute-capital-partners",
-        "headline": "EEII examines buying stakes from Haute Capital Partners",
-        "urls": [
-          "https://www.finews.com/news/english-news/74223-eeii-haute-capital-transaction-mou-acquisition"
-        ],
-        "summary": ""
-      },
-      {
-        "date": "2026-10-30",
-        "mode": "daily",
-        "key": "swisscanto|interview|nicolodi-esg",
-        "headline": "Swisscanto's René Nicolodi: a lot of hot air in the ESG market",
-        "urls": [
-          "https://www.finews.com/news/english-news/74158-rene-nicolodi-zkb-assetmanagement-swisscanto-sustainability-esg-sustainability-climate-change-defense-stocks-nuclear-power-sustainability-regulation-omnibus"
-        ],
-        "summary": ""
-      },
-      {
-        "date": "2026-10-31",
-        "mode": "daily",
-        "key": "ecb|supervision|ai-adoption-cyber",
-        "headline": "ECB supervisor puts generative AI use at about 85 percent of banks",
-        "urls": [
-          "https://www.bankingsupervision.europa.eu/press/interviews/date/2026/html/ssm.in261030~21a824d8f2.en.html",
-          "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261030~08d9d540f0.en.html"
-        ],
-        "summary": "Pedro Machado, a member of the ECB's Supervisory Board, said in a Bloomberg interview the ECB published on 30 October that around 85 percent of banks already use generative AI, from fraud detection and KYC to credit scoring. He warned that "
-      },
-      {
-        "date": "2026-10-31",
-        "mode": "daily",
-        "key": "swiss-finance-ministry|review|ubs-relocation",
-        "headline": "Swiss finance ministry finds a UBS move abroad would bring little capital relief",
-        "urls": [
-          "https://www.investing.com/news/stock-market-news/exclusiveswiss-assess-potential-ubs-relocation-highlight-difficulties-4983399",
-          "https://fintechnews.ch/fintech/ubs-relocation-swiss-assessment-us-uk/86772/"
-        ],
-        "summary": "An internal assessment by the Federal Department of Finance, reported by Reuters on 29 October, found that UBS would gain little by moving to the US or the UK to escape tougher Swiss capital rules. US holding-company rules would tie up abou"
-      },
-      {
-        "date": "2026-10-31",
-        "mode": "daily",
-        "key": "binance|hack|north-korea-6-3bn",
-        "headline": "North Korean hackers blamed for a record $6.3 billion theft from Binance",
-        "urls": [
-          "https://www.trmlabs.com/resources/blog/north-korea-steals-usd-6-36-billion-from-binance-in-the-largest-hack-in-history",
-          "https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/",
-          "https://techcrunch.com/2026/10/30/north-korean-hackers-blamed-for-stealing-record-6-3b-in-binance-breach/"
-        ],
-        "summary": "An attacker moved about $6.36 billion out of Binance wallets on ten blockchains on the evening of 29 October, most of it within about 20 minutes, according to TRM Labs, which attributes the theft with high confidence to TraderTraitor, a Nor"
-      },
-      {
-        "date": "2026-10-31",
-        "mode": "daily",
-        "key": "sba|position|chf-stablecoin",
-        "headline": "Swiss Bankers Association wants banks to issue franc stablecoins under their licences",
-        "urls": [
-          "https://www.swissbanking.ch/en/media-politics/press-releases/chf-stablecoin-switzerland-must-create-the-right-conditions-now",
-          "https://www.inside-it.ch/bankiervereinigung-fordert-guenstigen-rahmen-fuer-schweizer-stablecoin-20261030",
-          "https://www.finews.ch/news/finanzplatz/74241-franken-stablecoin-swiss-banking-schweizerische-bankiervereinigung-martin-hess-natalie-graf-eu-usa-politik-forderungen"
-        ],
-        "summary": "In a paper presented in Zurich on 29 October, the Swiss Bankers Association said a Swiss franc stablecoin should be issued from Switzerland under FINMA supervision. It wants banks to issue stablecoins under their existing banking licence, r"
-      },
-      {
-        "date": "2026-10-31",
-        "mode": "daily",
-        "key": "piguet-galland|adoption|copilot-internal-llms",
-        "headline": "Swiss private bank Piguet Galland reports about 10 percent efficiency gains from Copilot",
-        "urls": [
-          "https://www.wealthbriefing.com/html/article.php/piguet-galland-puts-trust-at-the-heart-of-the-augmented-banker"
-        ],
-        "summary": "Jordi Domenech, head of technology at Piguet Galland, told WealthBriefing on 29 October that the bank of about 180 staff rolled out Microsoft Copilot after investing in cloud infrastructure, document classification and training, and reports"
-      },
-      {
-        "date": "2026-10-31",
-        "mode": "daily",
-        "key": "dextra|deploy|iudexnc-coverage-ai",
-        "headline": "Zurich legal insurer Dextra puts iudexnc's AI coverage checks into regular use",
-        "urls": [
-          "https://www.startupticker.ch/en/news/iudexnc-startet-mit-erstem-kunden-in-den-regelbetrieb"
-        ],
-        "summary": "Dextra, a Zurich legal expenses insurer handling about 40,000 cases a year, now uses start-up iudexnc's software in regular operations to check whether claims are covered, after a pilot that began in October 2025, startupticker.ch reported."
-      },
-      {
-        "date": "2026-10-31",
-        "mode": "daily",
-        "key": "ing|results|3q26",
-        "headline": "ING says agentic AI cut complex mortgage approvals from seven days to five",
-        "urls": [
-          "https://www.globenewswire.com/news-release/2026/10/29/3390908/0/en/ing-shows-continued-commercial-momentum-in-3q2026-and-is-well-on-track-to-deliver-on-2026-outlook.html",
-          "https://www.fool.com/earnings/call-transcripts/2026/10/29/ing-ing-q3-2026-earnings-call-transcript/"
-        ],
-        "summary": "ING chief executive Steven van Rijswijk said on the third-quarter call on 29 October that agentic AI in Dutch mortgages has cut the approval time for complex mortgages from seven days to five, and that ING plans to extend it to other market"
-      },
-      {
-        "date": "2026-10-31",
-        "mode": "daily",
-        "key": "ecb|select|digital-euro-network-providers",
-        "headline": "ECB picks two consortia to connect banks to the digital euro",
-        "urls": [
-          "https://thepaypers.com/crypto-web3-and-cbdc/news/ecb-selects-nexi-and-deutsche-telekom-for-digital-euro-connectivity",
-          "https://www.democrata.es/en/economy/telefonica-and-minsait-will-be-in-charge-of-the-secure-communications-of-the-ecb-s-digital-euro/"
-        ],
-        "summary": "The ECB has chosen a Nexi and Deutsche Telekom consortium and a Telefónica and Minsait consortium as the digital euro's two network service providers, each on a ten-year contract, according to The Paypers and the companies. The networks wil"
-      },
-      {
-        "date": "2026-10-31",
-        "mode": "daily",
-        "key": "snb|results|9m26",
-        "headline": "SNB reports a CHF 44.2 billion profit for the first nine months",
-        "urls": [
-          "https://www.snb.ch/en/publications/communication/press-releases/2026/pre_20261030",
-          "https://www.finews.com/news/english-news/74248-snb-result-9m-2026"
-        ],
-        "summary": "The Swiss National Bank reported a profit of CHF 44.2 billion for the first three quarters of 2026. Foreign currency positions earned CHF 43.3 billion, gold added CHF 1.2 billion and Swiss franc positions CHF 0.1 billion; the SNB said only "
-      },
-      {
-        "date": "2026-10-31",
-        "mode": "daily",
-        "key": "lukb|results|9m26",
-        "headline": "Luzerner Kantonalbank lifts nine-month profit 8.7 percent on fee and trading growth",
-        "urls": [
-          "https://www.lukb.ch/ueber-uns/medien/news/quartalsabschluss-september-2026",
-          "https://www.finews.ch/news/banken/74258-luzerner-kantonalbank-lukb-gewinn-2026-vermoegensverwaltung-daniel-salzmann"
-        ],
-        "summary": "Luzerner Kantonalbank's group profit rose 8.7 percent to CHF 242.7 million in the first nine months of 2026, on operating income up 7.7 percent to CHF 555.8 million. Commission income grew 12.8 percent and trading 13.0 percent, against 4.3 "
-      },
-      {
-        "date": "2026-10-31",
-        "mode": "daily",
-        "key": "ecb|leadership|lagarde-departure",
-        "headline": "Lagarde will step down as ECB President on 7 February 2027",
-        "urls": [
-          "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html",
-          "https://www.wealthbriefing.com/html/article.php/ecb%2C-us-fed-hold-rates%3B-lagarde-to-step-down--wealth-managers-react"
-        ],
-        "summary": "Christine Lagarde has told the ECB Governing Council and European Council President António Costa that she will step down as ECB President on 7 February 2027, the ECB said on 29 October; the European Council will appoint her successor. The "
-      },
-      {
-        "date": "2026-10-31",
-        "mode": "daily",
-        "key": "natwest|results|3q26",
-        "headline": "NatWest shares slide as it guides to a broadly flat margin into 2027",
-        "urls": [
-          "https://www.stocktitan.net/sec-filings/NWG/6-k-nat-west-group-plc-current-report-foreign-issuer-e74532e14cab.html",
-          "https://www.aol.com/articles/natwest-reports-flat-third-quarter-072702000.html"
-        ],
-        "summary": "NatWest's third-quarter attributable profit fell 4.1 percent to £1,532m on income up 7.1 percent to £4,640m, according to its filing on 30 October. Reuters reported the shares fell 8.4 percent after management guided to a net interest margi"
-      },
-      {
-        "date": "2026-10-31",
-        "mode": "daily",
-        "key": "global-payments|buyout|cdr-gtcr",
-        "headline": "CD&R and GTCR explore taking payments processor Global Payments private",
-        "urls": [
-          "https://www.aol.com/articles/cd-r-pursues-buyout-40-163348000.html",
-          "https://uk.investing.com/news/stock-market-news/global-payments-jumps-12-on-report-of-potential-40-billion-buyout-4946340"
-        ],
-        "summary": "Clayton, Dubilier & Rice is exploring a take-private of Global Payments together with GTCR, its largest shareholder, according to the Financial Times and Reuters on 30 October. The FT put the enterprise value at around $40 billion, which wo"
-      },
-      {
-        "date": "2026-10-31",
-        "mode": "daily",
-        "key": "mistral|release|large-4-open-weights",
-        "headline": "Mistral releases open weights for Large 4, its trillion-parameter model",
-        "urls": [
-          "https://mistral.ai/news/mistral-large-4-oss/",
-          "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/"
-        ],
-        "summary": "Mistral released the weights of Mistral Large 4 on 29 October, a natively multimodal model with 1 trillion parameters trained from scratch on European infrastructure, after a public preview earlier in October. Mistral calls it the best open"
-      },
-      {
-        "date": "2026-10-31",
-        "mode": "daily",
-        "key": "crowdstrike|research|vapor-panda-artex",
-        "headline": "China-linked hackers ran an AI agent framework against more than 200 organisations",
-        "urls": [
-          "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/",
-          "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html"
-        ],
-        "summary": "CrowdStrike says the China-based group it tracks as Vapor Panda used ARTEX, an AI-driven intrusion framework running on DeepSeek and possibly a second commercial model, against more than 200 organisations in at least 14 countries from 17 Oc"
-      },
-      {
-        "date": "2026-10-31",
-        "mode": "daily",
-        "key": "wiz|research|ai-developer-platform-breaches",
-        "headline": "Nine AI developer platforms breached in October as stolen AI keys are resold",
-        "urls": [
-          "https://www.wiz.io/blog/black-october-for-ai-developer-platforms"
-        ],
-        "summary": "Wiz researchers counted at least nine AI developer platforms that disclosed incidents in October, among them Fireworks AI, Lightning AI, Railway, Warp and, on 30 October, Northflank, with attackers hunting stored credentials that grant AI a"
-      },
-      {
-        "date": "2026-10-31",
-        "mode": "daily",
-        "key": "big-tech|markets|ai-capex-selloff",
-        "headline": "AI spending jitters hit tech stocks after Alphabet's worst day on record",
-        "urls": [
-          "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/"
-        ],
-        "summary": "Alphabet, Amazon, Meta and Microsoft have outlined more than $740 billion of capital spending this year, and investors are now focusing on negative free cash flow and rising debt, TechCrunch reported on 30 October. Alphabet fell 12 percent "
-      },
-      {
-        "date": "2026-10-31",
-        "mode": "daily",
-        "key": "anthropic|pricing|max-ultra-rename",
-        "headline": "Anthropic renames its Max plans and lifts Ultra's five-hour limit for verified accounts",
-        "urls": [
-          "https://en.shiftdelete.net/claude-ultra-plan/"
-        ],
-        "summary": "Anthropic said on 30 October that Max 5x is now called Max and Max 20x is now Ultra, with prices unchanged at $100 and $200 a month. Verified Ultra accounts lose the five-hour usage limit, starting with most existing subscribers, while week"
-      },
-      {
-        "date": "2026-10-31",
-        "mode": "daily",
-        "key": "drcf|statement|agentic-ai-economy",
-        "headline": "UK regulators CMA, FCA, ICO and Ofcom issue a joint statement on agentic AI",
-        "urls": [
-          "https://www.gov.uk/government/publications/complying-with-consumer-law-when-using-ai-agents"
-        ],
-        "summary": ""
-      },
-      {
-        "date": "2026-10-31",
-        "mode": "daily",
-        "key": "fdpic|ruling|credit-reporting-agency",
-        "headline": "FDPIC bars a credit reporting agency from using credit data for marketing",
-        "urls": [
-          "https://www.edoeb.admin.ch/en/fdpic-imposes-measures-on-a-credit-reporting-agency"
-        ],
-        "summary": ""
-      },
-      {
-        "date": "2026-10-31",
-        "mode": "daily",
-        "key": "sba|publish|cdb-27",
-        "headline": "SBA publishes the CDB 27 due diligence code, in force from 1 January 2027",
-        "urls": [
-          "https://www.swissbanking.ch/en/media-politics/news/cdb-27-revised-code-of-conduct-on-combating-money-laundering-from-2027"
-        ],
-        "summary": ""
-      },
-      {
-        "date": "2026-10-31",
-        "mode": "daily",
-        "key": "federal-council|decision|e-evidence-transitional",
-        "headline": "Federal Council lets Swiss tech providers hand data to EU prosecutors by permit",
-        "urls": [
-          "https://www.netzwoche.ch/news/2026-10-30/schweizer-tech-dienste-duerfen-daten-mit-europaeischen-strafverfolgern-teilen"
-        ],
-        "summary": ""
-      },
-      {
-        "date": "2026-10-31",
-        "mode": "daily",
-        "key": "boe|consultation|tokenised-collateral-ccps",
-        "headline": "Bank of England consults on letting central counterparties accept tokenised collateral",
-        "urls": [
-          "https://www.bankofengland.co.uk/news/2026/october/bank-of-england-sets-out-approach-to-tokenised-collateral-in-central-clearing"
-        ],
-        "summary": ""
-      },
-      {
-        "date": "2026-10-31",
-        "mode": "daily",
-        "key": "ecb|speech|cipollone-t1-tokenisation",
-        "headline": "ECB's Cipollone says Pontes DLT settlement will run around the clock in 2028",
-        "urls": [
-          "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261029~e9b57c3495.en.html"
-        ],
-        "summary": ""
-      },
-      {
-        "date": "2026-10-31",
-        "mode": "daily",
-        "key": "eba|advice|taxonomy-disclosures",
-        "headline": "EBA advises the Commission to drop banks' fees and trading book taxonomy KPIs",
-        "urls": [
-          "https://www.eba.europa.eu/publications-and-media/press-releases/eba-advises-targeted-simplifications-taxonomy-disclosures"
-        ],
-        "summary": ""
-      },
-      {
-        "date": "2026-10-31",
-        "mode": "daily",
-        "key": "cma|investigation|meta-commercial-terms",
-        "headline": "CMA investigates Meta terms that would let it reuse publishers' content for AI",
-        "urls": [
-          "https://www.gov.uk/government/news/cma-opens-investigation-into-metas-commercial-terms--2"
-        ],
-        "summary": ""
-      },
-      {
-        "date": "2026-10-31",
-        "mode": "daily",
-        "key": "swisscom|restructure|digital-technology-ai",
-        "headline": "Swisscom moves AI consulting and about 570 staff into Swisscom Digital Technology",
-        "urls": [
-          "https://www.inside-it.ch/aufspaltung-der-firmenkundensparte-von-swisscom-20261030"
-        ],
-        "summary": ""
-      },
-      {
-        "date": "2026-10-31",
-        "mode": "daily",
-        "key": "pwc|survey|global-trust-insights-2027-switzerland",
-        "headline": "PwC survey: Swiss firms rank attacks on AI systems as their biggest cyber gap",
-        "urls": [
-          "https://www.netzwoche.ch/news/2026-10-29/angriffe-auf-ki-systeme-offenbaren-luecken-in-der-schweizer-cyberabwehr"
-        ],
-        "summary": ""
-      },
-      {
-        "date": "2026-10-31",
-        "mode": "daily",
-        "key": "intochat|test|swiss-german-chatbots",
-        "headline": "Test finds chatbots now understand Swiss German but still invent promises to customers",
-        "urls": [
-          "https://www.inside-it.ch/kis-luegen-auch-auf-schweizerdeutsch-20261030"
-        ],
-        "summary": ""
-      },
-      {
-        "date": "2026-10-31",
-        "mode": "daily",
-        "key": "bnp-paribas|appoint|securities-services-switzerland-head",
-        "headline": "BNP Paribas names Marco Citrini head of Securities Services Switzerland",
-        "urls": [
-          "https://www.finews.com/news/english-news/74257-bnp-paribas-switzerland-marco-citrini-securities-services"
-        ],
-        "summary": ""
-      },
-      {
-        "date": "2026-10-31",
-        "mode": "daily",
-        "key": "indeed|survey|swiss-bank-job-ads-october",
-        "headline": "Job ads at Switzerland's ten largest banks rise 4 percent in October",
-        "urls": [
-          "https://www.finews.com/news/english-news/74254-banken-stellenmarkt-oktober-2026-indeed"
-        ],
-        "summary": ""
-      },
       {
         "date": "2026-11-02",
         "mode": "daily",
@@ -4120,162 +3694,163 @@
   "calendar": {
     "events": [
       {
-        "date": "2026-11-20",
-        "event": "Microsoft Ignite closes in San Francisco",
-        "url": "https://www.moscone.com/events/microsoft-ignite-2026",
-        "added": "2026-11-18",
-        "checked": "2026-11-20"
-      },
-      {
-        "date": "2026-11-20",
-        "event": "Singapore FinTech Festival closes",
-        "url": "https://www.fintechfestival.sg/",
-        "added": "2026-11-19",
-        "checked": "2026-11-20"
-      },
-      {
-        "date": "2026-11-20",
-        "event": "Anthropic's IPO is due to close",
-        "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
-        "added": "2026-11-20",
-        "checked": "2026-11-20"
-      },
-      {
         "date": "2026-11-23",
         "event": "National Council economic affairs committee debates the UBS capital bill (to 24 November)",
         "url": "https://www.cash.ch/news/presse-kompromiss-in-ubs-eigenmittelfrage-will-bewertungsmethode-andern-982502",
         "added": "2026-11-13",
-        "checked": "2026-11-18"
+        "checked": "2026-11-22"
       },
       {
         "date": "2026-11-23",
-        "event": "National Council economic affairs committee debates the UBS capital bill in detail (to 24 November)",
-        "url": "https://www.cash.ch/news/presse-kompromiss-in-ubs-eigenmittelfrage-will-bewertungsmethode-andern-982502",
-        "added": "2026-11-19",
-        "checked": "2026-11-20"
+        "event": "Julius Baer business update for the first ten months",
+        "url": "https://allnews.ch/content/ev%C3%A8nements-cl%C3%A9s-des-semaines-47-%C3%A0-50-7",
+        "added": "2026-11-22",
+        "checked": "2026-11-22"
+      },
+      {
+        "date": "2026-11-24",
+        "event": "EFG International business update for the first ten months",
+        "url": "https://allnews.ch/content/ev%C3%A8nements-cl%C3%A9s-des-semaines-47-%C3%A0-50-7",
+        "added": "2026-11-22",
+        "checked": "2026-11-22"
       },
       {
         "date": "2026-11-26",
         "event": "Open-i 2026, Swiss innovation conference, Zurich",
         "url": "https://www.netzwoche.ch/node/107112",
         "added": "2026-11-15",
-        "checked": "2026-11-20"
-      },
-      {
-        "date": "2026-11-26",
-        "event": "Open-i 2026, Swiss innovation conference, Kongresshaus Zurich",
-        "url": "https://www.netzwoche.ch/node/107112",
-        "added": "2026-11-19",
-        "checked": "2026-11-19"
+        "checked": "2026-11-22"
       },
       {
         "date": "2026-11-30",
         "event": "AWS re:Invent opens in Las Vegas (to 4 December)",
         "url": "https://aws.amazon.com/events/reinvent/",
         "added": "2026-11-01",
-        "checked": "2026-11-20"
+        "checked": "2026-11-22"
+      },
+      {
+        "date": "2026-11-30",
+        "event": "SECO publishes Swiss GDP for the third quarter",
+        "url": "https://allnews.ch/content/ev%C3%A8nements-cl%C3%A9s-des-semaines-47-%C3%A0-50-7",
+        "added": "2026-11-22",
+        "checked": "2026-11-22"
       },
       {
         "date": "2026-12-01",
         "event": "Billing starts for the Copilot harness in Microsoft Foundry",
         "url": "https://devblogs.microsoft.com/foundry/microsoft-copilot-harness-in-foundry/",
         "added": "2026-11-01",
-        "checked": "2026-11-15"
+        "checked": "2026-11-22"
       },
       {
-        "date": "2026-12-01",
-        "event": "Billing starts for the Copilot harness in Microsoft Foundry Agent Service",
-        "url": "https://devblogs.microsoft.com/foundry/microsoft-copilot-harness-in-foundry/",
-        "added": "2026-11-19",
-        "checked": "2026-11-19"
+        "date": "2026-12-04",
+        "event": "Swiss Re sets out its financial targets for 2027",
+        "url": "https://allnews.ch/content/ev%C3%A8nements-cl%C3%A9s-des-semaines-47-%C3%A0-50-7",
+        "added": "2026-11-22",
+        "checked": "2026-11-22"
       },
       {
         "date": "2026-12-09",
         "event": "Federal Reserve rate decision",
         "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
         "added": "2026-11-01",
-        "checked": "2026-11-15"
+        "checked": "2026-11-22"
       },
       {
         "date": "2026-12-10",
         "event": "SNB monetary policy assessment",
         "url": "https://www.snb.ch/en/services-events/digital-services/event-schedule",
         "added": "2026-11-01",
-        "checked": "2026-11-15"
+        "checked": "2026-11-22"
       },
       {
         "date": "2026-12-17",
         "event": "ECB monetary policy decision",
         "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
         "added": "2026-11-01",
-        "checked": "2026-11-15"
+        "checked": "2026-11-22"
       },
       {
         "date": "2026-12-17",
         "event": "Bank of England rate decision",
         "url": "https://www.bankofengland.co.uk/news/2024/december/mpc-dates-for-2026",
         "added": "2026-11-01",
-        "checked": "2026-11-15"
+        "checked": "2026-11-22"
       },
       {
         "date": "2027-01-01",
         "event": "SBA due diligence code CDB 27 in force (four-month transition)",
         "url": "https://www.swissbanking.ch/en/media-politics/news/cdb-27-revised-code-of-conduct-on-combating-money-laundering-from-2027",
         "added": "2026-11-01",
-        "checked": "2026-11-15"
+        "checked": "2026-11-22"
       },
       {
         "date": "2027-01-01",
         "event": "BVG minimum interest rate rises to 2.0 percent",
         "url": "https://www.finews.ch/news/versicherungen/74331-bvg-mindestzins-bundesrat-anhebung-svv",
         "added": "2026-11-08",
-        "checked": "2026-11-15"
+        "checked": "2026-11-22"
       },
       {
         "date": "2027-01-01",
         "event": "Revised FINMA Anti-Money Laundering Ordinance in force",
         "url": "https://www.finma.ch/en/news/2026/11/20261110-mm-gwv-finma/",
         "added": "2026-11-15",
-        "checked": "2026-11-15"
+        "checked": "2026-11-22"
       },
       {
         "date": "2027-01-01",
         "event": "New York RAISE Act in force; large frontier AI developers must be registered",
         "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
         "added": "2026-11-15",
-        "checked": "2026-11-15"
+        "checked": "2026-11-22"
       },
       {
         "date": "2027-01-08",
         "event": "SNB preliminary annual result for 2026",
         "url": "https://www.snb.ch/en/services-events/digital-services/event-schedule",
         "added": "2026-11-01",
-        "checked": "2026-11-15"
+        "checked": "2026-11-22"
       },
       {
         "date": "2027-01-13",
         "event": "Partners Group assets under management at 31 December",
         "url": "https://www.partnersgroup.com/en/shareholders/financial-calendar",
         "added": "2026-11-01",
-        "checked": "2026-11-15"
+        "checked": "2026-11-22"
       },
       {
         "date": "2027-01-15",
         "event": "FINMA consultation on Circular 2019/2 (interest rate risks) closes",
         "url": "https://www.finma.ch/en/news/2026/11/20261104-mm-rs-19-02/",
         "added": "2026-11-05",
-        "checked": "2026-11-15"
+        "checked": "2026-11-22"
       },
       {
         "date": "2027-01-27",
         "event": "Federal Reserve rate decision",
         "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
         "added": "2026-11-01",
-        "checked": "2026-11-15"
+        "checked": "2026-11-22"
       }
     ]
   },
   "archive": [
+    {
+      "date": "2026-11-22",
+      "mode": "weekly",
+      "overview": "UBS and the bankers' association push back on Swiss capital rules, an AI sell-off follows supervisors' warnings on AI debt, Anthropic closes a record IPO, the ECB finds ICT gaps at 96 percent of banks as AI attacks spread, and US banks make customers liable for their AI agents.",
+      "headlines": [
+        "UBS and the bankers' association push back as parliament takes up the capital bill",
+        "AI sell-off pushes the S&P 500 into correction after supervisors warn on AI debt",
+        "Anthropic's IPO and placement bring in about USD 119.5 billion in gross proceeds",
+        "ECB finds ICT gaps at 96 percent of banks as AI attacks spread",
+        "Banks make customers liable for AI agents as the Fed warns of faster runs"
+      ],
+      "audio_url": "audio/signal-2026-11-22-weekly.mp3",
+      "duration": 726.15,
+      "slug": "2026-11-22-weekly"
+    },
     {
       "date": "2026-11-20",
       "mode": "daily",
@@ -4448,19 +4023,6 @@
       "audio_url": "audio/signal-2026-11-06.mp3",
       "duration": 720.63,
       "slug": "2026-11-06"
-    },
-    {
-      "date": "2026-11-05",
-      "mode": "daily",
-      "overview": "The OCC's AI framework for US bank examiners, a reported valuation compromise in the UBS capital dispute and the markets' reaction to the Democrats' sweep of Congress lead this morning.",
-      "headlines": [
-        "OCC tells US bank examiners to judge AI by consequences, ranking payment agents highest",
-        "Bloomberg: National Council member proposes valuation change to ease UBS capital dispute",
-        "Democrats take Congress; Dow jumps 3 percent, Brent sinks and the SMI passes 15,000"
-      ],
-      "audio_url": "audio/signal-2026-11-05.mp3",
-      "duration": 792.33,
-      "slug": "2026-11-05"
     }
   ]
 }
