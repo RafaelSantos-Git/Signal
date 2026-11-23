@@ -1,7 +1,7 @@
 {
   "log": {
     "last_delivery": {
-      "daily": "2026-11-20T04:58+01:00",
+      "daily": "2026-11-23T04:52+01:00",
       "weekly": "2026-11-22T04:50+01:00"
     },
     "stories": [
@@ -3688,6 +3688,188 @@
           "https://www.inside-it.ch/kritische-schwachstellen-in-nginx-entdeckt-20261119"
         ],
         "summary": ""
+      },
+      {
+        "date": "2026-11-23",
+        "mode": "daily",
+        "key": "anthropic|proof|riemann-hypothesis-lean",
+        "headline": "An Anthropic mathematician says he proved the Riemann hypothesis with Claude",
+        "urls": [
+          "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+          "https://simonwillison.net/2026/Nov/20/levent-alpoge/"
+        ],
+        "summary": "Levent Alpöge, a mathematician at Anthropic, said on 20 November that working with Claude he had found a proof of the Riemann hypothesis and its generalised form, formalised in the Lean proof language. Several mathematicians, including MIT'"
+      },
+      {
+        "date": "2026-11-23",
+        "mode": "daily",
+        "key": "ubs|capital-rules|economists-rebuttal",
+        "headline": "UBS capital bill reaches a National Council committee as economists dispute UBS's case",
+        "urls": [
+          "https://www.cash.ch/news/presseschau-vom-wochenende-47-2122-november-987186"
+        ],
+        "summary": "The National Council's economic affairs committee takes up the capital bill for UBS on 23 and 24 November. Over the weekend three economists quoted by the SonntagsZeitung rejected the arguments UBS published on 19 November, according to the"
+      },
+      {
+        "date": "2026-11-23",
+        "mode": "daily",
+        "key": "openai|proposal|perplexity-pacing-metric",
+        "headline": "OpenAI's chief scientist proposes perplexity as the yardstick for limits on AI progress",
+        "urls": [
+          "https://openai.com/index/perplexity-and-intelligence/",
+          "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/"
+        ],
+        "summary": "In a post on 22 November, Jakub Pachocki, OpenAI's chief scientist, argued that perplexity, a measure of how well a model predicts the next token, should become the shared metric for comparing developers and informing common safety standard"
+      },
+      {
+        "date": "2026-11-23",
+        "mode": "daily",
+        "key": "standard-bank|automation|genai-risk-assessment-aws",
+        "headline": "Standard Bank automates risk assessments of its generative AI use cases with AWS",
+        "urls": [
+          "https://aws.amazon.com/blogs/machine-learning/how-standard-bank-group-automates-ai-risk-assessment-for-generative-ai/"
+        ],
+        "summary": "Standard Bank Group scores each generative AI use case against international AI standards and its own policies with an automated assessment built with AWS Professional Services, AWS said on 20 November. A model on Amazon Bedrock checks the "
+      },
+      {
+        "date": "2026-11-23",
+        "mode": "daily",
+        "key": "payhawk|funding|series-c-2bn",
+        "headline": "Payhawk raises USD 280 million at a USD 2 billion valuation for finance agents",
+        "urls": [
+          "https://fintechnews.ch/london/payhawk-2-billion-valuation-goldman-sachs/87209/"
+        ],
+        "summary": "The spend management firm's Series C was led by Growth Equity at Goldman Sachs Alternatives, Fintech News Switzerland reported on 20 November. Payhawk plans what it calls a Finance Operating System, in which AI agents do finance work under "
+      },
+      {
+        "date": "2026-11-23",
+        "mode": "daily",
+        "key": "titanbay|survey|private-markets-operations-2026",
+        "headline": "Most asset managers say onboarding one wealth distributor takes three months or more",
+        "urls": [
+          "https://www.wealthbriefing.com/html/article.php/operational-complexity-curbs-private-market-distribution--survey"
+        ],
+        "summary": "Among asset managers distributing private market funds through wealth managers and private banks, 58 percent said onboarding a single distributor takes three months or more, according to a Titanbay survey reported by WealthBriefing on 20 No"
+      },
+      {
+        "date": "2026-11-23",
+        "mode": "daily",
+        "key": "fedpol|proposal|bank-account-register",
+        "headline": "Fedpol investigator calls for a Swiss register of bank accounts",
+        "urls": [
+          "https://www.finanzen.ch/nachrichten/aktien/presseschau-vom-wochenende-47-21-22-november-1036790087"
+        ],
+        "summary": "Urs Geier, head of the state security and criminal organisations division at the Federal Office of Police, told the NZZ am Sonntag that Switzerland needs a bank account register on the European model, according to the AWP press review. It w"
+      },
+      {
+        "date": "2026-11-23",
+        "mode": "daily",
+        "key": "sspa|statistics|structured-products-q3-2026",
+        "headline": "Swiss structured products turnover slips to CHF 62 billion in the third quarter",
+        "urls": [
+          "https://www.finews.com/news/english-news/74600-sspa-structured-products-third-quarter-2026-georg-von-wattenwyl"
+        ],
+        "summary": "The largest members of the Swiss Structured Products Association turned over CHF 62 billion from July to September, up from CHF 53 billion a year earlier but down from CHF 67 billion in the second quarter and CHF 79 billion in the first, fi"
+      },
+      {
+        "date": "2026-11-23",
+        "mode": "daily",
+        "key": "close-brothers|trading-update|q1-fy2027",
+        "headline": "Close Brothers grows its loan book and holds its motor finance provision",
+        "urls": [
+          "https://www.wealthbriefing.com/html/article.php/uk%27sclose-brothers-grows-loan-book%2C-motor-finance-provision-holds"
+        ],
+        "summary": "The London-listed lender said its underlying loan book grew 1.5 percent in the three months to 31 October, the first quarter of its 2027 financial year, WealthBriefing reported on 20 November. Its provision for motor finance commissions sta"
+      },
+      {
+        "date": "2026-11-23",
+        "mode": "daily",
+        "key": "openai|safeguards|adversarial-distillation",
+        "headline": "OpenAI cuts the success of reasoning-extraction attacks from 54 to 0.2 percent",
+        "urls": [
+          "https://openai.com/index/combatting-adversarial-distillation/"
+        ],
+        "summary": "OpenAI set out on 20 November how it detects and disrupts adversarial distillation, the unauthorised use of a model's outputs to train a copy without its safeguards. It said that in an internal test, the success rate of attacks recovering p"
+      },
+      {
+        "date": "2026-11-23",
+        "mode": "daily",
+        "key": "aws|release|textract-insights",
+        "headline": "AWS releases Textract Insights, document extraction with confidence scores and page references",
+        "urls": [
+          "https://aws.amazon.com/blogs/machine-learning/announcing-amazon-textract-insights-verifiable-generative-ai-for-documents/"
+        ],
+        "summary": "Amazon Textract Insights became generally available on 20 November. Users describe the fields they want in plain language and submit a document or a mixed packet of up to 3,000 pages, and each value comes back with a confidence score and pa"
+      },
+      {
+        "date": "2026-11-23",
+        "mode": "daily",
+        "key": "armory-castle|exploit|vmware-vcenter-zero-day",
+        "headline": "Suspected Chinese spies exploited a critical VMware vCenter flaw from September",
+        "urls": [
+          "https://www.netzwoche.ch/news/2026-11-20/spionagegruppe-nutzt-kritische-luecke-in-vmware-vcenter-aus"
+        ],
+        "summary": "A suspected China-linked espionage group, Armory Castle, used a then unknown flaw in VMware vCenter from early September to bypass sign-in and gain administrator rights, Netzwoche reported on 20 November, citing BleepingComputer and Google "
+      },
+      {
+        "date": "2026-11-23",
+        "mode": "daily",
+        "key": "ecb|speech|lagarde-acting-in-time",
+        "headline": "ECB's Lagarde warns that Europe's dependencies can now be used against it",
+        "urls": [
+          "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261120~e52bcc4db2.en.html"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-23",
+        "mode": "daily",
+        "key": "ecb|speech|montagner-demographic-change",
+        "headline": "ECB's Patrick Montagner sets out what an ageing Europe means for banks and supervisors",
+        "urls": [
+          "https://www.bankingsupervision.europa.eu/press/speeches/date/2026/html/ssm.sp261120~269037727b.en.html"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-23",
+        "mode": "daily",
+        "key": "eba|list|third-country-groups-branches-2026",
+        "headline": "EBA counts 441 third-country banking groups in the EU, 58 of them through branches",
+        "urls": [
+          "https://www.eba.europa.eu/publications-and-media/press-releases/eba-publishes-updated-information-third-country-groups-and-branches-operating-eueea"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-23",
+        "mode": "daily",
+        "key": "basel-landschaft|data-theft|cross-border-permits",
+        "headline": "Update: Basel-Landschaft says attackers probably took 97,000 records on cross-border commuters",
+        "urls": [
+          "https://www.netzwoche.ch/news/2026-11-19/cyberkriminelle-greifen-it-des-kantons-basel-landschaft-an"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-23",
+        "mode": "daily",
+        "key": "fdfa|meeting|digital-switzerland-advisory-board-geneva",
+        "headline": "Digital Switzerland Advisory Board looks at cybersecurity and AI for International Geneva",
+        "urls": [
+          "https://www.admin.ch/en/newnsb/ZWMlnMSSoRzU"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-23",
+        "mode": "daily",
+        "key": "vse|study|datacentre-electricity-2050",
+        "headline": "Swiss data centres could use up to 10 percent of electricity by 2050",
+        "urls": [
+          "https://www.netzwoche.ch/news/2026-11-20/rechenzentren-koennten-2050-ein-zehntel-des-schweizer-stroms-verbrauchen"
+        ],
+        "summary": ""
       }
     ]
   },
@@ -3698,28 +3880,28 @@
         "event": "National Council economic affairs committee debates the UBS capital bill (to 24 November)",
         "url": "https://www.cash.ch/news/presse-kompromiss-in-ubs-eigenmittelfrage-will-bewertungsmethode-andern-982502",
         "added": "2026-11-13",
-        "checked": "2026-11-22"
+        "checked": "2026-11-23"
       },
       {
         "date": "2026-11-23",
         "event": "Julius Baer business update for the first ten months",
         "url": "https://allnews.ch/content/ev%C3%A8nements-cl%C3%A9s-des-semaines-47-%C3%A0-50-7",
         "added": "2026-11-22",
-        "checked": "2026-11-22"
+        "checked": "2026-11-23"
       },
       {
         "date": "2026-11-24",
         "event": "EFG International business update for the first ten months",
         "url": "https://allnews.ch/content/ev%C3%A8nements-cl%C3%A9s-des-semaines-47-%C3%A0-50-7",
         "added": "2026-11-22",
-        "checked": "2026-11-22"
+        "checked": "2026-11-23"
       },
       {
         "date": "2026-11-26",
         "event": "Open-i 2026, Swiss innovation conference, Zurich",
         "url": "https://www.netzwoche.ch/node/107112",
         "added": "2026-11-15",
-        "checked": "2026-11-22"
+        "checked": "2026-11-23"
       },
       {
         "date": "2026-11-30",
@@ -3836,6 +4018,19 @@
     ]
   },
   "archive": [
+    {
+      "date": "2026-11-23",
+      "mode": "daily",
+      "overview": "After a quiet weekend, a mathematician's claim to have proved the Riemann hypothesis with Claude, the UBS capital bill reaching a National Council committee and OpenAI's proposal for measuring AI progress lead this morning.",
+      "headlines": [
+        "An Anthropic mathematician says he proved the Riemann hypothesis with Claude",
+        "UBS capital bill reaches a National Council committee as economists dispute UBS's case",
+        "OpenAI's chief scientist proposes perplexity as the yardstick for limits on AI progress"
+      ],
+      "audio_url": "audio/signal-2026-11-23.mp3",
+      "duration": 668.08,
+      "slug": "2026-11-23"
+    },
     {
       "date": "2026-11-22",
       "mode": "weekly",
@@ -4010,19 +4205,6 @@
       "audio_url": "audio/signal-2026-11-08-weekly.mp3",
       "duration": 727.34,
       "slug": "2026-11-08-weekly"
-    },
-    {
-      "date": "2026-11-06",
-      "mode": "daily",
-      "overview": "An AI-led rout wipes USD 2.5 trillion from US stocks and reaches Asia, Claude starts reading US bank accounts through Plaid, and China blocks SoftBank's purchase of ABB's robotics division.",
-      "headlines": [
-        "AI sell-off wipes USD 2.5 trillion from US stocks and spreads to Asia",
-        "Claude adds Personal Finance, linking US bank accounts through Plaid with read-only access",
-        "China blocks SoftBank's USD 5.4 billion purchase of ABB's robotics division"
-      ],
-      "audio_url": "audio/signal-2026-11-06.mp3",
-      "duration": 720.63,
-      "slug": "2026-11-06"
     }
   ]
 }

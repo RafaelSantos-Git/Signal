@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "updated": "2026-11-22T04:50+01:00",
+  "updated": "2026-11-23T04:52+01:00",
   "editions": [
+    {
+      "date": "2026-11-23",
+      "mode": "daily",
+      "slug": "2026-11-23",
+      "title": "Signal · Monday 23 November",
+      "kind": "Daily briefing",
+      "duration": 668.08,
+      "stories": 18,
+      "overview": "After a quiet weekend, a mathematician's claim to have proved the Riemann hypothesis with Claude, the UBS capital bill reaching a National Council committee and OpenAI's proposal for measuring AI progress lead this morning.",
+      "path": "d/2026-11-23/",
+      "edition": "d/2026-11-23/edition.json"
+    },
     {
       "date": "2026-11-22",
       "mode": "weekly",
@@ -157,18 +169,6 @@
       "overview": "The UBS capital fight turns to a compromise idea, banks put numbers on AI, Binance traces its theft to a tampered AI tool, rates rise as AI stocks fall, and supervisors start inspecting bank AI.",
       "path": "d/2026-11-08-weekly/",
       "edition": "d/2026-11-08-weekly/edition.json"
-    },
-    {
-      "date": "2026-11-06",
-      "mode": "daily",
-      "slug": "2026-11-06",
-      "title": "Signal · Friday 6 November",
-      "kind": "Daily briefing",
-      "duration": 720.63,
-      "stories": 31,
-      "overview": "An AI-led rout wipes USD 2.5 trillion from US stocks and reaches Asia, Claude starts reading US bank accounts through Plaid, and China blocks SoftBank's purchase of ABB's robotics division.",
-      "path": "d/2026-11-06/",
-      "edition": "d/2026-11-06/edition.json"
     }
   ]
 }
