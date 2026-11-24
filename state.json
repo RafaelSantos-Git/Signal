@@ -1,305 +1,10 @@
 {
   "log": {
     "last_delivery": {
-      "daily": "2026-11-23T04:52+01:00",
+      "daily": "2026-11-24T04:51+01:00",
       "weekly": "2026-11-22T04:50+01:00"
     },
     "stories": [
-      {
-        "date": "2026-11-02",
-        "mode": "daily",
-        "key": "ubs|ai|use-cases-608",
-        "headline": "UBS reports 608 AI use cases in production and 12,700 personal agents",
-        "urls": [
-          "https://fintechnews.ch/aifintech/ubs-ai-use-cases-608-live/86805/"
-        ],
-        "summary": "UBS has 608 AI use cases in production, 81 percent more than a year earlier, and more than 1,090 applications in development, according to its third-quarter report as summarised by Fintech News Switzerland on 2 November. Staff run more than"
-      },
-      {
-        "date": "2026-11-02",
-        "mode": "daily",
-        "key": "anthropic|ipo|amended-filing-3q26",
-        "headline": "Update: Anthropic's amended filing shows USD 17 billion revenue and USD 895 billion commitments",
-        "urls": [
-          "https://www.aol.com/articles/anthropics-amended-ipo-paperwork-reveals-153730000.html",
-          "https://thenextweb.com/news/anthropic-ipo-filing-17bn-revenue-commitments",
-          "https://fortune.com/2026/11/02/anthropics-growth-slowed-and-costs-jumped-in-the-third-quarter-updated-ipo-filing-shows/"
-        ],
-        "summary": "Anthropic's amended IPO prospectus, filed with the SEC on 2 November, reports third-quarter revenue of nearly USD 17 billion, up from USD 11.6 billion in the second quarter. It swung to a USD 567 million operating loss from a USD 974 millio"
-      },
-      {
-        "date": "2026-11-02",
-        "mode": "daily",
-        "key": "hkma|launch|project-sage",
-        "headline": "Hong Kong regulator launches Project SAGE and weighs a Know Your Agent standard",
-        "urls": [
-          "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261102-4/",
-          "https://www.thestandard.com.hk/finance/article/347196/HKMA-unveils-four-key-areas-of-fintech-initiatives-DART-framework"
-        ],
-        "summary": "The Hong Kong Monetary Authority launched Project SAGE on 2 November to support AI agents in financial services, covering use cases, agent identity and delegated authority, interoperability, and liability and consumer protection. An expert "
-      },
-      {
-        "date": "2026-11-02",
-        "mode": "daily",
-        "key": "hsbc|launch|hong-kong-ai-institute",
-        "headline": "HSBC will open a Hong Kong AI institute and train all 200,000 staff",
-        "urls": [
-          "https://www.asiaone.com/money/hsbc-open-hong-kong-ai-institute-following-singapore-launch"
-        ],
-        "summary": "Chief executive Georges Elhedery said on 2 November that HSBC aims to launch an AI and emerging technology institute in Hong Kong in the first quarter of 2027, with HKUST as anchor academic partner. AI training is being rolled out to its ro"
-      },
-      {
-        "date": "2026-11-02",
-        "mode": "daily",
-        "key": "fs-cscc|exercise|geneva-cyber",
-        "headline": "Swiss financial sector rehearses a cyberattack in Geneva, with FINMA recognition for smaller institutions",
-        "urls": [
-          "https://www.inside-it.ch/finanzbranche-trainiert-den-ernstfall-bei-cyberangriffen-20261102"
-        ],
-        "summary": "The Swiss Financial Sector Cyber Security Centre ran its second exercise in French-speaking Switzerland, in Geneva, for about 60 people from Swiss and Liechtenstein institutions, Inside IT reports. Teams worked through evidence and made dec"
-      },
-      {
-        "date": "2026-11-02",
-        "mode": "daily",
-        "key": "hm-treasury|digital-gilt|lead-managers",
-        "headline": "UK gives six banks roles on its digital gilt as BoE approves platform link",
-        "urls": [
-          "https://www.gov.uk/government/news/uk-moves-closer-to-launching-first-digitally-native-government-bond"
-        ],
-        "summary": "HM Treasury said on 2 November that Barclays, HSBC, Lloyds, Morgan Stanley, NatWest and RBC Capital Markets have specific lead manager roles on the Digital Gilt Instrument pilot, expected by the first quarter of 2027. The Bank of England ap"
-      },
-      {
-        "date": "2026-11-02",
-        "mode": "daily",
-        "key": "mediolanum|launch|lumen-faro",
-        "headline": "Mediolanum adds an AI advice tool as research shows LLM advice varies widely",
-        "urls": [
-          "https://www.wealthbriefing.com/html/article.php/ai-versus-human-touch--mediolanum"
-        ],
-        "summary": "\"We are not investing in AI to reduce costs,\" Mediolanum International Funds chief executive Furio Pietribiasi told WealthBriefing. The group recently introduced Lumen Faro, which helps financial consultants explain and defend client portfo"
-      },
-      {
-        "date": "2026-11-02",
-        "mode": "daily",
-        "key": "binance|withdrawals|reopen-outflow",
-        "headline": "Update: Binance reopens withdrawals and sees USD 3.64 billion net outflow in nine hours",
-        "urls": [
-          "https://www.netzwoche.ch/news/2026-10-30/hacker-klauen-bei-binance-kryptogeld-im-wert-von-mehreren-milliarden-us-dollar",
-          "https://www.inside-it.ch/binance-kehrt-nach-angriff-zum-normalbetrieb-zurueck-20261102"
-        ],
-        "summary": "Binance reopened withdrawals in stages on 1 November after the USD 6.3 billion theft. In the first nine hours USD 4.649 billion left and USD 1.01 billion came in, a net outflow of about 2 percent of the USD 171 billion on the platform, Netz"
-      },
-      {
-        "date": "2026-11-02",
-        "mode": "daily",
-        "key": "amas|statistics|fund-market-q3-2026",
-        "headline": "Swiss fund market hits a record CHF 1,927 billion as new money favours bonds",
-        "urls": [
-          "https://www.finews.com/news/english-news/74266-amas-fondsmarktq3-2026-neugeld-obligationenfonds-fondsanbieter"
-        ],
-        "summary": "Swiss fund assets reached a record CHF 1,927 billion at the end of September, up 10.8 percent, mostly on markets and currency effects, Asset Management Association Switzerland said. Net new money was CHF 32.7 billion, mainly into bond funds"
-      },
-      {
-        "date": "2026-11-02",
-        "mode": "daily",
-        "key": "sif|speech|stoffel-vsv-congress",
-        "headline": "State Secretary Stoffel tells Swiss wealth managers to show regulators costs and benefits",
-        "urls": [
-          "https://www.finews.com/news/english-news/74277-swiss-association-of-asset-managers-vsv-annual-conference-2026-vivien-jain-daniela-stoffel-andreas-schrimpf"
-        ],
-        "summary": "Daniela Stoffel, State Secretary for International Finance, told the Swiss Association of Wealth Managers' congress in Zurich on 30 October that Bern needs evidence on regulation's benefits as well as its costs. A working group on financial"
-      },
-      {
-        "date": "2026-11-02",
-        "mode": "daily",
-        "key": "fatf|greylist|monaco-removed",
-        "headline": "FATF removes Monaco from its grey list and will speed up virtual asset standards",
-        "urls": [
-          "https://www.wealthbriefing.com/html/article.php/fatf-takes-monaco-off-%22grey-list%22-"
-        ],
-        "summary": "The Financial Action Task Force took Monaco off its grey list after its plenary, along with Bulgaria, Côte d'Ivoire and the Democratic Republic of the Congo, WealthBriefing reports. Monaco had been listed since June 2024 and was told to kee"
-      },
-      {
-        "date": "2026-11-02",
-        "mode": "daily",
-        "key": "fidelity|survey|swiss-active-etfs",
-        "headline": "Swiss professional investors hold more active ETFs than European peers, Fidelity survey finds",
-        "urls": [
-          "https://www.finews.com/news/english-news/74265-professional-investors-active-managed-etfs-expand-engagement-strategies-emerging-markets-targeted-additions-fidelity"
-        ],
-        "summary": "Active ETFs make up an average 15.7 percent of Swiss professional investors' portfolios, ahead of Germany, France, Italy and the UK, according to Fidelity International's survey of 310 decision-makers, reported by finews. Swiss respondents "
-      },
-      {
-        "date": "2026-11-02",
-        "mode": "daily",
-        "key": "dbs|survey|family-offices-succession",
-        "headline": "DBS survey finds family offices short on succession plans and cyber cover",
-        "urls": [
-          "https://www.wealthbriefing.com/html/article.php/family-offices-unprepared-for-succession%2C-operational-risk--dbs"
-        ],
-        "summary": "In research commissioned by DBS across 200 family offices, 79 percent want wealth to pass to at least two generations, yet 43 percent say the next generation has no role in planning. More than 85 percent have no formal continuity plan, rely"
-      },
-      {
-        "date": "2026-11-02",
-        "mode": "daily",
-        "key": "marvell|acquire|lumentum",
-        "headline": "Marvell agrees to buy Lumentum in a USD 115 billion all-stock deal",
-        "urls": [
-          "https://investor.marvell.com/news-events/press-releases/detail/1040/marvell-and-lumentum-to-combine-creating-a-category-leader-in-ai-connectivity",
-          "https://finance.yahoo.com/markets/stocks/article/marvell-to-purchase-lumentum-in-115-billion-deal-as-ai-124702761.html"
-        ],
-        "summary": "Marvell will give 4.5 of its shares for each Lumentum share, an implied enterprise value of USD 115 billion, the companies said on 2 November. Lumentum holders would own about 33 percent of the group. Yahoo Finance calls it the largest merg"
-      },
-      {
-        "date": "2026-11-02",
-        "mode": "daily",
-        "key": "anthropic|release|api-message-threads",
-        "headline": "Claude API adds message threads, keeping long agent conversations on the server",
-        "urls": [
-          "https://platform.claude.com/docs/en/release-notes/overview#november-2-2026"
-        ],
-        "summary": "Anthropic's release notes of 2 November add message threads in beta: the API holds the conversation, so each later request sends only new messages, with a lower time to first token. A thread expires five minutes after its last request and i"
-      },
-      {
-        "date": "2026-11-02",
-        "mode": "daily",
-        "key": "openai|product|chatgpt-chat-work-merge",
-        "headline": "OpenAI merges ChatGPT's Chat and Work tabs, with Codex sharing one allowance",
-        "urls": [
-          "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/"
-        ],
-        "summary": "OpenAI told users it will merge the Chat and Work tabs in ChatGPT, starting with select users, TechCrunch reports. Codex stays separate in the desktop app, but ChatGPT and Codex will draw on one token allowance, and OpenAI said some users m"
-      },
-      {
-        "date": "2026-11-02",
-        "mode": "daily",
-        "key": "xai|limits|grok-bot-costs",
-        "headline": "Musk says serving Grok Bot was unsustainably costly as users hit weekly limits",
-        "urls": [
-          "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/"
-        ],
-        "summary": "Some Grok Bot users found their weekly limits maxed out over the weekend, and Elon Musk wrote on X that the cost of serving the agent was \"unsustainably high relative to revenue\", TechCrunch reports. He has not said how limits will change f"
-      },
-      {
-        "date": "2026-11-02",
-        "mode": "daily",
-        "key": "oracle|partner|openai-ai-security-mesh",
-        "headline": "Oracle will run OpenAI's cyber models as a managed vulnerability service",
-        "urls": [
-          "https://www.netzwoche.ch/news/2026-11-02/oracle-und-openai-partnern-fuer-bessere-schwachstellenerkennung"
-        ],
-        "summary": "Oracle's AI Security Mesh uses OpenAI's cybersecurity models to find and fix weaknesses in enterprise applications and infrastructure, on Oracle's cloud, other clouds or on premises, Netzwoche reports. Customers set the scope and approve fi"
-      },
-      {
-        "date": "2026-11-02",
-        "mode": "daily",
-        "key": "snb|speech|collateral-policy-geneva",
-        "headline": "SNB's Tschudin and Moser explain collateral policy at Geneva money market event",
-        "urls": [
-          "https://www.bis.org/speeches/20261102-liquidity-against-collateral-swiss-national-banks-approach"
-        ],
-        "summary": ""
-      },
-      {
-        "date": "2026-11-02",
-        "mode": "daily",
-        "key": "hkma|ensemble|24-7-settlement",
-        "headline": "HKMA moves its Project Ensemble pilot to 24/7 settlement in tokenised central bank money",
-        "urls": [
-          "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261102-5/"
-        ],
-        "summary": ""
-      },
-      {
-        "date": "2026-11-02",
-        "mode": "daily",
-        "key": "hkma|launch|post-quantum-toolkit",
-        "headline": "HKMA launches a post-quantum toolkit as bank readiness scores 2.3 out of 10",
-        "urls": [
-          "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261102-6/"
-        ],
-        "summary": ""
-      },
-      {
-        "date": "2026-11-02",
-        "mode": "daily",
-        "key": "central-bank-of-ireland|sandbox|consumer-ai",
-        "headline": "Central Bank of Ireland opens a consumer AI sandbox to applications in January 2027",
-        "urls": [
-          "https://news.europawire.eu/central-bank-of-ireland-details-ai-and-tokenisation-priorities-at-dublin-financial-system-conference/eu-press-release/2026/11/02/14/27/04/185574/"
-        ],
-        "summary": ""
-      },
-      {
-        "date": "2026-11-02",
-        "mode": "daily",
-        "key": "ecb|speech|vujcic-capital-markets",
-        "headline": "ECB's Vujčić says fragmented capital markets leave Europe less able to absorb shocks",
-        "urls": [
-          "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp.261102~70003226e9.en.html"
-        ],
-        "summary": ""
-      },
-      {
-        "date": "2026-11-02",
-        "mode": "daily",
-        "key": "bundesbank|speech|genai-adoption-firms",
-        "headline": "Bundesbank: 68 percent of German firms use or plan generative AI, 7 percent widely",
-        "urls": [
-          "https://www.bis.org/speeches/20261102-capital-needs-ai-and-ai-needs-capital-europes-opportunity-more-growth"
-        ],
-        "summary": ""
-      },
-      {
-        "date": "2026-11-02",
-        "mode": "daily",
-        "key": "vontobel|appoint|bindschaedler-cpm",
-        "headline": "Vontobel names Marc Bindschädler head of client portfolio management for equities and multi-asset",
-        "urls": [
-          "https://www.finews.com/news/english-news/74276-marc-bindschaedler-vontobel-client-portfolio-management-for-equities-and-multi-asset-teams-institutional-client-activities-across-all-of-these-strategies"
-        ],
-        "summary": ""
-      },
-      {
-        "date": "2026-11-02",
-        "mode": "daily",
-        "key": "city-of-zurich|strategy|data-strategy-2030",
-        "headline": "City of Zurich adopts a Data Strategy 2030 with a citywide data catalogue",
-        "urls": [
-          "https://www.inside-it.ch/zuerich-startet-neue-datenstrategie-20261102"
-        ],
-        "summary": ""
-      },
-      {
-        "date": "2026-11-02",
-        "mode": "daily",
-        "key": "parameter-labs|research|chatgpt-account-takeover",
-        "headline": "Parameter Labs details a ChatGPT account takeover chain, now closed by OpenAI",
-        "urls": [
-          "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/"
-        ],
-        "summary": ""
-      },
-      {
-        "date": "2026-11-02",
-        "mode": "daily",
-        "key": "us-census|survey|ai-use-super-intelligence",
-        "headline": "US Census: about 40 percent of large firms use AI, now worded \"Super Intelligence\"",
-        "urls": [
-          "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/"
-        ],
-        "summary": ""
-      },
-      {
-        "date": "2026-11-02",
-        "mode": "daily",
-        "key": "import-ai|research|realtime-bench",
-        "headline": "Realtime-Bench research finds LLMs weak at time-critical web and game tasks",
-        "urls": [
-          "https://jack-clark.net/2026/11/02/import-ai-479-spacewar-low-latency-tasks-versus-llms-genie-4/"
-        ],
-        "summary": ""
-      },
       {
         "date": "2026-11-03",
         "mode": "daily",
@@ -3870,52 +3575,275 @@
           "https://www.netzwoche.ch/news/2026-11-20/rechenzentren-koennten-2050-ein-zehntel-des-schweizer-stroms-verbrauchen"
         ],
         "summary": ""
+      },
+      {
+        "date": "2026-11-24",
+        "mode": "daily",
+        "key": "julius-baer|business-update|10m-2026",
+        "headline": "Julius Baer posts a record ten-month profit as client exits slow inflows",
+        "urls": [
+          "https://www.wealthbriefing.com/html/article.php/julius-baer-ten_dash_month-pre_dash_tax-profit-hits-record-sfr1.3-billion"
+        ],
+        "summary": "Julius Baer reported adjusted pre-tax profit of about CHF 1.3 billion for the first ten months of 2026, a record and 17 percent above the underlying result a year earlier, according to WealthBriefing. Assets under management reached a recor"
+      },
+      {
+        "date": "2026-11-24",
+        "mode": "daily",
+        "key": "us-banks|controls|internal-ai-agents",
+        "headline": "US banks tighten controls on their own AI agents after rogue model incidents",
+        "urls": [
+          "https://www.bnnbloomberg.ca/business/artificial-intelligence/2026/11/23/some-us-banks-tighten-ai-agent-controls-on-concern-about-models-escaping-safeguards-reuters-exclusive/"
+        ],
+        "summary": "Several large and mid-sized US banks are limiting what their internally built AI agents can reach, separating them from critical systems, passwords and activity records, according to Reuters, citing people familiar with the matter. Banks ar"
+      },
+      {
+        "date": "2026-11-24",
+        "mode": "daily",
+        "key": "nvidia|ceo|huang-reinstated",
+        "headline": "Update: Nvidia's board reinstates Jensen Huang as chief executive",
+        "urls": [
+          "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+          "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/",
+          "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/"
+        ],
+        "summary": "Nvidia said on 23 November that its board voted unanimously to reinstate Jensen Huang as president, chief executive and board member, effective immediately. The board said it took input from senior US government officials and is confident h"
+      },
+      {
+        "date": "2026-11-24",
+        "mode": "daily",
+        "key": "ecb|collateral|dlt-pilot-regime-assets",
+        "headline": "ECB will accept assets issued on licensed DLT platforms as Eurosystem collateral",
+        "urls": [
+          "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261123~76b6f57b74.en.html"
+        ],
+        "summary": "The ECB's Governing Council approved accepting marketable assets issued on DLT platforms licensed under the EU DLT Pilot Regime as collateral for Eurosystem credit operations, the ECB said on 23 November. The assets must meet the standard e"
+      },
+      {
+        "date": "2026-11-24",
+        "mode": "daily",
+        "key": "zurich-insurance|study|ai-resilience-challenge",
+        "headline": "Zurich and HSG study warns separate AI systems can fail in the same way",
+        "urls": [
+          "https://www.zurich.com/media/news-releases/2026/2026-1123-01"
+        ],
+        "summary": "A report by Zurich Insurance Group and the University of St. Gallen, published on 23 November, says AI systems from different providers can share data, architecture or decision logic and fail together. It sorts AI risks into four zones, up "
+      },
+      {
+        "date": "2026-11-24",
+        "mode": "daily",
+        "key": "fedpol|contract|elca-face-deepfake-detector",
+        "headline": "Swiss e-ID gets a deepfake detector after tests slipped fake selfie videos through",
+        "urls": [
+          "https://www.netzwoche.ch/news/2026-11-23/bund-beauftragt-elca-mit-deepfake-erkennung-fuer-die-e-id"
+        ],
+        "summary": "The federal government has awarded Elca a CHF 4.44 million contract, without a tender, for a Face Deepfake Detector in the identity check for the Swiss e-ID, according to Netzwoche. Security tests showed that AI-generated selfie videos can "
+      },
+      {
+        "date": "2026-11-24",
+        "mode": "daily",
+        "key": "cbi-bancomat-nexi|mou|digital-euro-platform",
+        "headline": "Italian payment groups plan a shared digital euro platform for banks",
+        "urls": [
+          "https://fintechnews.ch/payments/digital-euro-infrastructure-italy-cbi-bancomat-nexi/87231/"
+        ],
+        "summary": "CBI, Bancomat and Nexi have signed a memorandum of understanding to build a shared platform linking Italian banks and payment firms to future Eurosystem digital euro services, according to Fintech News Switzerland. CBI and Bancomat will lea"
+      },
+      {
+        "date": "2026-11-24",
+        "mode": "daily",
+        "key": "sierra|funding|series-f-30bn",
+        "headline": "Sierra, whose AI agents serve HSBC and JPMorganChase, is valued at USD 30 billion",
+        "urls": [
+          "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/"
+        ],
+        "summary": "Sierra, the customer experience company co-founded by former Salesforce co-CEO Bret Taylor, said on 23 November it raised USD 1.75 billion at a USD 30 billion valuation, double its value six months ago, according to TechCrunch. Its clients "
+      },
+      {
+        "date": "2026-11-24",
+        "mode": "daily",
+        "key": "six|launch|european-growth-program",
+        "headline": "SIX launches a growth programme and index across its Swiss, Spanish and UK markets",
+        "urls": [
+          "https://www.six-group.com/en/newsroom/media-releases/2026/20261123-european-growth-program-launch.html"
+        ],
+        "summary": "SIX launched the SIX European Growth Program on 23 November to raise the international profile of growth companies listed on SIX Swiss Exchange, BME and Aquis. Its new SIX European Growth Index starts with 31 companies with market values of"
+      },
+      {
+        "date": "2026-11-24",
+        "mode": "daily",
+        "key": "finma|levy|insurance-intermediaries-2027",
+        "headline": "FINMA more than triples the levy on insurance intermediaries after widespread violations",
+        "urls": [
+          "https://www.finma.ch/en/news/2026/11/20261123-mm-aa-versicherungsvermittler/"
+        ],
+        "summary": "FINMA said on 23 November that problems among Switzerland's more than 12,000 insurance intermediaries are considerably more serious than expected. It has found over 1,000 operating without authorisation and removed about 3,200 register entr"
+      },
+      {
+        "date": "2026-11-24",
+        "mode": "daily",
+        "key": "expectation-capital|launch|geneva-private-markets",
+        "headline": "Former Geneva private bank chief Laurent Mazens launches a private markets firm",
+        "urls": [
+          "https://www.wealthbriefing.com/html/article.php/geneva_dash_based-private-markets-venture-takes-flight-"
+        ],
+        "summary": "Laurent Mazens, who has held several CEO roles in Geneva private banking, has co-founded Expectation Capital, a Geneva-based private markets investment firm, with Immosynergies Holding, according to WealthBriefing. It focuses on late-stage "
+      },
+      {
+        "date": "2026-11-24",
+        "mode": "daily",
+        "key": "pra|stress-test|dygist-2026",
+        "headline": "Bank of England stress test shows UK general insurers leaning on reinsurance and parents",
+        "urls": [
+          "https://www.bankofengland.co.uk/news/2026/november/general-insurance-stress-test-highlights-value-of-rehearsing-crisis-response-and-recovery"
+        ],
+        "summary": "On 23 November the PRA published results of its 2026 general insurance stress test, which ran 25 major insurers, with over 80 percent of the UK market, through three weeks of catastrophes, cyber events and market stress. Designed to push mo"
+      },
+      {
+        "date": "2026-11-24",
+        "mode": "daily",
+        "key": "crowdstrike|acquire|zscaler",
+        "headline": "CrowdStrike agrees to buy Zscaler in an all-stock deal worth about USD 43.9 billion",
+        "urls": [
+          "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-to-acquire-zscaler-bringing-network-security-and-zero-trust-to-the-falcon-platform/",
+          "https://www.inside-it.ch/crowdstrike-uebernimmt-zscaler-fuer-knapp-44-milliarden-20261123"
+        ],
+        "summary": "CrowdStrike said on 23 November it will acquire Zscaler in an all-stock deal valuing it at about USD 43.9 billion, offering 1.135 CrowdStrike shares per Zscaler share. The deal adds network security and zero trust to the Falcon platform, wh"
+      },
+      {
+        "date": "2026-11-24",
+        "mode": "daily",
+        "key": "anthropic|beta|enterprise-frontier-safeguards",
+        "headline": "Anthropic offers misuse safeguards with zero data retention for its strongest models",
+        "urls": [
+          "https://claude.com/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards"
+        ],
+        "summary": "Anthropic put Enterprise Frontier Safeguards into beta on 23 November on the Claude Platform, Claude Platform on AWS and Google Cloud. Anthropic keeps no prompts or responses, and encrypted copies for safety review go to a bucket in the cus"
+      },
+      {
+        "date": "2026-11-24",
+        "mode": "daily",
+        "key": "anthropic|launch|claude-ship",
+        "headline": "Anthropic's Claude Ship lets agents review, fix and approve code under team policy",
+        "urls": [
+          "https://claude.com/resources/articles/introducing-claude-ship"
+        ],
+        "summary": "Anthropic launched Claude Ship in beta on 23 November. It combines Code Review, already generally available, with two new agents, PR Steward and Claude Approvals, which fix pull requests and decide which changes can merge under policies eac"
+      },
+      {
+        "date": "2026-11-24",
+        "mode": "daily",
+        "key": "openai-cisco|launch|shirudo",
+        "headline": "OpenAI and Cisco release Shirudo to shield running Linux systems before patches land",
+        "urls": [
+          "https://openai.com/index/introducing-shirudo/"
+        ],
+        "summary": "OpenAI and Cisco launched Shirudo on 23 November, an open-source runtime that lets operators test and deploy temporary shields blocking the behaviour a vulnerability exposes while the service keeps running. In a controlled test, a Codex-gen"
+      },
+      {
+        "date": "2026-11-24",
+        "mode": "daily",
+        "key": "databricks|launch|iceberg-catalog-labels",
+        "headline": "Databricks backs catalog labels to share data classifications across platforms and agents",
+        "urls": [
+          "https://www.databricks.com/blog/sharing-catalog-metadata-across-data-platforms-engines-and-agents"
+        ],
+        "summary": "Databricks announced support on 24 November for catalog labels, a new capability in the Apache Iceberg REST Catalog API that lets platforms, engines and agents read context such as business purpose, ownership and data classifications. Unity"
+      },
+      {
+        "date": "2026-11-24",
+        "mode": "daily",
+        "key": "fsb|list|insurers-resolution-2026",
+        "headline": "FSB adds seven Japanese insurers to its list subject to resolution standards",
+        "urls": [
+          "https://www.fsb.org/2026/11/fsb-publishes-2026-list-of-insurers-subject-to-resolution-standards/"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-24",
+        "mode": "daily",
+        "key": "finma|sanctions|isil-al-qaida-november-2026",
+        "headline": "FINMA updates its ISIL and Al-Qaida sanctions notice after a UN listing change",
+        "urls": [
+          "https://www.finma.ch/en/news/2026/11/20261123-sr-946-231-08/"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-24",
+        "mode": "daily",
+        "key": "fca|review|bereavement-support",
+        "headline": "FCA review finds some investment firms kept taking advice fees after clients died",
+        "urls": [
+          "https://www.fca.org.uk/news/press-releases/bereaved-families-need-support-not-battle-paperwork"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-24",
+        "mode": "daily",
+        "key": "amina-bank|launch|ousd-custody",
+        "headline": "AMINA Bank adds the OUSD stablecoin for institutional custody and conversion",
+        "urls": [
+          "https://fintechnews.ch/blockchain_bitcoin/amina-bank-ousd-institutional-stablecoin-custody/87239/"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-24",
+        "mode": "daily",
+        "key": "supertake|funding|seed-20m",
+        "headline": "Supertake raises USD 20 million for AI agents that turn market views into portfolios",
+        "urls": [
+          "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/"
+        ],
+        "summary": ""
       }
     ]
   },
   "calendar": {
     "events": [
       {
-        "date": "2026-11-23",
-        "event": "National Council economic affairs committee debates the UBS capital bill (to 24 November)",
-        "url": "https://www.cash.ch/news/presse-kompromiss-in-ubs-eigenmittelfrage-will-bewertungsmethode-andern-982502",
-        "added": "2026-11-13",
-        "checked": "2026-11-23"
-      },
-      {
-        "date": "2026-11-23",
-        "event": "Julius Baer business update for the first ten months",
-        "url": "https://allnews.ch/content/ev%C3%A8nements-cl%C3%A9s-des-semaines-47-%C3%A0-50-7",
+        "date": "2026-11-24",
+        "event": "EFG International business update for the first ten months",
+        "url": "https://allnews.ch/content/ev%C3%A8nements-cl%C3%A9s-des-semaines-48-%C3%A0-51-7",
         "added": "2026-11-22",
-        "checked": "2026-11-23"
+        "checked": "2026-11-24"
       },
       {
         "date": "2026-11-24",
-        "event": "EFG International business update for the first ten months",
-        "url": "https://allnews.ch/content/ev%C3%A8nements-cl%C3%A9s-des-semaines-47-%C3%A0-50-7",
-        "added": "2026-11-22",
-        "checked": "2026-11-23"
+        "event": "National Council economic affairs committee briefs on the UBS capital bill, not before 16:30",
+        "url": "https://allnews.ch/content/ev%C3%A8nements-cl%C3%A9s-des-semaines-48-%C3%A0-51-7",
+        "added": "2026-11-24",
+        "checked": "2026-11-24"
       },
       {
         "date": "2026-11-26",
         "event": "Open-i 2026, Swiss innovation conference, Zurich",
         "url": "https://www.netzwoche.ch/node/107112",
         "added": "2026-11-15",
-        "checked": "2026-11-23"
+        "checked": "2026-11-24"
+      },
+      {
+        "date": "2026-11-27",
+        "event": "Raiffeisen presents its new group strategy",
+        "url": "https://allnews.ch/content/ev%C3%A8nements-cl%C3%A9s-des-semaines-48-%C3%A0-51-7",
+        "added": "2026-11-24",
+        "checked": "2026-11-24"
       },
       {
         "date": "2026-11-30",
         "event": "AWS re:Invent opens in Las Vegas (to 4 December)",
         "url": "https://aws.amazon.com/events/reinvent/",
         "added": "2026-11-01",
-        "checked": "2026-11-22"
+        "checked": "2026-11-24"
       },
       {
         "date": "2026-11-30",
         "event": "SECO publishes Swiss GDP for the third quarter",
-        "url": "https://allnews.ch/content/ev%C3%A8nements-cl%C3%A9s-des-semaines-47-%C3%A0-50-7",
+        "url": "https://allnews.ch/content/ev%C3%A8nements-cl%C3%A9s-des-semaines-48-%C3%A0-51-7",
         "added": "2026-11-22",
-        "checked": "2026-11-22"
+        "checked": "2026-11-24"
       },
       {
         "date": "2026-12-01",
@@ -4018,6 +3946,19 @@
     ]
   },
   "archive": [
+    {
+      "date": "2026-11-24",
+      "mode": "daily",
+      "overview": "Julius Baer posts a record ten-month profit, US banks tighten controls on their own AI agents, and Nvidia brings back Jensen Huang.",
+      "headlines": [
+        "Julius Baer posts a record ten-month profit as client exits slow inflows",
+        "US banks tighten controls on their own AI agents after rogue model incidents",
+        "Update: Nvidia's board reinstates Jensen Huang as chief executive"
+      ],
+      "audio_url": "audio/signal-2026-11-24.mp3",
+      "duration": 734.24,
+      "slug": "2026-11-24"
+    },
     {
       "date": "2026-11-23",
       "mode": "daily",
@@ -4190,21 +4131,6 @@
       "audio_url": "audio/signal-2026-11-09.mp3",
       "duration": 743.19,
       "slug": "2026-11-09"
-    },
-    {
-      "date": "2026-11-08",
-      "mode": "weekly",
-      "overview": "The UBS capital fight turns to a compromise idea, banks put numbers on AI, Binance traces its theft to a tampered AI tool, rates rise as AI stocks fall, and supervisors start inspecting bank AI.",
-      "headlines": [
-        "UBS capital fight turns to a compromise idea as FINMA's new powers draw fire",
-        "Banks put numbers on AI: UBS counts 608 use cases, Santander EUR 194 million",
-        "Binance ties its USD 6.3 billion theft to a tampered AI coding tool",
-        "Bank of England raises rates as AI stocks slide after the US midterms",
-        "Supervisors start inspecting bank AI as FINMA unveils its own pilot"
-      ],
-      "audio_url": "audio/signal-2026-11-08-weekly.mp3",
-      "duration": 727.34,
-      "slug": "2026-11-08-weekly"
     }
   ]
 }
