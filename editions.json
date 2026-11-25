@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "updated": "2026-11-24T04:51+01:00",
+  "updated": "2026-11-25T04:52+01:00",
   "editions": [
+    {
+      "date": "2026-11-25",
+      "mode": "daily",
+      "slug": "2026-11-25",
+      "title": "Signal · Wednesday 25 November",
+      "kind": "Daily briefing",
+      "duration": 715.77,
+      "stories": 21,
+      "overview": "A National Council committee backs 90 percent capital cover for UBS's foreign units, the SNB explores a Swiss Financial Ledger with eight partners, and the UK's cyber centre reports a rise in attacks by autonomous AI tools.",
+      "path": "d/2026-11-25/",
+      "edition": "d/2026-11-25/edition.json"
+    },
     {
       "date": "2026-11-24",
       "mode": "daily",
@@ -157,18 +169,6 @@
       "overview": "Anthropic releases Claude Fable 5.2 and Mythos 5.2 at a lower price, Crédit Agricole proposes merging Banco BPM with its Italian arm, and Evident counts a record 111 new AI use cases at banks in the third quarter.",
       "path": "d/2026-11-10/",
       "edition": "d/2026-11-10/edition.json"
-    },
-    {
-      "date": "2026-11-09",
-      "mode": "daily",
-      "slug": "2026-11-09",
-      "title": "Signal · Monday 9 November",
-      "kind": "Daily briefing",
-      "duration": 743.19,
-      "stories": 20,
-      "overview": "Nvidia's board opens an investigation after reports its chief executive was targeted by foreign intelligence, Anthropic's IPO talk falls to about USD 1.2 trillion as OpenAI raises at USD 1.25 trillion, and South Korea moves to scrap bank network separation rules after AI-assisted hacks.",
-      "path": "d/2026-11-09/",
-      "edition": "d/2026-11-09/edition.json"
     }
   ]
 }

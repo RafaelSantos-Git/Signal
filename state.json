@@ -1,268 +1,10 @@
 {
   "log": {
     "last_delivery": {
-      "daily": "2026-11-24T04:51+01:00",
+      "daily": "2026-11-25T04:52+01:00",
       "weekly": "2026-11-22T04:50+01:00"
     },
     "stories": [
-      {
-        "date": "2026-11-03",
-        "mode": "daily",
-        "key": "goldman-sachs|restrict|ai-coding-tools",
-        "headline": "Goldman limits Claude Code and GitHub to engineers, barring most traders and bankers",
-        "urls": [
-          "https://qz.com/goldman-sachs-restricts-ai-coding-tools-traders-bankers-110226",
-          "https://www.pymnts.com/news/artificial-intelligence/2026/goldman-sachs-bars-bankers-from-employing-some-ai-tools/",
-          "https://techstrong.ai/agentic-ai/goldman-sachs-cuts-bankers-traders-off-from-ai-coding-tools-over-risk-concerns/"
-        ],
-        "summary": "Goldman Sachs has barred most of its traders and bankers from AI coding tools, including Anthropic's Claude Code and Microsoft's GitHub, according to Bloomberg as reported by Quartz and PYMNTS. Internal guidance updated in October limits th"
-      },
-      {
-        "date": "2026-11-03",
-        "mode": "daily",
-        "key": "finma|tbtf-package|cantonal-banks-criticism",
-        "headline": "Cantonal banks warn FINMA package would create a 'mega authority'; FINMA rejects the charge",
-        "urls": [
-          "https://www.finews.ch/news/finanzplatz/74268-finanzmarktaufsicht-finma-kantonalbanken-tbtf-kritik-oliver-buschan"
-        ],
-        "summary": "Oliver Buschan, director of the Association of Swiss Cantonal Banks, says the Federal Council's draft reads largely like a FINMA wish list and warns of a 'mega authority with great potential for arbitrariness' (translated from German), acco"
-      },
-      {
-        "date": "2026-11-03",
-        "mode": "daily",
-        "key": "anthropic|ipo|amended-filing-rsi-risk-factor",
-        "headline": "Update: Anthropic's amended filing says it may imminently meet its AI-acceleration safety threshold",
-        "urls": [
-          "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/"
-        ],
-        "summary": "Anthropic's amended S-1, filed on 2 November, adds a risk factor saying internal estimates on future models indicate it 'may imminently meet' its Responsible Scaling Policy's definition of 'dramatically accelerated progress attributable to "
-      },
-      {
-        "date": "2026-11-03",
-        "mode": "daily",
-        "key": "bitcoin-suisse|interview|switzerland-crypto-interest",
-        "headline": "Bitcoin Suisse CEO says Switzerland has lost interest in crypto as jobs move abroad",
-        "urls": [
-          "https://www.swissinfo.ch/eng/swiss-economy/cryptocurrencies-switzerland-has-lost-interest-says-bitcoin-suisse-ceo/92314545"
-        ],
-        "summary": "Andrej Majcen told news agency AWP that Switzerland no longer ranks among the top countries in the firm's review of crypto adoption and regulation. Bitcoin Suisse is cutting 60 of 120 Swiss jobs, as announced in September, and moving back-o"
-      },
-      {
-        "date": "2026-11-03",
-        "mode": "daily",
-        "key": "fca|review|wholesale-banks-ai-controls",
-        "headline": "FCA review of wholesale banks lists AI kill-switch, inventory and oversight weaknesses",
-        "urls": [
-          "https://www.regulationtomorrow.com/2026/11/fca-publishes-multi-firm-review-into-wholesale-banks-supervision/",
-          "https://courtscast.com/fca-wholesale-banks-data-ai-trading-controls-2026/"
-        ],
-        "summary": "The FCA published supervisory findings on 2 November. AI concerns include insufficient human oversight, unapproved tools causing data leakage, inadequate kill switches and incomplete AI inventories. It also cites data ingestion defects and "
-      },
-      {
-        "date": "2026-11-03",
-        "mode": "daily",
-        "key": "eurex-clearing|launch|hybrid-ccp-digital-collateral",
-        "headline": "Eurex Clearing calls itself first hybrid CCP as ESM digital bond qualifies for repo",
-        "urls": [
-          "https://www.marketsmedia.com/eurex-clearing-to-become-first-hybrid-ccp/",
-          "https://www.ledgerinsights.com/eurex-calls-itself-first-hybrid-ccp-as-esm-digital-bond-qualifies-for-repo-margin/"
-        ],
-        "summary": "Eurex Clearing said native digital instruments, including issues by the European Stability Mechanism, will trade in Eurex Repo's GC Pooling segment, clear under one rulebook and risk model, and count as margin collateral. The ESM's EUR 1 bi"
-      },
-      {
-        "date": "2026-11-03",
-        "mode": "daily",
-        "key": "santander|disclosure|ai-business-value-9m26",
-        "headline": "Santander puts AI's business value at EUR 194 million for nine months",
-        "urls": [
-          "https://startupfortune.com/santander-says-ai-generated-194-million-euros-in-real-business-value-in-2026/"
-        ],
-        "summary": "Banco Santander reported on 28 October that AI generated EUR 194 million in the first nine months of 2026, up from EUR 35 million in the first quarter, according to Startup Fortune. It counts extra revenue, lower costs and lower loan-loss p"
-      },
-      {
-        "date": "2026-11-03",
-        "mode": "daily",
-        "key": "broadridge|plan|nyse-onchain-governance",
-        "headline": "Broadridge plans on-chain voting and transfer agency for NYSE's tokenised platform",
-        "urls": [
-          "https://www.stocktitan.net/news/BR/broadridge-to-bring-on-chain-governance-and-digital-transfer-agency-mjb0qcz8bo21.html"
-        ],
-        "summary": "Broadridge said on 2 November it plans to bring on-chain shareholder governance and digital transfer agency services to the NYSE's tokenised securities platform, due to launch after regulatory approval. NYSE will use Broadridge's smart cont"
-      },
-      {
-        "date": "2026-11-03",
-        "mode": "daily",
-        "key": "bnp-paribas|appoint|investment-banking-switzerland-head",
-        "headline": "BNP Paribas creates a Swiss investment banking unit under Christoph-Sebastian Meier",
-        "urls": [
-          "https://www.finews.ch/news/banken/74280-bnp-paribas-christoph-sebastian-meier-investmentbanking-schweiz"
-        ],
-        "summary": "BNP Paribas said Christoph-Sebastian Meier took over its new Investment Banking Switzerland unit on 2 November, leading it from Zurich with a focus on advisory, according to finews. Meier has 20 years in M&A, ten of them at Lincoln Internat"
-      },
-      {
-        "date": "2026-11-03",
-        "mode": "daily",
-        "key": "euronext|appoint|ceo-knibbe",
-        "headline": "Euronext to nominate NN Group's David Knibbe as CEO as Boujnah leaves in 2027",
-        "urls": [
-          "https://www.euronext.com/en/about/media/euronext-press-releases/euronext-intends-nominate-david-knibbe-chief-executive-officer",
-          "https://www.rte.ie/news/business/2026/1102/1597585-euronext-ceo-boujnah-to-step-down/"
-        ],
-        "summary": "Euronext said on 2 November it intends to nominate David Knibbe, chief executive of NN Group since 2019, at its annual general meeting on 20 May 2027. Stéphane Boujnah, in post since 2015, steps down in May 2027. NN Group said Tjeerd Bosklo"
-      },
-      {
-        "date": "2026-11-03",
-        "mode": "daily",
-        "key": "italy|tax|exit-levy-proposal",
-        "headline": "Italy weighs a 26 percent exit levy on wealthy residents, media reports say",
-        "urls": [
-          "https://www.wealthbriefing.com/html/article.php/italy%27s-proposed-exit-tax-will-backfire%2C-weaken-residency-incentive%2C-says-utmost"
-        ],
-        "summary": "Giorgia Meloni's government could impose a 26 percent capital gains levy on people who move tax residence abroad with assets above EUR 800,000, according to media reports cited by WealthBriefing. Marc Acheson of insurance-wealth firm Utmost"
-      },
-      {
-        "date": "2026-11-03",
-        "mode": "daily",
-        "key": "bnp-paribas-wm|interview|germany-growth",
-        "headline": "BNP Paribas Wealth Management plans more growth in Germany after HSBC deal",
-        "urls": [
-          "https://www.wealthbriefing.com/html/article.php/exclusive%3A-bnp-paribas-wm-continues-to-favour-german-market-"
-        ],
-        "summary": "Vincent Lecomte, chief executive of BNP Paribas Wealth Management, told WealthBriefing the purchase of HSBC Private Bank's German business more than doubled its size there, to 50 billion of assets under management and fourth place among pri"
-      },
-      {
-        "date": "2026-11-03",
-        "mode": "daily",
-        "key": "openai|security|bug-bounty-cathedral-sprint",
-        "headline": "OpenAI lifts critical bug bounties more than fourfold ahead of its next security sprint",
-        "urls": [
-          "https://www.tribuneindia.com/news/ai-cybersecurity/openai-partners-with-security-firms-to-strengthen-ai-powered-cyber-defence",
-          "https://runtimewire.com/article/openai-cathedral-security-sprint-bug-bounty-172000"
-        ],
-        "summary": "OpenAI said on 2 November that researchers from Cathedral will join its next internal security sprint, using OpenAI models to test its defences. Critical bounties on core products rise to as much as USD 30,000, with exceptional findings eli"
-      },
-      {
-        "date": "2026-11-03",
-        "mode": "daily",
-        "key": "chainalysis|breach|offensive-agentic",
-        "headline": "Chainalysis says attackers used offensive agentic techniques to breach its systems",
-        "urls": [
-          "https://www.securityweek.com/chainalysis-discloses-data-breach-following-ai-driven-cyberattack/",
-          "https://www.scworld.com/brief/chainalysis-reports-security-breach-involving-offensive-agentic-techniques"
-        ],
-        "summary": "Blockchain analytics firm Chainalysis said an outside actor used 'offensive agentic techniques' to reach its systems and internal tools, according to SecurityWeek. User IDs, names, email addresses and role labels were accessed; it says inve"
-      },
-      {
-        "date": "2026-11-03",
-        "mode": "daily",
-        "key": "palantir|results|3q26",
-        "headline": "Palantir's US commercial revenue passes government for the first time, up 148 percent",
-        "urls": [
-          "https://finance.yahoo.com/markets/stocks/articles/palantir-blows-past-expectations-q3-234657297.html"
-        ],
-        "summary": "Palantir reported third-quarter revenue of USD 2.31 billion on 2 November, up 96 percent. US commercial revenue rose 148 percent to USD 984 million, ahead of USD 953 million from the US government. It raised full-year guidance to about USD "
-      },
-      {
-        "date": "2026-11-03",
-        "mode": "daily",
-        "key": "new-york-times|lawsuit|brave-scraping",
-        "headline": "New York Times sues Brave, naming Anthropic and others as buyers of scraped content",
-        "urls": [
-          "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/"
-        ],
-        "summary": "The New York Times sued Brave in federal court in Manhattan on 2 November, alleging it scraped copyrighted content and distributed it to customers the suit names as Anthropic, Perplexity, Mistral, xAI and Cohere, according to TechCrunch. Th"
-      },
-      {
-        "date": "2026-11-03",
-        "mode": "daily",
-        "key": "databricks|ga|lakebase-google-cloud",
-        "headline": "Databricks makes Lakebase Postgres generally available on Google Cloud",
-        "urls": [
-          "https://www.databricks.com/blog/lakebase-postgres-now-generally-available-google-cloud"
-        ],
-        "summary": "Databricks said on 2 November that Lakebase, its fully managed serverless Postgres database, is generally available on Google Cloud, with autoscaling, scale to zero, instant branching and point-in-time recovery. It shares a storage layer wi"
-      },
-      {
-        "date": "2026-11-03",
-        "mode": "daily",
-        "key": "finma|sanctions|taliban-sr-946-231-07",
-        "headline": "FINMA publishes an updated sanctions notice on the Taliban after a UN committee change",
-        "urls": [
-          "https://www.finma.ch/en/news/2026/10/20261102-sr-946-231-07/"
-        ],
-        "summary": ""
-      },
-      {
-        "date": "2026-11-03",
-        "mode": "daily",
-        "key": "ecb|speech|lane-ai-adoption",
-        "headline": "ECB's Philip Lane calls AI adoption a key determinant of European productivity growth",
-        "urls": [
-          "https://www.bis.org/speeches/20261102-ai-adoption-europe"
-        ],
-        "summary": ""
-      },
-      {
-        "date": "2026-11-03",
-        "mode": "daily",
-        "key": "vanguard|appoint|boitel-country-head-ch",
-        "headline": "Vanguard names Gilles Boitel, from DWS, country head for Switzerland and Liechtenstein",
-        "urls": [
-          "https://www.finews.ch/news/finanzplatz/74264-vanguard-gilles-boitel-country-head-schweiz-liechtenstein"
-        ],
-        "summary": ""
-      },
-      {
-        "date": "2026-11-03",
-        "mode": "daily",
-        "key": "nfg-partners|appoint|sarosy-board",
-        "headline": "Geneva's NFG Partners adds former Coutts investment chief Paul Sarosy to its board",
-        "urls": [
-          "https://www.finews.ch/news/finanzplatz/74273-nfg-partners-verwaltungsrat-paul-sarosy-merrill-lynch-coutts-und-der-credit-suisse"
-        ],
-        "summary": ""
-      },
-      {
-        "date": "2026-11-03",
-        "mode": "daily",
-        "key": "supermarkets|cyberattack|cooling-systems-coop",
-        "headline": "Attacks on supermarket cooling systems spread; Coop reports failed attempts in Switzerland",
-        "urls": [
-          "https://www.netzwoche.ch/news/2026-11-02/update-angriffe-auf-kuehlanlagen-treffen-weitere-supermaerkte-auch-coop-im-visier"
-        ],
-        "summary": ""
-      },
-      {
-        "date": "2026-11-03",
-        "mode": "daily",
-        "key": "vaud-schools|breach|it-support-platform",
-        "headline": "Data of about 41,500 people stolen from Vaud schools' IT support platform",
-        "urls": [
-          "https://www.netzwoche.ch/news/2026-11-02/daten-von-41500-personen-bei-waadtlaender-schulen-gestohlen"
-        ],
-        "summary": ""
-      },
-      {
-        "date": "2026-11-03",
-        "mode": "daily",
-        "key": "y-combinator|interview|tan-token-spend",
-        "headline": "Garry Tan puts his AI token spending at up to USD 200,000 a year",
-        "urls": [
-          "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/"
-        ],
-        "summary": ""
-      },
-      {
-        "date": "2026-11-03",
-        "mode": "daily",
-        "key": "apple|results|fy26",
-        "headline": "Apple posts record USD 132 billion annual profit and hints at third-party AI revenue",
-        "urls": [
-          "https://www.srf.ch/news/wirtschaft/jahresbilanz-apple-macht-132-milliarden-dollar-gewinn-ein-neuer-rekord",
-          "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/"
-        ],
-        "summary": ""
-      },
       {
         "date": "2026-11-04",
         "mode": "daily",
@@ -3798,52 +3540,253 @@
           "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/"
         ],
         "summary": ""
+      },
+      {
+        "date": "2026-11-25",
+        "mode": "daily",
+        "key": "wak-n|recommendation|ubs-capital-90-percent",
+        "headline": "Update: National Council committee backs 90 percent capital cover for UBS's foreign units",
+        "urls": [
+          "https://www.swissbanking.ch/en/media-politics/press-releases/the-sba-firmly-rejects-switzerlands-far-reaching-decision-to-act-unilaterally-on-capital-requirements",
+          "https://www.finews.com/news/english-news/74648-wirtschaftskommission-des-nationalrats-eigenkapitalunterlegung-ubs-beteiligungen-90-prozent-staenderat",
+          "https://allnews.ch/content/r%C3%A9glementation/lex-ubs-la-commission-du-national-s%E2%80%99aligne-sur-les-etats"
+        ],
+        "summary": "The National Council's Economic Affairs and Taxation Committee voted on 24 November for UBS to back its foreign subsidiaries with 90 percent CET1 capital, in line with the Council of States. The option beat 80 percent by 13 votes to 12, and"
+      },
+      {
+        "date": "2026-11-25",
+        "mode": "daily",
+        "key": "snb|project|swiss-financial-ledger",
+        "headline": "SNB, UBS, SIX and six other firms explore a shared Swiss Financial Ledger",
+        "urls": [
+          "https://www.snb.ch/en/publications/communication/press-releases/2026/pre_20261124_2",
+          "https://crypto.news/swiss-national-bank-ubs-six-tokenized-settlement"
+        ],
+        "summary": "The Swiss National Bank said on 24 November it has started an exploratory project with UBS, SIX, Zürcher Kantonalbank, PostFinance, Banque Cantonale Vaudoise, Basler Kantonalbank, Sygnum Bank and the settlement platform Seturion. They will "
+      },
+      {
+        "date": "2026-11-25",
+        "mode": "daily",
+        "key": "ncsc|warning|ai-driven-attacks-technical-debt",
+        "headline": "UK cyber centre reports a marked rise in attacks by autonomous AI hacking tools",
+        "urls": [
+          "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/"
+        ],
+        "summary": "The UK's National Cyber Security Centre said in a blog post that several incidents since September involved autonomous hacking tools and caused intrusions and downtime, according to TechCrunch on 24 November. The tools go after long-standin"
+      },
+      {
+        "date": "2026-11-25",
+        "mode": "daily",
+        "key": "eiopa|report|data-use-principles-insurance",
+        "headline": "EIOPA expert group sets five principles for responsible data use in insurance",
+        "urls": [
+          "https://www.eiopa.europa.eu/eiopas-consultative-expert-group-data-use-puts-forward-key-principles-responsible-data-use-insurance-2026-11-24_en"
+        ],
+        "summary": "EIOPA published on 24 November the report of its Consultative Expert Group on Data Use in Insurance. Its five principles cover access, fair and affordable outcomes, transparency and meaningful choice, prudential soundness and safe progress,"
+      },
+      {
+        "date": "2026-11-25",
+        "mode": "daily",
+        "key": "dell-hpe-lenovo-supermicro|price-rise|ai-servers",
+        "headline": "XTX Markets unit sues Dell as AI server makers raise prices on existing orders",
+        "urls": [
+          "https://www.netzwoche.ch/news/2026-11-24/hersteller-verlangen-fuer-ki-server-nachtraeglich-bis-zu-45-prozent-mehr"
+        ],
+        "summary": "Dell, HPE, Lenovo and Supermicro are charging some customers up to 45 percent more for AI servers already ordered, mainly because memory chips cost more, according to the Financial Times as reported by Netzwoche. A Finnish subsidiary of tra"
+      },
+      {
+        "date": "2026-11-25",
+        "mode": "daily",
+        "key": "efg|business-update|10m-2026",
+        "headline": "EFG International reaches a record CHF 206.1 billion in assets as its margin narrows",
+        "urls": [
+          "https://www.wealthbriefing.com/html/article.php/efg-international%27s-10_dash_month-profit-rises%3B-aum-hits-record-",
+          "https://www.finews.com/news/english-news/74627-private-bank-efg-international-ten-months-2026-growth-pace-managed-assets-record-high-profit-rises-by-around-ten-percent-margin-under-pressure"
+        ],
+        "summary": "EFG International said on 24 November that net profit for the first ten months was about CHF 300 million, up around 10 percent excluding a 2025 insurance recovery. Assets under management hit a record CHF 206.1 billion and net new assets CH"
+      },
+      {
+        "date": "2026-11-25",
+        "mode": "daily",
+        "key": "fso|statistics|2nd-pillar-lump-sums-2025",
+        "headline": "Swiss pension lump-sum payouts have almost doubled in ten years, FSO says",
+        "urls": [
+          "https://www.admin.ch/en/newnsb/Oo4HssBK3PDd"
+        ],
+        "summary": "The Federal Statistical Office said on 24 November that the number of people drawing new occupational pension benefits rose by more than 34 percent between 2015 and 2025. Amounts taken as a lump sum almost doubled over the decade, and a mar"
+      },
+      {
+        "date": "2026-11-25",
+        "mode": "daily",
+        "key": "boe|appoint|pinto-fpc",
+        "headline": "Former JPMorgan vice chairman Daniel Pinto joins the Bank of England's Financial Policy Committee",
+        "urls": [
+          "https://www.bankofengland.co.uk/news/2026/november/daniel-pinto-appointment-fpc"
+        ],
+        "summary": "The Chancellor has appointed Daniel Pinto, most recently Vice Chairman of JPMorgan Chase and before that its President and Chief Operating Officer, as an external member of the Financial Policy Committee, the Bank of England said on 24 Nove"
+      },
+      {
+        "date": "2026-11-25",
+        "mode": "daily",
+        "key": "ffa-snb|calendar|confederation-bonds-2027",
+        "headline": "Swiss Confederation cuts planned bond issuance to about CHF 3 billion in 2027",
+        "urls": [
+          "https://www.snb.ch/en/publications/communication/press-releases/2026/pre_20261124_1"
+        ],
+        "summary": "The Federal Finance Administration plans to auction Confederation bonds with a nominal value of around CHF 3 billion in 2027, against CHF 4.5 billion in 2026, the SNB and the FFA said on 24 November. With CHF 2.9 billion maturing in June, b"
+      },
+      {
+        "date": "2026-11-25",
+        "mode": "daily",
+        "key": "microsoft|vulnerability|azure-api-management-classic",
+        "headline": "Microsoft closes an Azure API Management flaw that may have exposed stored secrets",
+        "urls": [
+          "https://www.netzwoche.ch/news/2026-11-24/microsoft-schliesst-sicherheitsluecke-in-azure-api-management"
+        ],
+        "summary": "Microsoft found on 18 November that an unauthorised party could have reached secrets stored in Azure API Management Classic instances and fixed it the next day, Netzwoche reported, citing BleepingComputer. Client secrets, subscription keys "
+      },
+      {
+        "date": "2026-11-25",
+        "mode": "daily",
+        "key": "anthropic|launch|skills-over-mcp",
+        "headline": "MCP servers can now ship skills to Claude, with background tasks and sign-off prompts",
+        "urls": [
+          "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more",
+          "https://code.claude.com/docs/en/changelog"
+        ],
+        "summary": "Anthropic said on 24 November that Skills over MCP is in public beta in Claude and Claude Code, so a server can publish skills that update with it. Tasks, for long-running work, and Elicitation, which pauses to ask a user for input or appro"
+      },
+      {
+        "date": "2026-11-25",
+        "mode": "daily",
+        "key": "anthropic|launch|artifacts-desktop-apps",
+        "headline": "Claude artifacts can now be installed as Mac and Windows apps, in beta",
+        "urls": [
+          "https://claude.com/resources/articles/install-as-app"
+        ],
+        "summary": "Anthropic began rolling out Install as app in beta on 24 November. An installed artifact runs in its own window, uses Claude and the user's connectors, and can send notifications. Permissions range from browser-only to full computer access,"
+      },
+      {
+        "date": "2026-11-25",
+        "mode": "daily",
+        "key": "anthropic|ipo|shares-below-ipo-price",
+        "headline": "Update: Anthropic shares fall below their USD 83 IPO price as AI stocks slide",
+        "urls": [
+          "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/"
+        ],
+        "summary": "Anthropic's stock traded as low as USD 76 by midday on 24 November, below its USD 83 IPO price and down nearly 12 percent from Monday's close, according to TechCrunch. Nvidia fell more than 7 percent by midday, giving back part of Monday's "
+      },
+      {
+        "date": "2026-11-25",
+        "mode": "daily",
+        "key": "openai|research|gpt-6-protein-design",
+        "headline": "OpenAI says GPT-6 models design proteins without specialised biology models",
+        "urls": [
+          "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/"
+        ],
+        "summary": "OpenAI said on 24 November that its GPT-6 models can design new protein shapes and sequences using only reasoning and code. Its latest models performed comparably to or better than specialised models on most of 14 tasks, though full structu"
+      },
+      {
+        "date": "2026-11-25",
+        "mode": "daily",
+        "key": "ecb|speech|vujcic-ceei-2026",
+        "headline": "ECB's Vujčić draws resilience lessons for Europe from central and eastern Europe",
+        "urls": [
+          "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261124~17928e5456.en.html"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-25",
+        "mode": "daily",
+        "key": "fsb|meeting|rcg-asia-sydney-2026-11",
+        "headline": "FSB's Asia group discusses AI adoption in financial services at its Sydney meeting",
+        "urls": [
+          "https://www.fsb.org/2026/11/fsb-regional-consultative-group-for-asia-meets-in-sydney-2/"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-25",
+        "mode": "daily",
+        "key": "zodia-markets|appoint|brzezek-ceo",
+        "headline": "Zodia Markets names Crypto Finance founder Jan Brzezek chief executive",
+        "urls": [
+          "https://fintechnews.ch/london/jan-brzezek-zodia-markets-ceo-stablecoin/87267/"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-25",
+        "mode": "daily",
+        "key": "relai|launch|stacks",
+        "headline": "Swiss bitcoin app Relai lets users keep up to five separate savings pots",
+        "urls": [
+          "https://www.finews.com/news/english-news/74634-bitcoin-fintech-relai-expands-app-multiple-savings-plans-in-parallel-up-to-five-separate-bitcoin-savings-pots"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-25",
+        "mode": "daily",
+        "key": "coprod|funding|pre-seed",
+        "headline": "Lausanne start-up Coprod raises USD 6 million to speed up robot design",
+        "urls": [
+          "https://www.ictjournal.ch/news/2026-11-24/la-start-up-lausannoise-coprod-leve-6-millions-pour-faciliter-la-conception-de"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-25",
+        "mode": "daily",
+        "key": "kaspersky|survey|swiss-executives-cyber-liability",
+        "headline": "Swiss executives know their cyber liability but few act on it, Kaspersky finds",
+        "urls": [
+          "https://www.inside-it.ch/schweizer-chefs-kennen-cyberrisiken%252C-handeln-aber-selten-20261124"
+        ],
+        "summary": ""
+      },
+      {
+        "date": "2026-11-25",
+        "mode": "daily",
+        "key": "ndb|procurement|ai-analysis-software",
+        "headline": "Swiss intelligence service buys AI-assisted research tools for CHF 5.4 million without tender",
+        "urls": [
+          "https://www.netzwoche.ch/news/2026-11-24/ndb-investiert-54-millionen-franken-in-ki-analyse-software"
+        ],
+        "summary": ""
       }
     ]
   },
   "calendar": {
     "events": [
       {
-        "date": "2026-11-24",
-        "event": "EFG International business update for the first ten months",
-        "url": "https://allnews.ch/content/ev%C3%A8nements-cl%C3%A9s-des-semaines-48-%C3%A0-51-7",
-        "added": "2026-11-22",
-        "checked": "2026-11-24"
-      },
-      {
-        "date": "2026-11-24",
-        "event": "National Council economic affairs committee briefs on the UBS capital bill, not before 16:30",
-        "url": "https://allnews.ch/content/ev%C3%A8nements-cl%C3%A9s-des-semaines-48-%C3%A0-51-7",
-        "added": "2026-11-24",
-        "checked": "2026-11-24"
-      },
-      {
         "date": "2026-11-26",
         "event": "Open-i 2026, Swiss innovation conference, Zurich",
         "url": "https://www.netzwoche.ch/node/107112",
         "added": "2026-11-15",
-        "checked": "2026-11-24"
+        "checked": "2026-11-25"
       },
       {
         "date": "2026-11-27",
         "event": "Raiffeisen presents its new group strategy",
         "url": "https://allnews.ch/content/ev%C3%A8nements-cl%C3%A9s-des-semaines-48-%C3%A0-51-7",
         "added": "2026-11-24",
-        "checked": "2026-11-24"
+        "checked": "2026-11-25"
       },
       {
         "date": "2026-11-30",
         "event": "AWS re:Invent opens in Las Vegas (to 4 December)",
         "url": "https://aws.amazon.com/events/reinvent/",
         "added": "2026-11-01",
-        "checked": "2026-11-24"
+        "checked": "2026-11-25"
       },
       {
         "date": "2026-11-30",
         "event": "SECO publishes Swiss GDP for the third quarter",
         "url": "https://allnews.ch/content/ev%C3%A8nements-cl%C3%A9s-des-semaines-48-%C3%A0-51-7",
         "added": "2026-11-22",
-        "checked": "2026-11-24"
+        "checked": "2026-11-25"
       },
       {
         "date": "2026-12-01",
@@ -3851,6 +3794,13 @@
         "url": "https://devblogs.microsoft.com/foundry/microsoft-copilot-harness-in-foundry/",
         "added": "2026-11-01",
         "checked": "2026-11-22"
+      },
+      {
+        "date": "2026-12-02",
+        "event": "FINMA presents its risk monitor, Bern",
+        "url": "https://allnews.ch/content/ev%C3%A8nements-cl%C3%A9s-des-semaines-48-%C3%A0-51-7",
+        "added": "2026-11-25",
+        "checked": "2026-11-25"
       },
       {
         "date": "2026-12-04",
@@ -3946,6 +3896,19 @@
     ]
   },
   "archive": [
+    {
+      "date": "2026-11-25",
+      "mode": "daily",
+      "overview": "A National Council committee backs 90 percent capital cover for UBS's foreign units, the SNB explores a Swiss Financial Ledger with eight partners, and the UK's cyber centre reports a rise in attacks by autonomous AI tools.",
+      "headlines": [
+        "Update: National Council committee backs 90 percent capital cover for UBS's foreign units",
+        "SNB, UBS, SIX and six other firms explore a shared Swiss Financial Ledger",
+        "UK cyber centre reports a marked rise in attacks by autonomous AI hacking tools"
+      ],
+      "audio_url": "audio/signal-2026-11-25.mp3",
+      "duration": 715.77,
+      "slug": "2026-11-25"
+    },
     {
       "date": "2026-11-24",
       "mode": "daily",
@@ -4118,19 +4081,6 @@
       "audio_url": "audio/signal-2026-11-10.mp3",
       "duration": 736.24,
       "slug": "2026-11-10"
-    },
-    {
-      "date": "2026-11-09",
-      "mode": "daily",
-      "overview": "Nvidia's board opens an investigation after reports its chief executive was targeted by foreign intelligence, Anthropic's IPO talk falls to about USD 1.2 trillion as OpenAI raises at USD 1.25 trillion, and South Korea moves to scrap bank network separation rules after AI-assisted hacks.",
-      "headlines": [
-        "Nvidia's board opens independent investigation after reports its CEO was targeted by foreign intelligence",
-        "Update: AI lab valuations reset as Anthropic IPO talk falls to USD 1.2 trillion",
-        "South Korea will phase out bank network separation rules after AI-assisted hacks"
-      ],
-      "audio_url": "audio/signal-2026-11-09.mp3",
-      "duration": 743.19,
-      "slug": "2026-11-09"
     }
   ]
 }
