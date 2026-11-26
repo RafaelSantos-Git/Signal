@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "updated": "2026-11-25T04:52+01:00",
+  "updated": "2026-11-26T04:50+01:00",
   "editions": [
+    {
+      "date": "2026-11-26",
+      "mode": "daily",
+      "slug": "2026-11-26",
+      "title": "Signal · Thursday 26 November",
+      "kind": "Daily briefing",
+      "duration": 722.21,
+      "stories": 24,
+      "overview": "FINMA calls UBS's resolution strategy executable, Switzerland's cyber office reports the first successful AI-agent attacks on Swiss firms, and Washington proposes tariffs of up to 15 percent on Swiss goods, citing the franc.",
+      "path": "d/2026-11-26/",
+      "edition": "d/2026-11-26/edition.json"
+    },
     {
       "date": "2026-11-25",
       "mode": "daily",
@@ -157,18 +169,6 @@
       "overview": "Anthropic sets the price range for its IPO, global banks put about USD 270 million behind a joint stablecoin, and Avaloq takes its Mosaic platform to the US.",
       "path": "d/2026-11-11/",
       "edition": "d/2026-11-11/edition.json"
-    },
-    {
-      "date": "2026-11-10",
-      "mode": "daily",
-      "slug": "2026-11-10",
-      "title": "Signal · Tuesday 10 November",
-      "kind": "Daily briefing",
-      "duration": 736.24,
-      "stories": 23,
-      "overview": "Anthropic releases Claude Fable 5.2 and Mythos 5.2 at a lower price, Crédit Agricole proposes merging Banco BPM with its Italian arm, and Evident counts a record 111 new AI use cases at banks in the third quarter.",
-      "path": "d/2026-11-10/",
-      "edition": "d/2026-11-10/edition.json"
     }
   ]
 }
