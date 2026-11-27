@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "updated": "2026-11-26T04:50+01:00",
+  "updated": "2026-11-27T04:47+01:00",
   "editions": [
+    {
+      "date": "2026-11-27",
+      "mode": "daily",
+      "slug": "2026-11-27",
+      "title": "Signal · Friday 27 November",
+      "kind": "Daily briefing",
+      "duration": 628.97,
+      "stories": 22,
+      "overview": "The Bank of England eases UK bank capital rules while warning on AI financing, euro countries pick Pablo Hernández de Cos to lead the ECB, and SAP weighs at least 10,000 AI-driven job cuts.",
+      "path": "d/2026-11-27/",
+      "edition": "d/2026-11-27/edition.json"
+    },
     {
       "date": "2026-11-26",
       "mode": "daily",
@@ -157,18 +169,6 @@
       "overview": "McKinsey finds Swiss banks highly profitable but short of AI scale, Nvidia's board weighs Jensen Huang's future, and the SNB sees no credit crunch.",
       "path": "d/2026-11-12/",
       "edition": "d/2026-11-12/edition.json"
-    },
-    {
-      "date": "2026-11-11",
-      "mode": "daily",
-      "slug": "2026-11-11",
-      "title": "Signal · Wednesday 11 November",
-      "kind": "Daily briefing",
-      "duration": 702.75,
-      "stories": 25,
-      "overview": "Anthropic sets the price range for its IPO, global banks put about USD 270 million behind a joint stablecoin, and Avaloq takes its Mosaic platform to the US.",
-      "path": "d/2026-11-11/",
-      "edition": "d/2026-11-11/edition.json"
     }
   ]
 }

@@ -1,4 +1,8 @@
-Copyright 2020 The Newsreader Project Authors (http://github.com/productiontype/Newsreader) Newsreader-Italic[opsz,wght].ttf: Copyright 2020 The Newsreader Project Authors (http://github.com/productiontype/Newsreader)
+Urbanist, from @fontsource-variable/urbanist 5.3.0 (https://github.com/coreyhu/Urbanist).
+Modified for Signal by scripts/make_fonts.py: static instances at the weights Signal uses, and tabular
+figures (zero.tf to nine.tf, reached through the tnum feature) added. Same licence as the original.
+
+Copyright 2021 The Urbanist Project Authors (https://github.com/coreyhu/Urbanist) Urbanist-Italic[wght].ttf: Copyright 2021 The Urbanist Project Authors (https://github.com/coreyhu/Urbanist)
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
